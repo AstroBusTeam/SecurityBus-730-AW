@@ -26,7 +26,7 @@ Septiembre, 2026
     </thead>
     <tbody>
       <tr>
-        <td></td>
+        <td>U20241B676</td>
         <td>Alvarado Millan, Boris</td>
       </tr>
       <tr>
