@@ -48,7 +48,10 @@ Nuestra Visión y misión se basan en lo siguiente:
       <tr>
         <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle; text-align: left;">
           <strong>Martinez Ramos, Bryan Felix</strong><br><br>
-          <i></i>
+          <i>Soy Bryan Martinez, actualmente estudio la carrera de ingeniera de software en la universidad peruana de ciencias aplicadas, me encuentro a mitad de carrera, me entusiasma mucho poder aprender muchas mas cosas relacionadas a la carrear, en especial al análisis de datos y el estudio de los mismos.
+          Tengo conocimientos de diferentes lenguajes de programación aprendidos durante la carrera como SQL,C++,C# Python y otros, ademas de otros habilidades como Excel, ingles y otros.
+          Soy alguien que siempre trata de apoyar y resolver lo mas que pueda en los trabajos grupales, no me gusta que mis compañeros tengan que cargar con mis actividades y siempre estoy dispuesto a apoyar lo mas que puedo
+          Me entusiasma el aprendizaje que obtendré con el curso de Appweb y las nuevas habilidades que aprenderé con este trabajo grupal</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
           <img src="" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
