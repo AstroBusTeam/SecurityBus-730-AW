@@ -173,5 +173,10 @@ Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emerge
 
 ### 1.3. Segmentos objetivo
 
+| Segmento objetivo | Características demográficas | Información estadística de sustento |
+|-------------------|------------------------------|--------------------------------------|
+| Empresas y organizaciones operadoras de transporte publico | Transporte a cargo: Almenos 5 unidades a cargo de la empresa o organizacion. Edad: Adultos de 18 años en adelante. Cargo:Conductores de vehiculos publicos asociados a una empresa o organizacion. Ubicacion: Lima metropolitada. Interes: Poder generar seguridad y bienestar de los pasajeros a bordo| Según Gestión (2025), representantes del sector transporte señalaron que las empresas de transporte urbano vienen siendo afectadas por el cobro de cuotas extorsivas, llegando algunas a enfrentar pérdidas superiores a S/ 1,000 diarios por cada unidad que deja de operar debido a estas amenazas|
+|  |  |  |
+
 ---
 
