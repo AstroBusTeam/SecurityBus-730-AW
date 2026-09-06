@@ -87,12 +87,40 @@ Nuestra Visión y misión se basan en lo siguiente:
 
 ### 1.2. Solution Profile
 
----
-
 #### 1.2.1. Antecedentes y problemática
 
+Para identificar y comprender las principales necesidades relacionadas con la seguridad en el transporte público urbano, se emplea la metodología 5W's & 2H's, que permite analizar el problema desde diferentes perspectivas: qué ocurre, cuándo y dónde sucede, quiénes son los afectados, por qué ocurre, cómo impacta y cuál es su magnitud.
+
+What (Qué) — ¿Cuál es el problema?
+
+La problemática principal es la inseguridad a la que están expuestos conductores y pasajeros durante los recorridos del transporte público urbano. Situaciones como asaltos, agresiones, extorsiones, accidentes de tránsito y otras emergencias pueden ocurrir durante el servicio sin que exista un mecanismo rápido y discreto que permita comunicar el incidente a una central de monitoreo.
+
+When (Cuándo) — ¿Cuándo sucede el problema?
+
+El riesgo puede presentarse durante cualquier etapa del servicio de transporte, desde el inicio del recorrido hasta la llegada al destino. Una situación de emergencia puede producirse durante una parada, mientras el vehículo se encuentra en movimiento o en zonas con poca presencia de seguridad.
+
+¿Cuándo utilizará el cliente el producto? el sistema será utilizado principalmente durante la jornada laboral del conductor y mientras la unidad se encuentre realizando un servicio.
+
+Where (Dónde) — ¿Dónde ocurre el problema?
+
+La problemática se presenta principalmente en las vías urbanas donde circulan las unidades de transporte público 
+en las diferentes ciudades y distritos del Perú
+
+Who (Quién) — ¿A quiénes afecta el problema?
+A conductores y pasajeros del transporte público, además de las empresas operadoras que necesitan responder rápidamente ante situaciones de emergencia y ante las extorciones.
+
+Why (Por qué) — ¿Por qué ocurre el problema?
+Por la falta de sistemas tecnológicos que permitan alertar rápidamente ante robos, extorsiones, agresiones o accidentes y comunicar la ubicación de la unidad,ademas de la poca efectividad y poca importancia que le ha dado el sistema de seguridad del país a los delitos y extorciones a los conductores y empresas de transporte.
+
+How (Cómo) — ¿Cómo afecta este problema?
+La falta de una alerta inmediata retrasa la intervención policial, aumenta el riesgo de los conductores y pasajeros ante las acciones de los delincuentes
+
+How Much (Cuánto) — ¿Qué datos respaldan la problemática? 
+
+Segun datos del Ministerio publico se registro en el rango desde agosto de 2024 y mayo de 2026 que hubieron 214 atentados vehiculares producto de la extorsión, de estos atentados 283 fueron afectadas siendo 152 fallecidas y 131 heridas.  
 
 ---
+
 
 #### 1.2.2. Lean UX Process
 
