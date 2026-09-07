@@ -125,54 +125,16 @@ Segun datos del Ministerio publico se registro en el rango desde agosto de 2024 
 
 ---
 
-#### 1.2.2. Lean UX Process
-
-##### 1.2.2.1. Lean UX Problem Statements
-
-Problem Statement 1: Los conductores de transporte público están expuestos a situaciones de peligro como robos, agresiones y extorsiones durante sus recorridos. La ausencia de un mecanismo de alerta rápido y discreto dificulta que puedan solicitar ayuda en el momento de una emergencia, aumentando el riesgo para ellos y los pasajeros.
-
-Problem Statement 2: Las empresas de transporte tienen dificultades para conocer y reaccionar ante situaciones de emergencia que ocurren durante los recorridos de sus unidades. La falta de monitoreo en tiempo real y de información sobre la ubicación del vehículo limita su capacidad para coordinar una respuesta rápida ante un incidente.
-
-Problem Statement 3: Los pasajeros utilizan el transporte público sin contar con mecanismos tecnológicos que permitan responder rápidamente ante situaciones de peligro dentro de la unidad. Esta falta de herramientas de seguridad genera una mayor percepción de inseguridad y reduce la confianza de los usuarios durante sus viajes.
-
-
-##### 1.2.2.2. Lean UX Assumptions
-
-Business Assumptions:
-
-* Partimos de la idea de que una plataforma enfocada en la seguridad sera adoptada de forma efectiva por las empresas de transporte debido a la realidad del país que se vive hoy en día
-* Creemos que las empresas de transporte público necesitan herramientas de seguridad en tiempo real para responder rápidamente ante robos, extorsiones y otras situaciones de emergencia.
-* Suponemos que las empresas estarían dispuestas a implementar ASTROBUS si les permite mejorar la seguridad de sus conductores y pasajeros sin afectar el desarrollo normal de sus operaciones.
-* Esperamos que las empresas consideren útil recibir alertas de emergencia acompañadas de la ubicación de la unidad para poder actuar ante un incidente.
-* Asumimos que las empresas podrían estar interesadas en contar con un registro de las emergencias ocurridas para identificar patrones de riesgo y mejorar sus medidas de seguridad.
-
-Business Outcomes:
-
-* Incrementar la adopción de ASTROBUS por parte de empresas de transporte público, posicionándolo como una alternativa tecnológica para fortalecer la seguridad de sus operaciones.
-* Reducir el tiempo de respuesta ante situaciones de emergencia, facilitando que las empresas puedan recibir y gestionar alertas de robos, extorsiones y otros incidentes en tiempo real.
-* Mejorar la percepción de seguridad de conductores y pasajeros, proporcionando un mecanismo accesible para solicitar asistencia durante situaciones de riesgo.
-Facilitar la identificación y localización de unidades en emergencia, permitiendo a las empresas actuar con mayor rapidez y precisión ante los incidentes reportados.
-* Generar información útil sobre los incidentes de seguridad registrados, permitiendo a las empresas identificar patrones de riesgo y tomar decisiones para prevenir futuras situaciones de peligro.
-
-User Benefits:
-
-* Mayor seguridad durante el recorrido, al contar con un sistema destinado a responder ante situaciones de peligro.
-* Solicitud de ayuda rápida y discreta, permitiendo al conductor activar una alerta sin necesidad de realizar una llamada durante una emergencia.
-* Mayor tranquilidad para los pasajeros, al saber que la unidad cuenta con mecanismos tecnológicos para reportar situaciones de riesgo.
-* Respuesta más eficiente ante emergencias, gracias al envío de la ubicación de la unidad junto con la alerta.
-* Mayor confianza en el servicio de transporte, al contar con herramientas que buscan proteger a conductores y pasajeros durante el viaje.
-
-
-##### 1.2.2.3. Lean UX Hypothesis Statements
-
-Hypothesis Statement 1: Creemos que al implementar un botón de emergencia de activación rápida y discreta, los conductores podrán solicitar asistencia con mayor facilidad durante situaciones de peligro. Sabremos que esto es cierto cuando al menos el 90% de los robos,asaltos y ataques al transporte sean informados por la alarma en los primeros 15 segundos.
-
-Hypothesis Statement 2: Creemos que el envío automático de la ubicación y datos de la unidad al momento de activar una alerta permitirá a la central identificar rápidamente el vehículo que requiere asistencia. Sabremos que esto es cierto cuando al menos el 80% de las veces la central pueda localizar y reconocer la unidad fácilmente al llegar al punto indicado por la alerta.
-
-Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
-
+ 
 ##### 1.2.2.4. Lean UX Canvas
 
+| 1. BUSINESS PROBLEM | 5. SOLUTIONS | 2. BUSINESS OUTCOMES |
+| :--- | :--- | :--- |
+| **Conductores:** Expuestos a robos, agresiones y extorsiones sin un mecanismo de alerta discreto.<br><br>**Empresas:** Sin monitoreo, rastreo GPS en tiempo real ni registro de incidentes.<br><br>**Pasajeros:** Vulnerables ante emergencias, lo que genera alta percepción de inseguridad. | • **Botón de pánico/emergencia:** Activación rápida y discreta para el conductor.<br><br>• **Alerta y geolocalización:** Envío automático de ubicación en tiempo real a la central.<br><br>• **Dashboard de gestión:** Registro e historial de incidentes para las empresas. | • Incrementar la adopción de ASTROBUS en empresas de transporte.<br><br>• Reducir el tiempo de respuesta ante emergencias.<br><br>• Mejorar la percepción de seguridad de conductores y usuarios.<br><br>• Identificar patrones de riesgo mediante datos. |
+| **3. USERS & CUSTOMERS** | **6. HYPOTHESES** | **4. USER BENEFITS** |
+| • **Conductores de transporte público:** Requieren pedir ayuda de forma discreta.<br><br>• **Empresas de transporte / Monitores:** Necesitan supervisar y gestionar incidentes. | • **H1:** El botón discreto notificará $\ge 90\%$ de los robos en $\le 15$ segundos.<br><br>• **H2:** La alerta con GPS permitirá a la central ubicar el $\ge 80\%$ de unidades rápidamente.<br><br>• **H3:** El registro de emergencias mejorará la gestión para el $\ge 70\%$ de monitores. | • Activación de ayuda rápida y discreta sin exponerse.<br><br>• Respuesta eficiente con ubicación GPS en vivo.<br><br>• Mayor tranquilidad y confianza durante los recorridos. |
+| **7. MOST IMPORTANT LEARNING (SUPUESTOS)** | | **8. MVP & EXPERIMENTS** |
+| • ¿El conductor puede activar el botón de forma discreta sin ponerse en riesgo ante un atraco?<br><br>• ¿Las empresas adoptarán el sistema sin interrumpir sus operaciones diarias? | | • **Prototipo del botón:** Medir si la activación del botón toma menos de 15 segundos.<br><br>• **Piloto de seguimiento:** Simular el envío y recepción de GPS en vivo hacia la central. |
 ---
 
 ### 1.3. Segmentos objetivo
