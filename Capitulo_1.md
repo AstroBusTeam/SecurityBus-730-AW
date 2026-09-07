@@ -38,10 +38,14 @@ Nuestra Visión y misión se basan en lo siguiente:
       <tr>
         <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle; text-align: left;">
           <strong>Justo Yauricasa, Alexander Paolo</strong><br><br>
-          <i></i><br>
+          <i>Soy Alexander Justo y actualmente estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me encuentro cursando el sexto ciclo de la carrera.
+          A lo largo de mi formación académica y experiencia laboral, he adquirido conocimientos en diferentes lenguajes de programación, como SQL, C#, Python y Java. Además, cuento con habilidades complementarias en herramientas como Excel y en el manejo del idioma inglés.
+          Me considero una persona colaborativa, siempre dispuesta a apoyar a los integrantes de mi equipo y contribuir al cumplimiento de los objetivos. Asimismo, me interesa aprender y adaptarme a nuevos entornos y metodologías de trabajo.
+          Me entusiasma todo el aprendizaje que podré obtener en el curso de App Web, así como la oportunidad de desarrollar nuevas habilidades y adquirir experiencia mediante el trabajo en equipo.
+          </i><br>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/team-photos/Alexander.png" alt="Alexander Justo" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 3 -->
