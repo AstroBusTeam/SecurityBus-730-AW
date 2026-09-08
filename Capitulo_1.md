@@ -14,7 +14,7 @@
       <tr>
         <td style="padding: 20px; border: 1px solid #ddd; width: 70%; vertical-align: middle; text-align: left;">
           <strong>Alvarado Millan, Boris</strong><br><br>
-          <i></i>
+          <i>Soy Boris Alvarado Millan, estudiante de la carrera de Ingeniería de Software, tengo interés hacia esta carrera es porque me gusta la optimización de los procesos en los flujos de trabajo, me llama la atención el internet de las cosas(IoT). En mis tiempos libres me gusta el ejercicio, degustar comida, viajar o salir de casa. Me considero una persona franca, asertiva y persistente. Tengo pensado superarme en el uso de lenguajes de programación, y así también espero aprender mucho de mi profesor y compañeros de grupo.</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; width: 30%; text-align: center; vertical-align: middle;">
           <img src="" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
