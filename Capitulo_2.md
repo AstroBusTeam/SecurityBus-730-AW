@@ -148,6 +148,48 @@ Es un sistema orientado a ofrecer una experiencia de transporte integrada, incor
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+Para posicionar a SecurityBus de manera competitiva, se plantean las siguientes estrategias:
+
+**Estrategias de vinculación y fidelización con usuarios clave:**
+
+**#1 Implementación colaborativa con conductores y empresas**  
+SecurityBus adoptará un enfoque participativo, donde conductores y empresas de transporte formen parte del proceso de implementación y adaptación del sistema. Esto permitirá reducir la resistencia al cambio y asegurar que la solución se ajuste a necesidades reales del entorno.
+
+**#2 Programa integral de capacitación y soporte técnico continuo**  
+Se ofrecerán programas de capacitación para conductores y empresas, junto con soporte técnico constante. Esta estrategia responde a la baja adopción tecnológica en el sector.
+
+**#3 Empoderamiento del usuario como actor activo**  
+SecurityBus integrará funcionalidades visibles para los usuarios (como monitoreo de rutas o estado del viaje), aumentando la percepción de seguridad.
+
+**Estrategias de diferenciación tecnológica y funcional:**
+
+**#1 Sistema integral de seguridad en tiempo real**  
+SecurityBus integrará monitoreo en tiempo real, botón de emergencia y sensores de conteo de pasajeros en una sola plataforma.
+
+**#2 Plataforma centralizada de información**  
+Se consolidará toda la información del vehículo (ubicación, alertas, estado) en un sistema único accesible para empresas.
+
+**#3 Integración de hardware y software**  
+SecurityBus combinará aplicación móvil con dispositivos físicos (sensores, botón de pánico), generando una solución más robusta.
+
+**#4 Analítica y reportes de seguridad**  
+Se incorporarán reportes sobre incidentes, zonas de riesgo y comportamiento de rutas.
+
+**Estrategias de posicionamiento y enfoque de mercado:**
+
+**#1 Enfoque en seguridad como valor principal**  
+SecurityBus se posicionará como una solución centrada en la protección de conductores y pasajeros, destacando su impacto social.
+
+**#2 Segmentación hacia empresas formales de transporte**  
+Se priorizará trabajar con consorcios organizados que busquen mejorar su gestión y seguridad.
+
+**#3 Adaptación al contexto local (Perú)**  
+La solución estará diseñada considerando problemáticas reales como extorsión, informalidad y falta de regulación tecnológica.
+
+**#4 Alianzas estratégicas**  
+Se buscarán acuerdos con autoridades, municipalidades y entidades de seguridad para fortalecer la credibilidad y efectividad del sistema.
+
+---
 
 ### 2.2. Entrevistas
 
