@@ -3,98 +3,194 @@
 ### 2.1. Competidores
 
 #### 2.1.1. Análisis competitivo
-### 2.1.1. Análisis competitivo
+<table>
+  <tr>
+    <th colspan="5">Competitive Analysis Landscape</th>
+  </tr>
 
-<div align="center">
-  <table style="margin: auto; width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
-    <thead>
-      <tr>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 15%;"></th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">SafeBus (Nuestra startup)</th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">Competidor 1 (Metropolitano)</th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">Competidor 2 (RTP)</th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">Competidor 3 (Mi Transporte)</th>
-      </tr>
-    </thead>
+  <tr>
+    <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="3">¿Qué busca comprender el análisis de SafeBus frente a competidores que ofrecen servicios de transporte público, considerando factores de seguridad, monitoreo, mercado objetivo y tecnología?</td>
+  </tr>
 
-    <tbody>
+  <tr>
+    <td colspan="3">
+      Este análisis busca comprender el posicionamiento de SafeBus en comparación con diferentes alternativas de transporte público, identificando oportunidades de mejora y diferenciación frente a las necesidades de los usuarios y empresas de transporte. SafeBus propone fortalecer la seguridad durante los recorridos mediante monitoreo en tiempo real, botón de emergencia y conteo de pasajeros mediante sensores instalados en las puertas de los vehículos.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ventaja competitiva</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo en tiempo real, botón de emergencia con conteo de pasajeros por sensores en la puerta.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y cámaras de videovigilancia.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Tecnología incorporada: cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo y protocolos de seguimiento en tiempo real, reportes ciudadanos.</td>
-      </tr>
+  <tr>
+    <td colspan="2">Productos</td>
+    <td>
+      <div align="center">
+        SafeBus
+        <br>
+        <strong>🚍</strong>
+      </div>
+    </td>
+    <td>
+      <div align="center">
+        Metropolitano
+        <br>
+        <strong>🚍</strong>
+      </div>
+    </td>
+    <td>
+      <div align="center">
+        RTP / Mi Transporte
+        <br>
+        <strong>🚍</strong>
+      </div>
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Mercado objetivo</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Consorcios/empresas de transporte público y operadores de vehículos asignados.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Usuarios urbanos de Lima Metropolitana.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Población de zonas periféricas, estudiantes y grupos vulnerables.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Población de zonas periféricas y estudiantes.</td>
-      </tr>
+  <tr>
+    <td rowspan="2">Perfil</td>
+    <td>Overview</td>
+    <td>
+      Plataforma orientada a la seguridad del transporte público mediante monitoreo en tiempo real, botón de emergencia, información de paraderos y conteo de pasajeros mediante sensores.
+    </td>
+    <td>
+      Sistema de transporte urbano organizado con estaciones, rutas definidas, carriles exclusivos y cámaras de videovigilancia.
+    </td>
+    <td>
+      Sistemas de transporte público que incorporan monitoreo, cámaras de seguridad, protocolos de seguimiento y herramientas digitales para mejorar la movilidad.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Estrategia de marketing</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Enfatiza la seguridad durante la ruta con un sistema integrado al vehículo.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Servicio rápido, moderno, formal y seguro, destacando eficiencia y orden.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Campaña "Yo Soy RTP", sustentabilidad con unidades eléctricas.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Posiciona el transporte como sistema integrado, moderno y eficiente.</td>
-      </tr>
+  <tr>
+    <td>Ventaja competitiva ¿Qué valor ofrece a los clientes?</td>
+    <td>
+      Monitoreo en tiempo real, botón de emergencia y conteo de pasajeros mediante sensores instalados en las puertas del vehículo.
+    </td>
+    <td>
+      Infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y cámaras de videovigilancia.
+    </td>
+    <td>
+      Tecnología incorporada, cámaras de seguridad, monitoreo en tiempo real y protocolos de seguimiento.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Productos y Servicios</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Botón de pánico, información sobre paraderos, monitoreo de riesgos 24h.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Transporte troncal, tarjeta recargable, estaciones seguras, información de rutas.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Servicio ordinario, expreso, Ecobús y Nochebús.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Transporte multimodal, Tarjeta Mi Movilidad, App Mi Saldo, Mi Pasaje.</td>
-      </tr>
+  <tr>
+    <td rowspan="2">Perfil de Marketing</td>
+    <td>Mercado Objetivo</td>
+    <td>
+      Consorcios y empresas de transporte público, así como operadores de vehículos asignados que buscan mejorar la seguridad de sus recorridos.
+    </td>
+    <td>
+      Usuarios urbanos de Lima Metropolitana que utilizan el sistema de transporte público.
+    </td>
+    <td>
+      Población de zonas periféricas, estudiantes y usuarios que utilizan diferentes servicios de transporte público.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Precios y Costos</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Desde S/. 99 por unidad/mes incluyendo instalación. 20% de descuento a partir de 3 unidades.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">S/. 3.50 por viaje.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">40 céntimos (ordinario) a 1.50 soles (Nochebús).</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Tarifa plana S/. 2.00, tarifa preferencial S/. 1.00.</td>
-      </tr>
+  <tr>
+    <td>Estrategias de Marketing</td>
+    <td>
+      Enfatizar la seguridad durante la ruta mediante un sistema integrado al vehículo, destacando el monitoreo en tiempo real y la respuesta ante emergencias.
+    </td>
+    <td>
+      Posicionamiento como un servicio rápido, moderno, formal y seguro, destacando su eficiencia, orden e infraestructura.
+    </td>
+    <td>
+      Promoción de la modernización del transporte, seguridad, integración de servicios y uso de tecnologías para mejorar la experiencia del usuario.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Canales de distribución</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Web y móvil.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Web, móvil/recarga digital, puntos físicos.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">App CDMX, tarjeta de movilidad integrada, sitio web oficial.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Web, móvil (App Mi Saldo), puntos físicos (OXXO, estaciones).</td>
-      </tr>
+  <tr>
+    <td rowspan="3">Perfil de Producto</td>
+    <td>Productos & Servicios</td>
+    <td>
+      Botón de pánico, monitoreo de riesgos 24 horas, información sobre paraderos y conteo de pasajeros mediante sensores.
+    </td>
+    <td>
+      Transporte troncal, tarjeta recargable, estaciones seguras e información de rutas.
+    </td>
+    <td>
+      Servicios de transporte ordinario y expreso, monitoreo, cámaras de seguridad, sistemas de seguimiento y herramientas digitales.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fortalezas</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Equipo profesional comprometido con el bienestar del cliente.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Marca reconocida, sistema formal, modernización digital.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Tarifas sociales subsidiadas, flota moderna eléctrica, conductores capacitados.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Marca unificada, interoperabilidad, modernización de flota.</td>
-      </tr>
+  <tr>
+    <td>Precios & Costos</td>
+    <td>
+      Desde S/. 99 por unidad al mes, incluyendo instalación. 20% de descuento a partir de 3 unidades.
+    </td>
+    <td>
+      S/. 3.50 por viaje.
+    </td>
+    <td>
+      Tarifas diferenciadas según el servicio, desde aproximadamente S/. 0.40 hasta S/. 2.00 según modalidad y usuario.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Oportunidades</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Expansión a provincias, acuerdos formales con la policía.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Expansión urbana, digitalización del servicio.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Expansión de rutas eléctricas para el Mundial 2026.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Crecimiento urbano hacia otros estados, crisis de combustibles.</td>
-      </tr>
+  <tr>
+    <td>Canales de distribución (Web y/o Móvil)</td>
+    <td>
+      Plataforma web y aplicación móvil.
+    </td>
+    <td>
+      Plataforma web, canales móviles, recarga digital y puntos físicos.
+    </td>
+    <td>
+      Aplicaciones móviles, sitios web oficiales, tarjetas de transporte y puntos físicos.
+    </td>
+  </tr>
 
-      <tr>
-        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Amenazas</strong></td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Alto índice de extorsiones a transportistas en sus rutas.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Inseguridad ciudadana, saturación en horas punta, fallas operativas.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Competencia del transporte concesionado informal, congestión vial.</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Resistencia al cambio, inseguridad, incidentes de vandalismo.</td>
-      </tr>
+  <tr>
+    <td rowspan="4">Análisis SWOT</td>
+    <td>Fortalezas</td>
+    <td>
+      Monitoreo en tiempo real, botón de emergencia, conteo de pasajeros, enfoque especializado en seguridad y sistema integrado al vehículo.
+    </td>
+    <td>
+      Marca reconocida, infraestructura organizada, sistema formal, rutas definidas y modernización digital.
+    </td>
+    <td>
+      Implementación de cámaras de seguridad, monitoreo en tiempo real, tarifas accesibles y modernización de la flota.
+    </td>
+  </tr>
 
-    </tbody>
-  </table>
-</div>
+  <tr>
+    <td>Debilidades</td>
+    <td>
+      Startup en etapa inicial, necesidad de inversión para instalación de sensores y dependencia de la adopción por parte de empresas de transporte.
+    </td>
+    <td>
+      Saturación durante horas punta, posibles fallas operativas y dependencia de una infraestructura de alta inversión.
+    </td>
+    <td>
+      Diferencias en la cobertura y calidad del servicio, dependencia de la infraestructura disponible y dificultades para mantener una modernización constante.
+    </td>
+  </tr>
 
+  <tr>
+    <td>Oportunidades</td>
+    <td>
+      Expansión hacia otras provincias, incorporación de nuevos sensores, alianzas con empresas de transporte y acuerdos formales con instituciones policiales.
+    </td>
+    <td>
+      Expansión urbana, digitalización del servicio y mejora de la infraestructura de transporte público.
+    </td>
+    <td>
+      Expansión de rutas, modernización de flota, incorporación de nuevas tecnologías y crecimiento de la demanda de transporte seguro.
+    </td>
+  </tr>
+
+  <tr>
+    <td>Amenazas</td>
+    <td>
+      Alto índice de extorsiones a transportistas, competencia de nuevas soluciones tecnológicas, resistencia a la adopción y costos de implementación.
+    </td>
+    <td>
+      Inseguridad ciudadana, saturación en horas punta, congestión vial y posibles fallas operativas.
+    </td>
+    <td>
+      Competencia del transporte concesionado e informal, congestión vial, vandalismo e inseguridad ciudadana.
+    </td>
+  </tr>
+</table>
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 ### 2.2. Entrevistas
