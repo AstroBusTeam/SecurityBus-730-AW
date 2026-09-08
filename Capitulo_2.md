@@ -18,13 +18,13 @@
 
   <tr>
     <td colspan="4">
-      SafeBus busca diferenciarse mediante el monitoreo en tiempo real, botón de emergencia y conteo de pasajeros mediante sensores instalados en los vehículos.
+      SecurityBus busca diferenciarse mediante el monitoreo en tiempo real, botón de emergencia y conteo de pasajeros mediante sensores instalados en los vehículos.
     </td>
   </tr>
 
   <tr>
     <td colspan="2">Productos</td>
-    <td>SafeBus</td>
+    <td>SecurityBus</td>
     <td>Metropolitano</td>
     <td>RTP</td>
     <td>Mi Transporte</td>
