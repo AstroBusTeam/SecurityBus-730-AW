@@ -3,6 +3,7 @@
 ### 2.1. Competidores
 
 #### 2.1.1. Análisis competitivo
+
 <table>
   <tr>
     <th colspan="6">Competitive Analysis Landscape</th>
@@ -278,6 +279,7 @@
   </tr>
 
 </table>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 ### 2.2. Entrevistas
