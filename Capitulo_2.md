@@ -5,21 +5,21 @@ En esta sección, se presenta un análisis de los principales competidores de Se
 
 Este análisis nos permitirá comprender mejor el entorno competitivo de SecurityBus, identificar las fortalezas y debilidades de las alternativas existentes y determinar oportunidades de diferenciación mediante soluciones tecnológicas orientadas a mejorar la seguridad de pasajeros y operadores durante los recorridos.
 
-1.Metropolitano:
+1. ### Metropolitano:
 
 Es uno de los principales sistemas de transporte público de Lima Metropolitana. Cuenta con una infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y sistemas de videovigilancia destinados a mejorar la seguridad y eficiencia del servicio.
 
 - **Fortalezas:** infraestructura organizada, rutas definidas, carriles exclusivos, estaciones y cámaras de videovigilancia. Además, cuenta con una marca reconocida y un sistema formal de transporte.
 - **Debilidades:** saturación durante las horas punta, posibles fallas operativas y problemas asociados a la inseguridad ciudadana y la congestión en determinadas zonas.
 
-2.RTP:
+2. ### RTP:
 
 Es un sistema de transporte público que incorpora diferentes tecnologías y mecanismos orientados a mejorar la seguridad y experiencia de los usuarios. Entre sus características se encuentran las cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.
 
 - **Fortalezas:** incorporación de tecnología, cámaras de seguridad, monitoreo en tiempo real, conductores capacitados y tarifas accesibles para diferentes segmentos de usuarios.
 - **Debilidades:** dependencia de la infraestructura existente, costos asociados a la modernización de la flota y competencia con alternativas de transporte concesionado e informal.
 
-3.Mi Transporte:
+3. ### Mi Transporte:
 
 Es un sistema orientado a ofrecer una experiencia de transporte integrada, incorporando herramientas digitales y mecanismos de seguimiento para mejorar la movilidad de los usuarios. Entre sus soluciones se encuentran servicios multimodales, aplicaciones móviles y sistemas de información para pasajeros.
 
