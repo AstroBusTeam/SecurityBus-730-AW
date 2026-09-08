@@ -3,17 +3,20 @@
 ### 2.1. Competidores
 
 #### 2.1.1. Análisis competitivo
+### 2.1.1. Análisis competitivo
+
 <div align="center">
   <table style="margin: auto; width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
     <thead>
       <tr>
-        <th style="padding: 10px; border: 1px solid #ddd;"></th>
-        <th style="padding: 10px; border: 1px solid #ddd;">SafeBus (Nuestra startup)</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Competidor 1 (Metropolitano)</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Competidor 2 (RTP)</th>
-        <th style="padding: 10px; border: 1px solid #ddd;">Competidor 3 (Mi Transporte)</th>
+        <th style="padding: 10px; border: 1px solid #ddd; width: 15%;"></th>
+        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">SafeBus (Nuestra startup)</th>
+        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">Competidor 1 (Metropolitano)</th>
+        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">Competidor 2 (RTP)</th>
+        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">Competidor 3 (Mi Transporte)</th>
       </tr>
     </thead>
+
     <tbody>
 
       <tr>
@@ -91,6 +94,7 @@
     </tbody>
   </table>
 </div>
+
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
 ### 2.2. Entrevistas
