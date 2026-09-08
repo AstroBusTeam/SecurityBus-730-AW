@@ -12,7 +12,7 @@
   <tr>
     <td colspan="2" rowspan="2">¿Por qué llevar a cabo este análisis?</td>
     <td colspan="4">
-      Este análisis busca comprender el posicionamiento de SafeBus frente a sus principales competidores en el sector del transporte público.
+      Este análisis busca comprender el posicionamiento de SecurityBus frente a sus principales competidores en el sector del transporte público.
     </td>
   </tr>
 
