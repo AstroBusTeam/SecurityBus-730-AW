@@ -7,193 +7,85 @@
   <table style="margin: auto; width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
     <thead>
       <tr>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 15%;"></th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">
-          SafeBus (Nuestra startup)
-        </th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">
-          Competidor 1 (Metropolitano)
-        </th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">
-          Competidor 2 (RTP)
-        </th>
-        <th style="padding: 10px; border: 1px solid #ddd; width: 21%;">
-          Competidor 3 (Mi Transporte)
-        </th>
+        <th style="padding: 10px; border: 1px solid #ddd;"></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">SafeBus (Nuestra startup)</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Competidor 1 (Metropolitano)</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Competidor 2 (RTP)</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Competidor 3 (Mi Transporte)</th>
       </tr>
     </thead>
-
     <tbody>
 
-      <!-- Ventaja competitiva -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Ventaja competitiva
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Monitoreo en tiempo real, botón de emergencia con conteo de pasajeros por sensores en la puerta.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y cámaras de videovigilancia.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Tecnología incorporada: cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Monitoreo y protocolos de seguimiento en tiempo real, reportes ciudadanos.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ventaja competitiva</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo en tiempo real, botón de emergencia con conteo de pasajeros por sensores en la puerta.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y cámaras de videovigilancia.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Tecnología incorporada: cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Monitoreo y protocolos de seguimiento en tiempo real, reportes ciudadanos.</td>
       </tr>
 
-      <!-- Mercado objetivo -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Mercado objetivo
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Consorcios/empresas de transporte público y operadores de vehículos asignados.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Usuarios urbanos de Lima Metropolitana.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Población de zonas periféricas, estudiantes y grupos vulnerables.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Población de zonas periféricas y estudiantes.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Mercado objetivo</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Consorcios/empresas de transporte público y operadores de vehículos asignados.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Usuarios urbanos de Lima Metropolitana.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Población de zonas periféricas, estudiantes y grupos vulnerables.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Población de zonas periféricas y estudiantes.</td>
       </tr>
 
-      <!-- Estrategia de marketing -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Estrategia de marketing
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Enfatiza la seguridad durante la ruta con un sistema integrado al vehículo.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Servicio rápido, moderno, formal y seguro, destacando eficiencia y orden.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Campaña "Yo Soy RTP", sustentabilidad con unidades eléctricas.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Posiciona el transporte como sistema integrado, moderno y eficiente.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Estrategia de marketing</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Enfatiza la seguridad durante la ruta con un sistema integrado al vehículo.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Servicio rápido, moderno, formal y seguro, destacando eficiencia y orden.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Campaña "Yo Soy RTP", sustentabilidad con unidades eléctricas.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Posiciona el transporte como sistema integrado, moderno y eficiente.</td>
       </tr>
 
-      <!-- Productos y Servicios -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Productos y Servicios
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Botón de pánico, información sobre paraderos, monitoreo de riesgos 24h.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Transporte troncal, tarjeta recargable, estaciones seguras, información de rutas.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Servicio ordinario, expreso, Ecobús y Nochebús.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Transporte multimodal, Tarjeta Mi Movilidad, App Mi Saldo, Mi Pasaje.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Productos y Servicios</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Botón de pánico, información sobre paraderos, monitoreo de riesgos 24h.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Transporte troncal, tarjeta recargable, estaciones seguras, información de rutas.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Servicio ordinario, expreso, Ecobús y Nochebús.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Transporte multimodal, Tarjeta Mi Movilidad, App Mi Saldo, Mi Pasaje.</td>
       </tr>
 
-      <!-- Precios y Costos -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Precios y Costos
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Desde S/. 99 por unidad/mes incluyendo instalación. 20% de descuento a partir de 3 unidades.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          S/. 3.50 por viaje.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          40 céntimos (ordinario) a 1.50 soles (Nochebús).
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Tarifa plana S/. 2.00, tarifa preferencial S/. 1.00.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Precios y Costos</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Desde S/. 99 por unidad/mes incluyendo instalación. 20% de descuento a partir de 3 unidades.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">S/. 3.50 por viaje.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">40 céntimos (ordinario) a 1.50 soles (Nochebús).</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Tarifa plana S/. 2.00, tarifa preferencial S/. 1.00.</td>
       </tr>
 
-      <!-- Canales de distribución -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Canales de distribución
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Web y móvil.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Web, móvil/recarga digital, puntos físicos.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          App CDMX, tarjeta de movilidad integrada, sitio web oficial.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Web, móvil (App Mi Saldo), puntos físicos (OXXO, estaciones).
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Canales de distribución</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Web y móvil.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Web, móvil/recarga digital, puntos físicos.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">App CDMX, tarjeta de movilidad integrada, sitio web oficial.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Web, móvil (App Mi Saldo), puntos físicos (OXXO, estaciones).</td>
       </tr>
 
-      <!-- Fortalezas -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Fortalezas
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Equipo profesional comprometido con el bienestar del cliente.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Marca reconocida, sistema formal, modernización digital.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Tarifas sociales subsidiadas, flota moderna eléctrica, conductores capacitados.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Marca unificada, interoperabilidad, modernización de flota.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fortalezas</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Equipo profesional comprometido con el bienestar del cliente.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Marca reconocida, sistema formal, modernización digital.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Tarifas sociales subsidiadas, flota moderna eléctrica, conductores capacitados.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Marca unificada, interoperabilidad, modernización de flota.</td>
       </tr>
 
-      <!-- Oportunidades -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Oportunidades
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Expansión a provincias, acuerdos formales con la policía.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Expansión urbana, digitalización del servicio.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Expansión de rutas eléctricas para el Mundial 2026.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Crecimiento urbano hacia otros estados, crisis de combustibles.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Oportunidades</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Expansión a provincias, acuerdos formales con la policía.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Expansión urbana, digitalización del servicio.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Expansión de rutas eléctricas para el Mundial 2026.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Crecimiento urbano hacia otros estados, crisis de combustibles.</td>
       </tr>
 
-      <!-- Amenazas -->
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold;">
-          Amenazas
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Alto índice de extorsiones a transportistas en sus rutas.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Inseguridad ciudadana, saturación en horas punta, fallas operativas.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Competencia del transporte concesionado informal, congestión vial.
-        </td>
-        <td style="padding: 10px; border: 1px solid #ddd;">
-          Resistencia al cambio, inseguridad, incidentes de vandalismo.
-        </td>
+        <td style="padding: 10px; border: 1px solid #ddd;"><strong>Amenazas</strong></td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Alto índice de extorsiones a transportistas en sus rutas.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Inseguridad ciudadana, saturación en horas punta, fallas operativas.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Competencia del transporte concesionado informal, congestión vial.</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Resistencia al cambio, inseguridad, incidentes de vandalismo.</td>
       </tr>
 
     </tbody>
