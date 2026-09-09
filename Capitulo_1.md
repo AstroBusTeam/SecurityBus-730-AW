@@ -169,16 +169,6 @@ Hypothesis Statement 2: Creemos que el envío automático de la ubicación y dat
 
 Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
 
-#### 1.2.2 Lean UX Process
-
-##### 1.2.2.1. Lean UX Problem Statements
----
-##### 1.2.2.2. Lean UX Assumptions
----
-##### 1.2.2.3. Lean UX Hypothesis Statements
----
- 
-##### 1.2.2.4. Lean UX Canvas
 
 | 1. BUSINESS PROBLEM | 5. SOLUTIONS | 2. BUSINESS OUTCOMES |
 | :--- | :--- | :--- |
