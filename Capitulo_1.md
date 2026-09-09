@@ -169,6 +169,14 @@ Hypothesis Statement 2: Creemos que el envío automático de la ubicación y dat
 
 Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
 
+#### 1.2.2 Lean UX Process
+
+##### 1.2.2.1. Lean UX Problem Statements
+---
+##### 1.2.2.2. Lean UX Assumptions
+---
+##### 1.2.2.3. Lean UX Hypothesis Statements
+---
  
 ##### 1.2.2.4. Lean UX Canvas
 
@@ -183,10 +191,17 @@ Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emerge
 
 ### 1.3. Segmentos objetivo
 
-| Segmento objetivo | Características demográficas | Información estadística de sustento |
-|-------------------|------------------------------|--------------------------------------|
-| Empresas y organizaciones operadoras de transporte publico | Transporte a cargo: Almenos 5 unidades a cargo de la empresa o organizacion. Edad: Adultos de 18 años en adelante. Cargo:Conductores de vehiculos publicos asociados a una empresa o organizacion. Ubicacion: Lima metropolitada. Interes: Poder generar seguridad y bienestar de los pasajeros a bordo| Según Gestión (2025), representantes del sector transporte señalaron que las empresas de transporte urbano vienen siendo afectadas por el cobro de cuotas extorsivas, llegando algunas a enfrentar pérdidas superiores a S/ 1,000 diarios por cada unidad que deja de operar debido a estas amenazas|
-|  |  |  |
+| Segmento objetivo | Características demográficas | Información estadística de sustento | Necesidades principales |
+|-------------------|------------------------------|--------------------------------------|-------------------------|
+| Empresas y organizaciones operadoras de transporte publico | Transporte a cargo: Al menos 5 unidades a cargo de la empresa o organizacion. <br><br> Edad: Adultos de 18 años en adelante. <br><br> Cargo: Conductores de vehiculos publicos asociados a una empresa o organización. <br><br> Ubicación: Lima metropolitada. <br><br> Interés: Poder generar seguridad y bienestar de los pasajeros a bordo <br><br> Nivel de operación: Gestión y supervisión de múltiples unidades y rutas. <br><br> Personal: Conductores u operarios de la empresa. <br><br> Nivel de operación: Gestión y supervisión de múltiples unidades y rutas | Según Gestión (2025), representantes del sector transporte señalaron que las empresas de transporte urbano vienen siendo afectadas por el cobro de cuotas extorsivas, llegando algunas a enfrentar pérdidas superiores a S/ 1,000 diarios por cada unidad que deja de operar debido a estas amenazas| - Reportar rápidamente incidentes o situaciones de riesgo <br><br> - Supervisar las unidades y sus recorridos. <br><br> - Recibir información sobre incidentes en tiempo real.<br><br> - Mejorar la coordinación entre conductores y responsables de la empresa. <br><br>- Reducir el tiempo de respuesta ante situaciones de emergencia. <br><br>- Contar con información para mejorar la supervisión y gestión de sus operaciones. <br><br>- Incrementar la percepción de seguridad del servicio.
+| Conductores de transporte público |  Transporte a cargo: Uno o dos vehículos a su disposición. <br><br> Edad: Adultos de 18 años en adelante. <br><br>Cargo: Conductores u operarios de transporte público vinculados a un empresa o ruta.<br><br> Ubicación: Lima Metropolitana y el Callao. <br><br>Interés: Garantizar su seguridad y la de los pasajeros durante sus recorridos. <br><br> Jornada laboral: Jornadas extensas, incluyendo horarios de madrugada y noche. <br><br> Contexto laboral: Exposición a situaciones de inseguridad y extorsión durante recorridos.| Según RPP (2025), desde septiembre de 2024, 15 conductores de transporte público formal fueron asesinados y otros 20 resultaron heridos a causa de la extorsión. Además, más del 70 % de las empresas de transporte formal de Lima y Callao eran víctimas de este delito, evidenciando la situación de inseguridad que enfrentan los conductores durante sus jornadas laborales.| - Contar con un mecanismo de alerta ante emergencias <br><br> - Facilitar la comunicación con la empresa durante una situación de peligro <br><br> -Contar con información que permita responder oportunamente ante incidentes <br><br> - Incrementar la percepción de seguridad durante sus recorridos |
+
+Mercado al que apunta la solución 
+---
+
+SecurityBus está dirigido a conductores y empresas u organizaciones operadoras de transporte público de Lima Metropolitana y el Callao. La solución busca atender las principales necesidades de seguridad que enfrentan estos actores durante la operación del servicio, especialmente ante situaciones de riesgo, amenazas y extorsión.
+
+La plataforma permitirá facilitar el reporte de incidentes, generar alertas y mejorar la supervisión de las unidades y recorridos. De esta manera, se busca fortalecer la comunicación entre conductores y empresas, reducir los tiempos de respuesta ante emergencias y contribuir a una mayor seguridad para conductores y pasajeros.
 
 ---
 
