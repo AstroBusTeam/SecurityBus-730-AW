@@ -125,6 +125,14 @@ Segun datos del Ministerio publico se registro en el rango desde agosto de 2024 
 
 ---
 
+#### 1.2.2 Lean UX Process
+
+##### 1.2.2.1. Lean UX Problem Statements
+---
+##### 1.2.2.2. Lean UX Assumptions
+---
+##### 1.2.2.3. Lean UX Hypothesis Statements
+---
  
 ##### 1.2.2.4. Lean UX Canvas
 
