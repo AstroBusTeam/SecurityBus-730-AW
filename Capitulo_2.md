@@ -230,6 +230,14 @@ User: Conductores de transporte público
 
 ### 2.3. Needfinding
 
+**User Persona 1: Conductor de transporte público**
+
+![Conductor de transporte público](/docs/assets/needfinding/user-persona-1.png)
+
+**User Persona 2: Jefa de operaciones/Monitoreo de flota**
+
+![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/user-persona-2.png)
+
 #### 2.3.1. User Personas
 
 #### 2.3.2. User Task Matrix
