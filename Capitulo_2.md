@@ -360,6 +360,18 @@ En tercer lugar, la matriz muestra la oportunidad de integrar en un solo flujo d
 
 #### 2.3.4. Empathy Mapping
 
+A continuación se presentan los Empathy Maps correspondientes a cada uno de los dos User Personas definidos, elaborados a partir de la información recogida en la problemática, las entrevistas y los perfiles descritos previamente. Estas herramientas permiten profundizar en las percepciones, emociones y comportamientos de Carlos y Rosa frente a la inseguridad del transporte público, complementando así los hallazgos obtenidos mediante el Task Matrix y el Journey Mapping.
+
+**Empathy Map 1: Conductor de transporte público**<br><br>
+Identifica pensamientos, emociones y necesidades del conductor ante situaciones de riesgo durante su recorrido.<br>
+
+![Conductor de transporte público](/docs/assets/needfinding/empathy-map-1.png)
+
+**Empathy Map 2: Jefa de operaciones/Monitoreo de flota**<br><br>
+Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones al gestionar la seguridad de la flota.<br>
+
+![Jefa de operaciones](/docs/assets/needfinding/empathy-map-2.png)
+
 ### 2.4. Big Picture EventStorming
 
 ### 2.5. Ubiquitous Language
