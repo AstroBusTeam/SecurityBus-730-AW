@@ -226,10 +226,35 @@ User: Conductores de transporte público
 
 #### 2.2.2. Registro de entrevistas
 
+**Entrevista 1: Conductor de transporte público**
++ Nombre: Diego Ruiz Soto
++ Edad: 30 años
++ Residencia: San Juan de Lurigancho, Lima, Perú
++ Ocupación: Conductor de transporte público
++ Inicio: 0:12
++ Duración: 7:20
+
+Link:<br>
+[Ver video](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FU202418823%5FConductor%5FDiego%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7a646787%2D9374%2D44ab%2D9528%2D0eb31fcb2c93)
+
+---
+
+**Resumen:**<br>
+
+El entrevistado Diego, de 30 años, es conductor de transporte público. Su labor diaria consiste en la conducción de buses, enfrentando de manera constante la congestión vehicular de Lima y el estricto control de tránsito en las zonas céntricas, lo que le dificulta e imposibilita manipular el teléfono móvil mientras maneja por el riesgo de ser multado. Respecto a la seguridad, aunque afortunadamente no ha presenciado situaciones delictivas de manera directa, percibe un incremento sostenido de la inseguridad y una falta de apoyo de las autoridades al sector transporte, identificando a los distritos de Lima Norte y Lima Sur (como Villa El Salvador, San Juan de Miraflores o Villa María del Triunfo) como los de mayor riesgo debido a la escasa presencia policial.
+
+Actualmente, para gestionar emergencias o accidentes, su primer canal de comunicación es la llamada telefónica hacia la empresa que lo contrata, recurriendo como alternativas secundarias a servicios municipales o al contacto con familiares y amigos. Frente a la propuesta de soluciones tecnológicas, demuestra una actitud altamente receptiva hacia un sistema de seguridad y seguimiento. Destaca que herramientas como un botón de pánico silencioso, el monitoreo en tiempo real (integrado al vehículo para detectar desvíos de ruta) y la transmisión de audio y video en vivo son funcionalidades clave. Para él, estas opciones le brindarían el respaldo de no sentirse solo, permitiendo a la central deducir anomalías y enviar asistencia rápida (como grúas o auxilio mecánico). Finalmente, enfatiza que cualquier aplicación enfocada en el conductor debe priorizar la accesibilidad, exigiendo una interfaz directa con un botón de alerta en la pantalla principal para responder en cuestión de segundos ante un evento crítico.<br>
+
+---
+
+**Evidencia:**<br>
+
+![Entrevista 1](/docs/assets/interviews/interview-01.png)
+
+
 #### 2.2.3. Análisis de entrevistas
 
 ### 2.3. Needfinding
-
 
 #### 2.3.1. User Personas
 
