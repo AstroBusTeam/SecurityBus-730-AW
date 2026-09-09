@@ -358,6 +358,16 @@ En tercer lugar, la matriz muestra la oportunidad de integrar en un solo flujo d
 
 #### 2.3.3. User Journey Mapping
 
+**Journey Map 1: Conductor de transporte público**<br>
+Representa el recorrido del conductor desde el inicio de su turno hasta la resolución de un intento de extorsión durante el servicio.
+
+![Conductor de transporte público](/docs/assets/needfinding/journey-map-1.png)
+
+**Journey Map 2: Conductor de transporte público**<br>
+Describe la gestión de una alerta de emergencia por parte de la jefa de operaciones, desde el monitoreo rutinario hasta el cierre del incidente.
+
+![Jefa de operaciones/Monitoreo de flota](/docs/assets/needfinding/journey-map-2.png)
+
 #### 2.3.4. Empathy Mapping
 
 A continuación se presentan los Empathy Maps correspondientes a cada uno de los dos User Personas definidos, elaborados a partir de la información recogida en la problemática, las entrevistas y los perfiles descritos previamente. Estas herramientas permiten profundizar en las percepciones, emociones y comportamientos de Carlos y Rosa frente a la inseguridad del transporte público, complementando así los hallazgos obtenidos mediante el Task Matrix y el Journey Mapping.
@@ -370,7 +380,7 @@ Identifica pensamientos, emociones y necesidades del conductor ante situaciones 
 **Empathy Map 2: Jefa de operaciones/Monitoreo de flota**<br><br>
 Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones al gestionar la seguridad de la flota.<br>
 
-![Jefa de operaciones](/docs/assets/needfinding/empathy-map-2.png)
+![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/empathy-map-2.png)
 
 ### 2.4. Big Picture EventStorming
 
