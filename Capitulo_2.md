@@ -230,17 +230,131 @@ User: Conductores de transporte público
 
 ### 2.3. Needfinding
 
-**User Persona 1: Conductor de transporte público**
-
-![Conductor de transporte público](/docs/assets/needfinding/user-persona-1.png)
-
-**User Persona 2: Jefa de operaciones/Monitoreo de flota**
-
-![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/user-persona-2.png)
 
 #### 2.3.1. User Personas
 
+**User Persona 1: Conductor de transporte público**<br><br>
+Perfil de un conductor de transporte público que necesita un mecanismo rápido y discreto para alertar sobre situaciones de riesgo durante su recorrido.
+
+![Conductor de transporte público](/docs/assets/needfinding/user-persona-1.png)
+
+**User Persona 2: Jefa de operaciones/Monitoreo de flota**<br><br>
+Perfil de una administradora de flota que gestiona el monitoreo, las alertas de emergencia y la seguridad de las unidades y conductores a su cargo.
+
+![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/user-persona-2.png)
+
 #### 2.3.2. User Task Matrix
+
+El presente User Task Matrix destaca las tareas que ejecutan actualmente los dos User Personas definidos para el proyecto SecurityBus: Carlos Ramírez, en su rol de conductor, y Rosa Salazar, en su rol de jefa de operaciones. Las actividades registradas corresponden a prácticas que ambos segmentos desarrollan en su gestión cotidiana mediante llamadas telefónicas, mensajería instantánea y registros manuales, con independencia de la solución tecnológica propuesta, y constituyen el punto de partida para reconocer las oportunidades de mejora que ofrecería su digitalización.
+
+<table style="text-align:center;">
+    <tr>
+    <th rowspan="2" style="text-align:center;">User Task (Tarea del usuario)</th>
+    <th colspan="2" style="text-align:center;">Carlos Ramírez (Conductor)</th>
+    <th colspan="2" style="text-align:center;">Rosa Salazar (Jefa de operaciones)</th>
+  </tr>
+
+  <tr>
+    <th style="text-align:center;">Frecuencia</th>
+    <th style="text-align:center;">Importancia</th>
+    <th style="text-align:center;">Frecuencia</th>
+    <th style="text-align:center;">Importancia</th>
+  </tr>
+  <tr>
+    <td>Activar una alerta de emergencia de forma discreta</td>
+    <td>Baja (situacional, pero crítica cuando ocurre)</td>
+    <td>Crítica</td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>Compartir la ubicación del vehículo en tiempo real</td>
+    <td>Alta (durante todo el recorrido)</td>
+    <td>Crítica</td>
+    <td>Alta (continua durante la jornada)</td>
+    <td>Crítica</td>
+  </tr>
+  <tr>
+    <td>Reportar un incidente ya ocurrido</td>
+    <td>Baja</td>
+    <td>Alta</td>
+    <td>Media</td>
+    <td>Crítica</td>
+  </tr>
+  <tr>
+    <td>Recibir confirmación o retroalimentación tras enviar una alerta</td>
+    <td>Baja (situacional)</td>
+    <td>Crítica</td>
+    <td>N/A</td>
+    <td>N/A</td>
+  </tr>
+  <tr>
+    <td>Monitorear la ubicación y el estado de todas las unidades de la flota</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>Alta (continua)</td>
+    <td>Crítica</td>
+  </tr>
+  <tr>
+    <td>Visualizar y gestionar las alertas de emergencia entrantes</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>Baja (situacional, alta prioridad)</td>
+    <td>Crítica</td>
+  </tr>
+  <tr>
+    <td>Registrar el historial de incidentes por unidad y por conductor</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Crítica</td>
+  </tr>
+  <tr>
+    <td>Generar reportes o análisis de zonas y rutas de riesgo</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>Media(mensual)</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Coordinar la respuesta ante una emergencia con las autoridades</td>
+    <td>Baja</td>
+    <td>Alta</td>
+    <td>Baja(situacional)</td>
+    <td>Crítica</td>
+  </tr>
+  <tr>
+    <td>Comunicar el estado del recorrido a la empresa en condiciones normales</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Media</td>
+    <td>Alta</td>
+  </tr>
+  <tr>
+    <td>Recibir o brindar capacitación sobre el uso del sistema de seguridad</td>
+    <td>Baja</td>
+    <td>Media</td>
+    <td>Baja(periódica)</td>
+    <td>Media</td>
+  </tr>
+  <tr>
+    <td>Sustentar ante la gerencia la necesidad de inversión en seguridad</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>Baja(trimestral o según necesidad)</td>
+    <td>Alta</td>
+  </tr>
+</table>
+
+**Análisis del User Task Matrix**
+
+Del análisis de la matriz se identifican tres puntos relevantes para el diseño de la solución.
+
+En primer lugar, se observa una coincidencia crítica entre ambos segmentos: la necesidad de conocer la ubicación de la unidad en tiempo real. Para Carlos esta información surge de forma natural durante su recorrido, mientras que para Rosa es indispensable para poder supervisar la flota. Actualmente esto depende de que el conductor se comunique manualmente, dejando a la empresa sin visibilidad efectiva la mayor parte del tiempo, por lo que automatizar la geolocalización sería una de las mejoras con mayor impacto.
+
+En segundo lugar, se advierte una diferencia clara entre las prioridades de cada segmento. Carlos concentra la criticidad de sus tareas en un momento breve y de alta tensión, como activar la alerta y confirmar que fue recibida, mientras que sus tareas administrativas tienen menor frecuencia e importancia. Rosa, en cambio, mantiene una carga crítica constante durante toda su jornada, ya que su labor exige supervisar varias unidades a la vez, algo que hoy se ve limitado por no contar con una herramienta que le brinde esa visión conjunta.
+
+En tercer lugar, la matriz muestra la oportunidad de integrar en un solo flujo digital las tareas de gestión de emergencias, actualmente dispersas entre la reacción del conductor, la disponibilidad de la jefa de operaciones y el registro posterior del incidente. Unir estas etapas en un mismo sistema permitiría reducir los tiempos de respuesta y contar con información confiable para sustentar decisiones de seguridad ante la gerencia y las autoridades.
 
 #### 2.3.3. User Journey Mapping
 
