@@ -1,6 +1,9 @@
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 ### 5.1. Software Configuration Management
+
+#### 5.1.1. Software Development Environment Configuration
+
 Para establecer el entorno de desarrollo del software, se han seleccionado diferentes herramientas, plataformas y guías de trabajo. La siguiente tabla muestra cada recurso utilizado, junto con la finalidad que cumple dentro del proyecto y el medio mediante el cual se puede acceder a este.
 
 | Proceso | Recurso o plataforma | Finalidad | Medio de acceso o Enlace |
