@@ -187,6 +187,60 @@ Además de las reglas específicas para cada lenguaje, el desarrollo se orientar
 + Scalability: mantener una estructura que pueda soportar el crecimiento futuro del sistema.
 + Maintainability: facilitar la corrección, modificación y evolución del código.
 
+#### 5.1.4. Software Deployment Configuration
+
+**Despliegue de la Landing Page**
+
+La Landing Page será desarrollada utilizando HTML, CSS y JavaScript y posteriormente publicada mediante GitHub Pages. Para ello, primero será necesario mantener correctamente organizados los archivos dentro del repositorio remoto.
+
+**Organización del repositorio**
+
+El archivo index.html deberá encontrarse directamente en la raíz del repositorio, debido a que será utilizado como archivo inicial durante el proceso de publicación. Los recursos complementarios se distribuirán en carpetas independientes según su función, permitiendo diferenciar los estilos, scripts e imágenes y facilitando el mantenimiento posterior.
+
+La estructura prevista será la siguiente:
+
+```
+/ 
+|---index.html 
+|---css/ 
+|   |__ styles.css 
+|---js/ 
+|  |__ main.js 
+|---assets/ 
+|       |__ images/
+```
+**Configuración de GitHub Pages**
+
+Una vez que los archivos se encuentren disponibles en el repositorio, se configurará GitHub Pages como servicio de publicación de la Landing Page.
+
+La configuración contempla las siguientes acciones:
+
+1. Acceder al repositorio del proyecto en GitHub.
+2. Ingresar a Settings.
+3. Seleccionar la sección Pages.
+4. Establecer la rama main como fuente de publicación.
+5. Seleccionar la carpeta raíz /root como directorio de despliegue.
+6. Guardar la configuración.
+
+Después de completar la configuración, GitHub realizará automáticamente el proceso necesario para generar y publicar el sitio.
+
+**Acceso a la versión publicada**
+
+Cuando el despliegue haya finalizado, GitHub proporcionará una dirección pública desde la cual será posible acceder a la Landing Page.
+
+La estructura esperada de la dirección será:
+
+https://<usernanme>.github.io/<repository-name>/
+
+Esta dirección corresponderá al acceso público de la versión oficial del producto.
+
+**Actualización del sitio**
+
+El proceso de despliegue también contempla las futuras modificaciones realizadas por el equipo. Cada cambio efectuado en la Landing Page deberá registrarse mediante un nuevo commit y enviarse al repositorio.
+
+Cuando los cambios sean incorporados a la rama principal, GitHub Pages actualizará automáticamente el contenido publicado. Así, la versión disponible en línea podrá mantenerse sincronizada con la versión estable más reciente del código fuente.
+
+
 ### 5.2. Landing Page, Services & Applications Implementation
 
 #### 5.2.1. Sprint 1
