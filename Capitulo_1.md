@@ -123,7 +123,7 @@ How Much (Cuánto) — ¿Qué datos respaldan la problemática?
 
 Segun datos del Ministerio publico se registro en el rango desde agosto de 2024 y mayo de 2026 que hubieron 214 atentados vehiculares producto de la extorsión, de estos atentados 283 fueron afectadas siendo 152 fallecidas y 131 heridas.  
 
-#### 1.2.2. Lean UX Process
+#### 1.2.2.
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
@@ -169,6 +169,7 @@ Hypothesis Statement 2: Creemos que el envío automático de la ubicación y dat
 
 Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
 
+##### 1.2.2.4. Lean UX Canvas
 
 | 1. BUSINESS PROBLEM | 5. SOLUTIONS | 2. BUSINESS OUTCOMES |
 | :--- | :--- | :--- |
