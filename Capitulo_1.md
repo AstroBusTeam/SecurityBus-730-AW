@@ -123,7 +123,7 @@ How Much (Cuánto) — ¿Qué datos respaldan la problemática?
 
 Segun datos del Ministerio publico se registro en el rango desde agosto de 2024 y mayo de 2026 que hubieron 214 atentados vehiculares producto de la extorsión, de estos atentados 283 fueron afectadas siendo 152 fallecidas y 131 heridas.  
 
-#### 1.2.2.
+#### 1.2.2. Lean UX Process
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
