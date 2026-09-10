@@ -1,5 +1,4 @@
-## Capítulo I: Introducción 
-
+## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
 
@@ -20,7 +19,9 @@ Nuestra Visión y misión se basan en lo siguiente:
 **Visión**:Ser la plataforma de seguridad inteligente más confiable del transporte público en Latinoamérica, contribuyendo a disminuir los índices de delincuencia y fortaleciendo la confianza de los ciudadanos en la movilidad urbana.
 
 ---
+
 #### 1.1.2. Perfiles de integrantes del equipo
+
 <div align="center">
   <table style="margin: auto; width: 100%; border-collapse: collapse; border: 1px solid #ddd;">
     <tbody>
@@ -77,10 +78,13 @@ Nuestra Visión y misión se basan en lo siguiente:
       <tr>
         <td style="padding: 20px; border: 1px solid #ddd; vertical-align: middle; text-align: left;">
           <strong>Nawrocki Loureiro, Ian Andre</strong><br><br>
-          <i></i>
+          <i><i>Soy Ian Nawrocki y actualmente estudio la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas
+          A lo largo de mi formación académica y del desarrollo de proyectos personales, he adquirido conocimientos en desarrollo web full-stack, trabajando con lenguajes y tecnologías como Ruby, JavaScript, HTML, CSS y SQL, además de bases de datos relacionales y control de versiones con Git. También cuento con habilidades complementarias en el manejo del inglés.
+          Me considero una persona autodidacta y perseverante: me gusta llevar los proyectos hasta el detalle final y no dejar cabos sueltos. Asimismo, disfruto compartir lo que aprendo y apoyar a mis compañeros de equipo para alcanzar juntos los objetivos propuestos.
+          Me entusiasma todo el aprendizaje que podré obtener en el curso de App Web, así como la oportunidad de aplicar buenas prácticas de desarrollo, fortalecer nuevas habilidades y ganar experiencia mediante el trabajo en equipo.</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/team-photos/ian.JPG" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
     </tbody>
@@ -107,7 +111,7 @@ El riesgo puede presentarse durante cualquier etapa del servicio de transporte, 
 
 Where (Dónde) — ¿Dónde ocurre el problema?
 
-La problemática se presenta principalmente en las vías urbanas donde circulan las unidades de transporte público 
+La problemática se presenta principalmente en las vías urbanas donde circulan las unidades de transporte público
 en las diferentes ciudades y distritos del Perú
 
 Who (Quién) — ¿A quiénes afecta el problema?
@@ -119,9 +123,9 @@ Por la falta de sistemas tecnológicos que permitan alertar rápidamente ante ro
 How (Cómo) — ¿Cómo afecta este problema?
 La falta de una alerta inmediata retrasa la intervención policial, aumenta el riesgo de los conductores y pasajeros ante las acciones de los delincuentes
 
-How Much (Cuánto) — ¿Qué datos respaldan la problemática? 
+How Much (Cuánto) — ¿Qué datos respaldan la problemática?
 
-Segun datos del Ministerio publico se registro en el rango desde agosto de 2024 y mayo de 2026 que hubieron 214 atentados vehiculares producto de la extorsión, de estos atentados 283 fueron afectadas siendo 152 fallecidas y 131 heridas.  
+Segun datos del Ministerio publico se registro en el rango desde agosto de 2024 y mayo de 2026 que hubieron 214 atentados vehiculares producto de la extorsión, de estos atentados 283 fueron afectadas siendo 152 fallecidas y 131 heridas.
 
 #### 1.2.2. Lean UX Process
 
@@ -133,33 +137,31 @@ Problem Statement 2: Las empresas de transporte tienen dificultades para conocer
 
 Problem Statement 3: Los pasajeros utilizan el transporte público sin contar con mecanismos tecnológicos que permitan responder rápidamente ante situaciones de peligro dentro de la unidad. Esta falta de herramientas de seguridad genera una mayor percepción de inseguridad y reduce la confianza de los usuarios durante sus viajes.
 
-
 ##### 1.2.2.2. Lean UX Assumptions
 
 Business Assumptions:
 
-* Partimos de la idea de que una plataforma enfocada en la seguridad sera adoptada de forma efectiva por las empresas de transporte debido a la realidad del país que se vive hoy en día
-* Creemos que las empresas de transporte público necesitan herramientas de seguridad en tiempo real para responder rápidamente ante robos, extorsiones y otras situaciones de emergencia.
-* Suponemos que las empresas estarían dispuestas a implementar ASTROBUS si les permite mejorar la seguridad de sus conductores y pasajeros sin afectar el desarrollo normal de sus operaciones.
-* Esperamos que las empresas consideren útil recibir alertas de emergencia acompañadas de la ubicación de la unidad para poder actuar ante un incidente.
-* Asumimos que las empresas podrían estar interesadas en contar con un registro de las emergencias ocurridas para identificar patrones de riesgo y mejorar sus medidas de seguridad.
+- Partimos de la idea de que una plataforma enfocada en la seguridad sera adoptada de forma efectiva por las empresas de transporte debido a la realidad del país que se vive hoy en día
+- Creemos que las empresas de transporte público necesitan herramientas de seguridad en tiempo real para responder rápidamente ante robos, extorsiones y otras situaciones de emergencia.
+- Suponemos que las empresas estarían dispuestas a implementar ASTROBUS si les permite mejorar la seguridad de sus conductores y pasajeros sin afectar el desarrollo normal de sus operaciones.
+- Esperamos que las empresas consideren útil recibir alertas de emergencia acompañadas de la ubicación de la unidad para poder actuar ante un incidente.
+- Asumimos que las empresas podrían estar interesadas en contar con un registro de las emergencias ocurridas para identificar patrones de riesgo y mejorar sus medidas de seguridad.
 
 Business Outcomes:
 
-* Incrementar la adopción de ASTROBUS por parte de empresas de transporte público, posicionándolo como una alternativa tecnológica para fortalecer la seguridad de sus operaciones.
-* Reducir el tiempo de respuesta ante situaciones de emergencia, facilitando que las empresas puedan recibir y gestionar alertas de robos, extorsiones y otros incidentes en tiempo real.
-* Mejorar la percepción de seguridad de conductores y pasajeros, proporcionando un mecanismo accesible para solicitar asistencia durante situaciones de riesgo.
-Facilitar la identificación y localización de unidades en emergencia, permitiendo a las empresas actuar con mayor rapidez y precisión ante los incidentes reportados.
-* Generar información útil sobre los incidentes de seguridad registrados, permitiendo a las empresas identificar patrones de riesgo y tomar decisiones para prevenir futuras situaciones de peligro.
+- Incrementar la adopción de ASTROBUS por parte de empresas de transporte público, posicionándolo como una alternativa tecnológica para fortalecer la seguridad de sus operaciones.
+- Reducir el tiempo de respuesta ante situaciones de emergencia, facilitando que las empresas puedan recibir y gestionar alertas de robos, extorsiones y otros incidentes en tiempo real.
+- Mejorar la percepción de seguridad de conductores y pasajeros, proporcionando un mecanismo accesible para solicitar asistencia durante situaciones de riesgo.
+  Facilitar la identificación y localización de unidades en emergencia, permitiendo a las empresas actuar con mayor rapidez y precisión ante los incidentes reportados.
+- Generar información útil sobre los incidentes de seguridad registrados, permitiendo a las empresas identificar patrones de riesgo y tomar decisiones para prevenir futuras situaciones de peligro.
 
 User Benefits:
 
-* Mayor seguridad durante el recorrido, al contar con un sistema destinado a responder ante situaciones de peligro.
-* Solicitud de ayuda rápida y discreta, permitiendo al conductor activar una alerta sin necesidad de realizar una llamada durante una emergencia.
-* Mayor tranquilidad para los pasajeros, al saber que la unidad cuenta con mecanismos tecnológicos para reportar situaciones de riesgo.
-* Respuesta más eficiente ante emergencias, gracias al envío de la ubicación de la unidad junto con la alerta.
-* Mayor confianza en el servicio de transporte, al contar con herramientas que buscan proteger a conductores y pasajeros durante el viaje.
-
+- Mayor seguridad durante el recorrido, al contar con un sistema destinado a responder ante situaciones de peligro.
+- Solicitud de ayuda rápida y discreta, permitiendo al conductor activar una alerta sin necesidad de realizar una llamada durante una emergencia.
+- Mayor tranquilidad para los pasajeros, al saber que la unidad cuenta con mecanismos tecnológicos para reportar situaciones de riesgo.
+- Respuesta más eficiente ante emergencias, gracias al envío de la ubicación de la unidad junto con la alerta.
+- Mayor confianza en el servicio de transporte, al contar con herramientas que buscan proteger a conductores y pasajeros durante el viaje.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -169,29 +171,27 @@ Hypothesis Statement 2: Creemos que el envío automático de la ubicación y dat
 
 Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
 
+| 1. BUSINESS PROBLEM                                                                                                                                                                                                                                                                           | 5. SOLUTIONS                                                                                                                                                                                                                                                                                  | 2. BUSINESS OUTCOMES                                                                                                                                                                                                                                      |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Conductores:** Expuestos a robos, agresiones y extorsiones sin un mecanismo de alerta discreto.<br><br>**Empresas:** Sin monitoreo, rastreo GPS en tiempo real ni registro de incidentes.<br><br>**Pasajeros:** Vulnerables ante emergencias, lo que genera alta percepción de inseguridad. | • **Botón de pánico/emergencia:** Activación rápida y discreta para el conductor.<br><br>• **Alerta y geolocalización:** Envío automático de ubicación en tiempo real a la central.<br><br>• **Dashboard de gestión:** Registro e historial de incidentes para las empresas.                  | • Incrementar la adopción de ASTROBUS en empresas de transporte.<br><br>• Reducir el tiempo de respuesta ante emergencias.<br><br>• Mejorar la percepción de seguridad de conductores y usuarios.<br><br>• Identificar patrones de riesgo mediante datos. |
+| **3. USERS & CUSTOMERS**                                                                                                                                                                                                                                                                      | **6. HYPOTHESES**                                                                                                                                                                                                                                                                             | **4. USER BENEFITS**                                                                                                                                                                                                                                      |
+| • **Conductores de transporte público:** Requieren pedir ayuda de forma discreta.<br><br>• **Empresas de transporte / Monitores:** Necesitan supervisar y gestionar incidentes.                                                                                                               | • **H1:** El botón discreto notificará $\ge 90\%$ de los robos en $\le 15$ segundos.<br><br>• **H2:** La alerta con GPS permitirá a la central ubicar el $\ge 80\%$ de unidades rápidamente.<br><br>• **H3:** El registro de emergencias mejorará la gestión para el $\ge 70\%$ de monitores. | • Activación de ayuda rápida y discreta sin exponerse.<br><br>• Respuesta eficiente con ubicación GPS en vivo.<br><br>• Mayor tranquilidad y confianza durante los recorridos.                                                                            |
+| **7. MOST IMPORTANT LEARNING (SUPUESTOS)**                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                               | **8. MVP & EXPERIMENTS**                                                                                                                                                                                                                                  |
+| • ¿El conductor puede activar el botón de forma discreta sin ponerse en riesgo ante un atraco?<br><br>• ¿Las empresas adoptarán el sistema sin interrumpir sus operaciones diarias?                                                                                                           |                                                                                                                                                                                                                                                                                               | • **Prototipo del botón:** Medir si la activación del botón toma menos de 15 segundos.<br><br>• **Piloto de seguimiento:** Simular el envío y recepción de GPS en vivo hacia la central.                                                                  |
 
-| 1. BUSINESS PROBLEM | 5. SOLUTIONS | 2. BUSINESS OUTCOMES |
-| :--- | :--- | :--- |
-| **Conductores:** Expuestos a robos, agresiones y extorsiones sin un mecanismo de alerta discreto.<br><br>**Empresas:** Sin monitoreo, rastreo GPS en tiempo real ni registro de incidentes.<br><br>**Pasajeros:** Vulnerables ante emergencias, lo que genera alta percepción de inseguridad. | • **Botón de pánico/emergencia:** Activación rápida y discreta para el conductor.<br><br>• **Alerta y geolocalización:** Envío automático de ubicación en tiempo real a la central.<br><br>• **Dashboard de gestión:** Registro e historial de incidentes para las empresas. | • Incrementar la adopción de ASTROBUS en empresas de transporte.<br><br>• Reducir el tiempo de respuesta ante emergencias.<br><br>• Mejorar la percepción de seguridad de conductores y usuarios.<br><br>• Identificar patrones de riesgo mediante datos. |
-| **3. USERS & CUSTOMERS** | **6. HYPOTHESES** | **4. USER BENEFITS** |
-| • **Conductores de transporte público:** Requieren pedir ayuda de forma discreta.<br><br>• **Empresas de transporte / Monitores:** Necesitan supervisar y gestionar incidentes. | • **H1:** El botón discreto notificará $\ge 90\%$ de los robos en $\le 15$ segundos.<br><br>• **H2:** La alerta con GPS permitirá a la central ubicar el $\ge 80\%$ de unidades rápidamente.<br><br>• **H3:** El registro de emergencias mejorará la gestión para el $\ge 70\%$ de monitores. | • Activación de ayuda rápida y discreta sin exponerse.<br><br>• Respuesta eficiente con ubicación GPS en vivo.<br><br>• Mayor tranquilidad y confianza durante los recorridos. |
-| **7. MOST IMPORTANT LEARNING (SUPUESTOS)** | | **8. MVP & EXPERIMENTS** |
-| • ¿El conductor puede activar el botón de forma discreta sin ponerse en riesgo ante un atraco?<br><br>• ¿Las empresas adoptarán el sistema sin interrumpir sus operaciones diarias? | | • **Prototipo del botón:** Medir si la activación del botón toma menos de 15 segundos.<br><br>• **Piloto de seguimiento:** Simular el envío y recepción de GPS en vivo hacia la central. |
 ---
 
 ### 1.3. Segmentos objetivo
 
-| Segmento objetivo | Características demográficas | Información estadística de sustento | Necesidades principales |
-|-------------------|------------------------------|--------------------------------------|-------------------------|
-| Empresas y organizaciones operadoras de transporte publico | Transporte a cargo: Al menos 5 unidades a cargo de la empresa o organizacion. <br><br> Edad: Adultos de 18 años en adelante. <br><br> Cargo: Conductores de vehiculos publicos asociados a una empresa o organización. <br><br> Ubicación: Lima metropolitada. <br><br> Interés: Poder generar seguridad y bienestar de los pasajeros a bordo <br><br> Nivel de operación: Gestión y supervisión de múltiples unidades y rutas. <br><br> Personal: Conductores u operarios de la empresa. <br><br> Nivel de operación: Gestión y supervisión de múltiples unidades y rutas | Según Gestión (2025), representantes del sector transporte señalaron que las empresas de transporte urbano vienen siendo afectadas por el cobro de cuotas extorsivas, llegando algunas a enfrentar pérdidas superiores a S/ 1,000 diarios por cada unidad que deja de operar debido a estas amenazas| - Reportar rápidamente incidentes o situaciones de riesgo <br><br> - Supervisar las unidades y sus recorridos. <br><br> - Recibir información sobre incidentes en tiempo real.<br><br> - Mejorar la coordinación entre conductores y responsables de la empresa. <br><br>- Reducir el tiempo de respuesta ante situaciones de emergencia. <br><br>- Contar con información para mejorar la supervisión y gestión de sus operaciones. <br><br>- Incrementar la percepción de seguridad del servicio.
-| Conductores de transporte público |  Transporte a cargo: Uno o dos vehículos a su disposición. <br><br> Edad: Adultos de 18 años en adelante. <br><br>Cargo: Conductores u operarios de transporte público vinculados a un empresa o ruta.<br><br> Ubicación: Lima Metropolitana y el Callao. <br><br>Interés: Garantizar su seguridad y la de los pasajeros durante sus recorridos. <br><br> Jornada laboral: Jornadas extensas, incluyendo horarios de madrugada y noche. <br><br> Contexto laboral: Exposición a situaciones de inseguridad y extorsión durante recorridos.| Según RPP (2025), desde septiembre de 2024, 15 conductores de transporte público formal fueron asesinados y otros 20 resultaron heridos a causa de la extorsión. Además, más del 70 % de las empresas de transporte formal de Lima y Callao eran víctimas de este delito, evidenciando la situación de inseguridad que enfrentan los conductores durante sus jornadas laborales.| - Contar con un mecanismo de alerta ante emergencias <br><br> - Facilitar la comunicación con la empresa durante una situación de peligro <br><br> -Contar con información que permita responder oportunamente ante incidentes <br><br> - Incrementar la percepción de seguridad durante sus recorridos |
+| Segmento objetivo                                          | Características demográficas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Información estadística de sustento                                                                                                                                                                                                                                                                                                                                              | Necesidades principales                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ---------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Empresas y organizaciones operadoras de transporte publico | Transporte a cargo: Al menos 5 unidades a cargo de la empresa o organizacion. <br><br> Edad: Adultos de 18 años en adelante. <br><br> Cargo: Conductores de vehiculos publicos asociados a una empresa o organización. <br><br> Ubicación: Lima metropolitada. <br><br> Interés: Poder generar seguridad y bienestar de los pasajeros a bordo <br><br> Nivel de operación: Gestión y supervisión de múltiples unidades y rutas. <br><br> Personal: Conductores u operarios de la empresa. <br><br> Nivel de operación: Gestión y supervisión de múltiples unidades y rutas | Según Gestión (2025), representantes del sector transporte señalaron que las empresas de transporte urbano vienen siendo afectadas por el cobro de cuotas extorsivas, llegando algunas a enfrentar pérdidas superiores a S/ 1,000 diarios por cada unidad que deja de operar debido a estas amenazas                                                                             | - Reportar rápidamente incidentes o situaciones de riesgo <br><br> - Supervisar las unidades y sus recorridos. <br><br> - Recibir información sobre incidentes en tiempo real.<br><br> - Mejorar la coordinación entre conductores y responsables de la empresa. <br><br>- Reducir el tiempo de respuesta ante situaciones de emergencia. <br><br>- Contar con información para mejorar la supervisión y gestión de sus operaciones. <br><br>- Incrementar la percepción de seguridad del servicio. |
+| Conductores de transporte público                          | Transporte a cargo: Uno o dos vehículos a su disposición. <br><br> Edad: Adultos de 18 años en adelante. <br><br>Cargo: Conductores u operarios de transporte público vinculados a un empresa o ruta.<br><br> Ubicación: Lima Metropolitana y el Callao. <br><br>Interés: Garantizar su seguridad y la de los pasajeros durante sus recorridos. <br><br> Jornada laboral: Jornadas extensas, incluyendo horarios de madrugada y noche. <br><br> Contexto laboral: Exposición a situaciones de inseguridad y extorsión durante recorridos.                                  | Según RPP (2025), desde septiembre de 2024, 15 conductores de transporte público formal fueron asesinados y otros 20 resultaron heridos a causa de la extorsión. Además, más del 70 % de las empresas de transporte formal de Lima y Callao eran víctimas de este delito, evidenciando la situación de inseguridad que enfrentan los conductores durante sus jornadas laborales. | - Contar con un mecanismo de alerta ante emergencias <br><br> - Facilitar la comunicación con la empresa durante una situación de peligro <br><br> -Contar con información que permita responder oportunamente ante incidentes <br><br> - Incrementar la percepción de seguridad durante sus recorridos                                                                                                                                                                                             |
 
-Mercado al que apunta la solución 
----
+## Mercado al que apunta la solución
 
 SecurityBus está dirigido a conductores y empresas u organizaciones operadoras de transporte público de Lima Metropolitana y el Callao. La solución busca atender las principales necesidades de seguridad que enfrentan estos actores durante la operación del servicio, especialmente ante situaciones de riesgo, amenazas y extorsión.
 
 La plataforma permitirá facilitar el reporte de incidentes, generar alertas y mejorar la supervisión de las unidades y recorridos. De esta manera, se busca fortalecer la comunicación entre conductores y empresas, reducir los tiempos de respuesta ante emergencias y contribuir a una mayor seguridad para conductores y pasajeros.
 
 ---
-
