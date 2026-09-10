@@ -230,7 +230,9 @@ Cuando el despliegue haya finalizado, GitHub proporcionará una dirección públ
 
 La estructura esperada de la dirección será:
 
+```
 https://<usernanme>.github.io/<repository-name>/
+```
 
 Esta dirección corresponderá al acceso público de la versión oficial del producto.
 
