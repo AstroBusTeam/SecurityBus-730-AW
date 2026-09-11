@@ -434,5 +434,43 @@ Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones 
 
 ### 2.4. Big Picture EventStorming
 
+1.- Unstructured Exploration
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/1.jpg)
+
+2.- Timelines
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/2.jpg)
+
+3.- Pain Points
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/3.jpg)
+
+4.- Pivotal Points
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/4.jpg)
+
+5.- Commands
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/5.jpg)
+
+6.- Policies
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/6.jpg)
+
+7.- Read Models
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/7.jpg)
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/8.jpg)
+
+8.- Aggregates
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/9.jpg)
+
+![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/10.jpg)
+
+
+
 ### 2.5. Ubiquitous Language
 
