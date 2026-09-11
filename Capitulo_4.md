@@ -2,7 +2,7 @@
 
 ### 4.1. Style Guidelines
 
-Las siguientes directrices de estilo definen los principales criterios visuales utilizados en el diseño de SecurityBus, con el objetivo de mantener una interfaz consistente y facilitar el trabajo conjunto entre diseño y desarrollo. Estas pautas contemplan aspectos como la identidad visual, paleta de colores, tipografía, espaciado, componentes e interacción.
+Las siguientes pautas de estilo definen los principales criterios visuales utilizados en el diseño de SecurityBus, con el objetivo de mantener una interfaz consistente y facilitar el trabajo conjunto entre diseño y desarrollo. Estas pautas contemplan aspectos como la identidad visual, paleta de colores, tipografía, espaciado, componentes e interacción.
 
 El diseño de SecurityBus está orientado a transmitir seguridad, control y monitoreo, priorizando la claridad de la información y la rapidez de interpretación. Esto responde a la naturaleza de la plataforma, enfocada en la gestión y supervisión del transporte público.
 
@@ -74,22 +74,21 @@ Los principales componentes de la interfaz siguen criterios visuales consistente
 
 Las decisiones de diseño de SecurityBus se basan en los siguientes principios:
 
-+ Claridad: presentar la información de forma comprensible.
-+ Jerarquía visual: destacar los elementos de mayor importancia.
-+ Consistencia: mantener uniformidad en colores, tipografías y componentes.
-+ Accesibilidad: asegurar una adecuada legibilidad y contraste.
-+ Feedback inmediato: proporcionar una respuesta visual ante las acciones realizadas por el usuario.
++ **Claridad**: presentar la información de forma comprensible.
++ **Jerarquía visual**: destacar los elementos de mayor importancia.
++ **Consistencia: mantener uniformidad en colores, tipografías y componentes.
++ **Accesibilidad**: asegurar una adecuada legibilidad y contraste.
++ **Feedback inmediato**: proporcionar una respuesta visual ante las acciones realizadas por el usuario.
 
 #### 4.1.2. Web Style Guidelines
 
-Las directrices web de SecurityBus establecen los criterios visuales e interactivos utilizados en la aplicación para mantener una experiencia consistente y funcional.
+Las reglas de estilo web de SecurityBus establecen los criterios visuales e interactivos utilizados en la aplicación para mantener una experiencia consistente y funcional.
 
 La interfaz web se organiza de acuerdo con las principales funciones de la plataforma, priorizando la información relacionada con el monitoreo, seguridad y gestión de las unidades de transporte. Los elementos de navegación se mantienen visibles y diferenciados para facilitar el acceso a las diferentes secciones del sistema.
 
 Asimismo, se utilizan componentes como cards, botones, indicadores y elementos de información para organizar los contenidos y evitar una presentación excesivamente cargada. Los elementos más relevantes, como alertas y estados críticos, presentan una diferenciación visual mediante el uso del color rojo.
 
 Los botones y enlaces mantienen una apariencia consistente y proporcionan retroalimentación visual durante la interacción. De esta manera, el usuario puede identificar fácilmente las acciones disponibles y comprender el resultado de sus interacciones con el sistema.
-
 
 ### 4.2. Information Architecture
 
