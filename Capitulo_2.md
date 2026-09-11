@@ -251,6 +251,31 @@ Actualmente, para gestionar emergencias o accidentes, su primer canal de comunic
 
 ![Entrevista 1](/docs/assets/interviews/interview-01.png)
 
+---
+
+**Entrevista 2: Conductor de transporte público**
++ Nombre: Renzo Baldeon
++ Edad: 27 años
++ Residencia: San Martin de Porres, Lima, Perú
++ Ocupación: Conductor de transporte público
++ Inicio: 0:00
++ Duración: 5:30
+
+Link:<br>
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCafsY8x7sOSqukvMmXMFyoAVl7C4qydnHb8NbOpXa81b4?e=wgnskb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+---
+
+**Resumen:**<br>
+
+El entrevistado Renzo, conductor de transporte público, indica que no ha presenciado directamente incidentes de inseguridad recientemente, pero sí conoce casos de compañeros de su misma empresa que han recibido notas y mensajes extorsivos. Frente a una emergencia, espera que su empresa aplique planes de contingencia y se coordine activamente con la policía para resguardar la vida del personal. Identifica la noche y los trayectos de retorno —cuando hay menor afluencia de pasajeros y calles más despejadas— como los momentos de mayor riesgo para sufrir asaltos o atentados. Asimismo, señala que la principal dificultad para comunicarse durante el manejo es la imposibilidad de manipular el celular mientras conduce debido al tráfico y al control por cámaras. Ante esto, valora positivamente un botón de pánico silencioso y el rastreo por ubicación en tiempo real, ya que permitirían a la empresa detectar anomalías —como la falta de movimiento— y enviar auxilio de forma rápida y sencilla sin necesidad de realizar llamadas.<br>
+
+---
+
+**Evidencia:**<br>
+
+![Entrevista 2](/docs/assets/interviews/interview-02.png)
+
 
 #### 2.2.3. Análisis de entrevistas
 
