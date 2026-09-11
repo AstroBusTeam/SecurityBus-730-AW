@@ -61,10 +61,13 @@ El diseño utiliza un sistema de espaciado consistente para mantener una distrib
 Los principales componentes de la interfaz siguen criterios visuales consistentes:
 
 + Botones: verde para acciones principales, rojo para acciones críticas y gris para acciones secundarias.
+
 ![botones](/docs/assets/style-guidelines/button.png)
 + Cards: utilizadas para organizar información relacionada dentro de contenedores diferenciados.
+
 ![botones](/docs/assets/style-guidelines/cuadros.png)
 + Iconografía: se emplea un estilo simple y fácilmente reconocible para facilitar la identificación de acciones y funcionalidades.
+
 ![botones](/docs/assets/style-guidelines/icons.png)
 
 **Principios de diseño**
