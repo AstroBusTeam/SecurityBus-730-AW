@@ -58,7 +58,7 @@ Nuestra Visión y misión se basan en lo siguiente:
           Me entusiasma el aprendizaje que obtendré con el curso de Appweb y las nuevas habilidades que aprenderé con este trabajo grupal</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/team-photos/Bryan.png" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 4 -->
