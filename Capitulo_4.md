@@ -106,7 +106,99 @@ Los botones y enlaces mantienen una apariencia consistente y proporcionan retroa
 
 #### 4.3.1. Landing Page Wireframe
 
+- Landing Page
+
+1. Hero
+
+![hero](/docs/assets/landing-page-wireframe/01_hero.png)
+
+2. Metrics 
+
+![hero](/docs/assets/landing-page-wireframe/02_metrics.png)
+
+3. Features 
+
+![hero](/docs/assets/landing-page-wireframe/03_features.png)
+
+4. How SecurityBus Works 
+
+![hero](/docs/assets/landing-page-wireframe/04_how_securitybus_works.png)
+
+5. Plan for Consortia 
+
+![hero](/docs/assets/landing-page-wireframe/05_plans_for_consortia.png)
+
+6. SecurityBus Statistics 
+
+![hero](/docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
+
+7. Elite Protection CTA 
+
+![hero](/docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
+
+8. About The Team 
+
+![hero](/docs/assets/landing-page-wireframe/08_about_the_team.png)
+
+9. Product Gallery 
+
+![hero](/docs/assets/landing-page-wireframe/09_product_gallery.png)
+
+10. Footer 
+
+![hero](/docs/assets/landing-page-wireframe/10_footer.png)
+
+- Mobile Web Browser
+
+![Mobile Web Browser](/docs/assets/landing-page-wireframe/Landing-page-wireframe-mobile.png)
+
 #### 4.3.2. Landing Page Mock-up
+
+- Landing Page
+
+1. Hero
+
+![hero](/docs/assets/landing-page-mockup/01_hero.png)
+
+2. Metrics 
+
+![hero](/docs/assets/landing-page-mockup/02_metrics.png)
+
+3. Features 
+
+![hero](/docs/assets/landing-page-mockup/03_features.png)
+
+4. How SecurityBus Works 
+
+![hero](/docs/assets/landing-page-mockup/04_how_securitybus_works.png)
+
+5. Plan for Consortia 
+
+![hero](/docs/assets/landing-page-mockup/05_plans_for_consortia.png)
+
+6. SecurityBus Statistics 
+
+![hero](/docs/assets/landing-page-mockup/06_securitybus_statistics.png)
+
+7. Elite Protection CTA 
+
+![hero](/docs/assets/landing-page-mockup/07_elite_protection_cta.png)
+
+8. About The Team 
+
+![hero](/docs/assets/landing-page-mockup/08_about_the_team.png)
+
+9. Product Gallery 
+
+![hero](/docs/assets/landing-page-mockup/09_product_gallery.png)
+
+10. Footer 
+
+![hero](/docs/assets/landing-page-mockup/10_footer.png)
+
+- Mobile Web Browser
+
+![Mobile Web Browser](/docs/assets/landing-page-mockup/Mockup-landing-page-mobile.png)
 
 ### 4.4. Web Applications UX/UI Design
 
