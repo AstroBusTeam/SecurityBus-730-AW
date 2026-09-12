@@ -601,4 +601,54 @@ Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones 
 
 
 ### 2.5. Ubiquitous Language
+**Unidad de Transporte (Unidad de Transporte):** Vehículo que forma parte del sistema y que es monitoreado durante su recorrido. Representa el elemento principal sobre el cual se registra la ubicación, estado y eventos de seguridad.
 
+**Conductor (Conductor):** Persona responsable de operar una unidad de transporte durante un recorrido. Está asociada a una unidad y puede activar alertas de emergencia cuando se encuentra ante una situación de riesgo.
+
+**Empresa de Transporte (Empresa de Transporte):** Organización responsable de gestionar y supervisar las unidades y conductores que forman parte de su operación. Utiliza el sistema para monitorear recorridos y atender eventos de seguridad.
+
+**Ruta (Ruta):** Trayecto establecido que debe seguir una unidad de transporte, incluyendo su punto de inicio, paradas y destino final.
+
+**Viaje (Viaje):** Recorrido específico realizado por una unidad de transporte dentro de una ruta y durante un período determinado.
+
+**Monitoreo en Tiempo Real (Monitoreo en Tiempo Real):** Seguimiento continuo de la ubicación y estado de una unidad durante su recorrido, permitiendo a la central identificar cambios o situaciones anómalas.
+
+**Ubicación GPS (Ubicación GPS):** Posición geográfica de una unidad de transporte obtenida mediante el sistema de posicionamiento global. Es utilizada para conocer dónde se encuentra una unidad, especialmente durante una emergencia.
+
+**Estado de Unidad (Estado de Unidad):** Condición actual de una unidad dentro del sistema, como en operación, detenida, fuera de ruta o en situación de alerta.
+
+**Evento de Seguridad (Evento de Seguridad):** Situación ocurrida durante el recorrido que puede representar un riesgo para el conductor, pasajeros o unidad de transporte y que requiere registro, seguimiento o intervención.
+
+**Incidente (Incidente):** Evento inesperado que afecta o puede afectar el desarrollo normal del viaje, como un asalto, extorsión, accidente u otra situación que requiera atención.
+
+**Emergencia (Emergencia):** Situación de riesgo que requiere una respuesta rápida para proteger al conductor, pasajeros o unidad de transporte.
+
+**Alerta de Emergencia (Alerta de Emergencia):** Notificación generada por el sistema para informar a la central que una unidad se encuentra ante una posible situación de emergencia.
+
+**Botón de Pánico (Botón de Pánico):** Funcionalidad que permite al conductor activar manualmente una alerta de emergencia desde el sistema para solicitar asistencia.
+
+**Alerta de Pánico (Alerta de Pánico):** Señal de emergencia generada mediante la activación del botón de pánico por parte del conductor. La alerta permite informar a la central y asociar la ubicación de la unidad.
+
+**Botón de Pánico Silencioso (Botón de Pánico Silencioso):** Mecanismo de activación de una alerta de emergencia que permite al conductor solicitar asistencia sin emitir una señal sonora que pueda alertar al agresor.
+
+**Central de Monitoreo (Central de Monitoreo):** Componente del sistema utilizado por la empresa para supervisar las unidades, visualizar su ubicación y recibir alertas y eventos de seguridad durante los recorridos.
+
+**Alerta GPS (Alerta GPS):** Alerta de emergencia que incorpora la ubicación geográfica de la unidad al momento de su activación, facilitando su identificación y atención.
+
+**Información de Emergencia (Información de Emergencia):** Datos asociados a una alerta que permiten a la central conocer las características básicas de la situación, como unidad involucrada, conductor, ubicación, hora y tipo de alerta.
+
+**Respuesta ante Emergencia (Respuesta ante Emergencia):** Conjunto de acciones realizadas por la empresa o central de monitoreo después de recibir una alerta, con el objetivo de verificar el incidente y coordinar la asistencia correspondiente.
+
+**Flota (Flota):** Conjunto de unidades de transporte administradas por una empresa u organización dentro del sistema.
+
+**Seguimiento (Tracking):** Proceso de registrar y visualizar la ubicación y comportamiento de una unidad durante un período determinado.
+
+**Desvío de Ruta (Desvío de Ruta):** Situación en la que una unidad se aleja del recorrido establecido para el viaje, pudiendo representar una anomalía que requiere supervisión.
+
+**Anomalía (Anomalía):** Comportamiento o condición inusual detectada durante el recorrido de una unidad, como un desvío de ruta o una detención inesperada, que puede requerir verificación.
+
+**Nivel de Alerta (Nivel de Alerta):** Clasificación de la gravedad o prioridad de una alerta que permite a la central determinar el nivel de atención requerido.
+
+**Control Operativo (Control Operativo):** Supervisión de las unidades, conductores, rutas, viajes y eventos con el propósito de mantener la continuidad y seguridad de la operación.
+
+**Interrupción del Servicio (Interrupción del Servicio):** Situación en la que una unidad deja de realizar su recorrido de manera parcial o total debido a una emergencia, incidente, falla u otra circunstancia.
