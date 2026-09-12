@@ -226,6 +226,8 @@ User: Conductores de transporte público
 
 #### 2.2.2. Registro de entrevistas
 
+**Segmento Objetivo 1 : Conductores de transporte público**
+
 **Entrevista 1: Conductor de transporte público**
 + Nombre: Diego Ruiz Soto
 + Edad: 30 años
@@ -275,6 +277,50 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 **Evidencia:**<br>
 
 ![Entrevista 2](/docs/assets/interviews/interview-02.png)
+
+**Segmento Objetivo 2 : Empresas o Consorcios (Representantes)**
+
+**Entrevista 1: Representante de Consorcio**
++ Nombre: Kiara Nuñez
++ Edad: 28 años
++ Residencia: Puente Piedra, Lima, Perú
++ Ocupación: Administrativa de ETUCHISA SAC
++ Inicio: 0:12
++ Duración: 10:05
+
+Link:<br>
+
+---
+
+**Resumen:**<br>
+---
+
+**Evidencia:**<br>
+
+![Entrevista 1](/docs/assets/interviews/interview-01.png)
+
+---
+
+**Entrevista 2: Representante de Consorcio**
++ Nombre: Nicanor Yamocca
++ Edad: 48 años
++ Residencia: Santa Anita, Lima, Perú
++ Ocupación: Administrativo de la Sociedad Anónima
++ Inicio: 0:00
++ Duración: 9:09
+
+Link:<br>
+
+---
+
+**Resumen:**<br>
+---
+
+**Evidencia:**<br>
+
+![Entrevista 1](/docs/assets/interviews/interview-01.png)
+
+---
 
 
 #### 2.2.3. Análisis de entrevistas
