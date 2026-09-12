@@ -293,6 +293,10 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTv
 ---
 
 **Resumen:**<br>
+La representante de ETUCHISA SAC señala que actualmente la empresa gestiona las situaciones de emergencia mediante medidas básicas de seguridad, como cámaras instaladas en algunas unidades, supervisión en determinados paraderos y comunicación con las autoridades. Sin embargo, estas medidas presentan una cobertura limitada y no forman parte de un sistema integral que permita conocer en tiempo real lo que ocurre durante el recorrido de cada unidad.
+Entre los principales riesgos que afectan a la empresa se encuentran la extorsión y los robos, los cuales representan una preocupación para la seguridad de conductores y pasajeros. Ante un incidente, la comunicación mediante medios tradicionales dificulta conocer rápidamente lo ocurrido y actuar de manera oportuna. Asimismo, la empresa presenta dificultades para realizar un seguimiento constante de sus unidades y conductores durante la jornada.
+
+La entrevistada considera que una solución tecnológica que permita monitorear las unidades en tiempo real y enviar alertas de emergencia con ubicación GPS podría facilitar la atención de incidentes y mejorar la capacidad de respuesta de la empresa. También considera importante que la central pueda recibir información relevante al momento de producirse una emergencia. Finalmente, manifiesta que entre los principales factores que podrían influir en la implementación de este tipo de sistema se encuentran el costo de implementación y la capacitación del personal.
 ---
 
 **Evidencia:**<br>
@@ -314,6 +318,10 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tL
 ---
 
 **Resumen:**<br>
+El entrevistado, propietario de 12 unidades de transporte público que realizan el recorrido desde Pacasmayo hasta Santa Anita, manifiesta que la empresa y sus conductores desarrollan sus actividades en un entorno de alta inseguridad. La extorsión constituye el principal riesgo, debido a los constantes cobros de cupos y amenazas dirigidas hacia los transportistas. Además, señala que las organizaciones criminales pueden llegar a conocer información personal de los conductores, incrementando su nivel de vulnerabilidad.
+Ante situaciones de emergencia, la respuesta de las autoridades suele ser lenta, lo que dificulta atender oportunamente los incidentes. Esta situación genera consecuencias directas en la operación, ya que los conductores se ven obligados a trabajar más y, en algunos casos, incrementar las tarifas para afrontar los pagos exigidos por los extorsionadores.
+
+El entrevistado considera que el uso de herramientas tecnológicas para monitorear las unidades y atender emergencias podría contribuir a mejorar la seguridad durante los recorridos. Entre las alternativas que considera útiles se encuentran las cámaras, sensores y sistemas de monitoreo. Asimismo, muestra una percepción favorable hacia una solución que permita generar alertas y proporcionar información a la central durante una emergencia. Sin embargo, señala que para implementar adecuadamente este tipo de sistema sería necesario considerar la capacitación de los usuarios y del personal encargado de utilizar la plataforma.
 ---
 
 **Evidencia:**<br>
