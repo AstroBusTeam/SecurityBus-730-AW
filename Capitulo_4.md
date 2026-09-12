@@ -76,7 +76,7 @@ Las decisiones de diseño de SecurityBus se basan en los siguientes principios:
 
 + **Claridad**: presentar la información de forma comprensible.
 + **Jerarquía visual**: destacar los elementos de mayor importancia.
-+ **Consistencia: mantener uniformidad en colores, tipografías y componentes.
++ **Consistencia:** mantener uniformidad en colores, tipografías y componentes.
 + **Accesibilidad**: asegurar una adecuada legibilidad y contraste.
 + **Feedback inmediato**: proporcionar una respuesta visual ante las acciones realizadas por el usuario.
 
@@ -110,23 +110,23 @@ Los botones y enlaces mantienen una apariencia consistente y proporcionan retroa
 
 1. Hero
 
-![hero](/docs/assets/landing-page-wireframe/01_hero.png)
+![hero](/docs/assets/landing-page-wireframe/01_hero_inicio.png)
 
 2. Metrics 
 
-![hero](/docs/assets/landing-page-wireframe/02_metrics.png)
+![hero](/docs/assets/landing-page-wireframe/02_metricas.png)
 
 3. Features 
 
-![hero](/docs/assets/landing-page-wireframe/03_features.png)
+![hero](/docs/assets/landing-page-wireframe/03_caracteristicas.png)
 
 4. How SecurityBus Works 
 
-![hero](/docs/assets/landing-page-wireframe/04_how_securitybus_works.png)
+![hero](/docs/assets/landing-page-wireframe/04_como_funciona.png)
 
 5. Plan for Consortia 
 
-![hero](/docs/assets/landing-page-wireframe/05_plans_for_consortia.png)
+![hero](/docs/assets/landing-page-wireframe/05_planes_consorcios.png)
 
 6. SecurityBus Statistics 
 
