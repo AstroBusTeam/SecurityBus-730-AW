@@ -290,12 +290,15 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 
 Link:<br>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai 
+
 ---
 
 **Resumen:**<br>
+
 La representante de ETUCHISA SAC señala que actualmente la empresa gestiona las situaciones de emergencia mediante medidas básicas de seguridad, como cámaras instaladas en algunas unidades, supervisión en determinados paraderos y comunicación con las autoridades. Sin embargo, estas medidas presentan una cobertura limitada y no forman parte de un sistema integral que permita conocer en tiempo real lo que ocurre durante el recorrido de cada unidad.
 Entre los principales riesgos que afectan a la empresa se encuentran la extorsión y los robos, los cuales representan una preocupación para la seguridad de conductores y pasajeros. Ante un incidente, la comunicación mediante medios tradicionales dificulta conocer rápidamente lo ocurrido y actuar de manera oportuna. Asimismo, la empresa presenta dificultades para realizar un seguimiento constante de sus unidades y conductores durante la jornada.
 La entrevistada considera que una solución tecnológica que permita monitorear las unidades en tiempo real y enviar alertas de emergencia con ubicación GPS podría facilitar la atención de incidentes y mejorar la capacidad de respuesta de la empresa. También considera importante que la central pueda recibir información relevante al momento de producirse una emergencia. Finalmente, manifiesta que entre los principales factores que podrían influir en la implementación de este tipo de sistema se encuentran el costo de implementación y la capacitación del personal.<br>
+
 ---
 
 **Evidencia:**<br>
@@ -314,6 +317,7 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 
 Link:<br>
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc 
+
 ---
 
 **Resumen:**<br>
@@ -321,6 +325,7 @@ El entrevistado, propietario de 12 unidades de transporte público que realizan 
 Ante situaciones de emergencia, la respuesta de las autoridades suele ser lenta, lo que dificulta atender oportunamente los incidentes. Esta situación genera consecuencias directas en la operación, ya que los conductores se ven obligados a trabajar más y, en algunos casos, incrementar las tarifas para afrontar los pagos exigidos por los extorsionadores.
 
 El entrevistado considera que el uso de herramientas tecnológicas para monitorear las unidades y atender emergencias podría contribuir a mejorar la seguridad durante los recorridos. Entre las alternativas que considera útiles se encuentran las cámaras, sensores y sistemas de monitoreo. Asimismo, muestra una percepción favorable hacia una solución que permita generar alertas y proporcionar información a la central durante una emergencia. Sin embargo, señala que para implementar adecuadamente este tipo de sistema sería necesario considerar la capacitación de los usuarios y del personal encargado de utilizar la plataforma.<br>
+
 ---
 
 **Evidencia:**<br>
@@ -331,6 +336,76 @@ El entrevistado considera que el uso de herramientas tecnológicas para monitore
 
 
 #### 2.2.3. Análisis de entrevistas
+
+**Conductores de transporte público**
+
+**Entrevista 1: El segmento objetivo del entrevistado corresponde a un conductor de transporte público que desarrolla su jornada laboral en diferentes zonas de Lima y enfrenta dificultades para solicitar asistencia mientras conduce.**
+
+Los aspectos más relevantes identificados son:
+-Percibe un incremento de la inseguridad en Lima y una limitada presencia de las autoridades en determinadas zonas.
+-Identifica principalmente algunas zonas de Lima Norte y Lima Sur como sectores de mayor riesgo.
+-Actualmente, ante una emergencia, utiliza principalmente la comunicación telefónica con la empresa, recurriendo también a servicios municipales, familiares o amigos.
+-Presenta dificultades para comunicarse mientras conduce debido a que no puede manipular el teléfono celular de manera segura.
+-Considera que un botón de pánico silencioso facilitaría la solicitud de ayuda sin necesidad de realizar una llamada.
+-Valora el monitoreo de ubicación en tiempo real, ya que permitiría a la empresa identificar anomalías durante el recorrido.
+-Considera útil el monitoreo de la unidad para detectar situaciones como desvíos de ruta.
+-También identifica como beneficiosas la transmisión de audio y video en vivo, permitiendo que la central tenga mayor información sobre lo que sucede durante una emergencia.
+-Considera indispensable que la aplicación tenga una interfaz sencilla y accesible, con un botón de alerta visible que permita solicitar ayuda rápidamente.
+
+**Entrevista 2: El segmento objetivo del entrevistado corresponde a un conductor de transporte público que trabaja en rutas urbanas y reconoce la existencia de riesgos relacionados principalmente con la extorsión y los asaltos.**
+
+Los aspectos más relevantes identificados son:
+
+-Aunque no ha experimentado directamente un incidente recientemente, conoce casos de compañeros que han recibido notas y mensajes extorsivos.
+-Considera importante que la empresa cuente con planes de contingencia para responder ante emergencias.
+-Espera que la empresa pueda coordinar rápidamente con las autoridades para proteger la integridad de los conductores.
+-Identifica los horarios nocturnos y los trayectos de retorno como los momentos de mayor riesgo debido a la menor afluencia de pasajeros y al menor movimiento en las calles.
+-Presenta dificultades para comunicarse con la empresa durante la conducción, debido a que no puede manipular el teléfono mientras maneja.
+-Considera útil un botón de pánico silencioso, ya que permitiría solicitar ayuda sin tener que realizar una llamada.
+-Valora el rastreo de ubicación en tiempo real, debido a que permitiría a la empresa identificar posibles anomalías durante el recorrido.
+-Considera que el sistema podría detectar situaciones anormales, como la falta de movimiento de la unidad, y facilitar el envío de asistencia.
+-Percibe positivamente una solución que permita solicitar ayuda de forma rápida, sencilla y sin comunicación verbal.
+
+**Hallazgos principales del segmento Objetivo 1**
+
+A partir de ambas entrevistas, se identifica que los conductores presentan una limitación importante para solicitar ayuda durante una emergencia, principalmente porque la comunicación tradicional mediante llamadas telefónicas requiere manipular el celular mientras conducen. Asimismo, existe una percepción de mayor riesgo durante determinados horarios y recorridos, especialmente en zonas con menor presencia policial.
+
+Los entrevistados muestran una percepción favorable hacia un sistema tecnológico de seguridad, especialmente cuando este permite activar una alerta silenciosa, compartir la ubicación en tiempo real y proporcionar información a la empresa para facilitar una respuesta rápida. Por ello, las principales necesidades identificadas para este segmento son solicitar asistencia sin manipular el teléfono, informar su ubicación y recibir respaldo oportuno por parte de la empresa.
+
+**Empresas y organizaciones de transporte público**
+
+**Entrevista 1: El segmento objetivo corresponde a una representante de una empresa de transporte público que actualmente utiliza mecanismos básicos de seguridad para atender situaciones de emergencia durante la operación de sus unidades.**
+
+Los aspectos más relevantes identificados son:
+
+-Actualmente utiliza medidas como cámaras en algunas unidades, supervisión en paraderos y comunicación con las autoridades.
+-La cobertura de estas medidas es limitada y no existe un sistema integral que permita centralizar la información de seguridad.
+-Identifica la extorsión y los robos como algunos de los principales riesgos que afectan a la empresa y a sus unidades.
+-Presenta dificultades para conocer en tiempo real lo que sucede dentro de las unidades durante sus recorridos.
+-La utilización de medios tradicionales de comunicación limita la capacidad de conocer y atender rápidamente una emergencia.
+-Considera que una solución tecnológica permitiría mejorar el monitoreo de las unidades y la capacidad de respuesta ante incidentes.
+-Valora la posibilidad de contar con información de las unidades en tiempo real para facilitar la supervisión desde la empresa.
+-Considera que la implementación de una solución tecnológica requiere tomar en cuenta factores como el costo de implementación y la capacitación del personal.
+
+**Entrevista 2: El segmento objetivo corresponde al propietario de 12 unidades de transporte público que realizan recorridos desde Pacasmayo hasta Santa Anita y que se encuentran expuestas a situaciones recurrentes de inseguridad.**
+
+Los aspectos más relevantes identificados son:
+
+-La extorsión y el cobro de cupos constituyen uno de los principales problemas de seguridad que afectan a los conductores y a la operación.
+-Los transportistas pueden recibir amenazas y los delincuentes pueden llegar a conocer información personal de los conductores.
+-La inseguridad tiene un impacto directo en la operación y en la economía de los transportistas.
+-La respuesta de las autoridades ante situaciones de emergencia es percibida como lenta, dificultando la atención oportuna de los incidentes.
+-Existe una dificultad para supervisar adecuadamente las unidades durante recorridos extensos.
+-Considera favorable la utilización de cámaras, sensores y sistemas de monitoreo para mejorar la seguridad de las unidades.
+-Percibe la tecnología como una alternativa que podría contribuir a mejorar el control y la atención de emergencias.
+-Considera necesario brindar capacitación al personal antes de implementar una solución tecnológica.
+
+**Hallazgos principales del segmento objetivo 2**
+
+A partir de ambas entrevistas, se identifica que las empresas y organizaciones de transporte público enfrentan principalmente una falta de herramientas integrales para supervisar y responder ante incidentes de seguridad en sus unidades. Si bien algunas organizaciones utilizan cámaras, supervisión presencial y comunicación telefónica, estas herramientas no permiten centralizar la información ni conocer de manera oportuna lo que sucede durante los recorridos.
+La extorsión constituye uno de los principales riesgos identificados, debido a su impacto sobre la seguridad de los conductores y la continuidad de las operaciones. Asimismo, la respuesta tardía ante emergencias y las dificultades para supervisar unidades que se encuentran en circulación evidencian la necesidad de contar con mecanismos de alerta y monitoreo en tiempo real.
+
+Los entrevistados muestran una actitud favorable hacia la incorporación de tecnología para mejorar la seguridad, especialmente mediante sistemas de monitoreo, cámaras, sensores y alertas. Sin embargo, factores como el costo de implementación y la capacitación del personal deben ser considerados para facilitar la adopción de la solución.
 
 ### 2.3. Needfinding
 
