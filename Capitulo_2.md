@@ -278,6 +278,36 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 
 ![Entrevista 2](/docs/assets/interviews/interview-02.png)
 
+---
+
+**Entrevista 3: Conductor de transporte público**
++ Nombre: Janet Linda Gomez
++ Edad: 53 años
++ Residencia: Villa el salvador, Lima, Perú
++ Ocupación: Conductor de transporte público
++ Inicio: 0:02
++ Duración: 8:56
+
+Link:<br>
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCwl8UgRY7sT67ipDf8i4CMAevjO6BK_gkIuROOGWtTEqE?e=rE1L6A)
+
+---
+
+**Resumen:**<br>
+
+La entrevistada Janet tiene 53 años, trabaja para una empresa de transporte publico, trabaja de Lunes a Viernes, esto hace que este muy comprometida con la empresa ya que ocupa gran parte de su vida, suele tener una ruta muy congestionada y durante su trabajo a vivido muchas experiencias desagradables por culpa de la inseguirdad, siente que cada dia aumenta y no tiene herramientas reales para poder combatirlas, ya que siente que no tiene apoyo de autoridades o la policia y siente que su empresa no puede hacer nada mas, ella indica que la situacion es tan mala que todas las zonas a cierta hora son peligrosas.
+
+Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le permita actual de inmediato debe esperar que el evento pase y recién poder pedir ayuda, la cual muchas veces no es efectiva ya que llega cuando todo ya sucedió, ella nos indica que seria bueno que exista una herramienta tecnológica que le permita responder de forma inmediata y discreta ante los peligros que suceden durante su trabajo, indica que le parece una buena opción el botón de emergencia pero también requiere una intervención real y un apoyo mutuo entre la empresa y las autoridades , también le parece interesante la idea de que la empresa puede monitorear el vehículo en todo momento porque las zonas no siempre tienen cobertura y no siempre se podra pedir ayuda de forma efectiva.
+
+---
+
+**Evidencia:**<br>
+
+![Entrevista 3](/docs/assets/interviews/interview-03.png)
+
+---
+
+
 **Segmento Objetivo 2 : Empresas o Consorcios (Representantes)**
 
 **Entrevista 1: Representante de Consorcio**
@@ -333,6 +363,8 @@ El entrevistado considera que el uso de herramientas tecnológicas para monitore
 ![Entrevista Consorcio 2](/docs/assets/interviews/entrevistaconsorcio2.png)
 
 ---
+
+
 
 
 #### 2.2.3. Análisis de entrevistas
