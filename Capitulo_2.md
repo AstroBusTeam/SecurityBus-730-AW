@@ -289,7 +289,7 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 + Duración: 10:05
 
 Link:<br>
-
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai 
 ---
 
 **Resumen:**<br>
@@ -297,7 +297,7 @@ Link:<br>
 
 **Evidencia:**<br>
 
-![Entrevista 1](/docs/assets/interviews/interview-01.png)
+![Entrevista Consorcio 1] (/docs/assets/interviews/entrevistaconsorcio1.png)
 
 ---
 
@@ -310,7 +310,7 @@ Link:<br>
 + Duración: 9:09
 
 Link:<br>
-
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc 
 ---
 
 **Resumen:**<br>
@@ -318,7 +318,7 @@ Link:<br>
 
 **Evidencia:**<br>
 
-![Entrevista 1](/docs/assets/interviews/interview-01.png)
+![Entrevista Consorcio 2] (/docs/assets/interviews/entrevistaconsorcio2.png)
 
 ---
 
