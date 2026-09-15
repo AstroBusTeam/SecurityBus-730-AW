@@ -113,15 +113,65 @@ La organización de la información se establece de acuerdo con el tipo de conte
 
 El sistema de etiquetado utiliza nombres breves y fáciles de identificar para que los usuarios reconozcan rápidamente el propósito de cada sección y acción. Se mantiene principalmente el inglés en los elementos de interfaz, conforme a la implementación de la plataforma.
 
-- **Etiquetas de navegación**: Home (página principal), Features (funcionalidades), Statistics (indicadores de supervisión), Plans (planes de suscripción), Contact (medio de comunicación) y Login (acceso a la aplicación).
-
-- **Etiquetas de acción**: Get Started (inicia el uso de SecurityBus), Choose Plan (selección de plan), Report Incident (registro de incidentes), View Details (información detallada) y Contact Us (medios de contacto).
-
-- **Etiquetas de seguridad y operación**: GPS Monitoring (ubicación de unidades), Panic Button (alerta de emergencia), Incident Log (registro de incidentes), Emergency Alerts (visualización de alertas) y Route History (historial de recorridos).
+- **Etiquetas de navegación:**
+    - Home: acceso a la página principal.
+    - Features: muestra las principales funcionalidades de SecurityBus.
+    - Statistics: presenta indicadores y datos relacionados con la supervisión de la operación.
+    - Plans: permite consultar los planes de suscripción disponibles para empresas y consorcios.
+    - Contact: proporciona un medio de comunicación con el equipo de SecurityBus.
+    - Login: permite acceder a la aplicación web.
+- **Etiquetas de acción:**
+    - Get Started: inicia el proceso para comenzar a utilizar SecurityBus.
+    - Choose Plan: permite seleccionar un plan de suscripción.
+    - Report Incident: permite registrar o reportar un incidente.
+    - View Details: permite consultar información detallada.
+    Contact Us: dirige al usuario hacia los medios de contacto.
+- **Etiquetas relacionadas con seguridad y operación:**
+    - GPS Monitoring: supervisión de la ubicación de las unidades.
+    - Panic Button: mecanismo para generar una alerta de emergencia.
+    - Incident Log: registro de incidentes reportados.
+    - Emergency Alerts: visualización de alertas generadas ante situaciones de emergencia.
+    - Route History: consulta del historial de recorridos.
 
 Estas etiquetas buscan mantener una relación directa entre el nombre de cada elemento y la acción o información que representa, reduciendo posibles confusiones durante la navegación.
 
 #### 4.2.3. SEO tags and Meta Tags
+
+Para SecurityBus se consideran etiquetas SEO y metadatos que permiten identificar correctamente la plataforma y describir su propósito, aplicados principalmente en la Landing Page para mejorar su presentación en buscadores, navegadores y plataformas que generan vistas previas de enlaces.
+
+- Título de página, que incorpora el nombre del producto y una descripción breve de su finalidad:
+
+```html
+<title> SecurityBus - Public Transport Security </title>
+```
+
+- Codificación de caracteres, para representar correctamente el contenido de la plataforma:
+
+```html
+<meta charset = "UTF-8">
+```
+
+- Configuración responsive, que permite adaptar la visualización a distintos tamaños de pantalla:
+
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+- Descripción SEO, que resume la propuesta principal utilizando términos relacionados con seguridad, monitoreo y transporte público:
+
+```html
+<meta name="description" content="SecurityBus provides security and monitoring solutions for public transport companies, with GPS monitoring, emergency alerts and incident management.">
+```
+
+- Open Graph, que controla la información mostrada al compartir la Landing Page en redes sociales o servicios de mensajería:
+
+```html
+<meta property="og:title" content="SecurityBus - Public Transport Security">
+<meta property="og:description" content="Improve public transport security with GPS monitoring, emergency alerts and incident management.">
+<meta property="og:type" content="website">
+```
+
+- Favicon: se utiliza el ícono asociado a la identidad visual de SecurityBus para facilitar el reconocimiento de la página en las pestañas del navegador.
 
 #### 4.2.4. Searching Systems
 
