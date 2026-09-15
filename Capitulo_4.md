@@ -96,15 +96,30 @@ La arquitectura de información de SecurityBus define cómo se distribuyen, agru
 La estructura busca que cada usuario pueda encontrar la información y las acciones que necesita sin realizar recorridos innecesarios. Para ello, se consideran diferentes mecanismos de organización, etiquetado, búsqueda y navegación que mantienen una relación coherente entre la Landing Page y la aplicación web.
 
 #### 4.2.1. Organization Systems
+
 La organización de la información se establece de acuerdo con el tipo de contenido y con las actividades que realizan los usuarios dentro de SecurityBus.
 
 - **Organización por segmento de usuario:** La plataforma diferencia las necesidades de los conductores y de las empresas o consorcios. El conductor se enfoca principalmente en acciones relacionadas con su seguridad y el reporte de incidentes, mientras que la empresa requiere información para supervisar unidades, conductores y situaciones reportadas.
+
 - **Organización por función:** Las funcionalidades se agrupan según el objetivo que cumplen dentro de la plataforma. Entre ellas se encuentran el monitoreo GPS, las alertas de emergencia, el registro de incidentes, la gestión de conductores y la consulta de información de la operación.
+
 - **Jerarquía de información:** En las vistas de supervisión se prioriza la información relacionada con situaciones de emergencia e incidentes, seguida de los datos operativos de las unidades y conductores. Esto permite que los eventos que requieren mayor atención puedan identificarse rápidamente.
+
 - **Organización cronológica:** La información relacionada con incidentes y recorridos puede presentarse considerando el orden temporal de los registros, lo cual permite consultar acontecimientos recientes y revisar el historial de una unidad.
+
 - **Organización por niveles:** La información parte de una vista general y permite acceder progresivamente a datos más específicos; por ejemplo, desde la supervisión general de unidades se puede llegar al detalle de una unidad o a los incidentes asociados a ella.
 
 #### 4.2.2. Labeling Systems
+
+El sistema de etiquetado utiliza nombres breves y fáciles de identificar para que los usuarios reconozcan rápidamente el propósito de cada sección y acción. Se mantiene principalmente el inglés en los elementos de interfaz, conforme a la implementación de la plataforma.
+
+- **Etiquetas de navegación**: Home (página principal), Features (funcionalidades), Statistics (indicadores de supervisión), Plans (planes de suscripción), Contact (medio de comunicación) y Login (acceso a la aplicación).
+
+- **Etiquetas de acción**: Get Started (inicia el uso de SecurityBus), Choose Plan (selección de plan), Report Incident (registro de incidentes), View Details (información detallada) y Contact Us (medios de contacto).
+
+- **Etiquetas de seguridad y operación**: GPS Monitoring (ubicación de unidades), Panic Button (alerta de emergencia), Incident Log (registro de incidentes), Emergency Alerts (visualización de alertas) y Route History (historial de recorridos).
+
+Estas etiquetas buscan mantener una relación directa entre el nombre de cada elemento y la acción o información que representa, reduciendo posibles confusiones durante la navegación.
 
 #### 4.2.3. SEO tags and Meta Tags
 
