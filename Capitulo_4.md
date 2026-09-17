@@ -307,7 +307,7 @@ En esta sección se presentan los wireframes elaborados para la plataforma Secur
 
 El desarrollo de los wireframes contempla las principales interacciones de los usuarios con la plataforma, considerando de manera diferenciada las necesidades y objetivos correspondientes a los perfiles de consorcio o empresas de transporte público y conductores de trasnporte público. De esta manera, se establece una estructura que facilita la navegación y permite validar la organización de las funcionalidades del sistema.
 
-![Web applications wireframes](/docs/assets/web-applications-ux-ui-design/web-application-wireframes.png)
+![Web applications wireframes](/docs/assets/web-applications-ux-ui-design/wireframes/web-application-wireframes.png)
 
 Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0 'Web Applications Wireframes')
 
@@ -316,6 +316,78 @@ Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/
 
 
 #### 4.4.3. Web Applications Mock-ups
+
+En esta sección se presentan los mockups desarrollados para la plataforma SecurityBus, los cuales permiten visualizar la propuesta de diseño de las interfaces con un mayor nivel de detalle. Estos incorporan elementos visuales como colores, tipografías, iconografía, componentes y distribución gráfica, con el propósito de representar de manera cercana la apariencia final de la plataforma.
+
+Los mockups fueron elaborados considerando los principales perfiles de usuario de SecurityBus: los consorcios o empresas de transporte público y los conductores de transporte público. De esta manera, se busca que cada interfaz responda a las necesidades y funcionalidades correspondientes a cada perfil, al mantener una experiencia visual coherente y que facilite la interacción con el sistema.
+
+![Web Application Mockups](docs/assets/web-applications-ux-ui-design/mockups/web-application-mockup.png)
+
+Trabajo elaborado en Figma: [Web Application Mockups](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=0-1&p=f&t=rfW5UFtjZ6xjUzo9-0 'Web Application Mockups')
+
+**1. Acceso y autenticación del conductor**
+![Acceso y autenticación del conductor](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20Acceso%20Conductor.png)
+
+**2. Validación de identidad del conductor**
+![Validación de identidad del conductor](docs/assets/web-applications-ux-ui-design/mockups/Validacion%20De%20Identidad.png)
+
+**3. Confirmación del acceso del conductor**
+![Confirmación del acceso del conductor](docs/assets/web-applications-ux-ui-design/mockups/Validacion%20De%20Identidad-1.png)
+
+**4. Panel principal del conductor**
+![Panel principal del conductor](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus-%20Inicio.png)
+
+**5. Inicio y configuración del servicio**
+![Inicio y configuración del servicio](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20Inicio%20de%20Servicio.png)
+
+**6. Registro y monitoreo del conteo de pasajeros**
+![Registro y monitoreo del conteo de pasajeros](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20Inicio%20de%20Servicio.png)
+
+**7. Alerta asociada al conteo de pasajeros**
+![Alerta asociada al conteo de pasajeros](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20Conteo%20de%20Pasajeros%20Alerta%20US17-1.png)
+
+**8. Visualización de la ubicación de la unidad**
+![Visualización de la ubicación de la unidad](docs/assets/web-applications-ux-ui-design/mockups/Ver%20Mapa.png)
+
+**9. Generación de una alerta de emergencia**
+![Generación de una alerta de emergencia](docs/assets/web-applications-ux-ui-design/mockups/Envio%20de%20Alerta.png)
+
+**10. Confirmación de ubicación durante la emergencia**
+![Confirmación de ubicación durante la emergencia](docs/assets/web-applications-ux-ui-design/mockups/Ubicacion%20de%20Envio%20de%20Alerta.png)
+
+**11. Confirmación del envío de la alerta**
+![Confirmación del envío de la alerta](docs/assets/web-applications-ux-ui-design/mockups/SSecurityBus%20-%20Confirmación%20de%20Alerta.png)
+
+**12. Resumen de la jornada de servicio**
+![Resumen de la jornada de servicio](docs/assets/web-applications-ux-ui-design/mockups/SafeBus%20-%20Resumen%20Servicio.png)
+
+**13. Finalización del turno del conductor**
+![Finalización del turno del conductor](docs/assets/web-applications-ux-ui-design/mockups/SafeBus%20-%20Finalizar%20Turno.png)
+
+**14. Supervisión general de las unidades**
+![Supervisión general de las unidades](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus-ADMIN-CENTRO%20DE%20CONTROL.png)
+
+**15. Visualización y atención de una alerta**
+![Visualización y atención de una alerta](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20ADMIN-CENTRO%20DE%20CONTROL-ALERTA.png)
+
+**16. Gestión de notificaciones e incidentes**
+![Gestión de notificaciones e incidentes](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20ADMIN-NOTIFICACIONES.png)
+
+**17. Gestión de conductores registrados**
+![Gestión de conductores registrados](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20ADMIN-GESTION%20DE%20CONDUCTORES.png)
+
+**18. Asignación de conductores y unidades**
+![Asignación de conductores y unidades](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20ADMIN-ASIGNACION%20DE%20UNIDADES.png)
+
+**19. Consulta del historial de turnos**
+![Consulta del historial de turnos](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus-%20ADMIN-HISTORIAL%20DE%20TURNOS.png)
+
+**20. Visualización de indicadores operativos**
+![Visualización de indicadores operativos](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20ADMIN-IMPACTO%20DE%20NUMEROS.png)
+
+**21. Gestión y reenvío de alertas**
+![Gestión y reenvío de alertas](docs/assets/web-applications-ux-ui-design/mockups/SecurityBus%20-%20Gestión%20de%20Reenvíos.png)
+
 #### 4.4.4. Web Applications User Flow Diagrams
 
 ### 4.5. Web Applications Prototyping
