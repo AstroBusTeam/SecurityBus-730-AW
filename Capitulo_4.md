@@ -311,6 +311,69 @@ El desarrollo de los wireframes contempla las principales interacciones de los u
 
 Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0 'Web Applications Wireframes')
 
+**1. Acceso y autenticación del conductor**
+![Acceso y autenticación del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Acceso%20Conductor.png)
+
+**2. Validación de identidad del conductor**
+![Validación de identidad del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Validacion-Identidad.png)
+
+**3. Confirmación del acceso del conductor**
+![Confirmación del acceso del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Acceso%20Autorizado.png)
+
+**4. Panel principal del conductor**
+![Panel principal del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Inicio.png)
+
+**5. Inicio y configuración del servicio**
+![Inicio y configuración del servicio](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Inicio%20de%20Servicio.png)
+
+**6. Registro y monitoreo del conteo de pasajeros**
+![Registro y monitoreo del conteo de pasajeros](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Conteo%20de%20Pasajeros%20Alerta.png)
+
+**7. Alerta asociada al conteo de pasajeros**
+![Alerta asociada al conteo de pasajeros](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Modal%20Alerta%20Límite%20de%20Pasajeros.png)
+
+**8. Visualización de la ubicación de la unidad**
+![Visualización de la ubicación de la unidad](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Ver%20Mapa.png)
+
+**9. Generación de una alerta de emergencia**
+![Generación de una alerta de emergencia](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Envío%20de%20Alerta.png)
+
+**10. Confirmación de ubicación durante la emergencia**
+![Confirmación de ubicación durante la emergencia](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Ubicación%20de%20Envío%20de%20Alerta.png)
+
+**11. Confirmación del envío de la alerta**
+![Confirmación del envío de la alerta](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Confirmación%20de%20Alerta.png)
+
+**12. Resumen de la jornada de servicio**
+![Resumen de la jornada de servicio](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20SafeBus%20Resumen%20Servicio.png)
+
+**13. Finalización del turno del conductor**
+![Finalización del turno del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20SafeBus%20Finalizar%20Turno.png)
+
+**14. Supervisión general de las unidades**
+![Supervisión general de las unidades](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Admin%20Centro%20de%20Control.png)
+
+**15. Visualización y atención de una alerta**
+![Visualización y atención de una alerta](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Admin%20Centro%20de%20Control%20con%20Alerta.png)
+
+**16. Gestión de notificaciones e incidentes**
+![Gestión de notificaciones e incidentes](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Admin%20Notificaciones.png)
+
+**17. Gestión de conductores registrados**
+![Gestión de conductores registrados](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Admin%20Gestión%20de%20Conductores.png)
+
+**18. Asignación de conductores y unidades**
+![Asignación de conductores y unidades](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Admin%20Asociación%20de%20Unidades.png)
+
+**19. Consulta del historial de turnos**
+![Consulta del historial de turnos](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Admin%20Historial%20de%20Turnos.png)
+
+**20. Visualización de indicadores operativos**
+![Visualización de indicadores operativos](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Admin%20Impacto%20en%20Números.png)
+
+**21. Gestión y reenvío de alertas**
+![Gestión y reenvío de alertas](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Gestión%20de%20Reenvíos.png)
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 
 
