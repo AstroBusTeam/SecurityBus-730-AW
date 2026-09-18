@@ -358,9 +358,34 @@ El entrevistado considera que el uso de herramientas tecnológicas para monitore
 
 ---
 
-**Evidencia:**<br>
+Link
 
 ![Entrevista Consorcio 2](/docs/assets/interviews/entrevistaconsorcio2.png)
+
+---
+
+**Entrevista 3: Representante de Empresa de Transporte**
++ Nombre: Jaime A. Russvelt
++ Edad: 50 años
++ Residencia: Ancón
++ Ocupación: Representante de la empresa Nueva Estrella
++ Inicio: 0:00
++ Duración: 10:11
+
+Link:<br>
+
+
+---
+
+**Resumen:**<br>
+
+El representante de la empresa Nueva Estrella describe un contexto altamente crítico donde la extorsión es el principal problema estructural, con cobros elevados por parte de organizaciones criminales, incluso múltiples grupos simultáneamente. Menciona que estas situaciones generan escasez de conductores, ya que muchos abandonan el trabajo o migran al extranjero por temor. La empresa no cuenta con mecanismos efectivos de prevención. Reconoce que no existen herramientas tecnológicas adecuadas y que dependen de procesos manuales. Considera que una solución tecnológica sería útil, especialmente si permite comunicación directa con autoridades, pero señala que su principal preocupación es la falta de respuesta del Estado.<br>
+
+---
+
+**Evidencia:**<br>
+
+![Entrevista Consorcio 3](/docs/assets/interviews/entrevistaconsorcio3.png)
 
 ---
 
