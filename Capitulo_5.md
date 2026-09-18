@@ -275,11 +275,16 @@ Para este primer Sprint, el equipo estableció como objetivo principal la implem
 | Nawrocki Loureiro, Ian Andre | IanNaw | C | C | C | L |
 
 ##### 5.2.1.3. Sprint Backlog 1
+Se presenta el desglose tecnico de las historias seleccionadas para esta iteracion inicial. El proposito prioritario del Sprint abarca el despliegue de la pagina de aterrizaje y el cimiento de la arquitectura tecnologica del proyecto. Seguidamente, se incluye la imagen del tablero de Trello y la tabla de estados correspondiente a los elementos de trabajo.
+
+<img src="docs/assets/Cap5/EvidenciaTrello.png">
+
+link: https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae911466aeadaa1cec5C94715BC/sprint-1-astrobusteam 
 
 | Sprint # | Sprint 1 | | | | | | |
 |----------|----------|-|-|-|-|-|-|
 | **User Story** | | **Work-item / Task** | | | | | |
-| Id | Title | Id | Title | Description | Estimation | Assigned To | Status |
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
 | US29 | Segmento al que apunta la solución | T-01 | Segmento al que apunta | Mostramos a como y andonde apunta nuestro sistema. | 2 | Alvarado Millan, Boris | Done |
 | US37 | Problemática del transporte en la landing page | T-02 | Problematica | Mostrar la desbentajas del traspodte publico sin nuestro aplicacativo. | 2 | Justo Yauricasa, Alexander Paolo | Done |
 | US38 | Propuesta de valor en la landing page | T-03 | Propuesta de valor | Mostrar los valores que tiene nuestra aplicativo en el trasporte publico. | 1 | Martinez Ramos, Bryan Felix | Done |
