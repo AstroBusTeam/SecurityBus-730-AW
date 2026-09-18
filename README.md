@@ -30,7 +30,7 @@ Septiembre, 2026
         <td>Alvarado Millan, Boris</td>
       </tr>
       <tr>
-        <td></td>
+        <td>U20191C054</td>
         <td>Justo Yauricasa, Alexander Paolo</td>
       </tr>
       <tr>

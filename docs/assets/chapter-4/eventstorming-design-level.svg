@@ -1,0 +1,162 @@
+<svg viewBox="0 0 2500 1100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Design-Level EventStorming de SecurityBus, con tres contextos: Gestion de Conductores y Servicios, Gestion de Alertas de Emergencia (nucleo) y Monitoreo de Ocupacion" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+  <rect x="0" y="0" width="2500" height="1100" fill="#f7f7f5"/>
+  <text x="1250.0" y="34.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#111827" text-anchor="middle"><tspan x="1250.0" dy="0">Design-Level EventStorming — SecurityBus</tspan></text>
+  <text x="1250.0" y="58.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500" fill="#4b5563" text-anchor="middle"><tspan x="1250.0" dy="0">Comandos, agregados, eventos de dominio, politicas, modelos de lectura y sistemas externos por bounded context</tspan></text>
+  <rect x="60.0" y="92.0" width="20.0" height="20.0" rx="4" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <text x="105.5" y="102.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle"><tspan x="105.5" dy="0">Actor</tspan></text>
+  <rect x="161.0" y="92.0" width="20.0" height="20.0" rx="4" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="212.7" y="102.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle"><tspan x="212.7" dy="0">Comando</tspan></text>
+  <rect x="274.4" y="92.0" width="20.0" height="20.0" rx="4" fill="#f7e05a" stroke="#a68c00" stroke-width="1.5"/>
+  <text x="329.2" y="102.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle"><tspan x="329.2" dy="0">Agregado</tspan></text>
+  <rect x="394.0" y="92.0" width="20.0" height="20.0" rx="4" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="476.7" y="102.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle"><tspan x="476.7" dy="0">Evento de Dominio</tspan></text>
+  <rect x="569.4" y="92.0" width="20.0" height="20.0" rx="4" fill="#cba3e6" stroke="#7a4fa0" stroke-width="1.5"/>
+  <text x="649.0" y="102.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle"><tspan x="649.0" dy="0">Politica / Regla</tspan></text>
+  <rect x="738.6" y="92.0" width="20.0" height="20.0" rx="4" fill="#8fd694" stroke="#2f7d3a" stroke-width="1.5"/>
+  <text x="821.3" y="102.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle"><tspan x="821.3" dy="0">Modelo de Lectura</tspan></text>
+  <rect x="914.0" y="92.0" width="20.0" height="20.0" rx="4" fill="#f4a0c4" stroke="#b34a76" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="990.5" y="102.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#1f2937" text-anchor="middle"><tspan x="990.5" dy="0">Sistema Externo</tspan></text>
+  <rect x="20.0" y="170.0" width="2460.0" height="300.0" rx="10" fill="#eef2f6" stroke="none" stroke-width="1.5"/>
+  <text x="60.0" y="194.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2937" text-anchor="start"><tspan x="60.0" dy="0">Bounded Context: Gestion de Conductores y Servicios  —  Dominio de Apoyo (EPNN01)</tspan></text>
+  <rect x="65.0" y="237.0" width="140.0" height="50.0" rx="25.0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="135.0" cy="251.0" r="9" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="135.0" y="272.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="135.0" dy="0">Conductor</tspan></text>
+  <rect x="270.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="365.0" y="255.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="365.0" dy="0">Autenticarse con</tspan><tspan x="365.0" dy="13">codigo (US01)</tspan></text>
+  <rect x="500.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#f7e05a" stroke="#a68c00" stroke-width="1.5"/>
+  <text x="595.0" y="242.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#3a3000" text-anchor="middle"><tspan x="595.0" dy="0">AGREGADO</tspan></text>
+  <text x="595.0" y="267.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a3000" text-anchor="middle"><tspan x="595.0" dy="0">Conductor</tspan></text>
+  <rect x="730.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="825.0" y="255.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="825.0" dy="0">Conductor</tspan><tspan x="825.0" dy="13">Autenticado</tspan></text>
+  <rect x="960.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="1055.0" y="255.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="1055.0" dy="0">Abrir Servicio</tspan><tspan x="1055.0" dy="13">(US02)</tspan></text>
+  <rect x="1190.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#f7e05a" stroke="#a68c00" stroke-width="1.5"/>
+  <text x="1285.0" y="242.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#3a3000" text-anchor="middle"><tspan x="1285.0" dy="0">AGREGADO</tspan></text>
+  <text x="1285.0" y="267.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a3000" text-anchor="middle"><tspan x="1285.0" dy="0">Servicio</tspan></text>
+  <rect x="1420.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1515.0" y="262.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1515.0" dy="0">Servicio Abierto</tspan></text>
+  <rect x="1650.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="1745.0" y="255.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="1745.0" dy="0">Cerrar Servicio</tspan><tspan x="1745.0" dy="13">(US25)</tspan></text>
+  <rect x="1880.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1975.0" y="262.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1975.0" dy="0">Servicio Cerrado</tspan></text>
+  <rect x="2110.0" y="230.0" width="190.0" height="64.0" rx="8" fill="#8fd694" stroke="#2f7d3a" stroke-width="1.5"/>
+  <text x="2205.0" y="255.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0e2e12" text-anchor="middle"><tspan x="2205.0" dy="0">Tablero de Flota /</tspan><tspan x="2205.0" dy="13">Seguimiento (US26,27,43)</tspan></text>
+  <line x1="205.0" y1="262.0" x2="270.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="460.0" y1="262.0" x2="500.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="690.0" y1="262.0" x2="730.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="920.0" y1="262.0" x2="960.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1150.0" y1="262.0" x2="1190.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1380.0" y1="262.0" x2="1420.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1610.0" y1="262.0" x2="1650.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <rect x="1591.4" y="254.0" width="77.2" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="1630.0" y="262.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1630.0" dy="0">fin de turno</tspan></text>
+  <line x1="1840.0" y1="262.0" x2="1880.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="2070.0" y1="262.0" x2="2110.0" y2="262.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="950.0" y="324.0" width="420.0" height="56.0" rx="8" fill="#cba3e6" stroke="#7a4fa0" stroke-width="1.5"/>
+  <text x="1160.0" y="345.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#2e1740" text-anchor="middle"><tspan x="1160.0" dy="0">Politica: exige habilitacion vigente (US14) y bloquea</tspan><tspan x="1160.0" dy="13">operacion simultanea del mismo conductor (US39)</tspan></text>
+  <polyline points="1160.0,324.0 1160.0,309.0 1055.0,309.0 1055.0,294.0" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="2135.0" y="327.0" width="140.0" height="50.0" rx="25.0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="2205.0" cy="341.0" r="9" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="2205.0" y="362.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="2205.0" dy="0">Empresa</tspan></text>
+  <polyline points="2205.0,294.0 2205.0,310.5 2205.0,310.5 2205.0,327.0" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="2177.6" y="302.5" width="54.8" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="2205.0" y="310.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="2205.0" dy="0">consulta</tspan></text>
+  <rect x="20.0" y="490.0" width="2460.0" height="300.0" rx="10" fill="#fdeee0" stroke="none" stroke-width="1.5"/>
+  <text x="60.0" y="514.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#7a3a12" text-anchor="start"><tspan x="60.0" dy="0">Bounded Context: Gestion de Alertas de Emergencia  —  Dominio Nucleo / Core (EPNN02)</tspan></text>
+  <rect x="65.0" y="557.0" width="140.0" height="50.0" rx="25.0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="135.0" cy="571.0" r="9" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="135.0" y="592.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="135.0" dy="0">Conductor</tspan></text>
+  <rect x="270.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="365.0" y="575.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="365.0" dy="0">Emitir Alerta</tspan><tspan x="365.0" dy="13">(US03)</tspan></text>
+  <rect x="500.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#f7e05a" stroke="#a68c00" stroke-width="1.5"/>
+  <text x="595.0" y="562.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#3a3000" text-anchor="middle"><tspan x="595.0" dy="0">AGREGADO</tspan></text>
+  <text x="595.0" y="587.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a3000" text-anchor="middle"><tspan x="595.0" dy="0">Alerta</tspan></text>
+  <rect x="730.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="825.0" y="575.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="825.0" dy="0">Alerta Emitida</tspan><tspan x="825.0" dy="13">(sin servicio: descartada)</tspan></text>
+  <rect x="960.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="1055.0" y="575.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="1055.0" dy="0">Procesar y Ubicar</tspan><tspan x="1055.0" dy="13">(US04, US42)</tspan></text>
+  <rect x="1190.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1285.0" y="575.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1285.0" dy="0">Alerta Clasificada</tspan><tspan x="1285.0" dy="13">y Ubicada (US40)</tspan></text>
+  <rect x="1420.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="1515.0" y="575.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="1515.0" dy="0">Difundir Alerta</tspan><tspan x="1515.0" dy="13">(US33)</tspan></text>
+  <rect x="1650.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1745.0" y="582.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1745.0" dy="0">Alerta Difundida</tspan></text>
+  <rect x="1880.0" y="550.0" width="190.0" height="64.0" rx="8" fill="#f4a0c4" stroke="#b34a76" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="1975.0" y="575.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a0f22" text-anchor="middle"><tspan x="1975.0" dy="0">Servicio de</tspan><tspan x="1975.0" dy="13">Notificaciones</tspan></text>
+  <line x1="205.0" y1="582.0" x2="270.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="460.0" y1="582.0" x2="500.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="690.0" y1="582.0" x2="730.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="920.0" y1="582.0" x2="960.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1150.0" y1="582.0" x2="1190.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1380.0" y1="582.0" x2="1420.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1610.0" y1="582.0" x2="1650.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1840.0" y1="582.0" x2="1880.0" y2="582.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="270.0" y="660.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="365.0" y="685.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="365.0" dy="0">Acuse Registrado /</tspan><tspan x="365.0" dy="13">No Confirmado (US23)</tspan></text>
+  <rect x="500.0" y="660.0" width="190.0" height="64.0" rx="8" fill="#cba3e6" stroke="#7a4fa0" stroke-width="1.5"/>
+  <text x="595.0" y="685.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#2e1740" text-anchor="middle"><tspan x="595.0" dy="0">Sin acuse en el</tspan><tspan x="595.0" dy="13">plazo -&gt; Reenviar</tspan></text>
+  <rect x="730.0" y="660.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="825.0" y="685.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="825.0" dy="0">Reenviar Alerta</tspan><tspan x="825.0" dy="13">(US24)</tspan></text>
+  <rect x="960.0" y="660.0" width="190.0" height="64.0" rx="8" fill="#cba3e6" stroke="#7a4fa0" stroke-width="1.5"/>
+  <text x="1055.0" y="685.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#2e1740" text-anchor="middle"><tspan x="1055.0" dy="0">Reintentos agotados</tspan><tspan x="1055.0" dy="13">-&gt; Escalar</tspan></text>
+  <rect x="1190.0" y="660.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1285.0" y="685.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1285.0" dy="0">Alerta Escalada /</tspan><tspan x="1285.0" dy="13">Fallida (US41)</tspan></text>
+  <rect x="1420.0" y="660.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1515.0" y="685.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1515.0" dy="0">Tiempo de Respuesta</tspan><tspan x="1515.0" dy="13">Registrado (US34)</tspan></text>
+  <rect x="1650.0" y="660.0" width="190.0" height="64.0" rx="8" fill="#8fd694" stroke="#2f7d3a" stroke-width="1.5"/>
+  <text x="1745.0" y="685.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0e2e12" text-anchor="middle"><tspan x="1745.0" dy="0">Historial de</tspan><tspan x="1745.0" dy="13">Emergencias (US16)</tspan></text>
+  <rect x="1905.0" y="667.0" width="140.0" height="50.0" rx="25.0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="1975.0" cy="681.0" r="9" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="1975.0" y="702.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="1975.0" dy="0">Empresa</tspan></text>
+  <polyline points="1745.0,614.0 1745.0,637.0 365.0,637.0 365.0,660.0" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="1016.4" y="629.0" width="77.2" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="1055.0" y="637.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1055.0" dy="0">espera acuse</tspan></text>
+  <line x1="460.0" y1="692.0" x2="500.0" y2="692.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="690.0" y1="692.0" x2="730.0" y2="692.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <polyline points="825.0,724.0 825.0,746.0 365.0,746.0 365.0,724.0" fill="none" stroke="#4b5563" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <rect x="564.8" y="738.0" width="60.4" height="16.0" rx="3" fill="#fdeee0" stroke="none" stroke-width="1.5"/>
+  <text x="595.0" y="746.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="595.0" dy="0">reintenta</tspan></text>
+  <line x1="920.0" y1="692.0" x2="960.0" y2="692.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1150.0" y1="692.0" x2="1190.0" y2="692.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1380.0" y1="692.0" x2="1420.0" y2="692.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1610.0" y1="692.0" x2="1650.0" y2="692.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1840.0" y1="692.0" x2="1905.0" y2="692.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="1845.1" y="684.0" width="54.8" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="1872.5" y="692.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1872.5" dy="0">consulta</tspan></text>
+  <rect x="20.0" y="810.0" width="2460.0" height="260.0" rx="10" fill="#eaf5ec" stroke="none" stroke-width="1.5"/>
+  <text x="60.0" y="834.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2937" text-anchor="start"><tspan x="60.0" dy="0">Bounded Context: Monitoreo de Pasajeros y Ocupacion  —  Dominio de Apoyo (EPNN03)</tspan></text>
+  <rect x="40.0" y="870.0" width="190.0" height="64.0" rx="8" fill="#f4a0c4" stroke="#b34a76" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="135.0" y="895.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a0f22" text-anchor="middle"><tspan x="135.0" dy="0">Sensores IoT</tspan><tspan x="135.0" dy="13">de Conteo</tspan></text>
+  <rect x="270.0" y="870.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="365.0" y="895.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="365.0" dy="0">Actualizar Conteo</tspan><tspan x="365.0" dy="13">(US06)</tspan></text>
+  <rect x="500.0" y="870.0" width="190.0" height="64.0" rx="8" fill="#f7e05a" stroke="#a68c00" stroke-width="1.5"/>
+  <text x="595.0" y="882.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#3a3000" text-anchor="middle"><tspan x="595.0" dy="0">AGREGADO</tspan></text>
+  <text x="595.0" y="900.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a3000" text-anchor="middle"><tspan x="595.0" dy="0">Ocupacion</tspan><tspan x="595.0" dy="13">(Unidad)</tspan></text>
+  <rect x="730.0" y="870.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="825.0" y="902.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="825.0" dy="0">Conteo Actualizado</tspan></text>
+  <rect x="960.0" y="870.0" width="190.0" height="64.0" rx="8" fill="#8ec9f2" stroke="#1f6fa8" stroke-width="1.5"/>
+  <text x="1055.0" y="895.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#08283f" text-anchor="middle"><tspan x="1055.0" dy="0">Analizar Ocupacion</tspan><tspan x="1055.0" dy="13">(US35, 36, 44)</tspan></text>
+  <rect x="1190.0" y="870.0" width="190.0" height="64.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1285.0" y="895.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1285.0" dy="0">Indicadores de</tspan><tspan x="1285.0" dy="13">Ocupacion Calculados</tspan></text>
+  <rect x="1420.0" y="870.0" width="190.0" height="64.0" rx="8" fill="#8fd694" stroke="#2f7d3a" stroke-width="1.5"/>
+  <text x="1515.0" y="895.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#0e2e12" text-anchor="middle"><tspan x="1515.0" dy="0">Reporte de</tspan><tspan x="1515.0" dy="13">Ocupacion (US07,28)</tspan></text>
+  <line x1="230.0" y1="902.0" x2="270.0" y2="902.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="460.0" y1="902.0" x2="500.0" y2="902.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="690.0" y1="902.0" x2="730.0" y2="902.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="920.0" y1="902.0" x2="960.0" y2="902.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1150.0" y1="902.0" x2="1190.0" y2="902.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="1380.0" y1="902.0" x2="1420.0" y2="902.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="730.0" y="964.0" width="190.0" height="56.0" rx="8" fill="#cba3e6" stroke="#7a4fa0" stroke-width="1.5"/>
+  <text x="825.0" y="985.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#2e1740" text-anchor="middle"><tspan x="825.0" dy="0">Supera capacidad</tspan><tspan x="825.0" dy="13">maxima (US17)</tspan></text>
+  <rect x="960.0" y="964.0" width="190.0" height="56.0" rx="8" fill="#f4a94a" stroke="#b3691a" stroke-width="1.5"/>
+  <text x="1055.0" y="985.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" fill="#3a1f00" text-anchor="middle"><tspan x="1055.0" dy="0">Sobrecapacidad</tspan><tspan x="1055.0" dy="13">Detectada</tspan></text>
+  <line x1="825.0" y1="934.0" x2="825.0" y2="964.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <line x1="920.0" y1="992.0" x2="960.0" y2="992.0" stroke="#4b5563" stroke-width="1.6" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+  <rect x="1445.0" y="967.0" width="140.0" height="50.0" rx="25.0" fill="#ffffff" stroke="#1f2937" stroke-width="1.5"/>
+  <circle cx="1515.0" cy="981.0" r="9" fill="none" stroke="#1f2937" stroke-width="1.6"/>
+  <text x="1515.0" y="1002.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" fill="#111827" text-anchor="middle"><tspan x="1515.0" dy="0">Empresa</tspan></text>
+  <line x1="1515.0" y1="934.0" x2="1515.0" y2="967.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="1487.6" y="942.5" width="54.8" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="1515.0" y="950.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1515.0" dy="0">consulta</tspan></text>
+</svg>
