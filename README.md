@@ -69,7 +69,7 @@ Septiembre, 2026
     <tbody>
       <tr>
         <td>V1.0</td>
-        <td></td>
+        <td>16/09/2026</td>
         <td>
           Alvarado Millan, Boris<br>
           Justo Yauricasa, Alexander Paolo<br>
@@ -78,6 +78,7 @@ Septiembre, 2026
           Nawrocki Loureiro, Ian Andre
         </td>
         <td style="text-align: left;">
+          Elaboración de la primera versión del documento del proyecto SecurityBus, que comprende los Capítulos I al V. Se desarrolló la definición de la startup y la solución propuesta, el análisis de segmentos objetivo, competidores y usuarios, así como el levantamiento y especificación de requerimientos mediante entrevistas, Needfinding, EventStorming, User Stories, Impact Mapping y Product Backlog. Asimismo, se documentó el diseño del producto, incluyendo la arquitectura de información, diseño UX/UI, prototipado, arquitectura de software basada en DDD, diseño orientado a objetos y diseño de base de datos. Finalmente, se incorporaron aspectos relacionados con la configuración del entorno de desarrollo, gestión del código fuente, implementación, despliegue y seguimiento de los Sprints.
         </td>
       </tr>
     </tbody>
@@ -86,7 +87,7 @@ Septiembre, 2026
 
 ## Enlaces del proyecto
 * **URL del Repositorio de Documentación:** https://github.com/AstroBusTeam/SecurityBus-730-AW
-* **URL del Repositorio de la Landing Page:**
+* **URL del Repositorio de la Landing Page:** https://github.com/AstroBusTeam/SecurityBus-landing-page-aw
 * **Video Exposición AV1:**
 
 ## Project Report Collaboration Insights
@@ -198,10 +199,16 @@ Septiembre, 2026
           <b>Alvarado Millan, Boris</b>
           <b>Justo Yauricasa, Alexander Paolo</b>
           <b>Martinez Ramos, Bryan Felix</b>
-          <b>Pillaca Gonzales, Andy Saúl</b>
+          <br><b>Pillaca Gonzales, Andy Saúl</b><br>
+          AV1:
+          Durante el desarrollo del proyecto, participé en el análisis de usuarios mediante la elaboración de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping, permitiendo identificar sus principales necesidades, actividades y experiencias. También participé en el diseño UX/UI de SecurityBus, desarrollando las Style Guidelines, la Information Architecture y el diseño de la Landing Page mediante wireframes y mock-ups.
+          Asimismo, trabajé en el diseño de las aplicaciones web, elaborando wireframes, wireflow diagrams, mock-ups, user flow diagrams y el prototipo de las principales funcionalidades. Finalmente, participé en la configuración del entorno de desarrollo, gestión del código fuente, definición de convenciones y configuración del despliegue. Estas actividades se realizaron de manera coordinada con el equipo, contribuyendo al avance y cumplimiento de los objetivos establecidos. <br>
           <b>Nawrocki Loureiro, Ian Andre</b>
         </td>
-        <td valign="top">AV1: </td>
+        <td valign="top">
+        <br>AV1:<br> 
+        El desarrollo de las actividades permitió fortalecer el liderazgo compartido dentro del equipo, especialmente mediante la coordinación de los trabajos de análisis de usuarios y diseño UX/UI. La participación en la elaboración de los diferentes artefactos de diseño y en la configuración del entorno de desarrollo facilitó la toma de decisiones conjunta y permitió mantener una organización adecuada para avanzar con los objetivos establecidos.
+        </td>
       </tr>
       <tr>
         <td valign="top">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
@@ -209,10 +216,14 @@ Septiembre, 2026
           <b>Alvarado Millan, Boris</b>
           <b>Justo Yauricasa, Alexander Paolo</b>
           <b>Martinez Ramos, Bryan Felix</b>
-          <b>Pillaca Gonzales, Andy Saúl</b>
+          <br><b>Pillaca Gonzales, Andy Saúl</b><br>
+          AV1:
+          Organicé y documenté diferentes entregables de UX/UI, como User Personas, User Journey Mapping, wireframes, mock-ups, wireflows y prototipos, procurando que la información fuera clara y comprensible para el equipo. Asimismo, participé en la planificación y estructuración de la arquitectura de información y las guías de estilo, coordinando las actividades necesarias para mantener una propuesta visual y funcional consistente. También contribuí en la configuración del entorno de desarrollo y en la gestión del código fuente, cumpliendo con las tareas asignadas y los plazos establecidos. <br>
           <b>Nawrocki Loureiro, Ian Andre</b>
         </td>
-        <td valign="top">AV1: 
+        <td valign="top">
+        <br>AV1:<br>
+        El equipo logró mantener una dinámica de trabajo organizada, basada en la coordinación constante y en la distribución de responsabilidades. La planificación de las actividades de diseño, documentación y configuración permitió dar seguimiento a las tareas asignadas y cumplir con los entregables establecidos, manteniendo una participación activa y colaborativa durante el desarrollo del proyecto.
         </td>
       </tr>
     </tbody>
@@ -282,7 +293,7 @@ Nuestra Visión y misión se basan en lo siguiente:
           Me entusiasma el aprendizaje que obtendré con el curso de Appweb y las nuevas habilidades que aprenderé con este trabajo grupal</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/team-photos/Bryan.png" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 4 -->
@@ -394,6 +405,9 @@ Hypothesis Statement 2: Creemos que el envío automático de la ubicación y dat
 
 Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
 
+
+##### 1.2.2.4. Lean UX Canvas
+
 | 1. BUSINESS PROBLEM                                                                                                                                                                                                                                                                           | 5. SOLUTIONS                                                                                                                                                                                                                                                                                  | 2. BUSINESS OUTCOMES                                                                                                                                                                                                                                      |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Conductores:** Expuestos a robos, agresiones y extorsiones sin un mecanismo de alerta discreto.<br><br>**Empresas:** Sin monitoreo, rastreo GPS en tiempo real ni registro de incidentes.<br><br>**Pasajeros:** Vulnerables ante emergencias, lo que genera alta percepción de inseguridad. | • **Botón de pánico/emergencia:** Activación rápida y discreta para el conductor.<br><br>• **Alerta y geolocalización:** Envío automático de ubicación en tiempo real a la central.<br><br>• **Dashboard de gestión:** Registro e historial de incidentes para las empresas.                  | • Incrementar la adopción de ASTROBUS en empresas de transporte.<br><br>• Reducir el tiempo de respuesta ante emergencias.<br><br>• Mejorar la percepción de seguridad de conductores y usuarios.<br><br>• Identificar patrones de riesgo mediante datos. |
@@ -418,6 +432,7 @@ SecurityBus está dirigido a conductores y empresas u organizaciones operadoras 
 La plataforma permitirá facilitar el reporte de incidentes, generar alertas y mejorar la supervisión de las unidades y recorridos. De esta manera, se busca fortalecer la comunicación entre conductores y empresas, reducir los tiempos de respuesta ante emergencias y contribuir a una mayor seguridad para conductores y pasajeros.
 
 ---
+
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
