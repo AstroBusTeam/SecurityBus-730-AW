@@ -59,7 +59,7 @@ Nuestra Visión y misión se basan en lo siguiente:
           Me entusiasma el aprendizaje que obtendré con el curso de Appweb y las nuevas habilidades que aprenderé con este trabajo grupal</i>
         </td>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: middle;">
-          <img src="" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
+          <img src="docs/assets/team-photos/Bryan.png" alt="" width="150" style="border-radius: 10px; border: 1px solid #ccc;">
         </td>
       </tr>
       <!-- Integrante 4 -->
@@ -170,6 +170,9 @@ Hypothesis Statement 1: Creemos que al implementar un botón de emergencia de ac
 Hypothesis Statement 2: Creemos que el envío automático de la ubicación y datos de la unidad al momento de activar una alerta permitirá a la central identificar rápidamente el vehículo que requiere asistencia. Sabremos que esto es cierto cuando al menos el 80% de las veces la central pueda localizar y reconocer la unidad fácilmente al llegar al punto indicado por la alerta.
 
 Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
+
+
+##### 1.2.2.4. Lean UX Canvas
 
 | 1. BUSINESS PROBLEM                                                                                                                                                                                                                                                                           | 5. SOLUTIONS                                                                                                                                                                                                                                                                                  | 2. BUSINESS OUTCOMES                                                                                                                                                                                                                                      |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
