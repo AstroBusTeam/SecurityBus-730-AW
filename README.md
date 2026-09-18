@@ -200,6 +200,8 @@ Septiembre, 2026
         <td valign="top">
           <b>Alvarado Millan, Boris</b>
           <b>Justo Yauricasa, Alexander Paolo</b>
+          AV1: 
+          Durante todo el proceso del proyecto, participe en el desarrollo en el primer capitulo:  Lean UX Problem Statements, Lean UX Assumptions,Lean UX Hypothesis Statements y el Segmentos objetivo Y el Capitulo 5: Spring Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1 y Development Evidence for Sprint Review. Asimismo, ayude creando y gestionando el Trello. Por parte de la landing pague, pude ayudar con los Styles de features, how-it-works, plans, about y gallery.
           <b>Martinez Ramos, Bryan Felix</b>
           <br><b>Pillaca Gonzales, Andy Saúl</b><br>
           AV1:
@@ -219,6 +221,8 @@ Septiembre, 2026
         <td valign="top">
           <b>Alvarado Millan, Boris</b>
           <b>Justo Yauricasa, Alexander Paolo</b>
+          AV1: 
+          Guestione el Spring en el Implementé Trello con el fin de organizar la carga de trabajo y asegurar que las actividades prioritarias estuvieran claramente definidas. Con el apoyo de la información suministrada por todo el equipo, pude estructurar y completar el Lean UX Canvas. Asimismo, me encargué de delimitar los segmentos objetivo, lo que permitió al grupo enfocar los esfuerzos en nuestro nicho específico y recopilar la información necesaria para el proyecto.
           <b>Martinez Ramos, Bryan Felix</b>
           <br><b>Pillaca Gonzales, Andy Saúl</b><br>
           AV1:
