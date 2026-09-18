@@ -315,7 +315,7 @@ Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/
 ![Acceso y autenticación del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Acceso%20Conductor.png)
 
 **2. Validación de identidad del conductor**
-![Validación de identidad del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Validacion-Identidad.png)
+![Validación de identidad del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Validación%20de%20Identidad.png)
 
 **3. Confirmación del acceso del conductor**
 ![Confirmación del acceso del conductor](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Acceso%20Autorizado.png)
@@ -375,6 +375,24 @@ Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/
 ![Gestión y reenvío de alertas](docs/assets/web-applications-ux-ui-design/wireframes/Wireframe%20Grayscale%20-%20Gestión%20de%20Reenvíos.png)
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+En esta sección se presenta la propuesta de Wireflows, elaborada a partir de los User Goals y las User Stories definidas para las aplicaciones incluidas en el alcance del proyecto SecurityBus.
+
+Task Flow 1: Autenticación y acceso del conductor
+Objetivo del usuario: Permitir que el conductor valide su identidad mediante código QR para iniciar su turno de forma segura y trazable.
+Pasos del Task Flow:
+
+Acceder a la pantalla de Acceso Conductor y escanear el código QR o ingresar el código de empleado.
+El sistema valida las credenciales contra el registro central.
+Confirmar la identidad y visualizar los datos del conductor y del vehículo asignado.
+Iniciar turno desde la confirmación de acceso.
+
+User Goal 1: Como conductor, quiero validar mi identidad antes de iniciar el servicio, para asegurar la trazabilidad del viaje.
+
+User Persona: Conductor
+El conductor accede a la pantalla de Acceso Conductor, escanea su credencial digital o ingresa su código de empleado y presiona "Verificar credenciales". El sistema muestra la pantalla de Validación de Identidad con el escaneo del QR; una vez validado, se presenta la tarjeta de confirmación con nombre, placa del vehículo y estado "Activo", habilitando el botón "Iniciar Turno".
+
+Secuencia: Acceso Conductor → Validación de Identidad → Confirmación del acceso
 
 
 
