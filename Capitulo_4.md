@@ -673,6 +673,24 @@ Desde Historial de Turnos, el administrador filtra por fecha y ruta, revisando p
 
 ### 4.5. Web Applications Prototyping
 
+En esta sección se presenta el prototipo interactivo de SecurityBus, desarrollado para entornos desktop y mobile, que permite simular la navegación y las principales interacciones de la aplicación. El prototipo busca representar los flujos definidos en los User Flow Diagrams y su relación con la arquitectura de información y el sistema de navegación propuesto.
+
+Para su diseño se consideraron criterios como la claridad de navegación, la consistencia de los componentes y la retroalimentación ante las acciones realizadas. Asimismo, se contemplan las experiencias de los conductores y del personal encargado de la gestión y monitoreo del servicio de transporte.
+
+Finalmente, el video muestra los principales flujos de interacción del prototipo, evidenciando la navegación y ejecución de las tareas principales de SecurityBus.
+
+**<center>Web Applications Prototyping</center>**
+
+![Web Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/desktop.png)
+
+URL del video: [Web applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true)
+
+**<center>Web Applications Prototyping</center>**
+
+![Mobile Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/mobile.png)
+
+URL del video: [Mobile applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0)
+
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Design-Level EventStorming
