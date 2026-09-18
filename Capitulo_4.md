@@ -633,7 +633,12 @@ Desde Gestión de Conductores, el administrador revisa el listado y el detalle d
 
 ![Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
 
+**User Flow 6: Trazabilidad y reportes operativos (Administrador)**
 
+Relacionado al User Goal 8: Como empresa, deseo conocer indicadores globales y el historial de turnos, para comparar la ocupación y el desempeño entre distintas rutas.
+Desde Historial de Turnos, el administrador filtra por fecha y ruta, revisando pasajeros e incidentes de cada turno. Desde Impacto en Números consulta métricas globales de la red. Desde Gestión de Reenvíos, monitorea y reenvía alertas no confirmadas.
+
+![Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf6_goal8_trazabilidad_reportes.png)
 
 ### 4.5. Web Applications Prototyping
 
