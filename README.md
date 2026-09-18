@@ -15,7 +15,7 @@ Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 **Nombre del producto:** SecurityBus<br>
 Septiembre, 2026
 
-#### Relación de integrantes 
+#### Relación de integrantes
 
   <table style="margin: auto;">
     <thead>
@@ -42,7 +42,7 @@ Septiembre, 2026
         <td>Pillaca Gonzales, Andy Saúl</td>
       </tr>
       <tr>
-        <td></td>
+        <td>U202312135</td>
         <td>Nawrocki Loureiro, Ian Andre</td>
       </tr>
     </tbody>
@@ -86,12 +86,14 @@ Septiembre, 2026
 </div>
 
 ## Enlaces del proyecto
-* **URL del Repositorio de Documentación:** https://github.com/AstroBusTeam/SecurityBus-730-AW
-* **URL del Repositorio de la Landing Page:** https://github.com/AstroBusTeam/SecurityBus-landing-page-aw
-* **Video Exposición AV1:**
+
+- **URL del Repositorio de Documentación:** https://github.com/AstroBusTeam/SecurityBus-730-AW
+- **URL del Repositorio de la Landing Page:** https://github.com/AstroBusTeam/SecurityBus-landing-page-aw
+- **Video Exposición AV1:**
 
 ## Project Report Collaboration Insights
-* **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+- **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 
 ---
 
@@ -203,7 +205,9 @@ Septiembre, 2026
           AV1:
           Durante el desarrollo del proyecto, participé en el análisis de usuarios mediante la elaboración de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping, permitiendo identificar sus principales necesidades, actividades y experiencias. También participé en el diseño UX/UI de SecurityBus, desarrollando las Style Guidelines, la Information Architecture y el diseño de la Landing Page mediante wireframes y mock-ups.
           Asimismo, trabajé en el diseño de las aplicaciones web, elaborando wireframes, wireflow diagrams, mock-ups, user flow diagrams y el prototipo de las principales funcionalidades. Finalmente, participé en la configuración del entorno de desarrollo, gestión del código fuente, definición de convenciones y configuración del despliegue. Estas actividades se realizaron de manera coordinada con el equipo, contribuyendo al avance y cumplimiento de los objetivos establecidos. <br>
-          <b>Nawrocki Loureiro, Ian Andre</b>
+          <b>Nawrocki Loureiro, Ian Andre</b><br>
+          AV1:
+          Contribuí al liderazgo compartido del equipo participando en la especificación de requerimientos, redactando gran parte de las 50 User Stories con sus criterios de aceptación y coordinando la elaboración de los Impact Maps que conectan los objetivos del negocio con el backlog. Además, lideré el diseño de la arquitectura de software del producto, identificando los bounded contexts mediante Domain-Driven Design y elaborando el Design-Level EventStorming junto con los diagramas de Contexto y Contenedores (C4), y apoyé el registro de entrevistas y la documentación de los perfiles del equipo, manteniendo comunicación constante con mis compañeros para alinear el avance del proyecto.
         </td>
         <td valign="top">
         <br>AV1:<br> 
@@ -219,7 +223,9 @@ Septiembre, 2026
           <br><b>Pillaca Gonzales, Andy Saúl</b><br>
           AV1:
           Organicé y documenté diferentes entregables de UX/UI, como User Personas, User Journey Mapping, wireframes, mock-ups, wireflows y prototipos, procurando que la información fuera clara y comprensible para el equipo. Asimismo, participé en la planificación y estructuración de la arquitectura de información y las guías de estilo, coordinando las actividades necesarias para mantener una propuesta visual y funcional consistente. También contribuí en la configuración del entorno de desarrollo y en la gestión del código fuente, cumpliendo con las tareas asignadas y los plazos establecidos. <br>
-          <b>Nawrocki Loureiro, Ian Andre</b>
+          <b>Nawrocki Loureiro, Ian Andre</b><br>
+          AV1:
+          Planifiqué y documenté el backlog del producto priorizando las User Stories según las épicas definidas, y estructuré los Impact Maps para vincular cada objetivo de negocio con sus entregables. Organicé la refactorización de la documentación del repositorio para mantenerla clara y consistente entre capítulos, registré una entrevista adicional para enriquecer el Needfinding, y diseñé la arquitectura orientada al dominio (EventStorming de diseño y diagramas C4) cumpliendo con los plazos acordados con el equipo, fomentando un ambiente de trabajo donde cada avance quedaba documentado y disponible para todos.
         </td>
         <td valign="top">
         <br>AV1:<br>
@@ -405,7 +411,6 @@ Hypothesis Statement 2: Creemos que el envío automático de la ubicación y dat
 
 Hypothesis Statement 3: Creemos que un sistema de monitoreo y registro de emergencias permitirá a las empresas tener mayor control sobre los incidentes ocurridos durante sus recorridos. Sabremos que esto es cierto cuando se les consulte a los encargados del monitoreo y al menos el 70% considere que ASTROBUS facilita la supervisión y gestión de emergencias.
 
-
 ##### 1.2.2.4. Lean UX Canvas
 
 | 1. BUSINESS PROBLEM                                                                                                                                                                                                                                                                           | 5. SOLUTIONS                                                                                                                                                                                                                                                                                  | 2. BUSINESS OUTCOMES                                                                                                                                                                                                                                      |
@@ -433,10 +438,10 @@ La plataforma permitirá facilitar el reporte de incidentes, generar alertas y m
 
 ---
 
-
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
+
 En esta sección, se presenta un análisis de los principales competidores de SecurityBus, centrado en aquellos que operan dentro del sector del transporte público y que ofrecen servicios o soluciones relacionadas con la movilidad, seguridad, monitoreo y gestión del transporte. Evaluamos tanto competidores directos, que cuentan con sistemas de monitoreo y seguridad para sus unidades, como competidores indirectos, que ofrecen servicios de transporte público con diferentes niveles de integración tecnológica.
 
 Este análisis nos permitirá comprender mejor el entorno competitivo de SecurityBus, identificar las fortalezas y debilidades de las alternativas existentes y determinar oportunidades de diferenciación mediante soluciones tecnológicas orientadas a mejorar la seguridad de pasajeros y operadores durante los recorridos.
@@ -584,6 +589,7 @@ Es un sistema orientado a ofrecer una experiencia de transporte integrada, incor
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+
 Para posicionar a SecurityBus de manera competitiva, se plantean las siguientes estrategias:
 
 **Estrategias de vinculación y fidelización con usuarios clave:**
@@ -657,18 +663,18 @@ User: Conductores de transporte público
 9. ¿Crees que un sistema de seguridad y seguimiento podría ayudarte a reaccionar mejor ante situaciones de riesgo? ¿Por qué?
 10. ¿Qué características considerarías indispensables en una aplicación de seguridad para conductores?
 
-
 #### 2.2.2. Registro de entrevistas
 
 **Segmento Objetivo 1 : Conductores de transporte público**
 
 **Entrevista 1: Conductor de transporte público**
-+ Nombre: Diego Ruiz Soto
-+ Edad: 30 años
-+ Residencia: San Juan de Lurigancho, Lima, Perú
-+ Ocupación: Conductor de transporte público
-+ Inicio: 0:12
-+ Duración: 7:20
+
+- Nombre: Diego Ruiz Soto
+- Edad: 30 años
+- Residencia: San Juan de Lurigancho, Lima, Perú
+- Ocupación: Conductor de transporte público
+- Inicio: 0:12
+- Duración: 7:20
 
 Link:<br>
 [Ver video](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FU202418823%5FConductor%5FDiego%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7a646787%2D9374%2D44ab%2D9528%2D0eb31fcb2c93)
@@ -690,12 +696,13 @@ Actualmente, para gestionar emergencias o accidentes, su primer canal de comunic
 ---
 
 **Entrevista 2: Conductor de transporte público**
-+ Nombre: Renzo Baldeon
-+ Edad: 27 años
-+ Residencia: San Martin de Porres, Lima, Perú
-+ Ocupación: Conductor de transporte público
-+ Inicio: 0:00
-+ Duración: 5:30
+
+- Nombre: Renzo Baldeon
+- Edad: 27 años
+- Residencia: San Martin de Porres, Lima, Perú
+- Ocupación: Conductor de transporte público
+- Inicio: 0:00
+- Duración: 5:30
 
 Link:<br>
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCafsY8x7sOSqukvMmXMFyoAVl7C4qydnHb8NbOpXa81b4?e=wgnskb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
@@ -715,12 +722,13 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 ---
 
 **Entrevista 3: Conductor de transporte público**
-+ Nombre: Janet Linda Gomez
-+ Edad: 53 años
-+ Residencia: Villa el salvador, Lima, Perú
-+ Ocupación: Conductor de transporte público
-+ Inicio: 0:02
-+ Duración: 8:56
+
+- Nombre: Janet Linda Gomez
+- Edad: 53 años
+- Residencia: Villa el salvador, Lima, Perú
+- Ocupación: Conductor de transporte público
+- Inicio: 0:02
+- Duración: 8:56
 
 Link:<br>
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCwl8UgRY7sT67ipDf8i4CMAevjO6BK_gkIuROOGWtTEqE?e=rE1L6A)
@@ -741,19 +749,19 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 
 ---
 
-
 **Segmento Objetivo 2 : Empresas o Consorcios (Representantes)**
 
 **Entrevista 1: Representante de Consorcio**
-+ Nombre: Kiara Nuñez
-+ Edad: 28 años
-+ Residencia: Puente Piedra, Lima, Perú
-+ Ocupación: Administrativa de ETUCHISA SAC
-+ Inicio: 0:12
-+ Duración: 10:05
+
+- Nombre: Kiara Nuñez
+- Edad: 28 años
+- Residencia: Puente Piedra, Lima, Perú
+- Ocupación: Administrativa de ETUCHISA SAC
+- Inicio: 0:12
+- Duración: 10:05
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai
 
 ---
 
@@ -772,15 +780,16 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 ---
 
 **Entrevista 2: Representante de Consorcio**
-+ Nombre: Nicanor Yamocca
-+ Edad: 48 años
-+ Residencia: Santa Anita, Lima, Perú
-+ Ocupación: Administrativo de la Sociedad Anónima
-+ Inicio: 0:00
-+ Duración: 9:09
+
+- Nombre: Nicanor Yamocca
+- Edad: 48 años
+- Residencia: Santa Anita, Lima, Perú
+- Ocupación: Administrativo de la Sociedad Anónima
+- Inicio: 0:00
+- Duración: 9:09
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc
 
 ---
 
@@ -799,12 +808,13 @@ Link
 ---
 
 **Entrevista 3: Representante de Empresa de Transporte**
-+ Nombre: Jaime A. Russvelt
-+ Edad: 50 años
-+ Residencia: Ancón
-+ Ocupación: Representante de la empresa Nueva Estrella
-+ Inicio: 0:00
-+ Duración: 10:11
+
+- Nombre: Jaime A. Russvelt
+- Edad: 50 años
+- Residencia: Ancón
+- Ocupación: Representante de la empresa Nueva Estrella
+- Inicio: 0:00
+- Duración: 10:11
 
 Link:<br>
 
@@ -1088,6 +1098,7 @@ Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones 
 ![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/10.jpg)
 
 ### 2.5. Ubiquitous Language
+
 **Unidad de Transporte (Unidad de Transporte):** Vehículo que forma parte del sistema y que es monitoreado durante su recorrido. Representa el elemento principal sobre el cual se registra la ubicación, estado y eventos de seguridad.
 
 **Conductor (Conductor):** Persona responsable de operar una unidad de transporte durante un recorrido. Está asociada a una unidad y puede activar alertas de emergencia cuando se encuentra ante una situación de riesgo.
@@ -1141,6 +1152,7 @@ Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones 
 **Interrupción del Servicio (Interrupción del Servicio):** Situación en la que una unidad deja de realizar su recorrido de manera parcial o total debido a una emergencia, incidente, falla u otra circunstancia.
 
 ---
+
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories
@@ -1315,10 +1327,10 @@ La identidad visual de SecurityBus busca representar una plataforma tecnológica
 
 La aplicación busca transmitir las siguientes características:
 
-+ Segura
-+ Precisa
-+ Moderna
-+ Siempre activa
+- Segura
+- Precisa
+- Moderna
+- Siempre activa
 
 El tono de comunicación es serio, formal, respetuoso y sereno, debido al contexto de seguridad en el que se utiliza la plataforma. Por ello, se priorizan mensajes directos y claros, evitando expresiones informales o ambiguas.
 
@@ -1326,20 +1338,20 @@ El tono de comunicación es serio, formal, respetuoso y sereno, debido al contex
 
 La paleta de colores de SecurityBus utiliza principalmente tonos oscuros, acompañados de un verde neón como color principal de acento y rojo para situaciones críticas. Esta combinación busca reforzar la identidad tecnológica del producto y facilitar la identificación de acciones y alertas dentro de la interfaz.
 
-|Color|Hex|Significado y justificación| Uso en la interfaz|Imagen|
-|-----|---|---------------------------|-------------------|------|
-|Negro| - |Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. |Fondo principal y diferentes áreas de la interfaz. | ![Color Negro](/docs/assets/colors/negro.jpg)|
-|Verde neón| #C3F400 |Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Botones principales, indicadores y títulos.|![Color Verde Neón](/docs/assets/colors/verde-neon.jpg)|
-|Verde secundario| #596D0B|Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Elementos secundarios y variaciones de componentes.|![Color Verde Secundario](/docs/assets/colors/verde-secundario.jpg)|
-|Rojo| - |Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata. | Alertas y elementos críticos.|![Color Rojo](/docs/assets/colors/rojo.jpg)|
+| Color            | Hex     | Significado y justificación                                                                                                                                         | Uso en la interfaz                                  | Imagen                                                              |
+| ---------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------- |
+| Negro            | -       | Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. | Fondo principal y diferentes áreas de la interfaz.  | ![Color Negro](/docs/assets/colors/negro.jpg)                       |
+| Verde neón       | #C3F400 | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Botones principales, indicadores y títulos.         | ![Color Verde Neón](/docs/assets/colors/verde-neon.jpg)             |
+| Verde secundario | #596D0B | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Elementos secundarios y variaciones de componentes. | ![Color Verde Secundario](/docs/assets/colors/verde-secundario.jpg) |
+| Rojo             | -       | Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata.                                                         | Alertas y elementos críticos.                       | ![Color Rojo](/docs/assets/colors/rojo.jpg)                         |
 
 **Tipografía**
 
 Para la interfaz se utilizan las familias tipográficas Space Grotesk e Inter, seleccionadas por su legibilidad y adaptación a entornos digitales.
 
-+ Títulos: Space Grotesk Bold, 96 px.
-+ Subtítulos: Space Grotesk Bold, entre 48 y 60 px.
-+ Párrafos: Inter Light/Bold, entre 12 y 24 px.
+- Títulos: Space Grotesk Bold, 96 px.
+- Subtítulos: Space Grotesk Bold, entre 48 y 60 px.
+- Párrafos: Inter Light/Bold, entre 12 y 24 px.
 
 Esta combinación permite establecer una jerarquía visual clara entre títulos, subtítulos y contenido informativo.
 
@@ -1349,9 +1361,9 @@ Esta combinación permite establecer una jerarquía visual clara entre títulos,
 
 El diseño utiliza un sistema de espaciado consistente para mantener una distribución ordenada de los elementos. Las medidas empleadas para padding y spacing siguen múltiplos de 2 px.
 
-+ Base unit: múltiplos de 2 px para padding y spacing.
-+ Grid: márgenes de 24 px para mantener una distribución equilibrada.
-+ Breakpoints: se considera un ancho de 1440 px y un alto de 1024 px como referencia para la versión web.
+- Base unit: múltiplos de 2 px para padding y spacing.
+- Grid: márgenes de 24 px para mantener una distribución equilibrada.
+- Breakpoints: se considera un ancho de 1440 px y un alto de 1024 px como referencia para la versión web.
 
 ![spacing y layout](/docs/assets/style-guidelines/spacing.png)
 
@@ -1359,13 +1371,15 @@ El diseño utiliza un sistema de espaciado consistente para mantener una distrib
 
 Los principales componentes de la interfaz siguen criterios visuales consistentes:
 
-+ Botones: verde para acciones principales, rojo para acciones críticas y gris para acciones secundarias.
+- Botones: verde para acciones principales, rojo para acciones críticas y gris para acciones secundarias.
 
 ![botones](/docs/assets/style-guidelines/button.png)
-+ Cards: utilizadas para organizar información relacionada dentro de contenedores diferenciados.
+
+- Cards: utilizadas para organizar información relacionada dentro de contenedores diferenciados.
 
 ![botones](/docs/assets/style-guidelines/cuadros.png)
-+ Iconografía: se emplea un estilo simple y fácilmente reconocible para facilitar la identificación de acciones y funcionalidades.
+
+- Iconografía: se emplea un estilo simple y fácilmente reconocible para facilitar la identificación de acciones y funcionalidades.
 
 ![botones](/docs/assets/style-guidelines/icons.png)
 
@@ -1373,11 +1387,11 @@ Los principales componentes de la interfaz siguen criterios visuales consistente
 
 Las decisiones de diseño de SecurityBus se basan en los siguientes principios:
 
-+ **Claridad**: presentar la información de forma comprensible.
-+ **Jerarquía visual**: destacar los elementos de mayor importancia.
-+ **Consistencia:** mantener uniformidad en colores, tipografías y componentes.
-+ **Accesibilidad**: asegurar una adecuada legibilidad y contraste.
-+ **Feedback inmediato**: proporcionar una respuesta visual ante las acciones realizadas por el usuario.
+- **Claridad**: presentar la información de forma comprensible.
+- **Jerarquía visual**: destacar los elementos de mayor importancia.
+- **Consistencia:** mantener uniformidad en colores, tipografías y componentes.
+- **Accesibilidad**: asegurar una adecuada legibilidad y contraste.
+- **Feedback inmediato**: proporcionar una respuesta visual ante las acciones realizadas por el usuario.
 
 #### 4.1.2. Web Style Guidelines
 
@@ -1390,6 +1404,7 @@ Asimismo, se utilizan componentes como cards, botones, indicadores y elementos d
 Los botones y enlaces mantienen una apariencia consistente y proporcionan retroalimentación visual durante la interacción. De esta manera, el usuario puede identificar fácilmente las acciones disponibles y comprender el resultado de sus interacciones con el sistema.
 
 ### 4.2. Information Architecture
+
 La arquitectura de información de SecurityBus define cómo se distribuyen, agrupan y presentan los contenidos de la plataforma para facilitar el acceso a las funciones principales. Su diseño considera las necesidades de los dos segmentos identificados: los conductores de transporte público y las empresas o consorcios responsables de supervisar sus unidades.
 
 La estructura busca que cada usuario pueda encontrar la información y las acciones que necesita sin realizar recorridos innecesarios. Para ello, se consideran diferentes mecanismos de organización, etiquetado, búsqueda y navegación que mantienen una relación coherente entre la Landing Page y la aplicación web.
@@ -1413,24 +1428,24 @@ La organización de la información se establece de acuerdo con el tipo de conte
 El sistema de etiquetado utiliza nombres breves y fáciles de identificar para que los usuarios reconozcan rápidamente el propósito de cada sección y acción. Se mantiene principalmente el inglés en los elementos de interfaz, conforme a la implementación de la plataforma.
 
 - **Etiquetas de navegación:**
-    - Home: acceso a la página principal.
-    - Features: muestra las principales funcionalidades de SecurityBus.
-    - Statistics: presenta indicadores y datos relacionados con la supervisión de la operación.
-    - Plans: permite consultar los planes de suscripción disponibles para empresas y consorcios.
-    - Contact: proporciona un medio de comunicación con el equipo de SecurityBus.
-    - Login: permite acceder a la aplicación web.
+  - Home: acceso a la página principal.
+  - Features: muestra las principales funcionalidades de SecurityBus.
+  - Statistics: presenta indicadores y datos relacionados con la supervisión de la operación.
+  - Plans: permite consultar los planes de suscripción disponibles para empresas y consorcios.
+  - Contact: proporciona un medio de comunicación con el equipo de SecurityBus.
+  - Login: permite acceder a la aplicación web.
 - **Etiquetas de acción:**
-    - Get Started: inicia el proceso para comenzar a utilizar SecurityBus.
-    - Choose Plan: permite seleccionar un plan de suscripción.
-    - Report Incident: permite registrar o reportar un incidente.
-    - View Details: permite consultar información detallada.
+  - Get Started: inicia el proceso para comenzar a utilizar SecurityBus.
+  - Choose Plan: permite seleccionar un plan de suscripción.
+  - Report Incident: permite registrar o reportar un incidente.
+  - View Details: permite consultar información detallada.
     Contact Us: dirige al usuario hacia los medios de contacto.
 - **Etiquetas relacionadas con seguridad y operación:**
-    - GPS Monitoring: supervisión de la ubicación de las unidades.
-    - Panic Button: mecanismo para generar una alerta de emergencia.
-    - Incident Log: registro de incidentes reportados.
-    - Emergency Alerts: visualización de alertas generadas ante situaciones de emergencia.
-    - Route History: consulta del historial de recorridos.
+  - GPS Monitoring: supervisión de la ubicación de las unidades.
+  - Panic Button: mecanismo para generar una alerta de emergencia.
+  - Incident Log: registro de incidentes reportados.
+  - Emergency Alerts: visualización de alertas generadas ante situaciones de emergencia.
+  - Route History: consulta del historial de recorridos.
 
 Estas etiquetas buscan mantener una relación directa entre el nombre de cada elemento y la acción o información que representa, reduciendo posibles confusiones durante la navegación.
 
@@ -1441,33 +1456,39 @@ Para SecurityBus se consideran etiquetas SEO y metadatos que permiten identifica
 - Título de página, que incorpora el nombre del producto y una descripción breve de su finalidad:
 
 ```html
-<title> SecurityBus - Public Transport Security </title>
+<title>SecurityBus - Public Transport Security</title>
 ```
 
 - Codificación de caracteres, para representar correctamente el contenido de la plataforma:
 
 ```html
-<meta charset = "UTF-8">
+<meta charset="UTF-8" />
 ```
 
 - Configuración responsive, que permite adaptar la visualización a distintos tamaños de pantalla:
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 ```
 
 - Descripción SEO, que resume la propuesta principal utilizando términos relacionados con seguridad, monitoreo y transporte público:
 
 ```html
-<meta name="description" content="SecurityBus provides security and monitoring solutions for public transport companies, with GPS monitoring, emergency alerts and incident management.">
+<meta
+  name="description"
+  content="SecurityBus provides security and monitoring solutions for public transport companies, with GPS monitoring, emergency alerts and incident management."
+/>
 ```
 
 - Open Graph, que controla la información mostrada al compartir la Landing Page en redes sociales o servicios de mensajería:
 
 ```html
-<meta property="og:title" content="SecurityBus - Public Transport Security">
-<meta property="og:description" content="Improve public transport security with GPS monitoring, emergency alerts and incident management.">
-<meta property="og:type" content="website">
+<meta property="og:title" content="SecurityBus - Public Transport Security" />
+<meta
+  property="og:description"
+  content="Improve public transport security with GPS monitoring, emergency alerts and incident management."
+/>
+<meta property="og:type" content="website" />
 ```
 
 - Favicon: se utiliza el ícono asociado a la identidad visual de SecurityBus para facilitar el reconocimiento de la página en las pestañas del navegador.
@@ -1510,39 +1531,39 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 ![hero](/docs/assets/landing-page-wireframe/01_hero_inicio.png)
 
-2. Metrics 
+2. Metrics
 
 ![hero](/docs/assets/landing-page-wireframe/02_metricas.png)
 
-3. Features 
+3. Features
 
 ![hero](/docs/assets/landing-page-wireframe/03_caracteristicas.png)
 
-4. How SecurityBus Works 
+4. How SecurityBus Works
 
 ![hero](/docs/assets/landing-page-wireframe/04_como_funciona.png)
 
-5. Plan for Consortia 
+5. Plan for Consortia
 
 ![hero](/docs/assets/landing-page-wireframe/05_planes_consorcios.png)
 
-6. SecurityBus Statistics 
+6. SecurityBus Statistics
 
 ![hero](/docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
 
-7. Elite Protection CTA 
+7. Elite Protection CTA
 
 ![hero](/docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
 
-8. About The Team 
+8. About The Team
 
 ![hero](/docs/assets/landing-page-wireframe/08_about_the_team.png)
 
-9. Product Gallery 
+9. Product Gallery
 
 ![hero](/docs/assets/landing-page-wireframe/09_product_gallery.png)
 
-10. Footer 
+10. Footer
 
 ![hero](/docs/assets/landing-page-wireframe/10_footer.png)
 
@@ -1558,39 +1579,39 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 ![hero](/docs/assets/landing-page-mockup/01_hero.png)
 
-2. Metrics 
+2. Metrics
 
 ![hero](/docs/assets/landing-page-mockup/02_metrics.png)
 
-3. Features 
+3. Features
 
 ![hero](/docs/assets/landing-page-mockup/03_features.png)
 
-4. How SecurityBus Works 
+4. How SecurityBus Works
 
 ![hero](/docs/assets/landing-page-mockup/04_how_securitybus_works.png)
 
-5. Plan for Consortia 
+5. Plan for Consortia
 
 ![hero](/docs/assets/landing-page-mockup/05_plans_for_consortia.png)
 
-6. SecurityBus Statistics 
+6. SecurityBus Statistics
 
 ![hero](/docs/assets/landing-page-mockup/06_securitybus_statistics.png)
 
-7. Elite Protection CTA 
+7. Elite Protection CTA
 
 ![hero](/docs/assets/landing-page-mockup/07_elite_protection_cta.png)
 
-8. About The Team 
+8. About The Team
 
 ![hero](/docs/assets/landing-page-mockup/08_about_the_team.png)
 
-9. Product Gallery 
+9. Product Gallery
 
 ![hero](/docs/assets/landing-page-mockup/09_product_gallery.png)
 
-10. Footer 
+10. Footer
 
 ![hero](/docs/assets/landing-page-mockup/10_footer.png)
 
@@ -1771,7 +1792,7 @@ Pasos del Task Flow:
 1. Consultar el resumen del turno (distancia, tiempo, pasajeros, recaudación).
 2. Completar el protocolo de cierre (checklist).
 3. Confirmar la finalización del servicio.
-Visualizar la confirmación de cierre exitoso.
+   Visualizar la confirmación de cierre exitoso.
 
 User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evidencia registrada, para garantizar la trazabilidad del servicio.
 User Persona: Conductor
@@ -1992,21 +2013,21 @@ URL del video: [Mobile applications prototyping](https://upcedupe-my.sharepoint.
 
 ### 4.6. Domain-Driven Software Architecture
 
-La arquitectura de software de **SecurityBus** se diseñó aplicando los principios de Domain-Driven Design (DDD). A partir de las cinco épicas definidas en la sección 3.1 se identificaron los *bounded contexts* del sistema y se clasificaron según su valor estratégico para el negocio:
+La arquitectura de software de **SecurityBus** se diseñó aplicando los principios de Domain-Driven Design (DDD). A partir de las cinco épicas definidas en la sección 3.1 se identificaron los _bounded contexts_ del sistema y se clasificaron según su valor estratégico para el negocio:
 
-| Bounded Context                             | Clasificación DDD    | Épica relacionada | Responsabilidad                                                                                          |
-| :------------------------------------------- | :-------------------- | :----------------- | :--------------------------------------------------------------------------------------------------------- |
-| Gestión de Alertas de Emergencia             | **Núcleo (Core)**     | EPNN02              | Emisión, clasificación, difusión, reintento, escalamiento y registro de cada alerta. Es la razón de ser de la plataforma. |
-| Gestión de Conductores y Servicios           | Apoyo (Supporting)    | EPNN01              | Identificación del conductor, habilitación, vínculo con la unidad y ciclo de vida del servicio.            |
-| Monitoreo de Pasajeros y Ocupación           | Apoyo (Supporting)    | EPNN03              | Conteo de ocupantes, detección de sobrecapacidad y análisis de variaciones.                                |
-| Landing Page informativa                     | Genérico              | EPNN04              | Contenido público orientado a visitantes.                                                                  |
-| Web Services / API                           | Genérico (habilitador)| EPNN05              | Punto de entrada técnico que expone y protege los recursos del sistema.                                    |
+| Bounded Context                    | Clasificación DDD      | Épica relacionada | Responsabilidad                                                                                                           |
+| :--------------------------------- | :--------------------- | :---------------- | :------------------------------------------------------------------------------------------------------------------------ |
+| Gestión de Alertas de Emergencia   | **Núcleo (Core)**      | EPNN02            | Emisión, clasificación, difusión, reintento, escalamiento y registro de cada alerta. Es la razón de ser de la plataforma. |
+| Gestión de Conductores y Servicios | Apoyo (Supporting)     | EPNN01            | Identificación del conductor, habilitación, vínculo con la unidad y ciclo de vida del servicio.                           |
+| Monitoreo de Pasajeros y Ocupación | Apoyo (Supporting)     | EPNN03            | Conteo de ocupantes, detección de sobrecapacidad y análisis de variaciones.                                               |
+| Landing Page informativa           | Genérico               | EPNN04            | Contenido público orientado a visitantes.                                                                                 |
+| Web Services / API                 | Genérico (habilitador) | EPNN05            | Punto de entrada técnico que expone y protege los recursos del sistema.                                                   |
 
 Esta clasificación guía las decisiones de las siguientes tres secciones: el EventStorming de diseño profundiza en los tres contextos con lógica de negocio propia, mientras que los diagramas C4 sitúan a la plataforma completa dentro de su ecosistema técnico.
 
 #### 4.6.1. Design-Level EventStorming
 
-El EventStorming de nivel de diseño toma los *hotspots* identificados en el Big Picture EventStorming (sección 2.4) y los refina en comandos, agregados, eventos de dominio, políticas y modelos de lectura, siguiendo la notación de colores estándar. La Figura 4.1 muestra este refinamiento para los tres *bounded contexts* con lógica de negocio propia:
+El EventStorming de nivel de diseño toma los _hotspots_ identificados en el Big Picture EventStorming (sección 2.4) y los refina en comandos, agregados, eventos de dominio, políticas y modelos de lectura, siguiendo la notación de colores estándar. La Figura 4.1 muestra este refinamiento para los tres _bounded contexts_ con lógica de negocio propia:
 
 <p align="center">
   <img src="docs/assets/chapter-4/eventstorming-design-level.svg" alt="Design-Level EventStorming de SecurityBus" width="100%">
@@ -2014,11 +2035,11 @@ El EventStorming de nivel de diseño toma los *hotspots* identificados en el Big
 
 <p align="center"><em>Figura 4.1. Design-Level EventStorming — Gestión de Conductores y Servicios, Gestión de Alertas de Emergencia (dominio núcleo) y Monitoreo de Ocupación.</em></p>
 
-**Gestión de Conductores y Servicios.** El conductor se autentica con su código vigente (US01) sobre el agregado `Conductor`, lo que produce el evento `Conductor Autenticado`. Antes de aceptar el comando `Abrir Servicio` (US02) sobre el agregado `Servicio`, una política verifica que la habilitación esté vigente (US14) y bloquea cualquier intento de operación simultánea del mismo conductor en otra unidad (US39). El servicio permanece abierto hasta que el conductor emite `Cerrar Servicio` (US25); ambos estados alimentan el modelo de lectura *Tablero de Flota / Seguimiento* que consulta la empresa (US26, US27, US43).
+**Gestión de Conductores y Servicios.** El conductor se autentica con su código vigente (US01) sobre el agregado `Conductor`, lo que produce el evento `Conductor Autenticado`. Antes de aceptar el comando `Abrir Servicio` (US02) sobre el agregado `Servicio`, una política verifica que la habilitación esté vigente (US14) y bloquea cualquier intento de operación simultánea del mismo conductor en otra unidad (US39). El servicio permanece abierto hasta que el conductor emite `Cerrar Servicio` (US25); ambos estados alimentan el modelo de lectura _Tablero de Flota / Seguimiento_ que consulta la empresa (US26, US27, US43).
 
-**Gestión de Alertas de Emergencia (dominio núcleo).** El conductor emite la alerta (US03) sobre el agregado `Alerta`; si no existe un servicio en curso, la alerta se descarta en el mismo paso. Una vez emitida, el sistema la procesa, le asocia la ubicación (US04, US42) y la clasifica por gravedad (US40) antes de difundirla a los destinatarios configurados (US33), lo que involucra al sistema externo de notificaciones. La central debe acusar recepción (US23); dos políticas gobiernan lo que ocurre si no lo hace: una reenvía la alerta cuando se vence el plazo (US24) y otra la escala cuando los reintentos se agotan (US41). El tiempo de respuesta se mide (US34) y todo el recorrido queda disponible en el *Historial de Emergencias* que consulta la empresa (US16).
+**Gestión de Alertas de Emergencia (dominio núcleo).** El conductor emite la alerta (US03) sobre el agregado `Alerta`; si no existe un servicio en curso, la alerta se descarta en el mismo paso. Una vez emitida, el sistema la procesa, le asocia la ubicación (US04, US42) y la clasifica por gravedad (US40) antes de difundirla a los destinatarios configurados (US33), lo que involucra al sistema externo de notificaciones. La central debe acusar recepción (US23); dos políticas gobiernan lo que ocurre si no lo hace: una reenvía la alerta cuando se vence el plazo (US24) y otra la escala cuando los reintentos se agotan (US41). El tiempo de respuesta se mide (US34) y todo el recorrido queda disponible en el _Historial de Emergencias_ que consulta la empresa (US16).
 
-**Monitoreo de Pasajeros y Ocupación.** Los sensores IoT reportan el ingreso y salida de pasajeros, lo que actualiza el conteo del agregado `Ocupación` (US06). Una política evalúa si se superó la capacidad máxima configurada y, de ser así, dispara el evento `Sobrecapacidad Detectada` (US17). En paralelo, el sistema analiza la ocupación para calcular promedios, detectar variaciones anómalas y comparar unidades (US35, US36, US44), publicando los resultados en el *Reporte de Ocupación* que consulta la empresa (US07, US28).
+**Monitoreo de Pasajeros y Ocupación.** Los sensores IoT reportan el ingreso y salida de pasajeros, lo que actualiza el conteo del agregado `Ocupación` (US06). Una política evalúa si se superó la capacidad máxima configurada y, de ser así, dispara el evento `Sobrecapacidad Detectada` (US17). En paralelo, el sistema analiza la ocupación para calcular promedios, detectar variaciones anómalas y comparar unidades (US35, US36, US44), publicando los resultados en el _Reporte de Ocupación_ que consulta la empresa (US07, US28).
 
 #### 4.6.2. Software Architecture Context Diagram
 
@@ -2034,7 +2055,7 @@ Cuatro tipos de usuario interactúan con la plataforma: el **conductor**, que se
 
 #### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en sus unidades desplegables. Un API Gateway centraliza la autenticación y autorización de toda petición (US22, US50) y enruta el tráfico hacia cuatro microservicios, cada uno alineado a uno de los *bounded contexts* de la sección 4.6:
+El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en sus unidades desplegables. Un API Gateway centraliza la autenticación y autorización de toda petición (US22, US50) y enruta el tráfico hacia cuatro microservicios, cada uno alineado a uno de los _bounded contexts_ de la sección 4.6:
 
 <p align="center">
   <img src="docs/assets/chapter-4/container-diagram-c4-l2.svg" alt="Diagrama de Contenedores C4 Nivel 2 de SecurityBus" width="100%">
@@ -2042,10 +2063,9 @@ El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en su
 
 <p align="center"><em>Figura 4.3. Diagrama de Contenedores (C4 — Nivel 2) de la Plataforma SecurityBus.</em></p>
 
-Los tres clientes (la app móvil del conductor, el dashboard web de la empresa y la landing page) y el developer externo acceden siempre a través del API Gateway, nunca directamente a un microservicio. El **Servicio de Alertas de Emergencia**, alineado al dominio núcleo, se distingue de los demás por delegar sus reintentos y escalamientos (US24, US41) a una **Cola de Reintentos y Escalamiento**, que a su vez alimenta un **Despachador de Notificaciones** encargado de integrar con el servicio externo de SMS, push y correo. Los servicios de **Conductores y Servicios**, **Monitoreo de Ocupación** y **Contenido** siguen el mismo patrón: cada uno persiste su propio estado en una base de datos dedicada, evitando el acoplamiento entre *bounded contexts* a nivel de datos.
+Los tres clientes (la app móvil del conductor, el dashboard web de la empresa y la landing page) y el developer externo acceden siempre a través del API Gateway, nunca directamente a un microservicio. El **Servicio de Alertas de Emergencia**, alineado al dominio núcleo, se distingue de los demás por delegar sus reintentos y escalamientos (US24, US41) a una **Cola de Reintentos y Escalamiento**, que a su vez alimenta un **Despachador de Notificaciones** encargado de integrar con el servicio externo de SMS, push y correo. Los servicios de **Conductores y Servicios**, **Monitoreo de Ocupación** y **Contenido** siguen el mismo patrón: cada uno persiste su propio estado en una base de datos dedicada, evitando el acoplamiento entre _bounded contexts_ a nivel de datos.
 
 #### 4.6.4. Software Architecture Components Diagrams
-
 
 <center>
 <h4>Components Diagram — Authentication Service</h4>
@@ -2068,8 +2088,8 @@ Los tres clientes (la app móvil del conductor, el dashboard web de la empresa y
 
 ---
 
-
 ### 4.7. Software Object-Oriented Design
+
 #### 4.7.1 Class Diagrams
 
 La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Design (DDD) para garantizar una alta cohesión y un bajo acoplamiento. Con el objetivo de facilitar el análisis del dominio y asegurar la legibilidad técnica, la representación visual del backend se ha segmentado. A continuación, se presentan los diagramas de clases correspondientes a los 4 Bounded Contexts identificados, detallando sus respectivos Agregados, Entidades y Objetos de Valor (Value Objects).
@@ -2095,15 +2115,14 @@ La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Desi
 
 ### 4.8. Database Design
 
-Se adopta una estrategia de persistencia poliglota, con una base de datos independiente por Bounded Context (*database-per-service*), siguiendo el mismo límite que los Aggregates definidos en la sección 4.9. Authentication, User y Profile manejan datos estructurados de bajo volumen de escritura y se modelan como bases de datos **relacionales** (PostgreSQL). Monitoring recibe escritura de alta frecuencia (velocidad, pasajeros, ubicación) y necesita un esquema flexible para el historial de ubicación, por lo que se modela como base de datos **no relacional** orientada a documentos (MongoDB).
-
+Se adopta una estrategia de persistencia poliglota, con una base de datos independiente por Bounded Context (_database-per-service_), siguiendo el mismo límite que los Aggregates definidos en la sección 4.9. Authentication, User y Profile manejan datos estructurados de bajo volumen de escritura y se modelan como bases de datos **relacionales** (PostgreSQL). Monitoring recibe escritura de alta frecuencia (velocidad, pasajeros, ubicación) y necesita un esquema flexible para el historial de ubicación, por lo que se modela como base de datos **no relacional** orientada a documentos (MongoDB).
 
 #### 4.8.1. Database Diagrams
 
 ![DataBaseDiagram](docs/assets/diagramadatabase.png)
 
 LINK:
-https://www.plantuml.com/plantuml/uml/hLVXRjks4_-kfn3w_v3-XxfekcPT1moeOYkP2bloP3aOEWp2MJmxN2HIeoXtJTkds2FjnKP9L4qJYeesKJw4lj_TaR_Z7OzyNKaGiYvonpbnVxx7fyodKNWHNAvZRnhy-q_eNlgX7tlp-_fr92zToTqDbv8NBg42CqavSvpgXh8I11Jk1hARdU0r8rEUS-7-xzbvysTev9IXV5-YouMyvgOjCadbU_U3uwhlt7PqqNuTnWL1qK_GVgtyWZCvB5tHMtHFJvrFvdoU4FoTrd_flVAKlWKQ3lNqjaBl-vNfcE0MwbmsO0W5AbKAkQd0EC4AI_VxCqCeWDqqmXTdpWEaW1ycmSoR-QjxxxhUbaV-OXdxA--H2vMhntglldCfIR4e1LRW_kHUUV7q5oz-VFhi_oqycRJ_H9sPu6a72hZbBAruHY4_ijN6RPPbb3C3VDw34dFSSiPDmxCEmWBee4F89Dqt5kTHDFUzKEN4WQCgdDbwcaHno_BpBvDdnXcfCyd57Ko_70_2g27ziHCoNcm43Ywun3odX0zXESsGPHJCuFIneILF1t0Tdorcrv3k6xIWYdxZVkObVWjcdD0TJ_yIfj-pi-406ku4xcWbHGCcmS9V9TvYUHJVU9rq2TGCpAYAMjwHEkF1uOBka0qc3bQICZu8gKL24vRqfcXe-zDWuSqV__3aUHywB5Jm6WS549uMj9aX21F_qe-_d4JdwrNBKVqtAMxgwfjJfimX6v8Nd63EpTtj0H0P3CY1KMvnoQ24Z18WQG5_VmtFP1s7KSkq7PbSPIqO7sKxKaZZ0Hj95vs5bD6C7kMW0Mufin4NAmbjVVdXUl7uPEc7iy1NKJXvSk9Da-0gKeEB8FJcmLjl5ftepDjKAFRG74rODIxztvAZy5pvSN0HJ5KFZiBqr-v4iMHcoFOew9PchSDxH6ua-98M3TEYj0FGrpjM6J04meVANc1LvnA8NVcqJ0cjIbvHbIgcvGjjI9b49dbbf9OP9c_kn_fGw8PcK2178M4y72DyIzx7QXWszjmBWscppwfZNWNDuCgVHzEcXQhnqbjvR_muMkczPtIFUIeeLhk3YtFlJMEty6UjlJTFcd_JE4YKPssOWo9TayEXerRpvAN6EDiDWwDxHx3A12tRjD5Ps6yNvXBkEAShdjUDYUdExeI97wKzy-v4iuLMNvGuNlCZ9JsoYrn2diA62mA2MmUnHZVmfuLPbjo21i9fyLz4OQ0wls9xkUp87qbCvWLdL7BnyEJlaIygFtbtgDyKruR6IztZnXDgJtbAK69crVjHA_UNKPpuRMZq-AYXOyc5n2-4X9SeW7pLGMPNRX2gAjMdzIpmuhRuLlx2K-TrMuxXQgr6PeFO8KC1TlgFLHE8x9hkULgBt3uRZuf6hIFsvkaqKjFFkjveoOvAHja9oB_btfFHcW2n6xnn9KwnGB6pBt_wTZpUrwEb7tipVGVkVnZhjdRDMlWulM-_x8vSwNMUs5VWSPPUueTj6pORa2cpEf54DjwQHnlMIE2iUZHcid8JikwoaKfU087AJD2CSq4eusd9oWDXgt5RBwXF3_7EZFrvUvlnL-uoRcfnwSqVuD7PFp0_VfnC-8V3IqnnmABC4MmDTTbMMCahHCSvg6kqlQ0gN23az1QSvlbXOmItbA6Z7Da8L7J7WF01nzQ5JYbNc48jcopBm74w5rgvoogbqnr0nw3TMvMQVaw1kQOnDKFFwbPDrAX4SqPBvR0gfo_vNgy_tUrrswZ0BOecTvKF-zJJohthrbSbAMTALuT5gzWrg9PUjJL1A05hRKFQ8AdInGVExMYwdYTUazT-9Q5o5NyeGM26pDtJgeQyG2RngL9OKR5NKeM2omL11iB5t2KKTW8AU7hVTIdxYVhSfQ05gZcsD8TMOgRdvFThIjJSVmYwkvQJzhtTPRsDg9nnFlliYmg4e9lUQoSqB0b_noQ7cXnMq7CEOjQiNJuHLDSuRZEn3LjTYuc9ACU3m66s5UvgHi2zvQnds6eSp7BSoebTsbh9yjsbdSQiqDgrQZ1UWf3eKgOAXdBHolewiBqSbwbpzClMxOlnCD7RXYH1WTbrJrRhs4pwodBwmK6XBYVsDUPEAhhfsvJCgUoYFSnexO2jvpYlaP6woFy3 
+https://www.plantuml.com/plantuml/uml/hLVXRjks4_-kfn3w_v3-XxfekcPT1moeOYkP2bloP3aOEWp2MJmxN2HIeoXtJTkds2FjnKP9L4qJYeesKJw4lj_TaR_Z7OzyNKaGiYvonpbnVxx7fyodKNWHNAvZRnhy-q_eNlgX7tlp-_fr92zToTqDbv8NBg42CqavSvpgXh8I11Jk1hARdU0r8rEUS-7-xzbvysTev9IXV5-YouMyvgOjCadbU_U3uwhlt7PqqNuTnWL1qK_GVgtyWZCvB5tHMtHFJvrFvdoU4FoTrd_flVAKlWKQ3lNqjaBl-vNfcE0MwbmsO0W5AbKAkQd0EC4AI_VxCqCeWDqqmXTdpWEaW1ycmSoR-QjxxxhUbaV-OXdxA--H2vMhntglldCfIR4e1LRW_kHUUV7q5oz-VFhi_oqycRJ_H9sPu6a72hZbBAruHY4_ijN6RPPbb3C3VDw34dFSSiPDmxCEmWBee4F89Dqt5kTHDFUzKEN4WQCgdDbwcaHno_BpBvDdnXcfCyd57Ko_70_2g27ziHCoNcm43Ywun3odX0zXESsGPHJCuFIneILF1t0Tdorcrv3k6xIWYdxZVkObVWjcdD0TJ_yIfj-pi-406ku4xcWbHGCcmS9V9TvYUHJVU9rq2TGCpAYAMjwHEkF1uOBka0qc3bQICZu8gKL24vRqfcXe-zDWuSqV__3aUHywB5Jm6WS549uMj9aX21F_qe-_d4JdwrNBKVqtAMxgwfjJfimX6v8Nd63EpTtj0H0P3CY1KMvnoQ24Z18WQG5_VmtFP1s7KSkq7PbSPIqO7sKxKaZZ0Hj95vs5bD6C7kMW0Mufin4NAmbjVVdXUl7uPEc7iy1NKJXvSk9Da-0gKeEB8FJcmLjl5ftepDjKAFRG74rODIxztvAZy5pvSN0HJ5KFZiBqr-v4iMHcoFOew9PchSDxH6ua-98M3TEYj0FGrpjM6J04meVANc1LvnA8NVcqJ0cjIbvHbIgcvGjjI9b49dbbf9OP9c_kn_fGw8PcK2178M4y72DyIzx7QXWszjmBWscppwfZNWNDuCgVHzEcXQhnqbjvR_muMkczPtIFUIeeLhk3YtFlJMEty6UjlJTFcd_JE4YKPssOWo9TayEXerRpvAN6EDiDWwDxHx3A12tRjD5Ps6yNvXBkEAShdjUDYUdExeI97wKzy-v4iuLMNvGuNlCZ9JsoYrn2diA62mA2MmUnHZVmfuLPbjo21i9fyLz4OQ0wls9xkUp87qbCvWLdL7BnyEJlaIygFtbtgDyKruR6IztZnXDgJtbAK69crVjHA_UNKPpuRMZq-AYXOyc5n2-4X9SeW7pLGMPNRX2gAjMdzIpmuhRuLlx2K-TrMuxXQgr6PeFO8KC1TlgFLHE8x9hkULgBt3uRZuf6hIFsvkaqKjFFkjveoOvAHja9oB_btfFHcW2n6xnn9KwnGB6pBt_wTZpUrwEb7tipVGVkVnZhjdRDMlWulM-_x8vSwNMUs5VWSPPUueTj6pORa2cpEf54DjwQHnlMIE2iUZHcid8JikwoaKfU087AJD2CSq4eusd9oWDXgt5RBwXF3_7EZFrvUvlnL-uoRcfnwSqVuD7PFp0_VfnC-8V3IqnnmABC4MmDTTbMMCahHCSvg6kqlQ0gN23az1QSvlbXOmItbA6Z7Da8L7J7WF01nzQ5JYbNc48jcopBm74w5rgvoogbqnr0nw3TMvMQVaw1kQOnDKFFwbPDrAX4SqPBvR0gfo_vNgy_tUrrswZ0BOecTvKF-zJJohthrbSbAMTALuT5gzWrg9PUjJL1A05hRKFQ8AdInGVExMYwdYTUazT-9Q5o5NyeGM26pDtJgeQyG2RngL9OKR5NKeM2omL11iB5t2KKTW8AU7hVTIdxYVhSfQ05gZcsD8TMOgRdvFThIjJSVmYwkvQJzhtTPRsDg9nnFlliYmg4e9lUQoSqB0b_noQ7cXnMq7CEOjQiNJuHLDSuRZEn3LjTYuc9ACU3m66s5UvgHi2zvQnds6eSp7BSoebTsbh9yjsbdSQiqDgrQZ1UWf3eKgOAXdBHolewiBqSbwbpzClMxOlnCD7RXYH1WTbrJrRhs4pwodBwmK6XBYVsDUPEAhhfsvJCgUoYFSnexO2jvpYlaP6woFy3
 
 ---
 
@@ -2150,5 +2169,3 @@ https://www.plantuml.com/plantuml/uml/hLVXRjks4_-kfn3w_v3-XxfekcPT1moeOYkP2bloP3
 ---
 
 ## Anexos
-
-
