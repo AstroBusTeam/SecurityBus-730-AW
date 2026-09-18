@@ -1,6 +1,7 @@
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
+
 En esta sección, se presenta un análisis de los principales competidores de SecurityBus, centrado en aquellos que operan dentro del sector del transporte público y que ofrecen servicios o soluciones relacionadas con la movilidad, seguridad, monitoreo y gestión del transporte. Evaluamos tanto competidores directos, que cuentan con sistemas de monitoreo y seguridad para sus unidades, como competidores indirectos, que ofrecen servicios de transporte público con diferentes niveles de integración tecnológica.
 
 Este análisis nos permitirá comprender mejor el entorno competitivo de SecurityBus, identificar las fortalezas y debilidades de las alternativas existentes y determinar oportunidades de diferenciación mediante soluciones tecnológicas orientadas a mejorar la seguridad de pasajeros y operadores durante los recorridos.
@@ -148,6 +149,7 @@ Es un sistema orientado a ofrecer una experiencia de transporte integrada, incor
 </table>
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
+
 Para posicionar a SecurityBus de manera competitiva, se plantean las siguientes estrategias:
 
 **Estrategias de vinculación y fidelización con usuarios clave:**
@@ -221,20 +223,18 @@ User: Conductores de transporte público
 9. ¿Crees que un sistema de seguridad y seguimiento podría ayudarte a reaccionar mejor ante situaciones de riesgo? ¿Por qué?
 10. ¿Qué características considerarías indispensables en una aplicación de seguridad para conductores?
 
-
-
-
 #### 2.2.2. Registro de entrevistas
 
 **Segmento Objetivo 1 : Conductores de transporte público**
 
 **Entrevista 1: Conductor de transporte público**
-+ Nombre: Diego Ruiz Soto
-+ Edad: 30 años
-+ Residencia: San Juan de Lurigancho, Lima, Perú
-+ Ocupación: Conductor de transporte público
-+ Inicio: 0:12
-+ Duración: 7:20
+
+- Nombre: Diego Ruiz Soto
+- Edad: 30 años
+- Residencia: San Juan de Lurigancho, Lima, Perú
+- Ocupación: Conductor de transporte público
+- Inicio: 0:12
+- Duración: 7:20
 
 Link:<br>
 [Ver video](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FU202418823%5FConductor%5FDiego%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7a646787%2D9374%2D44ab%2D9528%2D0eb31fcb2c93)
@@ -256,12 +256,13 @@ Actualmente, para gestionar emergencias o accidentes, su primer canal de comunic
 ---
 
 **Entrevista 2: Conductor de transporte público**
-+ Nombre: Renzo Baldeon
-+ Edad: 27 años
-+ Residencia: San Martin de Porres, Lima, Perú
-+ Ocupación: Conductor de transporte público
-+ Inicio: 0:00
-+ Duración: 5:30
+
+- Nombre: Renzo Baldeon
+- Edad: 27 años
+- Residencia: San Martin de Porres, Lima, Perú
+- Ocupación: Conductor de transporte público
+- Inicio: 0:00
+- Duración: 5:30
 
 Link:<br>
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCafsY8x7sOSqukvMmXMFyoAVl7C4qydnHb8NbOpXa81b4?e=wgnskb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
@@ -281,12 +282,13 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 ---
 
 **Entrevista 3: Conductor de transporte público**
-+ Nombre: Janet Linda Gomez
-+ Edad: 53 años
-+ Residencia: Villa el salvador, Lima, Perú
-+ Ocupación: Conductor de transporte público
-+ Inicio: 0:02
-+ Duración: 8:56
+
+- Nombre: Janet Linda Gomez
+- Edad: 53 años
+- Residencia: Villa el salvador, Lima, Perú
+- Ocupación: Conductor de transporte público
+- Inicio: 0:02
+- Duración: 8:56
 
 Link:<br>
 [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCwl8UgRY7sT67ipDf8i4CMAevjO6BK_gkIuROOGWtTEqE?e=rE1L6A)
@@ -307,19 +309,19 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 
 ---
 
-
 **Segmento Objetivo 2 : Empresas o Consorcios (Representantes)**
 
 **Entrevista 1: Representante de Consorcio**
-+ Nombre: Kiara Nuñez
-+ Edad: 28 años
-+ Residencia: Puente Piedra, Lima, Perú
-+ Ocupación: Administrativa de ETUCHISA SAC
-+ Inicio: 0:12
-+ Duración: 10:05
+
+- Nombre: Kiara Nuñez
+- Edad: 28 años
+- Residencia: Puente Piedra, Lima, Perú
+- Ocupación: Administrativa de ETUCHISA SAC
+- Inicio: 0:12
+- Duración: 10:05
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai
 
 ---
 
@@ -338,15 +340,16 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 ---
 
 **Entrevista 2: Representante de Consorcio**
-+ Nombre: Nicanor Yamocca
-+ Edad: 48 años
-+ Residencia: Santa Anita, Lima, Perú
-+ Ocupación: Administrativo de la Sociedad Anónima
-+ Inicio: 0:00
-+ Duración: 9:09
+
+- Nombre: Nicanor Yamocca
+- Edad: 48 años
+- Residencia: Santa Anita, Lima, Perú
+- Ocupación: Administrativo de la Sociedad Anónima
+- Inicio: 0:00
+- Duración: 9:09
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc
 
 ---
 
@@ -365,12 +368,13 @@ Link
 ---
 
 **Entrevista 3: Representante de Empresa de Transporte**
-+ Nombre: Jaime A. Russvelt
-+ Edad: 50 años
-+ Residencia: Ancón
-+ Ocupación: Representante de la empresa Nueva Estrella
-+ Inicio: 0:00
-+ Duración: 10:11
+
+- Nombre: Jaime A. Russvelt
+- Edad: 50 años
+- Residencia: Ancón
+- Ocupación: Representante de la empresa Nueva Estrella
+- Inicio: 0:00
+- Duración: 10:11
 
 Link:<br>
 
@@ -390,8 +394,34 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 ---
 
+**Entrevista 4: Representante de Empresa de Transporte**
 
+- Nombre: Luisana Falla
+- Edad: 30 años
+- Residencia: Lima, Perú
+- Ocupación: Representante de empresa de transporte público urbano
+- Inicio: 0:00
+- Duración: 2:43
 
+Link:<br>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAh67Qa_nB2T7570M-iamP3AcTgmIbi4jbhVjuJhRDEV-w?e=lEUTTf
+
+---
+
+**Resumen:**<br>
+
+La representante entrevistada indica que su empresa gestiona las emergencias de forma reactiva: el conductor se comunica por celular con el área de despacho o reporta a través del grupo de WhatsApp de la empresa, desde donde se coordina con la PNP, bomberos o serenazgo según el caso, ya que actualmente no cuentan con una central de monitoreo que opere las 24 horas. Ante un asalto, la indicación institucional es que el conductor no oponga resistencia y priorice la vida de los pasajeros, para luego reportar al despacho, detenerse en un lugar seguro y acudir a la comisaría a denunciar; en los casos de extorsión, la gerencia recibe el reporte, presenta la denuncia ante la División de Extorsiones de la PNP y evalúa medidas como cambios de horario o de ruta. Sin embargo, reconoce que no existe un protocolo formal y documentado, y que cada caso se maneja según la situación.
+
+La principal limitación para conocer en tiempo real lo que ocurre dentro de una unidad es que el GPS solo permite ver la ubicación, mas no lo que sucede a bordo: si una unidad se detiene o se desvía, no es posible distinguir si se trata de tráfico, una avería o un asalto. Algunas unidades cuentan con cámaras, pero estas graban de forma local y el video se revisa recién después del incidente, además el conductor no puede comunicarse durante una emergencia sin exponerse. Sobre los riesgos que más afectan a la empresa, señala en primer lugar la extorsión —que incluye cobro de cupos, amenazas y ataques contra conductores y unidades—, seguida de los asaltos a pasajeros y personal, las agresiones dentro de las unidades, los accidentes de tránsito y el robo de autopartes; estos riesgos generan además una alta rotación de conductores y dificultades para operar en ciertas rutas y horarios.<br>
+
+---
+
+**Evidencia:**<br>
+
+![Entrevista Consorcio 4](/docs/assets/interviews/entrevistaconsorcio4.png)
+
+---
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -656,9 +686,8 @@ Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones 
 
 ![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/10.jpg)
 
-
-
 ### 2.5. Ubiquitous Language
+
 **Unidad de Transporte (Unidad de Transporte):** Vehículo que forma parte del sistema y que es monitoreado durante su recorrido. Representa el elemento principal sobre el cual se registra la ubicación, estado y eventos de seguridad.
 
 **Conductor (Conductor):** Persona responsable de operar una unidad de transporte durante un recorrido. Está asociada a una unidad y puede activar alertas de emergencia cuando se encuentra ante una situación de riesgo.
