@@ -626,6 +626,13 @@ Desde el Centro de Control, el administrador visualiza las unidades activas sobr
 
 ![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf4_goal6_supervision_admin.png)
 
+**User Flow 5: Gestión de conductores y unidades (Administrador)**
+
+Relacionado al User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegurar la trazabilidad.
+Desde Gestión de Conductores, el administrador revisa el listado y el detalle de cada conductor. Desde Asignación de Unidades, selecciona un conductor y un vehículo disponibles y confirma la asociación, reflejada en la tabla de asignaciones vigentes.
+
+![Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
+
 
 
 ### 4.5. Web Applications Prototyping
