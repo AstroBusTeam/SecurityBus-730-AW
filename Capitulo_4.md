@@ -721,6 +721,142 @@ URL del video: [Mobile applications prototyping](https://upcedupe-my.sharepoint.
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1 Class Diagrams
 
+La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Design (DDD) para garantizar una alta cohesión y un bajo acoplamiento. Con el objetivo de facilitar el análisis del dominio y asegurar la legibilidad técnica, la representación visual del backend se ha segmentado. A continuación, se presentan los diagramas de clases correspondientes a los 4 Bounded Contexts identificados, detallando sus respectivos Agregados, Entidades y Objetos de Valor (Value Objects).
+
+<center>
+<h4>Bounded Context: Authentication Management</h4>
+
+![bounded context 1](docs/assets/bc1.png)
+
+<h4>Bounded Context: User</h4>
+
+![bounded context 2](docs/assets/bc2.png)
+
+<h4>Bounded Context: Profile</h4>
+
+![bounded context 3](docs/assets/bc3.png)
+
+<h4>Bounded Context: Monitoring</h4>
+
+![bounded context 4](docs/assets/bc4.png)
+
+</center>
+
 ### 4.8. Database Design
+
+Se adopta una estrategia de persistencia poliglota, con una base de datos independiente por Bounded Context (*database-per-service*), siguiendo el mismo límite que los Aggregates definidos en la sección 4.9. Authentication, User y Profile manejan datos estructurados de bajo volumen de escritura y se modelan como bases de datos **relacionales** (PostgreSQL). Monitoring recibe escritura de alta frecuencia (velocidad, pasajeros, ubicación) y necesita un esquema flexible para el historial de ubicación, por lo que se modela como base de datos **no relacional** orientada a documentos (MongoDB).
+
+
 #### 4.8.1. Database Diagrams
 
+**Authentication DB — Relacional (PostgreSQL)**
+
+<center>
+
+```mermaid
+erDiagram
+    AUTHENTICATIONS ||--o{ AUTHENTICATION_CODES : has
+    AUTHENTICATIONS {
+        uuid id PK
+        uuid driver_id
+        string status
+        timestamp created_at
+    }
+    AUTHENTICATION_CODES {
+        uuid id PK
+        uuid authentication_id FK
+        string code
+        timestamp expires_at
+        boolean used
+    }
+```
+</center>
+
+**User DB — Relacional (PostgreSQL)**
+
+<center>
+
+```mermaid
+erDiagram
+    DRIVERS {
+        uuid id PK
+        string full_name
+        string license_number
+        string status
+        string phone
+        string email
+    }
+```
+</center>
+
+**Profile DB — Relacional (PostgreSQL)**
+
+<center>
+
+```mermaid
+erDiagram
+    DRIVER_PROFILES {
+        uuid id PK
+        uuid driver_id
+        string photo_url
+        int experience_years
+    }
+    BUSES {
+        uuid id PK
+        string plate
+        int capacity
+        string model
+    }
+```
+
+</center>
+
+**Monitoring DB — No relacional (MongoDB, orientada a documentos)**
+
+Las colecciones no tienen llaves foráneas físicas: las referencias entre documentos se resuelven por convención de identificador (`routeId`), propio del modelo de documentos, y no como un JOIN relacional.
+
+**Colección `routes`**
+
+```json
+{
+  "_id": "ObjectId",
+  "driverId": "String",
+  "busId": "String",
+  "startTime": "Date",
+  "endTime": "Date",
+  "status": "String"
+}
+```
+
+**Colección `monitoring_sessions`**
+
+```json
+{
+  "_id": "ObjectId",
+  "routeId": "String", 
+  "passengerCount": { "value": "Int" },
+  "currentSpeed": { "value": "Double", "unit": "String" },
+  "startedAt": "Date",
+  "locationHistory": [
+    { "lat": "Double", "lng": "Double", "timestamp": "Date" }
+  ]
+}
+```
+
+**Colección `emergency_alerts`**
+
+```json
+{
+  "_id": "ObjectId",
+  "routeId": "String",  
+  "driverId": "String",
+  "status": "String",
+  "createdAt": "Date",
+  "attendedAt": "Date"
+}
+```
+
+
+**Relaciones lógicas (sin FK física):**
+- 1 `routes` ↔ 1 `monitoring_sessions` (por `routeId`)
+- 1 `routes` ↔ 0..N `emergency_alerts` (por `routeId`)
