@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1500 1000" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama de Contexto C4 (Nivel 1) de SecurityBus: actores, la plataforma y los sistemas externos con los que se relaciona" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker></defs>
+  <rect x="0" y="0" width="1500" height="1000" fill="#f7f7f5"/>
+  <text x="750.0" y="30.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#111827" text-anchor="middle"><tspan x="750.0" dy="0">Diagrama de Contexto (C4 - Nivel 1) — Plataforma SecurityBus</tspan></text>
+  <rect x="50.0" y="70.0" width="280.0" height="150.0" rx="8" fill="#0b4884" stroke="#062a52" stroke-width="1.5"/>
+  <text x="190.0" y="104.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#cfe0f5" text-anchor="middle"><tspan x="190.0" dy="0">[ Persona ]</tspan></text>
+  <text x="190.0" y="124.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="190.0" dy="0">Conductor</tspan></text>
+  <text x="190.0" y="141.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#dbe7f7" text-anchor="middle"><tspan x="190.0" dy="0">Se autentica, abre y cierra su</tspan><tspan x="190.0" dy="13">servicio, y emite alertas de</tspan><tspan x="190.0" dy="13">emergencia desde la unidad.</tspan></text>
+  <rect x="1170.0" y="70.0" width="280.0" height="150.0" rx="8" fill="#0b4884" stroke="#062a52" stroke-width="1.5"/>
+  <text x="1310.0" y="104.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#cfe0f5" text-anchor="middle"><tspan x="1310.0" dy="0">[ Persona ]</tspan></text>
+  <text x="1310.0" y="116.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="1310.0" dy="0">Encargado de Empresa</tspan><tspan x="1310.0" dy="16">Operadora</tspan></text>
+  <text x="1310.0" y="157.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#dbe7f7" text-anchor="middle"><tspan x="1310.0" dy="0">Supervisa la flota, revisa alertas</tspan><tspan x="1310.0" dy="13">e historiales, y da seguimiento</tspan><tspan x="1310.0" dy="13">a la ocupacion desde el dashboard.</tspan></text>
+  <rect x="50.0" y="780.0" width="280.0" height="150.0" rx="8" fill="#0b4884" stroke="#062a52" stroke-width="1.5"/>
+  <text x="190.0" y="814.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#cfe0f5" text-anchor="middle"><tspan x="190.0" dy="0">[ Persona ]</tspan></text>
+  <text x="190.0" y="834.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="190.0" dy="0">Visitante</tspan></text>
+  <text x="190.0" y="851.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#dbe7f7" text-anchor="middle"><tspan x="190.0" dy="0">Explora la landing page para</tspan><tspan x="190.0" dy="13">conocer la problematica y la</tspan><tspan x="190.0" dy="13">propuesta de valor de SecurityBus.</tspan></text>
+  <rect x="1170.0" y="780.0" width="280.0" height="150.0" rx="8" fill="#0b4884" stroke="#062a52" stroke-width="1.5"/>
+  <text x="1310.0" y="814.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#cfe0f5" text-anchor="middle"><tspan x="1310.0" dy="0">[ Persona ]</tspan></text>
+  <text x="1310.0" y="826.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="1310.0" dy="0">Developer / Sistema</tspan><tspan x="1310.0" dy="16">Integrador</tspan></text>
+  <text x="1310.0" y="867.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="400" fill="#dbe7f7" text-anchor="middle"><tspan x="1310.0" dy="0">Consume la API REST para operar</tspan><tspan x="1310.0" dy="13">y consultar el sistema sin pasar</tspan><tspan x="1310.0" dy="13">por la interfaz (EPNN05).</tspan></text>
+  <rect x="490.0" y="370.0" width="520.0" height="260.0" rx="10" fill="#1168bd" stroke="#0b4884" stroke-width="2"/>
+  <text x="750.0" y="406.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="600" fill="#cfe0f5" text-anchor="middle"><tspan x="750.0" dy="0">[ Sistema de Software ]</tspan></text>
+  <text x="750.0" y="430.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="750.0" dy="0">Plataforma SecurityBus</tspan></text>
+  <text x="750.0" y="443.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#e2ecf9" text-anchor="middle"><tspan x="750.0" dy="0">Previene, detecta y responde ante incidentes</tspan><tspan x="750.0" dy="15">de seguridad en unidades de transporte publico</tspan><tspan x="750.0" dy="15">mediante alertas de emergencia, monitoreo de</tspan><tspan x="750.0" dy="15">ocupacion y gestion de conductores y servicios.</tspan></text>
+  <rect x="560.0" y="70.0" width="380.0" height="130.0" rx="8" fill="#8a8a8a" stroke="#5f5f5f" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="750.0" y="100.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#e6e6e6" text-anchor="middle"><tspan x="750.0" dy="0">[ Sistema Externo ]</tspan></text>
+  <text x="750.0" y="120.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="750.0" dy="0">Sensores de Conteo IoT</tspan></text>
+  <text x="750.0" y="143.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#efefef" text-anchor="middle"><tspan x="750.0" dy="0">Hardware embarcado que reporta el</tspan><tspan x="750.0" dy="13">ingreso y salida de pasajeros.</tspan></text>
+  <rect x="1200.0" y="410.0" width="260.0" height="180.0" rx="8" fill="#8a8a8a" stroke="#5f5f5f" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="1330.0" y="440.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#e6e6e6" text-anchor="middle"><tspan x="1330.0" dy="0">[ Sistema Externo ]</tspan></text>
+  <text x="1330.0" y="460.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="1330.0" dy="0">Servicio de Notificaciones</tspan></text>
+  <text x="1330.0" y="470.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#efefef" text-anchor="middle"><tspan x="1330.0" dy="0">SMS, push y correo electronico.</tspan><tspan x="1330.0" dy="13">Distribuye cada alerta a los</tspan><tspan x="1330.0" dy="13">destinatarios configurados</tspan><tspan x="1330.0" dy="13">por la central.</tspan></text>
+  <rect x="560.0" y="800.0" width="380.0" height="130.0" rx="8" fill="#8a8a8a" stroke="#5f5f5f" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="750.0" y="830.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="600" fill="#e6e6e6" text-anchor="middle"><tspan x="750.0" dy="0">[ Sistema Externo ]</tspan></text>
+  <text x="750.0" y="850.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff" text-anchor="middle"><tspan x="750.0" dy="0">Proveedor de Geolocalizacion</tspan></text>
+  <text x="750.0" y="873.5" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="10" font-weight="400" fill="#efefef" text-anchor="middle"><tspan x="750.0" dy="0">GPS y mapas: entrega coordenadas</tspan><tspan x="750.0" dy="13">y trazado del recorrido de la unidad.</tspan></text>
+  <polyline points="330.0,145.0 410.0,145.0 410.0,453.2 490.0,453.2" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="307.0" y="291.1" width="206.0" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="410.0" y="299.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="410.0" dy="0">Se autentica, abre/cierra servicio,</tspan></text>
+  <text x="410.0" y="315.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="410.0" dy="0">emite alertas [HTTPS/JSON]</tspan></text>
+  <polyline points="1170.0,145.0 1090.0,145.0 1090.0,453.2 1010.0,453.2" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="1009.4" y="291.1" width="161.2" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="1090.0" y="299.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1090.0" dy="0">Consulta flota, historial y</tspan></text>
+  <text x="1090.0" y="315.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1090.0" dy="0">reportes [HTTPS/JSON]</tspan></text>
+  <polyline points="330.0,855.0 410.0,855.0 410.0,546.8 490.0,546.8" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="329.4" y="692.9" width="161.2" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="410.0" y="700.9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="410.0" dy="0">Navega el contenido [HTTPS]</tspan></text>
+  <polyline points="1170.0,855.0 1090.0,855.0 1090.0,546.8 1010.0,546.8" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="1026.2" y="692.9" width="127.6" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="1090.0" y="700.9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1090.0" dy="0">Invoca endpoints REST</tspan></text>
+  <text x="1090.0" y="716.9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1090.0" dy="0">con token [HTTPS/JSON]</tspan></text>
+  <polyline points="750.0,200.0 750.0,285.0 750.0,285.0 750.0,370.0" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="633.0" y="277.0" width="234.0" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="750.0" y="285.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="750.0" dy="0">Envia lecturas de ocupacion [MQTT/HTTPS]</tspan></text>
+  <polyline points="1010.0,500.0 1105.0,500.0 1105.0,500.0 1200.0,500.0" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="996.4" y="492.0" width="217.2" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="1105.0" y="500.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="1105.0" dy="0">Difunde alertas a destinatarios [API]</tspan></text>
+  <polyline points="750.0,630.0 750.0,715.0 750.0,715.0 750.0,800.0" fill="none" stroke="#4b5563" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <rect x="649.8" y="707.0" width="200.4" height="16.0" rx="3" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+  <text x="750.0" y="715.0" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="9.5" font-weight="500" fill="#374151" text-anchor="middle"><tspan x="750.0" dy="0">Solicita/reporta coordenadas [API]</tspan></text>
+</svg>
