@@ -588,6 +588,13 @@ Trabajo elaborado en Figma: [Web Application Mockups](https://www.figma.com/desi
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
+**User Flow 1: Autenticación e inicio de servicio del conductor**
+
+Relacionado al User Goal 1: Como conductor, quiero validar mi identidad mediante código QR antes de iniciar mi turno, para asegurar la trazabilidad del servicio.
+El conductor accede a la pantalla de Acceso Conductor, escanea su credencial digital o ingresa su código de empleado. El sistema muestra la pantalla de Validación de Identidad con el escaneo del QR; una vez validado, se presenta la confirmación de acceso autorizado con la transmisión activa hacia central, habilitando el turno.
+
+![Goal 1](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal1_autenticacion.png)
+
 ### 4.5. Web Applications Prototyping
 
 ### 4.6. Domain-Driven Software Architecture
