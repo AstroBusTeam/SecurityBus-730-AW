@@ -34,7 +34,7 @@ Septiembre, 2026
         <td>Justo Yauricasa, Alexander Paolo</td>
       </tr>
       <tr>
-        <td></td>
+        <td>U202316246</td>
         <td>Martinez Ramos, Bryan Felix</td>
       </tr>
       <tr>
