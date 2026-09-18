@@ -89,26 +89,7 @@ Los tres clientes (la app móvil del conductor, el dashboard web de la empresa y
 
 #### 4.6.4. Software Architecture Components Diagrams
 
-<center>
-<h4>Components Diagram — Authentication Service</h4>
 
-![container1](docs/assets/cd1.png)
-
-<h4>Components Diagram — User Service</h4>
-
-![container2](docs/assets/cd2.png)
-
-<h4>Components Diagram — Profile Service</h4>
-
-![container3](docs/assets/cd3.png)
-
-<h4>Components Diagram — Monitoring Service</h4>
-
-![container4](docs/assets/cd4.png)
-
-</center>
-
----
 
 ### 4.7. Software Object-Oriented Design
 #### 4.7.1 Class Diagrams
