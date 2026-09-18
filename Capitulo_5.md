@@ -248,12 +248,49 @@ Cuando los cambios sean incorporados a la rama principal, GitHub Pages actualiza
 #### 5.2.1. Sprint 1
 
 ##### 5.2.1.1. Spring Planning 1
+Para este primer Sprint, el equipo estableció como objetivo principal la implementación y despliegue de la primera versión de la Landing Page.
+
+| Campo | Detalle |
+|-------|---------|
+| Sprint # | Sprint 1 |
+| Date | 2026-09-06 |
+| Time | 05:00 PM |
+| Location | Reunión virtual vía Google Meet |
+| Prepared By | Pillaca Gonzales, Andy Saúl |
+| Attendees | Justo Yauricasa, Alexander Paolo / Pillaca Gonzales, Andy Saúl /Alvarado Millan, Boris / Martinez Ramos, Bryan Felix / Nawrocki Loureiro, Ian Andre |
+| Sprint N-1 Review Summary | Dado que este es el Sprint inicial del proyecto, no se cuenta con un ciclo anterior para revisión. En consecuencia, la implementación del producto comienza formalmente desde sus cimientos. |
+| Sprint N-1 Retrospective Summary | Al tratarse de la iteración inicial, no se cuenta con un proceso de retrospectiva previo. No obstante, el equipo estableció el compromiso de asegurar una comunicación fluida y acatar los plazos previstos. |
+| Sprint 1 Goal | Nos enfocamos en el desarrollo y lanzamiento de la primera versión de la Landing Page, orientada a comunicar nuestra propuesta de valor: mejorar la seguridad y monitorieo en el transporte público. Consideramos que transmite con claridad los beneficios del sistema a potenciales clientes, lo cual se validará cuando el sitio esté en línea, cuente con todas las secciones clave y permita una navegación fluida. |
+| Sprint N Velocity | 09 |
+| Sum of Story Points | 09 |
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
 
+| Team Member | GitHub Username | Configuración del Repositorio y CI/CD (L/C) | Estructura Base del Landing Page (L/C) | Funcionalidades Interactivas (L/C) | Corrección de Contenido (L/C) |
+|------------|-----------------|---------------------------------------------|----------------------------------------|-----------------------------------|-------------------------------|
+| Alvarado Millan, Boris | borisalvaradomillanPE | L | C | C | C |
+| Justo Yauricasa, Alexander Paolo | AlexanderrJusto | C | C | C | L |
+| Martinez Ramos, Bryan Felix | BryanMR1 | C | L | L | C |
+| Pillaca Gonzales, Andy Saúl | apillacag | C | C | C | L |
+| Nawrocki Loureiro, Ian Andre | IanNaw | C | C | C | L |
+
 ##### 5.2.1.3. Sprint Backlog 1
 
+| Sprint # | Sprint 1 | | | | | | |
+|----------|----------|-|-|-|-|-|-|
+| **User Story** | | **Work-item / Task** | | | | | |
+| Id | Title | Id | Title | Description | Estimation | Assigned To | Status |
+| US29 | Segmento al que apunta la solución | T-01 | Segmento al que apunta | Mostramos a como y andonde apunta nuestro sistema. | 2 | Alvarado Millan, Boris | Done |
+| US37 | Problemática del transporte en la landing page | T-02 | Problematica | Mostrar la desbentajas del traspodte publico sin nuestro aplicacativo. | 2 | Justo Yauricasa, Alexander Paolo | Done |
+| US38 | Propuesta de valor en la landing page | T-03 | Propuesta de valor | Mostrar los valores que tiene nuestra aplicativo en el trasporte publico. | 1 | Martinez Ramos, Bryan Felix | Done |
+| US45 | Beneficios del sistema en la landing page | T-04 | Beneficios | Mostrar los beneficios que tiene nuestra aplicativo en el trasporte publico. | 1 | Pillaca Gonzales, Andy Saúl | Done |
+| US46 | Equipo detrás de la solución | T-05 | Equipo | Mostramos las soluciones que tene nuestro aplicatico en el traspote publico | 2 | Nawrocki Loureiro, Ian Andre | Done |
+| US30 | Mision y vision de la startup | T-06 | Mision y vision | Mostromos la vision y mision en la Landing Page. | 1 | Pillaca Gonzales, Andy Saúl | Done |
+
+
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el primer Sprint, la prioridad del equipo fue la implementación y el lanzamiento de la primera versión de la página. El propósito central fue posicionar la propuesta de valor en materia de seguridad para el transporte público mediante una estructura que abarca desde la presentación general y los beneficios, hasta testimonios, funcionalidades clave y canales de contacto. 
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
