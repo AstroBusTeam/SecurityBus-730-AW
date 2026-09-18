@@ -378,23 +378,140 @@ Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/
 
 En esta sección se presenta la propuesta de Wireflows, elaborada a partir de los User Goals y las User Stories definidas para las aplicaciones incluidas en el alcance del proyecto SecurityBus.
 
-Task Flow 1: Autenticación y acceso del conductor
+**Task Flow 1: Autenticación y acceso del conductor**
 Objetivo del usuario: Permitir que el conductor valide su identidad mediante código QR para iniciar su turno de forma segura y trazable.
+
 Pasos del Task Flow:
 
-Acceder a la pantalla de Acceso Conductor y escanear el código QR o ingresar el código de empleado.
-El sistema valida las credenciales contra el registro central.
-Confirmar la identidad y visualizar los datos del conductor y del vehículo asignado.
-Iniciar turno desde la confirmación de acceso.
+1. Acceder a la pantalla de Acceso Conductor y escanear el código QR o ingresar el código de empleado.
+2. El sistema valida las credenciales contra el registro central.
+3. Confirmar la identidad y visualizar los datos del conductor y del vehículo asignado.
+4. Iniciar turno desde la confirmación de acceso.
 
 User Goal 1: Como conductor, quiero validar mi identidad antes de iniciar el servicio, para asegurar la trazabilidad del viaje.
 
 User Persona: Conductor
 El conductor accede a la pantalla de Acceso Conductor, escanea su credencial digital o ingresa su código de empleado y presiona "Verificar credenciales". El sistema muestra la pantalla de Validación de Identidad con el escaneo del QR; una vez validado, se presenta la tarjeta de confirmación con nombre, placa del vehículo y estado "Activo", habilitando el botón "Iniciar Turno".
 
+![User Goal 1](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf1_autenticacion_conductor.png)
+
 Secuencia: Acceso Conductor → Validación de Identidad → Confirmación del acceso
 
+**Task Flow 2: Inicio de servicio y monitoreo de pasajeros**
+Objetivo del usuario: Permitir al conductor iniciar el servicio, monitorear su ruta y controlar el conteo de pasajeros en tiempo real.
 
+Pasos del Task Flow:
+
+1. Configurar el servicio: seleccionar vehículo y turno de trabajo.
+2. Iniciar el servicio y acceder al panel principal.
+3. Registrar el abordaje y bajada de pasajeros.
+4. Recibir alerta si se excede la capacidad máxima.
+5. Consultar la ubicación de la unidad en el mapa.
+
+User Goal 2: Como conductor, deseo registrar el inicio del servicio, para dejar evidencia del recorrido.
+
+User Persona: Conductor
+Desde Inicio de Servicio, el conductor selecciona el vehículo y el turno (mañana/tarde/noche) y confirma "Iniciar Servicio". El sistema lo redirige al Panel principal (Inicio), donde ve distancia, tiempo, pasajeros y la ruta operada en tiempo real.
+
+![User Goal 2](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2a_inicio_servicio.png)
+
+User Goal 3: Como sistema, deseo contabilizar los pasajeros a bordo y alertar cuando se supera la capacidad del vehículo, para evitar altercados y estimar el riesgo.
+
+User Persona: Conductor
+Desde el panel de Conteo de Pasajeros, el conductor registra abordajes (+) y bajadas (−). Si el conteo (62/60) supera la capacidad máxima, el sistema dispara el modal "Has alcanzado el límite de pasajeros", que el conductor reconoce con "OK". Desde el mismo panel puede acceder a Ver Mapa para visualizar la ubicación de la unidad y su ruta.
+
+![User Goal 3](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2b_conteo_pasajeros.png)
+
+Secuencia: Inicio de Servicio → Panel principal (Inicio) → Conteo de Pasajeros → Alerta de límite de pasajeros → Ver Mapa
+
+**Task Flow 3: Gestión de una alerta de emergencia**
+Objetivo del usuario: Permitir al conductor iniciar el servicio, monitorear su ruta y controlar el conteo de pasajeros en tiempo real.
+
+Objetivo del usuario: Permitir al conductor activar una alerta de pánico y a la central confirmar su recepción y ubicación.
+Pasos del Task Flow:
+
+1. Activar el botón de pánico (Panic Signal) ante una situación de riesgo.
+2. Confirmar el envío de la alerta.
+3. La central recibe la ubicación de la unidad en el mapa de operaciones.
+4. La central confirma la recepción de la alerta.
+
+User Goal 4: Como conductor, deseo enviar una alerta de emergencia, para notificar una situación de riesgo; como sistema, deseo notificar a la central de operaciones, para gestionar la emergencia.
+User Persona: Conductor / Central de Operaciones
+Al presionar "Panic Signal", el conductor ve el modal "¡Alerta enviada!" con coordenadas GPS, estado de notificación a central y audio remoto activo, pudiendo cancelar en 5 segundos. La central, en su mapa de operaciones, recibe el pin "SOS" con el popup "Alerta crítica – Unidad" y accede a "Ver detalles". Finalmente, el sistema de central confirma la alerta mediante los pasos "Alert Sent → Alert Received → Confirmed".
+
+![User goal 4](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf3_alerta_emergencia.png)
+
+Secuencia: Envío de Alerta → Ubicación de Envío de Alerta (vista central) → Confirmación de Alerta (central)
+
+**Task Flow 4: Cierre de turno del conductor**
+Objetivo del usuario: Permitir al conductor finalizar su turno dejando evidencia del servicio realizado.
+
+Pasos del Task Flow:
+
+1. Consultar el resumen del turno (distancia, tiempo, pasajeros, recaudación).
+2. Completar el protocolo de cierre (checklist).
+3. Confirmar la finalización del servicio.
+Visualizar la confirmación de cierre exitoso.
+
+User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evidencia registrada, para garantizar la trazabilidad del servicio.
+User Persona: Conductor
+Al terminar la ruta, el panel muestra el Resumen de Servicio con los totales del turno y el checklist de protocolo de cierre. Al presionar "Finalizar Servicio" (acción irreversible), el sistema muestra el modal "Servicio finalizado correctamente", con opciones "Ver reporte" o "Salir".
+
+![User Goal 5](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf4_cierre_turno.png)
+
+Secuencia: Resumen de Servicio → Finalizar Turno (confirmación)
+
+**Task Flow 5: Supervisión y atención de alertas (Administrador)**
+Objetivo del usuario: Permitir a la central supervisar las unidades activas y atender alertas críticas en tiempo real.
+
+Pasos del Task Flow:
+
+1. Visualizar el mapa con las unidades activas.
+2. Detectar una alerta activa sobre el mapa.
+3. Gestionar notificaciones y destinatarios de la red de alertas.
+
+User Goal 6: Como empresa, deseo conocer el estado de mis vehículos en operación y clasificar las alertas según su gravedad, para tener control operativo.
+User Persona: Administrador / Central de Operaciones
+Desde el Centro de Control, el administrador visualiza las unidades activas sobre el mapa de Lima. Cuando ocurre una emergencia, el mismo mapa resalta "Alerts: 1 Active". Desde Notificaciones, el administrador gestiona los destinatarios activos y simula el envío de alertas según prioridad (baja/media/urgente).
+
+![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf5_supervision_alertas_admin.png)
+
+Secuencia: Centro de Control → Centro de Control con Alerta → Notificaciones
+
+**Task Flow 6: Gestión de conductores y unidades**
+Objetivo del usuario: Permitir administrar el registro de conductores y su asociación con los vehículos disponibles.
+
+Pasos del Task Flow:
+
+1. Consultar el listado de conductores registrados.
+2. Revisar el detalle, licencias y línea de autorizaciones de un conductor.
+3. Asociar un conductor disponible a un vehículo disponible.
+4. Confirmar la asignación.
+
+User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegurar la trazabilidad.
+User Persona: Administrador
+Desde Gestión de Conductores, el administrador revisa el listado y accede al detalle de un conductor (licencia, puntos, calificación, historial de autorizaciones). Desde Asignación de Unidades, selecciona un conductor disponible y un vehículo disponible, y confirma con "Confirmar Asignación", quedando reflejado en la tabla de asignaciones vigentes.
+
+![User Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf6_gestion_conductores_unidades.png)
+
+Secuencia: Gestión de Conductores → Asignación de Unidades
+
+Task Flow 7: Trazabilidad y reportes operativos (Administrador)
+Objetivo del usuario: Permitir a la central consultar el historial de turnos, indicadores de impacto y gestionar el reenvío de alertas no confirmadas.
+
+Pasos del Task Flow:
+
+1. Filtrar y consultar el historial de turnos por ruta y fecha.
+2. Visualizar los indicadores de impacto del sistema.
+3. Revisar y reenviar alertas no confirmadas.
+
+**User Goal 8**: Como empresa, deseo conocer la cantidad de personas en distintas unidades, para comparar la ocupación entre distintas rutas.
+User Persona: Administrador
+Desde Historial de Turnos, el administrador filtra por rango de fecha y ruta, revisando el log de operaciones, pasajeros transportados e incidentes de cada turno. Desde Impacto en Números consulta métricas globales (conductores verificados, alertas gestionadas, pasajeros protegidos). Desde Gestión de Reenvíos, monitorea alertas pendientes/críticas y reenvía las que no fueron confirmadas.
+
+![User Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf7_trazabilidad_reportes_admin.png)
+
+Secuencia: Historial de Turnos → Impacto en Números → Gestión de Reenvíos
 
 #### 4.4.3. Web Applications Mock-ups
 
