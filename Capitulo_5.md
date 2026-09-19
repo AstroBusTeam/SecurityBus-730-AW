@@ -361,6 +361,13 @@ Asimismo, se realizaron ajustes orientados al diseño responsive, buscando que l
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 1, los integrantes del equipo AstroBus participaron de manera conjunta en el desarrollo de la Landing Page de SecurityBus, quedando sus aportes registrados mediante los commits realizados en el repositorio del proyecto. Las actividades fueron distribuidas entre los miembros del equipo, permitiendo avanzar de forma organizada en la implementación de las diferentes secciones, funcionalidades, contenido y aspectos visuales de la página.
+
+Para administrar los cambios realizados durante el desarrollo, el equipo utilizó GitFlow como estrategia de control de versiones. El trabajo se realizó principalmente sobre la rama develop, utilizando ramas específicas para cada capitulo. 
+Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiendo revisar las modificaciones antes de incorporarlas a las ramas principales del proyecto.
+
+![Contribuciones](docs/assets/Cap5/Contributions.png)
+
 ## Conclusiones
 
 ### Conclusiones y Recomendaciones
