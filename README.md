@@ -197,7 +197,8 @@ Septiembre, 2026
       <tr>
         <td valign="top">Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
         <td valign="top">
-          <b>Alvarado Millan, Boris</b>
+          <b>Alvarado Millan, Boris</b><br>
+          Me encargué de desarrollar el análisis de los competidores, identificando sus principales características y estrategias para aportar información útil a las decisiones del equipo. Asimismo, trabajé en el análisis de las entrevistas y en la definición del Ubiquitous Language, coordinando con los demás integrantes para mantener una comprensión común del dominio. También participé en la elaboración de los diagramas de componentes, clases y base de datos, aportando en la definición de la estructura técnica de la solución.<br>
           <b>Justo Yauricasa, Alexander Paolo</b>
           AV1: 
           Durante todo el proceso del proyecto, participe en el desarrollo en el primer capitulo:  Lean UX Problem Statements, Lean UX Assumptions,Lean UX Hypothesis Statements y el Segmentos objetivo Y el Capitulo 5: Spring Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1 y Development Evidence for Sprint Review. Asimismo, ayude creando y gestionando el Trello. Por parte de la landing pague, pude ayudar con los Styles de features, how-it-works, plans, about y gallery.
@@ -222,7 +223,9 @@ En el Capítulo 5, apoyé en la elaboración del Sprint Planning 1, Aspect Leade
       <tr>
         <td valign="top">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
         <td valign="top">
-          <b>Alvarado Millan, Boris</b>
+          <b>Alvarado Millan, Boris</b><br>
+          AV1:
+          Me encargué de organizar y documentar las actividades relacionadas con el análisis competitivo y el levantamiento de información de las entrevistas. Además, desarrollé los diagramas de componentes, clases y base de datos, coordinando con los integrantes responsables de otras áreas para mantener consistencia entre los requerimientos y la arquitectura propuesta. Estas actividades permitieron avanzar de manera organizada y cumplir con las tareas asignadas dentro de los plazos establecidos.<br>
           <b>Justo Yauricasa, Alexander Paolo</b>
           AV1: 
           Guestione el Spring en el Implementé Trello con el fin de organizar la carga de trabajo y asegurar que las actividades prioritarias estuvieran claramente definidas. Con el apoyo de la información suministrada por todo el equipo, pude estructurar y completar el Lean UX Canvas. Asimismo, me encargué de delimitar los segmentos objetivo, lo que permitió al grupo enfocar los esfuerzos en nuestro nicho específico y recopilar la información necesaria para el proyecto.
