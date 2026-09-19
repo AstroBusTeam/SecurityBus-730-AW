@@ -89,7 +89,7 @@ Septiembre, 2026
 
 - **URL del Repositorio de Documentación:** https://github.com/AstroBusTeam/SecurityBus-730-AW
 - **URL del Repositorio de la Landing Page:** https://github.com/AstroBusTeam/SecurityBus-landing-page-aw
-- **Video Exposición AV1:**
+- **Video Exposición AV1:** https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4
 
 ## Project Report Collaboration Insights
 
