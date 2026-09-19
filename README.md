@@ -838,6 +838,35 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 ---
 
+**Entrevista 4: Representante de Empresa de Transporte**
+
+- Nombre: Luisana Falla
+- Edad: 30 años
+- Residencia: Lima, Perú
+- Ocupación: Representante de empresa de transporte público urbano
+- Inicio: 0:00
+- Duración: 2:43
+
+Link:<br>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAh67Qa_nB2T7570M-iamP3AcTgmIbi4jbhVjuJhRDEV-w?e=lEUTTf
+
+---
+
+**Resumen:**<br>
+
+La representante entrevistada indica que su empresa gestiona las emergencias de forma reactiva: el conductor se comunica por celular con el área de despacho o reporta a través del grupo de WhatsApp de la empresa, desde donde se coordina con la PNP, bomberos o serenazgo según el caso, ya que actualmente no cuentan con una central de monitoreo que opere las 24 horas. Ante un asalto, la indicación institucional es que el conductor no oponga resistencia y priorice la vida de los pasajeros, para luego reportar al despacho, detenerse en un lugar seguro y acudir a la comisaría a denunciar; en los casos de extorsión, la gerencia recibe el reporte, presenta la denuncia ante la División de Extorsiones de la PNP y evalúa medidas como cambios de horario o de ruta. Sin embargo, reconoce que no existe un protocolo formal y documentado, y que cada caso se maneja según la situación.
+
+La principal limitación para conocer en tiempo real lo que ocurre dentro de una unidad es que el GPS solo permite ver la ubicación, mas no lo que sucede a bordo: si una unidad se detiene o se desvía, no es posible distinguir si se trata de tráfico, una avería o un asalto. Algunas unidades cuentan con cámaras, pero estas graban de forma local y el video se revisa recién después del incidente, además el conductor no puede comunicarse durante una emergencia sin exponerse. Sobre los riesgos que más afectan a la empresa, señala en primer lugar la extorsión —que incluye cobro de cupos, amenazas y ataques contra conductores y unidades—, seguida de los asaltos a pasajeros y personal, las agresiones dentro de las unidades, los accidentes de tránsito y el robo de autopartes; estos riesgos generan además una alta rotación de conductores y dificultades para operar en ciertas rutas y horarios.<br>
+
+---
+
+**Evidencia:**<br>
+
+![Entrevista Consorcio 4](/docs/assets/interviews/entrevistaconsorcio4.png)
+
+---
+
 #### 2.2.3. Análisis de entrevistas
 
 **Conductores de transporte público**
