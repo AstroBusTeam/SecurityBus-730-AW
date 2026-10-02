@@ -6,26 +6,27 @@ En esta sección, se presenta un análisis de los principales competidores de Se
 
 Este análisis nos permitirá comprender mejor el entorno competitivo de SecurityBus, identificar las fortalezas y debilidades de las alternativas existentes y determinar oportunidades de diferenciación mediante soluciones tecnológicas orientadas a mejorar la seguridad de pasajeros y operadores durante los recorridos.
 
-1. ### Metropolitano:
+1. ### Hikvision Peru:
 
-Es uno de los principales sistemas de transporte público de Lima Metropolitana. Cuenta con una infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y sistemas de videovigilancia destinados a mejorar la seguridad y eficiencia del servicio.
+Es uno de los mayores fabricantes globales de soluciones tecnologicas de videovigilancia y seguridad. Cuenta con una linea especializada en transporte urbano que integra hardware robusto de alta definicion con herramientas de Inteligencia Artificial para el monitoreo remoto en tiempo real de flotas comerciales.
 
-- **Fortalezas:** infraestructura organizada, rutas definidas, carriles exclusivos, estaciones y cámaras de videovigilancia. Además, cuenta con una marca reconocida y un sistema formal de transporte.
-- **Debilidades:** saturación durante las horas punta, posibles fallas operativas y problemas asociados a la inseguridad ciudadana y la congestión en determinadas zonas.
+- **Fortalezas:** camaras de alta definicion antivandalismo, grabadores moviles (MDVR) resistentes a vibraciones constantes, tecnologia avanzada de conteo de pasajeros y sistemas ADAS de asistencia al conductor.
+- **Debilidades:** • requiere de un integrador o instalador local calificado, costos de inversion inicial elevados en equipos de gama alta y dependencia de una optima conectividad movil (4G/5G) para la transmisión fluida de video.
 
-2. ### RTP:
+2. ### Global GPS Peru:
 
-Es un sistema de transporte público que incorpora diferentes tecnologías y mecanismos orientados a mejorar la seguridad y experiencia de los usuarios. Entre sus características se encuentran las cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.
+Es una empresa con amplia trayectoria en el mercado peruano que se enfoca en el desarrollo y suministro de soluciones avanzadas de rastreo satelital, telemática y videovigilancia para el transporte público y corporativo. Su plataforma está diseñada para optimizar los costos operativos y cuenta con las homologaciones exigidas por las entidades reguladoras nacionales.
 
-- **Fortalezas:** incorporación de tecnología, cámaras de seguridad, monitoreo en tiempo real, conductores capacitados y tarifas accesibles para diferentes segmentos de usuarios.
-- **Debilidades:** dependencia de la infraestructura existente, costos asociados a la modernización de la flota y competencia con alternativas de transporte concesionado e informal.
+- **Fortalezas:**  equipos completamente homologados para el transporte de pasajeros ante la SUTRAN y la ATU (sistema SICM), planes avanzados que integran hasta 3 cámaras con soporte de Inteligencia Artificial (ADAS), y sensores de combustible con un 99% de precisión que reducen hasta un 30% el desperdicio.
+- **Debilidades:**  la instalación presencial gratuita está limitada a un número específico de ciudades principales del país, los sensores avanzados de combustible y video en vivo exigen la contratación exclusiva de sus planes Pro o Live, y la efectividad de las alertas ADAS depende del calibrado inicial físico en el taller.
 
-3. ### Mi Transporte:
+3. ### Ditrack:
 
-Es un sistema orientado a ofrecer una experiencia de transporte integrada, incorporando herramientas digitales y mecanismos de seguimiento para mejorar la movilidad de los usuarios. Entre sus soluciones se encuentran servicios multimodales, aplicaciones móviles y sistemas de información para pasajeros.
+Es un proveedor peruano especializado en la gestión de flotas y cumplimiento normativo mediante tecnologías de rastreo vehicular en tiempo real. Se posiciona como una opción flexible para empresas de transporte que buscan una plataforma multi-operador transparente, sin cláusulas de permanencia y con alta velocidad de transmisión de datos.
 
-- **Fortalezas:** integración de diferentes modalidades de transporte, herramientas digitales, modernización de la flota, monitoreo y protocolos de seguimiento en tiempo real.
-- **Debilidades:** resistencia al cambio por parte de algunos usuarios y operadores, dependencia de la infraestructura disponible, inseguridad e incidentes de vandalismo.
+- **Fortalezas:** total transparencia con precios publicados sin contratos de permanencia mínima, retransmisión oficial integrada a la SUTRAN, ATU y MININTER, y plataforma multimarca compatible con marcas globales de hardware ya instaladas (como Teltonika o Concox).
+- **Debilidades:** no fabrican hardware propio por lo que dependen de la estabilidad de marcas importadas, su servicio base está fuertemente enfocado en datos GPS y telemetría por encima de sistemas de video robustos, y el soporte se gestiona principalmente vía canales digitales como WhatsApp.
+
 
 #### 2.1.1. Análisis competitivo
 
@@ -50,101 +51,101 @@ Es un sistema orientado a ofrecer una experiencia de transporte integrada, incor
   <tr>
     <td colspan="2">Productos</td>
     <td>SecurityBus</td>
-    <td>Metropolitano</td>
-    <td>RTP</td>
-    <td>Mi Transporte</td>
+    <td>Hikvision Peru</td>
+    <td>Global GPS Peru</td>
+    <td>Ditrack</td>
   </tr>
 
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
     <td>Plataforma de seguridad para transporte público con monitoreo en tiempo real.</td>
-    <td>Sistema de transporte urbano con estaciones, rutas definidas y cámaras.</td>
-    <td>Sistema de transporte con cámaras, monitoreo y capacitación del personal.</td>
-    <td>Sistema de transporte con seguimiento en tiempo real y reportes ciudadanos.</td>
+    <td>Fabricante global de hardware de videovigilancia y software con Inteligencia Artificial para el transporte masivo.</td>
+    <td>Operador peruano especializado en soluciones de telemática, control de combustible y seguridad de video vehicular.</td>
+    <td>Eliminación total de las cláusulas de permanencia mínima para otorgar máxima flexibilidad comercial.</td>
   </tr>
 
   <tr>
     <td>Ventaja competitiva</td>
     <td>Monitoreo en tiempo real, botón de emergencia y conteo de pasajeros mediante sensores.</td>
-    <td>Infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y videovigilancia.</td>
-    <td>Cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.</td>
-    <td>Monitoreo, protocolos de seguimiento en tiempo real y reportes ciudadanos.</td>
+    <td>Integra algoritmos de analítica predictiva en equipos de alta resistencia antivandálica militar.</td>
+    <td>Plataformas de software completamente homologadas ante las exigencias de la ATU y la SUTRAN.</td>
+    <td>Pequeñas empresas de transporte urbano, comités de buses y transportistas independientes.</td>
   </tr>
 
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td>Mercado Objetivo</td>
     <td>Consorcios y empresas de transporte público y operadores de vehículos.</td>
-    <td>Usuarios urbanos de Lima Metropolitana.</td>
-    <td>Población de zonas periféricas, estudiantes y grupos vulnerables.</td>
-    <td>Población de zonas periféricas y estudiantes.</td>
+    <td>Grandes consorcios de transporte público, municipalidades urbanas y corporaciones logísticas masivas.</td>
+    <td>Empresas medianas y grandes de buses urbanos e interprovinciales que requieren fiscalización oficial.</td>
+    <td>Campañas digitales directas y total transparencia publicando sus tarifas planas en la web.</td>
   </tr>
 
   <tr>
     <td>Estrategias de Marketing</td>
     <td>Enfatizar la seguridad durante la ruta mediante un sistema integrado al vehículo.</td>
-    <td>Servicio rápido, moderno, formal y seguro, destacando eficiencia y orden.</td>
-    <td>Campaña "Yo Soy RTP" y sustentabilidad mediante unidades eléctricas.</td>
-    <td>Posicionamiento del transporte como sistema integrado, moderno y eficiente.</td>
+    <td>Alianzas corporativas a gran escala y certificación técnica de una red exclusiva de integradores locales.</td>
+    <td>Demostraciones en vivo en rutas operativas y paquetes comerciales con instalación bonificada en ciudades principales.</td>
+    <td>Monitoreo GPS básico, alertas de velocidad y retransmisión directa a entidades reguladoras.</td>
   </tr>
 
   <tr>
     <td rowspan="3">Perfil de Producto</td>
     <td>Productos & Servicios</td>
     <td>Botón de pánico, información sobre paraderos y monitoreo de riesgos 24h.</td>
-    <td>Transporte troncal, tarjeta recargable, estaciones seguras e información de rutas.</td>
-    <td>Servicio ordinario, expreso, Ecobús y Nochebús.</td>
-    <td>Transporte multimodal, Tarjeta Mi Movilidad, App Mi Saldo y Mi Pasaje.</td>
+    <td>Grabadores móviles (MDVR), cámaras modulares IP de alta definición y software centralizado HikCentral.</td>
+    <td>Licencias de monitoreo satelital continuo, sensores de combustible y kits de cámaras inteligentes.</td>
+    <td>Alternativa muy económica con tarifas fijas y sin penalidades contractuales ocultas.</td>
   </tr>
 
   <tr>
     <td>Precios & Costos</td>
-    <td>Desde S/. 99 por unidad/mes incluyendo instalación. 20% de descuento desde 3 unidades.</td>
-    <td>S/. 3.50 por viaje.</td>
-    <td>De S/. 0.40 para servicio ordinario a S/. 1.50 para Nochebús.</td>
-    <td>Tarifa plana S/. 2.00 y tarifa preferencial S/. 1.00.</td>
+    <td>Desde S/ 149.00 por unidad/mes incluyendo instalación.</td>
+    <td>Desde S/ 1,700.00 por unidad/año incluyendo instalación.</td>
+    <td>Desde S/ 1,150.00 por unidad/año incluyendo instalación.</td>
+    <td>Desde S/ 1,200.00 por unidad/año.</td>
   </tr>
 
   <tr>
     <td>Canales de distribución (Web y/o Móvil)</td>
     <td>Web y aplicación móvil.</td>
-    <td>Web, móvil, recarga digital y puntos físicos.</td>
-    <td>App, tarjeta de movilidad integrada y sitio web oficial.</td>
-    <td>Web, App Mi Saldo y puntos físicos.</td>
+    <td>Web.</td>
+    <td>web y aplicación móvil.</td>
+    <td>Web y aplicación móvil.</td>
   </tr>
 
   <tr>
     <td rowspan="4">Análisis SWOT</td>
     <td>Fortalezas</td>
     <td>Monitoreo en tiempo real, botón de emergencia, conteo de pasajeros y enfoque en seguridad.</td>
-    <td>Marca reconocida, sistema formal, infraestructura organizada y modernización digital.</td>
-    <td>Tarifas sociales subsidiadas, flota moderna eléctrica y conductores capacitados.</td>
-    <td>Marca unificada, interoperabilidad y modernización de flota.</td>
+    <td>Robustez extrema de hardware y analítica avanzada para el conteo de pasajeros.</td>
+    <td>Sensores de combustible con 99% de precisión y retransmisión nativa al sistema SICM.</td>
+    <td>Compatibilidad de software con dispositivos GPS ya instalados de marcas globales líderes.</td>
   </tr>
 
   <tr>
     <td>Debilidades</td>
     <td>Startup en etapa inicial, inversión para sensores y dependencia de adopción por empresas.</td>
-    <td>Saturación en horas punta y posibles fallas operativas.</td>
-    <td>Dependencia de subsidios y necesidad de mantener la flota moderna.</td>
-    <td>Resistencia al cambio y dependencia de infraestructura disponible.</td>
+    <td>Dependencia obligatoria de técnicos certificados y de una excelente cobertura móvil para transmitir video.</td>
+    <td>Cobertura de soporte técnico físico limitada principalmente a las sedes de las grandes ciudades.</td>
+    <td>No fabrica hardware propio y gestiona su soporte principalmente de forma digital.</td>
   </tr>
 
   <tr>
     <td>Oportunidades</td>
     <td>Expansión a provincias, acuerdos con la policía y alianzas con empresas de transporte.</td>
-    <td>Expansión urbana y digitalización del servicio.</td>
-    <td>Expansión de rutas eléctricas y modernización del transporte.</td>
-    <td>Crecimiento urbano y oportunidades relacionadas con la crisis de combustibles.</td>
+    <td> Crecimiento de las normativas de seguridad ciudadana que exigen cámaras interconectadas en las rutas.</td>
+    <td>Renovación obligatoria de flotas de transporte público que acelera la demanda de sistemas homologados.</td>
+    <td> Captación de empresas que ya tienen GPS pero buscan una plataforma web más ágil.</td>
   </tr>
 
   <tr>
     <td>Amenazas</td>
     <td>Extorsiones a transportistas, competencia tecnológica, resistencia a la adopción y costos de implementación.</td>
-    <td>Inseguridad ciudadana, saturación en horas punta y fallas operativas.</td>
-    <td>Competencia del transporte concesionado informal y congestión vial.</td>
-    <td>Resistencia al cambio, inseguridad e incidentes de vandalismo.</td>
+    <td>Ingreso masivo de hardware genérico de bajo costo en plataformas de comercio electrónico.</td>
+    <td>Modificaciones técnicas imprevistas en los protocolos de interconexión de las plataformas del Estado.</td>
+    <td>Alta saturación de empresas informales de GPS que devalúan los precios del mercado local.</td>
   </tr>
 </table>
 
@@ -196,6 +197,13 @@ Se buscarán acuerdos con autoridades, municipalidades y entidades de seguridad 
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+
+Introducción 
+
+1. ¿Podría proporcionar sus nombres y apellidos?
+2. ¿Qué edad tiene actualmente?
+3. ¿Cual es el puesto de trabajo actual?
+4. ¿En que distrito vive actualmente?
 
 User: Empresas y organizaciones de transporte publico
 
@@ -321,7 +329,7 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 - Duración: 10:05
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai)
 
 ---
 
@@ -349,7 +357,7 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 - Duración: 9:09
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc)
 
 ---
 
@@ -378,7 +386,7 @@ Link
 
 Link:<br>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQDCZZFwhpmnTbMiDpsMPlX1ATSjSjmOMbAAfT8FFxeKJJo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6pfzBw
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQDCZZFwhpmnTbMiDpsMPlX1ATSjSjmOMbAAfT8FFxeKJJo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6pfzBw)
 
 ---
 
@@ -405,7 +413,7 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 Link:<br>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAh67Qa_nB2T7570M-iamP3AcTgmIbi4jbhVjuJhRDEV-w?e=lEUTTf
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAh67Qa_nB2T7570M-iamP3AcTgmIbi4jbhVjuJhRDEV-w?e=lEUTTf)
 
 ---
 
