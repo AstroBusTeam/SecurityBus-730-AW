@@ -451,16 +451,20 @@ Segmento 2: Conductores de transporte público
 
 Se presenta el desglose tecnico de las historias seleccionadas para esta iteracion inicial. El proposito prioritario del Sprint abarca el despliegue de la pagina de aterrizaje y el cimiento de la arquitectura tecnologica del proyecto. Seguidamente, se incluye la imagen del tablero de Trello y la tabla de estados correspondiente a los elementos de trabajo.
 
-![Trello](/docs/assets/Cap5/EvidenciaTrello.png)
+![Trello](docs/assets/Cap5/EvidenciaTrello.png)
 
 
 **<center>Anexo C: Prototipado y Diseño de Interfaces en Figma</center><br>
+
 **Referencia:** AstroBus. (2026). Design System & Mockups de SecurityBus. Figma.
 <a href="https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=194-17020&t=qkGb9pUHIXJa9Tu6-0">https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=194-17020&t=qkGb9pUHIXJa9Tu6-0</a>
 
 <center>Captura o Evidencia del Diseño de Interfaces - Figma</center><br>
 
-![Diseño UX/UI](/docs/assets/Cap5/figmaWireframesMockups.png)
+![Diseño UX/UI](docs/assets/Cap5/figmaWireframesMockups.png)
+
+
+
 
 
 

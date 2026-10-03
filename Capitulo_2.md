@@ -259,7 +259,7 @@ Actualmente, para gestionar emergencias o accidentes, su primer canal de comunic
 
 **Evidencia:**<br>
 
-![Entrevista 1](/docs/assets/interviews/interview-01.png)
+![Entrevista 1](docs/assets/interviews/interview-01.png)
 
 ---
 
@@ -285,7 +285,7 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 
 **Evidencia:**<br>
 
-![Entrevista 2](/docs/assets/interviews/interview-02.png)
+![Entrevista 2](docs/assets/interviews/interview-02.png)
 
 ---
 
@@ -313,7 +313,7 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 
 **Evidencia:**<br>
 
-![Entrevista 3](/docs/assets/interviews/interview-03.png)
+![Entrevista 3](docs/assets/interviews/interview-03.png)
 
 ---
 
@@ -343,7 +343,7 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 1](/docs/assets/interviews/entrevistaconsorcio1.png)
+![Entrevista Consorcio 1](docs/assets/interviews/entrevistaconsorcio1.png)
 
 ---
 
@@ -371,7 +371,7 @@ El entrevistado considera que el uso de herramientas tecnológicas para monitore
 
 Link
 
-![Entrevista Consorcio 2](/docs/assets/interviews/entrevistaconsorcio2.png)
+![Entrevista Consorcio 2](docs/assets/interviews/entrevistaconsorcio2.png)
 
 ---
 
@@ -398,7 +398,7 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 3](/docs/assets/interviews/entrevistaconsorcio3.png)
+![Entrevista Consorcio 3](docs/assets/interviews/entrevistaconsorcio3.png)
 
 ---
 
@@ -427,7 +427,7 @@ La principal limitación para conocer en tiempo real lo que ocurre dentro de una
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 4](/docs/assets/interviews/entrevistaconsorcio4.png)
+![Entrevista Consorcio 4](docs/assets/interviews/entrevistaconsorcio4.png)
 
 ---
 
@@ -510,12 +510,12 @@ Los entrevistados muestran una actitud favorable hacia la incorporación de tecn
 **User Persona 1: Conductor de transporte público**<br><br>
 Perfil de un conductor de transporte público que necesita un mecanismo rápido y discreto para alertar sobre situaciones de riesgo durante su recorrido.
 
-![Conductor de transporte público](/docs/assets/needfinding/user-persona-1.png)
+![Conductor de transporte público](docs/assets/needfinding/user-persona-1.png)
 
 **User Persona 2: Jefa de operaciones/Monitoreo de flota**<br><br>
 Perfil de una administradora de flota que gestiona el monitoreo, las alertas de emergencia y la seguridad de las unidades y conductores a su cargo.
 
-![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/user-persona-2.png)
+![Jefa de operacinoes/Monitoreo de flota](docs/assets/needfinding/user-persona-2.png)
 
 #### 2.3.2. User Task Matrix
 
@@ -635,12 +635,12 @@ En tercer lugar, la matriz muestra la oportunidad de integrar en un solo flujo d
 **Journey Map 1: Conductor de transporte público**<br>
 Representa el recorrido del conductor desde el inicio de su turno hasta la resolución de un intento de extorsión durante el servicio.
 
-![Conductor de transporte público](/docs/assets/needfinding/journey-map-1.png)
+![Conductor de transporte público](docs/assets/needfinding/journey-map-1.png)
 
 **Journey Map 2: Conductor de transporte público**<br>
 Describe la gestión de una alerta de emergencia por parte de la jefa de operaciones, desde el monitoreo rutinario hasta el cierre del incidente.
 
-![Jefa de operaciones/Monitoreo de flota](/docs/assets/needfinding/journey-map-2.png)
+![Jefa de operaciones/Monitoreo de flota](docs/assets/needfinding/journey-map-2.png)
 
 #### 2.3.4. Empathy Mapping
 
@@ -649,50 +649,50 @@ A continuación se presentan los Empathy Maps correspondientes a cada uno de los
 **Empathy Map 1: Conductor de transporte público**<br><br>
 Identifica pensamientos, emociones y necesidades del conductor ante situaciones de riesgo durante su recorrido.<br>
 
-![Conductor de transporte público](/docs/assets/needfinding/empathy-map-1.png)
+![Conductor de transporte público](docs/assets/needfinding/empathy-map-1.png)
 
 **Empathy Map 2: Jefa de operaciones/Monitoreo de flota**<br><br>
 Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones al gestionar la seguridad de la flota.<br>
 
-![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/empathy-map-2.png)
+![Jefa de operacinoes/Monitoreo de flota](docs/assets/needfinding/empathy-map-2.png)
 
 ### 2.4. Big Picture EventStorming
 
 1.- Unstructured Exploration
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/1.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/1.jpg)
 
 2.- Timelines
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/2.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/2.jpg)
 
 3.- Pain Points
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/3.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/3.jpg)
 
 4.- Pivotal Points
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/4.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/4.jpg)
 
 5.- Commands
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/5.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/5.jpg)
 
 6.- Policies
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/6.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/6.jpg)
 
 7.- Read Models
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/7.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/7.jpg)
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/8.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/8.jpg)
 
 8.- Aggregates
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/9.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/9.jpg)
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/10.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/10.jpg)
 
 ### 2.5. Ubiquitous Language
 
