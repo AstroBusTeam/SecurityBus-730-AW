@@ -1,21 +1,28 @@
 <div align="center">
   
 ![logo](docs/assets/upcLogo.png)<br>
-Universidad Peruana de Ciencias Aplicadas<br>
-Facultad de Ingenería, Carrera de Ingeniería de Software<br>
-**Ciclo:** 2026-02
+Universidad Peruana de Ciencias Aplicadas<br><br>
+Carrera de Ingeniería de Software<br><br><br>
 
-**INFORME DE AV1**
+**1ASI030**
 
-**1ASI0730** Aplicaciones Web<br>
-**NRC:** 8074<br>
-**Profesor:** Alex Humberto Sánchez Ponce<br>
+**Aplicaciones Web**
 
-**Nombre del startup:** AstroBus<br>
-**Nombre del producto:** SecurityBus<br>
-Septiembre, 2026
+**NRC** 
+<br><br>8074<br>
 
-#### Relación de integrantes
+**Informe del Trabajo Parcial**
+
+**Docente**
+<br><br>Sánchez Ponce, Alex Humberto <br>
+
+**Equipo** 
+<br><br>AstroBus<br>
+
+**Proyecto**
+<br><br>SecurityBus<br>
+
+#### Integrantes
 
   <table style="margin: auto;">
     <thead>
@@ -47,6 +54,10 @@ Septiembre, 2026
       </tr>
     </tbody>
   </table>
+
+  <br>Período 202620<br>
+
+  Octubre 2026
 
 </div>
 
@@ -87,9 +98,9 @@ Septiembre, 2026
 
 ## Enlaces del proyecto
 
-- **URL del Repositorio de Documentación:** https://github.com/AstroBusTeam/SecurityBus-730-AW
-- **URL del Repositorio de la Landing Page:** https://github.com/AstroBusTeam/SecurityBus-landing-page-aw
-- **Video Exposición AV1:** https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4
+- **URL del Repositorio de Documentación:** [Repositorio](https://github.com/AstroBusTeam/SecurityBus-730-AW)
+- **URL del Repositorio de la Landing Page:** [Landing Page](https://github.com/AstroBusTeam/SecurityBus-landing-page-aw)
+- **Video Exposición AV1:** [Video Expo](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4)
 
 ## Project Report Collaboration Insights
 
@@ -702,7 +713,7 @@ Actualmente, para gestionar emergencias o accidentes, su primer canal de comunic
 
 **Evidencia:**<br>
 
-![Entrevista 1](/docs/assets/interviews/interview-01.png)
+![Entrevista 1](docs/assets/interviews/interview-01.png)
 
 ---
 
@@ -728,7 +739,7 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 
 **Evidencia:**<br>
 
-![Entrevista 2](/docs/assets/interviews/interview-02.png)
+![Entrevista 2](docs/assets/interviews/interview-02.png)
 
 ---
 
@@ -756,7 +767,7 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 
 **Evidencia:**<br>
 
-![Entrevista 3](/docs/assets/interviews/interview-03.png)
+![Entrevista 3](docs/assets/interviews/interview-03.png)
 
 ---
 
@@ -771,8 +782,7 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 - Inicio: 0:12
 - Duración: 10:05
 
-Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai
+Link:<br>[Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai)
 
 ---
 
@@ -786,7 +796,7 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 1](/docs/assets/interviews/entrevistaconsorcio1.png)
+![Entrevista Consorcio 1](docs/assets/interviews/entrevistaconsorcio1.png)
 
 ---
 
@@ -800,7 +810,7 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 - Duración: 9:09
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc
+[Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc)
 
 ---
 
@@ -814,7 +824,7 @@ El entrevistado considera que el uso de herramientas tecnológicas para monitore
 
 Link
 
-![Entrevista Consorcio 2](/docs/assets/interviews/entrevistaconsorcio2.png)
+![Entrevista Consorcio 2](docs/assets/interviews/entrevistaconsorcio2.png)
 
 ---
 
@@ -829,7 +839,7 @@ Link
 
 Link:<br>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQDCZZFwhpmnTbMiDpsMPlX1ATSjSjmOMbAAfT8FFxeKJJo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6pfzBw
+[Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQDCZZFwhpmnTbMiDpsMPlX1ATSjSjmOMbAAfT8FFxeKJJo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6pfzBw)
 
 ---
 
@@ -841,7 +851,7 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 3](/docs/assets/interviews/entrevistaconsorcio3.png)
+![Entrevista Consorcio 3](docs/assets/interviews/entrevistaconsorcio3.png)
 
 ---
 
@@ -856,7 +866,7 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 Link:<br>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAh67Qa_nB2T7570M-iamP3AcTgmIbi4jbhVjuJhRDEV-w?e=lEUTTf
+[Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAh67Qa_nB2T7570M-iamP3AcTgmIbi4jbhVjuJhRDEV-w?e=lEUTTf)
 
 ---
 
@@ -870,7 +880,7 @@ La principal limitación para conocer en tiempo real lo que ocurre dentro de una
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 4](/docs/assets/interviews/entrevistaconsorcio4.png)
+![Entrevista Consorcio 4](docs/assets/interviews/entrevistaconsorcio4.png)
 
 ---
 
@@ -953,12 +963,12 @@ Los entrevistados muestran una actitud favorable hacia la incorporación de tecn
 **User Persona 1: Conductor de transporte público**<br><br>
 Perfil de un conductor de transporte público que necesita un mecanismo rápido y discreto para alertar sobre situaciones de riesgo durante su recorrido.
 
-![Conductor de transporte público](/docs/assets/needfinding/user-persona-1.png)
+![Conductor de transporte público](docs/assets/needfinding/user-persona-1.png)
 
 **User Persona 2: Jefa de operaciones/Monitoreo de flota**<br><br>
 Perfil de una administradora de flota que gestiona el monitoreo, las alertas de emergencia y la seguridad de las unidades y conductores a su cargo.
 
-![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/user-persona-2.png)
+![Jefa de operacinoes/Monitoreo de flota](docs/assets/needfinding/user-persona-2.png)
 
 #### 2.3.2. User Task Matrix
 
@@ -1078,12 +1088,12 @@ En tercer lugar, la matriz muestra la oportunidad de integrar en un solo flujo d
 **Journey Map 1: Conductor de transporte público**<br>
 Representa el recorrido del conductor desde el inicio de su turno hasta la resolución de un intento de extorsión durante el servicio.
 
-![Conductor de transporte público](/docs/assets/needfinding/journey-map-1.png)
+![Conductor de transporte público](docs/assets/needfinding/journey-map-1.png)
 
 **Journey Map 2: Conductor de transporte público**<br>
 Describe la gestión de una alerta de emergencia por parte de la jefa de operaciones, desde el monitoreo rutinario hasta el cierre del incidente.
 
-![Jefa de operaciones/Monitoreo de flota](/docs/assets/needfinding/journey-map-2.png)
+![Jefa de operaciones/Monitoreo de flota](docs/assets/needfinding/journey-map-2.png)
 
 #### 2.3.4. Empathy Mapping
 
@@ -1092,50 +1102,50 @@ A continuación se presentan los Empathy Maps correspondientes a cada uno de los
 **Empathy Map 1: Conductor de transporte público**<br><br>
 Identifica pensamientos, emociones y necesidades del conductor ante situaciones de riesgo durante su recorrido.<br>
 
-![Conductor de transporte público](/docs/assets/needfinding/empathy-map-1.png)
+![Conductor de transporte público](docs/assets/needfinding/empathy-map-1.png)
 
 **Empathy Map 2: Jefa de operaciones/Monitoreo de flota**<br><br>
 Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones al gestionar la seguridad de la flota.<br>
 
-![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/empathy-map-2.png)
+![Jefa de operacinoes/Monitoreo de flota](docs/assets/needfinding/empathy-map-2.png)
 
 ### 2.4. Big Picture EventStorming
 
 1.- Unstructured Exploration
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/1.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/1.jpg)
 
 2.- Timelines
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/2.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/2.jpg)
 
 3.- Pain Points
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/3.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/3.jpg)
 
 4.- Pivotal Points
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/4.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/4.jpg)
 
 5.- Commands
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/5.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/5.jpg)
 
 6.- Policies
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/6.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/6.jpg)
 
 7.- Read Models
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/7.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/7.jpg)
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/8.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/8.jpg)
 
 8.- Aggregates
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/9.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/9.jpg)
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/10.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/10.jpg)
 
 ### 2.5. Ubiquitous Language
 
@@ -1380,10 +1390,10 @@ La paleta de colores de SecurityBus utiliza principalmente tonos oscuros, acompa
 
 | Color            | Hex     | Significado y justificación                                                                                                                                         | Uso en la interfaz                                  | Imagen                                                              |
 | ---------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------- |
-| Negro            | -       | Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. | Fondo principal y diferentes áreas de la interfaz.  | ![Color Negro](/docs/assets/colors/negro.jpg)                       |
-| Verde neón       | #C3F400 | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Botones principales, indicadores y títulos.         | ![Color Verde Neón](/docs/assets/colors/verde-neon.jpg)             |
-| Verde secundario | #596D0B | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Elementos secundarios y variaciones de componentes. | ![Color Verde Secundario](/docs/assets/colors/verde-secundario.jpg) |
-| Rojo             | -       | Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata.                                                         | Alertas y elementos críticos.                       | ![Color Rojo](/docs/assets/colors/rojo.jpg)                         |
+| Negro            | -       | Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. | Fondo principal y diferentes áreas de la interfaz.  | ![Color Negro](docs/assets/colors/negro.jpg)                       |
+| Verde neón       | #C3F400 | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Botones principales, indicadores y títulos.         | ![Color Verde Neón](docs/assets/colors/verde-neon.jpg)             |
+| Verde secundario | #596D0B | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Elementos secundarios y variaciones de componentes. | ![Color Verde Secundario](docs/assets/colors/verde-secundario.jpg) |
+| Rojo             | -       | Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata.                                                         | Alertas y elementos críticos.                       | ![Color Rojo](docs/assets/colors/rojo.jpg)                         |
 
 **Tipografía**
 
@@ -1395,7 +1405,7 @@ Para la interfaz se utilizan las familias tipográficas Space Grotesk e Inter, s
 
 Esta combinación permite establecer una jerarquía visual clara entre títulos, subtítulos y contenido informativo.
 
-![Tipografia](/docs/assets/style-guidelines/Type.png)
+![Tipografia](docs/assets/style-guidelines/Type.png)
 
 **Spacing y Layout**
 
@@ -1405,7 +1415,7 @@ El diseño utiliza un sistema de espaciado consistente para mantener una distrib
 - Grid: márgenes de 24 px para mantener una distribución equilibrada.
 - Breakpoints: se considera un ancho de 1440 px y un alto de 1024 px como referencia para la versión web.
 
-![spacing y layout](/docs/assets/style-guidelines/spacing.png)
+![spacing y layout](docs/assets/style-guidelines/spacing.png)
 
 **Componentes visuales**
 
@@ -1413,15 +1423,15 @@ Los principales componentes de la interfaz siguen criterios visuales consistente
 
 - Botones: verde para acciones principales, rojo para acciones críticas y gris para acciones secundarias.
 
-![botones](/docs/assets/style-guidelines/button.png)
+![botones](docs/assets/style-guidelines/button.png)
 
 - Cards: utilizadas para organizar información relacionada dentro de contenedores diferenciados.
 
-![botones](/docs/assets/style-guidelines/cuadros.png)
+![botones](docs/assets/style-guidelines/cuadros.png)
 
 - Iconografía: se emplea un estilo simple y fácilmente reconocible para facilitar la identificación de acciones y funcionalidades.
 
-![botones](/docs/assets/style-guidelines/icons.png)
+![botones](docs/assets/style-guidelines/icons.png)
 
 **Principios de diseño**
 
@@ -1569,47 +1579,47 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 1. Hero
 
-![hero](/docs/assets/landing-page-wireframe/01_hero_inicio.png)
+![hero](docs/assets/landing-page-wireframe/01_hero_inicio.png)
 
 2. Metrics
 
-![hero](/docs/assets/landing-page-wireframe/02_metricas.png)
+![hero](docs/assets/landing-page-wireframe/02_metricas.png)
 
 3. Features
 
-![hero](/docs/assets/landing-page-wireframe/03_caracteristicas.png)
+![hero](docs/assets/landing-page-wireframe/03_caracteristicas.png)
 
 4. How SecurityBus Works
 
-![hero](/docs/assets/landing-page-wireframe/04_como_funciona.png)
+![hero](docs/assets/landing-page-wireframe/04_como_funciona.png)
 
 5. Plan for Consortia
 
-![hero](/docs/assets/landing-page-wireframe/05_planes_consorcios.png)
+![hero](docs/assets/landing-page-wireframe/05_planes_consorcios.png)
 
 6. SecurityBus Statistics
 
-![hero](/docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
+![hero](docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
 
 7. Elite Protection CTA
 
-![hero](/docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
+![hero](docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
 
 8. About The Team
 
-![hero](/docs/assets/landing-page-wireframe/08_about_the_team.png)
+![hero](docs/assets/landing-page-wireframe/08_about_the_team.png)
 
 9. Product Gallery
 
-![hero](/docs/assets/landing-page-wireframe/09_product_gallery.png)
+![hero](docs/assets/landing-page-wireframe/09_product_gallery.png)
 
 10. Footer
 
-![hero](/docs/assets/landing-page-wireframe/10_footer.png)
+![hero](docs/assets/landing-page-wireframe/10_footer.png)
 
 - Mobile Web Browser
 
-![Mobile Web Browser](/docs/assets/landing-page-wireframe/Landing-page-wireframe-mobile.png)
+![Mobile Web Browser](docs/assets/landing-page-wireframe/Landing-page-wireframe-mobile.png)
 
 #### 4.3.2. Landing Page Mock-up
 
@@ -1617,47 +1627,47 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 1. Hero
 
-![hero](/docs/assets/landing-page-mockup/01_hero.png)
+![hero](docs/assets/landing-page-mockup/01_hero.png)
 
 2. Metrics
 
-![hero](/docs/assets/landing-page-mockup/02_metrics.png)
+![hero](docs/assets/landing-page-mockup/02_metrics.png)
 
 3. Features
 
-![hero](/docs/assets/landing-page-mockup/03_features.png)
+![hero](docs/assets/landing-page-mockup/03_features.png)
 
 4. How SecurityBus Works
 
-![hero](/docs/assets/landing-page-mockup/04_how_securitybus_works.png)
+![hero](docs/assets/landing-page-mockup/04_how_securitybus_works.png)
 
 5. Plan for Consortia
 
-![hero](/docs/assets/landing-page-mockup/05_plans_for_consortia.png)
+![hero](docs/assets/landing-page-mockup/05_plans_for_consortia.png)
 
 6. SecurityBus Statistics
 
-![hero](/docs/assets/landing-page-mockup/06_securitybus_statistics.png)
+![hero](docs/assets/landing-page-mockup/06_securitybus_statistics.png)
 
 7. Elite Protection CTA
 
-![hero](/docs/assets/landing-page-mockup/07_elite_protection_cta.png)
+![hero](docs/assets/landing-page-mockup/07_elite_protection_cta.png)
 
 8. About The Team
 
-![hero](/docs/assets/landing-page-mockup/08_about_the_team.png)
+![hero](docs/assets/landing-page-mockup/08_about_the_team.png)
 
 9. Product Gallery
 
-![hero](/docs/assets/landing-page-mockup/09_product_gallery.png)
+![hero](docs/assets/landing-page-mockup/09_product_gallery.png)
 
 10. Footer
 
-![hero](/docs/assets/landing-page-mockup/10_footer.png)
+![hero](docs/assets/landing-page-mockup/10_footer.png)
 
 - Mobile Web Browser
 
-![Mobile Web Browser](/docs/assets/landing-page-mockup/Mockup-landing-page-mobile.png)
+![Mobile Web Browser](docs/assets/landing-page-mockup/Mockup-landing-page-mobile.png)
 
 ### 4.4. Web Applications UX/UI Design
 
@@ -1667,7 +1677,7 @@ En esta sección se presentan los wireframes elaborados para la plataforma Secur
 
 El desarrollo de los wireframes contempla las principales interacciones de los usuarios con la plataforma, considerando de manera diferenciada las necesidades y objetivos correspondientes a los perfiles de consorcio o empresas de transporte público y conductores de trasnporte público. De esta manera, se establece una estructura que facilita la navegación y permite validar la organización de las funcionalidades del sistema.
 
-![Web applications wireframes](/docs/assets/web-applications-ux-ui-design/wireframes/web-application-wireframes.png)
+![Web applications wireframes](docs/assets/web-applications-ux-ui-design/wireframes/web-application-wireframes.png)
 
 Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0 'Web Applications Wireframes')
 
@@ -1794,14 +1804,14 @@ User Goal 2: Como conductor, deseo registrar el inicio del servicio, para dejar 
 User Persona: Conductor
 Desde Inicio de Servicio, el conductor selecciona el vehículo y el turno (mañana/tarde/noche) y confirma "Iniciar Servicio". El sistema lo redirige al Panel principal (Inicio), donde ve distancia, tiempo, pasajeros y la ruta operada en tiempo real.
 
-![User Goal 2](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2a_inicio_servicio.png)
+![User Goal 2](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2a_inicio_servicio.png)
 
 User Goal 3: Como sistema, deseo contabilizar los pasajeros a bordo y alertar cuando se supera la capacidad del vehículo, para evitar altercados y estimar el riesgo.
 
 User Persona: Conductor
 Desde el panel de Conteo de Pasajeros, el conductor registra abordajes (+) y bajadas (−). Si el conteo (62/60) supera la capacidad máxima, el sistema dispara el modal "Has alcanzado el límite de pasajeros", que el conductor reconoce con "OK". Desde el mismo panel puede acceder a Ver Mapa para visualizar la ubicación de la unidad y su ruta.
 
-![User Goal 3](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2b_conteo_pasajeros.png)
+![User Goal 3](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2b_conteo_pasajeros.png)
 
 Secuencia: Inicio de Servicio → Panel principal (Inicio) → Conteo de Pasajeros → Alerta de límite de pasajeros → Ver Mapa
 
@@ -1820,7 +1830,7 @@ User Goal 4: Como conductor, deseo enviar una alerta de emergencia, para notific
 User Persona: Conductor / Central de Operaciones
 Al presionar "Panic Signal", el conductor ve el modal "¡Alerta enviada!" con coordenadas GPS, estado de notificación a central y audio remoto activo, pudiendo cancelar en 5 segundos. La central, en su mapa de operaciones, recibe el pin "SOS" con el popup "Alerta crítica – Unidad" y accede a "Ver detalles". Finalmente, el sistema de central confirma la alerta mediante los pasos "Alert Sent → Alert Received → Confirmed".
 
-![User goal 4](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf3_alerta_emergencia.png)
+![User goal 4](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf3_alerta_emergencia.png)
 
 Secuencia: Envío de Alerta → Ubicación de Envío de Alerta (vista central) → Confirmación de Alerta (central)
 
@@ -1838,7 +1848,7 @@ User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evi
 User Persona: Conductor
 Al terminar la ruta, el panel muestra el Resumen de Servicio con los totales del turno y el checklist de protocolo de cierre. Al presionar "Finalizar Servicio" (acción irreversible), el sistema muestra el modal "Servicio finalizado correctamente", con opciones "Ver reporte" o "Salir".
 
-![User Goal 5](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf4_cierre_turno.png)
+![User Goal 5](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf4_cierre_turno.png)
 
 Secuencia: Resumen de Servicio → Finalizar Turno (confirmación)
 
@@ -1855,7 +1865,7 @@ User Goal 6: Como empresa, deseo conocer el estado de mis vehículos en operaci�
 User Persona: Administrador / Central de Operaciones
 Desde el Centro de Control, el administrador visualiza las unidades activas sobre el mapa de Lima. Cuando ocurre una emergencia, el mismo mapa resalta "Alerts: 1 Active". Desde Notificaciones, el administrador gestiona los destinatarios activos y simula el envío de alertas según prioridad (baja/media/urgente).
 
-![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf5_supervision_alertas_admin.png)
+![User Goal 6](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf5_supervision_alertas_admin.png)
 
 Secuencia: Centro de Control → Centro de Control con Alerta → Notificaciones
 
@@ -1873,7 +1883,7 @@ User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegu
 User Persona: Administrador
 Desde Gestión de Conductores, el administrador revisa el listado y accede al detalle de un conductor (licencia, puntos, calificación, historial de autorizaciones). Desde Asignación de Unidades, selecciona un conductor disponible y un vehículo disponible, y confirma con "Confirmar Asignación", quedando reflejado en la tabla de asignaciones vigentes.
 
-![User Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf6_gestion_conductores_unidades.png)
+![User Goal 7](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf6_gestion_conductores_unidades.png)
 
 Secuencia: Gestión de Conductores → Asignación de Unidades
 
@@ -1890,7 +1900,7 @@ Pasos del Task Flow:
 User Persona: Administrador
 Desde Historial de Turnos, el administrador filtra por rango de fecha y ruta, revisando el log de operaciones, pasajeros transportados e incidentes de cada turno. Desde Impacto en Números consulta métricas globales (conductores verificados, alertas gestionadas, pasajeros protegidos). Desde Gestión de Reenvíos, monitorea alertas pendientes/críticas y reenvía las que no fueron confirmadas.
 
-![User Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf7_trazabilidad_reportes_admin.png)
+![User Goal 8](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf7_trazabilidad_reportes_admin.png)
 
 Secuencia: Historial de Turnos → Impacto en Números → Gestión de Reenvíos
 
@@ -1984,52 +1994,52 @@ Trabajo elaborado en Figma: [Web Application Mockups](https://www.figma.com/desi
 Relacionado al User Goal 1: Como conductor, quiero validar mi identidad mediante código QR antes de iniciar mi turno, para asegurar la trazabilidad del servicio.
 El conductor accede a la pantalla de Acceso Conductor, escanea su credencial digital o ingresa su código de empleado. El sistema muestra la pantalla de Validación de Identidad con el escaneo del QR; una vez validado, se presenta la confirmación de acceso autorizado con la transmisión activa hacia central, habilitando el turno.
 
-![Goal 1](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal1_autenticacion.png)
+![Goal 1](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal1_autenticacion.png)
 
 Relacionado al User Goal 2: Como conductor, quiero configurar e iniciar mi servicio, para dejar registro del recorrido que voy a realizar.
 Desde Inicio de Servicio, el conductor selecciona el vehículo y el turno de trabajo y confirma "Iniciar Servicio". El sistema lo redirige al Panel Principal (Dashboard), donde visualiza distancia, tiempo, pasajeros y la ruta operada en tiempo real.
 
-![Goal 2](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal2_inicio_servicio.png)
+![Goal 2](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal2_inicio_servicio.png)
 
 **User Flow 2: Monitoreo de pasajeros y atención de emergencias**
 
 Relacionado al User Goal 3: Como sistema, deseo contabilizar los pasajeros a bordo y alertar cuando se supera la capacidad del vehículo, para evitar altercados y estimar el riesgo.
 Desde el panel de Conteo de Pasajeros, el conductor registra abordajes y bajadas. Si el conteo supera la capacidad máxima, el sistema dispara la alerta "Has alcanzado el límite de pasajeros". Desde el mismo panel puede acceder a Ver Mapa para visualizar la ubicación de la unidad en ruta.
 
-![Goal 3](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal3_conteo_pasajeros.png)
+![Goal 3](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal3_conteo_pasajeros.png)
 
 Relacionado al User Goal 4: Como conductor, deseo enviar una alerta de emergencia, para notificar una situación de riesgo; como sistema, deseo notificar a la central de operaciones, para gestionar la emergencia.
 Al presionar el botón de pánico, el conductor ve la confirmación "¡Alerta enviada!" con coordenadas GPS y estado de notificación a central. La central, en su mapa de operaciones, recibe el pin "SOS" con los detalles de la unidad y confirma la alerta mediante el protocolo "Alert Sent → Alert Received → Confirmed".
 
-![Goal 4](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal4_alerta_emergencia.png)
+![Goal 4](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal4_alerta_emergencia.png)
 
 **User Flow 3: Cierre de turno del conductor**
 
 Relacionado al User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evidencia registrada, para garantizar la trazabilidad del servicio.
 Al terminar la ruta, el panel muestra el Resumen de Servicio con los totales del turno y el checklist de protocolo de cierre. Al presionar "Finalizar Servicio", el sistema muestra la confirmación "Servicio finalizado correctamente".
 
-![Goal 5](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf3_goal5_cierre_turno.png)
+![Goal 5](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf3_goal5_cierre_turno.png)
 
 **User Flow 4: Supervisión y atención de alertas (Administrador)**
 
 Relacionado al User Goal 6: Como empresa, deseo conocer el estado de mis vehículos en operación y clasificar las alertas según su gravedad, para tener control operativo.
 Desde el Centro de Control, el administrador visualiza las unidades activas sobre el mapa de Lima. Cuando ocurre una emergencia, el mapa resalta la unidad en alerta. Desde Notificaciones, gestiona los destinatarios activos y simula el envío de alertas según prioridad.
 
-![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf4_goal6_supervision_admin.png)
+![User Goal 6](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf4_goal6_supervision_admin.png)
 
 **User Flow 5: Gestión de conductores y unidades (Administrador)**
 
 Relacionado al User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegurar la trazabilidad.
 Desde Gestión de Conductores, el administrador revisa el listado y el detalle de cada conductor. Desde Asignación de Unidades, selecciona un conductor y un vehículo disponibles y confirma la asociación, reflejada en la tabla de asignaciones vigentes.
 
-![Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
+![Goal 7](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
 
 **User Flow 6: Trazabilidad y reportes operativos (Administrador)**
 
 Relacionado al User Goal 8: Como empresa, deseo conocer indicadores globales y el historial de turnos, para comparar la ocupación y el desempeño entre distintas rutas.
 Desde Historial de Turnos, el administrador filtra por fecha y ruta, revisando pasajeros e incidentes de cada turno. Desde Impacto en Números consulta métricas globales de la red. Desde Gestión de Reenvíos, monitorea y reenvía alertas no confirmadas.
 
-![Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf6_goal8_trazabilidad_reportes.png)
+![Goal 8](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf6_goal8_trazabilidad_reportes.png)
 
 ### 4.5. Web Applications Prototyping
 
@@ -2041,13 +2051,13 @@ Finalmente, el video muestra los principales flujos de interacción del prototip
 
 **<center>Web Applications Prototyping</center>**
 
-![Web Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/desktop.png)
+![Web Applications Prototyping](docs/assets/web-applications-ux-ui-design/web-applications-prototyping/desktop.png)
 
 URL del video: [Web applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true)
 
 **<center>Web Applications Prototyping</center>**
 
-![Mobile Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/mobile.png)
+![Mobile Applications Prototyping](docs/assets/web-applications-ux-ui-design/web-applications-prototyping/mobile.png)
 
 URL del video: [Mobile applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0)
 
@@ -2619,7 +2629,7 @@ Segmento 2: Conductores de transporte público
 
 Se presenta el desglose tecnico de las historias seleccionadas para esta iteracion inicial. El proposito prioritario del Sprint abarca el despliegue de la pagina de aterrizaje y el cimiento de la arquitectura tecnologica del proyecto. Seguidamente, se incluye la imagen del tablero de Trello y la tabla de estados correspondiente a los elementos de trabajo.
 
-![Trello](/docs/assets/Cap5/EvidenciaTrello.png)
+![Trello](docs/assets/Cap5/EvidenciaTrello.png)
 
 
 **<center>Anexo C: Prototipado y Diseño de Interfaces en Figma</center><br>
@@ -2628,7 +2638,7 @@ Se presenta el desglose tecnico de las historias seleccionadas para esta iteraci
 
 <center>Captura o Evidencia del Diseño de Interfaces - Figma</center><br>
 
-![Diseño UX/UI](/docs/assets/Cap5/figmaWireframesMockups.png)
+![Diseño UX/UI](docs/assets/Cap5/figmaWireframesMockups.png)
 
 
 
