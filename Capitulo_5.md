@@ -295,6 +295,16 @@ link: https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae91
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
+En este primer Sprint el equipo implementó la landing page. Todo el trabajo se desarrolló sobre ramas feature/* que se integraron a develop mediante Pull Requests revisados. A continuación se listan los commits más representativos del sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SecurityBus-730-AW | feature/00-chapter-01 | ce1b67ea7c64e009aa307b91b9498b2e4d3211fd | docs: Merge chapter 1 | Merge branch 'feature/00-chapter-01' of https://github.com/AstroBusTeam/SecurityBus-730-AW into feature/00-chapter-01 | 10/09/2026 |
+| SecurityBus-730-AW | feature/10-chapter-02 | e4c0da51c90fd37c8a59aa353c58aa894d881e12 | fix: fix a litle problem in the document | - | 11/09/2026 |
+| SecurityBus-730-AW | feature/chapter-3 | 0e8fbc867149f98f4a5e1b9058293ccb81b53b93 | docs: Merge chapter 3 | Merge branch 'feature/chapter-3' into develop| 10/09/2026 |
+| SecurityBus-730-AW | feature/chapter-04 | 9063bdf2ee33ae22be820af08c69f8ebb2443b58 | Docs: Create Event Storming | -| 10/09/2026 |
+| SecurityBus-730-AW | feature/chapter-05 | 8d75682360fd891997329ce480af8349b238b4a8 | Docs:Event Storming folder created | -| 11/09/2026 |
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
 Durante el primer Sprint, la prioridad del equipo fue la implementación y el lanzamiento de la primera versión de la página. El propósito central fue posicionar la propuesta de valor en materia de seguridad para el transporte público mediante una estructura que abarca desde la presentación general y los beneficios, hasta testimonios, funcionalidades clave y canales de contacto. 
@@ -367,6 +377,25 @@ Para administrar los cambios realizados durante el desarrollo, el equipo utiliz�
 Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiendo revisar las modificaciones antes de incorporarlas a las ramas principales del proyecto.
 
 ![Contribuciones](docs/assets/Cap5/Contributions.png)
+
+
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Spring Planning 2
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+##### 5.2.2.3. Sprint Backlog 2
+
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
 
 ## Conclusiones
 
