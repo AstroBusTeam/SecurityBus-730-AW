@@ -8,14 +8,14 @@ Para establecer el entorno de desarrollo del software, se han seleccionado difer
 
 | Proceso | Recurso o plataforma | Finalidad | Medio de acceso o Enlace |
 |---------|----------------------|-----------|--------------------------|
-|Especificación de requisitos|Convenciones Gherkin|Definir condiciones de aceptación y criterios funcionales de manera clara y precisa| [Guía Gherkin](https://cucumber.io/docs/gherkin/)
-|Desarrollo Landing Page| Visual Studio Code | Desarrollar, modificar y optimizar el código fuente de la aplicación web|[Visual Studio Code](https://code.visualstudio.com/)|
-|Administrador de versiones| Git | Controlar las modificaciones realizadas y administrar las diferentes versiones del proyecto|[Git](https://git-scm.com/)|
-|Diseño de experiencia e interfaz| Figma | Elaborar prototipos y organizar visualmente la interfaz de usuario|[Figma](https://figma.com)|
-|Publicación y despliegue| Github Pages | Publicar y alojar la página web para permitir su acceso en línea|[Github Pages](https://pages.github.com/)|
-|Planificación y gestión del proyecto| Jira Software | Administrar el Product Backlog, planificar los Sprints y realizar el seguimiento de las actividades mediante una metodología ágil|[Jira](https://www.atlassian.com/es/software/jira)|
-|Diagramas| PlantUML | Crear representaciones UML relacionadas con la estructura y funcionamiento del sistema|[PlantUML](https://plantuml.com/)|
-|Modelado de procesos| UXPressia | Desarrollar herramientas de análisis UX enfocadas en las necesidades y experiencia del usuario|[UXPressia](https://uxpressia.com/)|
+|Especificación de requisitos|Convenciones Gherkin|Definir condiciones de aceptación y criterios funcionales de manera clara y precisa| [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)
+|Desarrollo Landing Page| Visual Studio Code | Desarrollar, modificar y optimizar el código fuente de la aplicación web|[https://code.visualstudio.com/](https://code.visualstudio.com/)|
+|Administrador de versiones| Git | Controlar las modificaciones realizadas y administrar las diferentes versiones del proyecto|[https://git-scm.com/](https://git-scm.com/)|
+|Diseño de experiencia e interfaz| Figma | Elaborar prototipos y organizar visualmente la interfaz de usuario|[https://figma.com](https://figma.com)|
+|Publicación y despliegue| Github Pages | Publicar y alojar la página web para permitir su acceso en línea|[https://pages.github.com/](https://pages.github.com/)|
+|Planificación y gestión del proyecto| Jira Software | Administrar el Product Backlog, planificar los Sprints y realizar el seguimiento de las actividades mediante una metodología ágil|[https://www.atlassian.com/es/software/jira](https://www.atlassian.com/es/software/jira)|
+|Diagramas| PlantUML | Crear representaciones UML relacionadas con la estructura y funcionamiento del sistema|[https://plantuml.com/](https://plantuml.com/)|
+|Modelado de procesos| UXPressia | Desarrollar herramientas de análisis UX enfocadas en las necesidades y experiencia del usuario|[https://uxpressia.com/](https://uxpressia.com/)|
 
 #### 5.1.2. Source Code Management
 
@@ -279,7 +279,7 @@ Se presenta el desglose tecnico de las historias seleccionadas para esta iteraci
 
 <img src="docs/assets/Cap5/EvidenciaTrello.png">
 
-link: https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae911466aeadaa1cec5C94715BC/sprint-1-astrobusteam 
+link: [https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae911466aeadaa1cec5C94715BC/sprint-1-astrobusteam](https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae911466aeadaa1cec5C94715BC/sprint-1-astrobusteam)
 
 | Sprint # | Sprint 1 | | | | | | |
 |----------|----------|-|-|-|-|-|-|
@@ -325,7 +325,7 @@ La Landing Page incluye las siguientes secciones:
 
 ![Hero](docs/assets/Cap5/LP_Evidencia/Interfaz.png)
 
-Link a la Landing Page: [SecurityBus Landing Page](https://astrobusteam.github.io/SecurityBus-landing-page-aw/)
+Link a la Landing Page: [https://astrobusteam.github.io/SecurityBus-landing-page-aw/](https://astrobusteam.github.io/SecurityBus-landing-page-aw/)
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
