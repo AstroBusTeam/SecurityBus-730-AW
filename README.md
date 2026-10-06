@@ -92,6 +92,22 @@ Carrera de Ingeniería de Software<br><br><br>
           Elaboración de la primera versión del documento del proyecto SecurityBus, que comprende los Capítulos I al V. Se desarrolló la definición de la startup y la solución propuesta, el análisis de segmentos objetivo, competidores y usuarios, así como el levantamiento y especificación de requerimientos mediante entrevistas, Needfinding, EventStorming, User Stories, Impact Mapping y Product Backlog. Asimismo, se documentó el diseño del producto, incluyendo la arquitectura de información, diseño UX/UI, prototipado, arquitectura de software basada en DDD, diseño orientado a objetos y diseño de base de datos. Finalmente, se incorporaron aspectos relacionados con la configuración del entorno de desarrollo, gestión del código fuente, implementación, despliegue y seguimiento de los Sprints.
         </td>
       </tr>
+      <tr>
+        <td>V2.0</td>
+        <td>06/10/2026</td>
+        <td>
+          Alvarado Millan, Boris<br>
+          Justo Yauricasa, Alexander Paolo<br>
+          Martinez Ramos, Bryan Felix<br>
+          Pillaca Gonzales, Andy Saúl<br>
+          Nawrocki Loureiro, Ian Andre
+        </td>
+        <td style="text-align: left;">
+        En el Sprint 2 se desarrolló la segunda entrega formal del proyecto AutoService, enfocada en la implementación de la aplicación web mediante Vue.js y JavaScript. Se incorporaron funcionalidades para la gestión de vehículos, órdenes de trabajo, clientes y procesos administrativos.
+        Además, se configuró una Fake REST API con JSON Server en Google Cloud Platform, permitiendo obtener y gestionar información dinámica mediante peticiones HTTP. Para el despliegue, se integraron Azure Static Web Apps y GitHub Actions, automatizando la actualización del sistema en producción.
+        Finalmente, se aplicaron buenas prácticas de trabajo colaborativo mediante GitFlow, utilizando ramas feature y Pull Requests para integrar los cambios, logrando disponer de una versión funcional del sistema desplegada en producción.
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
