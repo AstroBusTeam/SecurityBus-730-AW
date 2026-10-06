@@ -395,8 +395,8 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 | **Sprint 2 Retrospective Summary** | El equipo demostró una gran capacidad de ejecución para manejar el alto volumen de tareas visuales. El uso de componentes reutilizables agilizó significativamente el desarrollo. Como punto de mejora, identificamos que para los próximos sprints debemos optimizar los cardinaciones para el desarrollo. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 2 Goal** | Completar el diseño y la maquetación frontend de la aplicación web SabeBus, garantizando que las interfaces planificadas sean totalmente funcionales a nivel visual, responsivas y alineadas con la guía de estilos, dejando el proyecto listo para la integración con los servicios del backend. |
-| **Sprint 2 Velocity** | 0 |
-| **Sum of Story Points** | 84 |
+| **Sprint 2 Velocity** | 109 |
+| **Sum of Story Points** | 109 |
 
 ##### 5.2.2.2. Aspect Leaders and Collaborators
 
