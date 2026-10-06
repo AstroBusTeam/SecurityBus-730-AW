@@ -383,11 +383,84 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 
 ##### 5.2.2.1. Spring Planning 2
 
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 27/09/2026 |
+| Time | 5:30 PM |
+| Location | Virtual |
+| Prepared By | Justo Yauricasa, Alexander Paolo |
+| Attendees (to planning meeting) | Pillaca Gonzales, Andy Saúl<br>Justo Yauricasa, Alexander Paolo |
+| **Sprint 2 Review Summary** | Durante este sprint, el equipo se enfocó de lleno en el desarrollo e implementación de la interfaz de usuario (UI) de la aplicación web SafeBus. Se logró maquetar, diseñar e integrar la experiencia visual abarcando. Esto incluyó la creación de componentes interactivos, vistas de reportes, mapas de alertas y flujos de navegación, sentando toda la base frontend de la plataforma. |
+| **Sprint 2 Retrospective Summary** | El equipo demostró una gran capacidad de ejecución para manejar el alto volumen de tareas visuales. El uso de componentes reutilizables agilizó significativamente el desarrollo. Como punto de mejora, identificamos que para los próximos sprints debemos optimizar los cardinaciones para el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Completar el diseño y la maquetación frontend de la aplicación web SabeBus, garantizando que las interfaces planificadas sean totalmente funcionales a nivel visual, responsivas y alineadas con la guía de estilos, dejando el proyecto listo para la integración con los servicios del backend. |
+| **Sprint 2 Velocity** | 0 |
+| **Sum of Story Points** | 84 |
+
 ##### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el desarrollo del Sprint 2, se han identificado distintos aspectos funcionales relacionados al diseño y construcción de la aplicación web de SafeBus. Con el objetivo de organizar el trabajo del equipo de manera eficiente, se ha elaborado una matriz de Liderazgo y Colaboración (LACX), donde se asigna a cada integrante el rol de líder (L) en los módulos clave del desarrollo que se le han asignado, y el rol de colaborador (C) en otros aspectos. 
+
+Los aspectos definidos para este Sprint, son:
+
+1. **Apartado de Login:** Registro e inicio de sesión.
+2. **Apartado de Dashboard:** Monitoreo de distancia, tiempo, pasajeros, dinero recuadado, ruta y boton de finalizado.
+3. **Gestion de flora:** Creacion de conductor y buses. Ademas, de la vinculacion conductor con bus.
+4. **Boton de alarma:** Boton que ayuda a mostar el peligro de un conducntor, su ubicacion y estado.
+5. **Registros de Alarma:** Visualizacion de reguistos de alarmas y sus estados.
+6. **Mapa:** Mostrar las alertas en el mapa.
+7. **Sistema de notificaciones:** Envio de alerta a los busces cercanos.
+
+
+A continuación, se presenta la matriz de responsabilidades del equipo:
+
+| Team Member (Last Name, First Name) | GitHub Username | Login | Configuration of Dashboard | Vegetation management | Alarm button | Alarm Logs | Map | Notification system |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Justo Yauricasa, Alexander Paolo | AlexanderJusto | L | L | L | C | C | C | C |
+| Pillaca Gonzales, Andy Saúl | DiazDeveloper | C | C | C | L | L | L | L |
+
+**Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 2, indicando el liderazgo (L) y la colaboración (C) en cada funcionalidad desarrollada.
 
 ##### 5.2.2.3. Sprint Backlog 2
 
+| User Story Id | User Story Title | Work Item/Task Id | Work Item/Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US-01 | Autenticación del conductor al iniciar la jornada | T01 | UI Autenticación Conductor | Maquetación e ingreso de código. | 3h | Alexander Justo | To Do |
+| US-14 | Verificación de habilitación del conductor | T08 | Lógica Verificación Habilitación | Validación de permisos del conductor. | 3h | Alexander Justo | To Do |
+| US-15 | Vínculo entre conductor y unidad | T09 | Registro Asignación Conductor | Asociación del conductor a la unidad. | 3h | Alexander Justo | To Do |
+| US-02 | Apertura del registro de servicio | T02 | UI Apertura Servicio | Botón para iniciar el servicio. | 2h | Alexander Justo | To Do |
+| US-03 | Envío de alerta desde la unidad | T03 | UI Botón de Alerta | Botón de pánico silencioso. | 3h | Andy Pillaca | To Do |
+| US-04 | Notificación de la alerta a la central | T04 | Servicio Recepción Alerta | Envío de alerta a la central. | 4h | Andy Pillaca | To Do |
+| US-42 | Ubicación asociada al evento | T20 | Captura GPS en Alerta | Captura de ubicación GPS. | 3h | Andy Pillaca | To Do |
+| US-05 | Persistencia del evento de emergencia | T05 | Persistencia de Alertas | Guardado del evento de alerta. | 3h | Andy Pillaca | To Do |
+| US-23 | Acuse de recepción de la alerta | T11 | Módulo Acuse de Recibo | Registro de confirmación de alerta. | 3h | Andy Pillaca | To Do |
+| US-24 | Reenvío de alertas sin confirmar | T12 | Mecanismo Reintentos Alerta | Reintento de envío no confirmado. | 4h | Andy Pillaca | To Do |
+| US-40 | Clasificación de alertas por gravedad | T19 | Priorización de Alertas | Asignación de nivel de prioridad. | 3h | Andy Pillaca | To Do |
+| US-33 | Difusión de la alerta a varios destinatarios | T17 | Servicio Multidifusión Alertas | Envío a múltiples destinatarios. | 4h | Andy Pillaca | To Do |
+| US-43 | Seguimiento de la unidad asignada | T21 | UI Mapas y Seguimiento GPS | Visualización GPS en mapa. | 5h | Andy Pillaca | To Do |
+| US-06 | Conteo automático de ocupantes | T06 | Integración Sensores Pasajeros | Conteo de pasajeros a bordo. | 4h | Alexander Justo | To Do |
+| US-07 | Disponibilidad del conteo para reportes | T07 | API Consulta Ocupación | Consulta del número de ocupantes. | 2h | Alexander Justo | To Do |
+| US-25 | Cierre del registro de servicio | T13 | UI Cierre Servicio | Botón para finalizar el servicio. | 2h | Alexander Justo | To Do |
+| US-26 | Consulta del estado del propio servicio | T14 | UI Estado de Servicio Conductor | Vista del estado actual del viaje. | 3h | Alexander Justo | To Do |
+| US-27 | Tablero de estado de la flota | T15 | Dashboard Flota | Panel general de la flota. | 5h | Alexander Justo | To Do |
+| US-16 | Revisión del historial de emergencias | T10 | UI Historial Emergencias | Listado de emergencias pasadas. | 4h | Andy Pillaca | To Do |
+| US-28 | Seguimiento de la ocupación en operación | T16 | UI Reporte Ocupación Flota | Monitoreo del nivel de carga. | 4h | Alexander Justo | To Do |
+| US-35 | Promedio de pasajeros por viaje | T18 | Cálculo Estadístico Ocupación | Cálculo promedio de pasajeros. | 3h | Alexander Justo | To Do |
+
+**Nota:** Relación entre las historias de usuario del Sprint 2 y las tareas planificadas para su implementación, incluyendo su estimación, responsable asignado y estado de ejecución.
+
 ##### 5.2.2.4. Development Evidence for Sprint Review
+
+En este segundo Sprint hemos realizado la implementación del fronte-end, donde todo el equipo ha aportado mediante la gestión de ramas. En la siguiente tabla se muestran los commits realizados.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| AstroBusTeam-FrontEnd | feature/iam | 2317a3abf7b753f4b52e65aed1632721b0c10258 | feature: add iam | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/fleet | b4b01276395f339487e1b7b3fdb1e36e9536ef05 | feature: create the fleet component and functions | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/operations | 830f93a480adb5f957ff975f007e2058a0b2fd88 | Merge pull request #3 from AstroBusTeam/feature/operations | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/alerts | 5c51e4912c9308f6e14fa750d7a1e1316efe779d | Merge pull request #2 from AstroBusTeam/feature/alerts | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/shared | 0a53309b6b74c59fb78f26beb44be9cb3cff9339 | Merge pull request #1 from AstroBusTeam/feature/shared | -- | [06/10/2026] |
 
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 
