@@ -389,9 +389,180 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 
 ##### 5.2.2.4. Development Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo se enfocó en la implementación de la Web Application de SecurityBus con Vue 3, Vite, Vue Router, PrimeVue, vue-i18n y Axios, consumiendo una Fake API construida con json-server. El código se organizó siguiendo Domain-Driven Design: cada módulo (iam, operations, fleet y alerts) contiene las capas domain, application, infrastructure y presentation, y el módulo shared concentra el layout, el cambio de idioma, el mapa y los clientes HTTP base. Las llamadas a la API se resolvieron con una clase base de endpoints (BaseApi y BaseEndpoint) y assemblers que transforman las respuestas en entidades del dominio.
+
+Entre los principales avances del Sprint se encuentran la verificación de identidad del conductor con protección de rutas, el inicio y cierre de servicio, el botón de pánico con ventana de cancelación, el registro y detalle de alertas con reenvío, la gestión de conductores, vehículos y asignaciones, y el centro de control con mapa de la flota. Además, se incorporó la internacionalización en español e inglés y un diseño responsive con el tema visual definido en las Style Guidelines.
+
+En la siguiente tabla se presentan los commits que representan los hitos principales del desarrollo de este Sprint:
+
+|Repository|Branch|Commit Id|Commit Message|Commit Message Body|Commit on (Date)|
+|----------|------|---------|--------------|-------------------|----------------|
+|          |      |         |              |                   |                |
+|          |      |         |              |                   |                |
+|          |      |         |              |                   |                |
+|          |      |         |              |                   |                |
+|          |      |         |              |                   |                |
+|          |      |         |              |                   |                |
+|          |      |         |              |                   |                |
+|          |      |         |              |                   |                |
+
+
 ##### 5.2.2.5. Execution Evidence for Sprint Review
 
+En este Sprint se logró la primera versión funcional de la Web Application de SecurityBus. La aplicación permite que el conductor ingrese con su código de empleado, inicie y cierre su servicio, vea el mapa de su unidad y emita una alerta de emergencia con un solo botón. Del lado de la empresa, permite supervisar la flota desde el centro de control, administrar conductores, vehículos y asignaciones, revisar las alertas y consultar los destinatarios notificados. La interfaz está disponible en español e inglés mediante el selector de idioma del toolbar y se adapta a distintos tamaños de pantalla.
+
+Verificación de identidad del conductor. El conductor ingresa su código de empleado (por ejemplo, SF-90210). El sistema valida que el conductor esté habilitado y tenga una asignación activa, y luego lo redirige al dashboard. Las demás rutas quedan protegidas si no existe una sesión.
+
+![verificación de identidad del conductor](docs/assets/Cap5/sprint02/identity-verification.png)
+
+Dashboard e inicio de servicio. Muestra la unidad y la ruta asignadas, permite iniciar el servicio y, al finalizar el turno, presenta el protocolo de cierre y el resumen del turno.
+
+![dashboard](docs/assets/Cap5/sprint02/dashboard.png)
+
+Mapa del servicio y centro de control. El mapa dibuja la posición de las unidades y las alertas activas sobre los tiles de OpenStreetMap. El conductor ve su unidad y la empresa ve toda la flota.
+
+![control-center](docs/assets/Cap5/sprint02/control-center.png)
+
+Botón de pánico. Disponible en el toolbar, envía la alerta con la ubicación de la unidad y abre una ventana de 5 segundos para cancelarla.
+
+![panic-signal](docs/assets/Cap5/sprint02/panic-signal.png)
+
+Registro y detalle de alertas. El registro lista las alertas por fecha y estado y permite reenviar las pendientes. El detalle muestra la línea de tiempo de la alerta, el número de intentos y su confirmación.
+
+![alert-details](docs/assets/Cap5/sprint02/alert-details.png)
+
+Notificaciones. Presenta los destinatarios activos con su rol y canal, y el registro de entregas con su prioridad y estado.
+
+![notifications](docs/assets/Cap5/sprint02/notifications.png)
+
+Gestión de conductores, vehículos y asignaciones. Tablas con formularios para crear, editar y eliminar registros, y una vista para asociar conductores con unidades y rutas.
+
+![vehicles](docs/assets/Cap5/sprint02/vehicles.png)
+
+![drivers](docs/assets/Cap5/sprint02/drivers.png)
+
+Historial de turnos e impacto en números. El historial lista los turnos con su ruta, distancia, pasajeros e incidentes. La vista de impacto resume indicadores y gráficos de pasajeros y alertas.
+
+![shift-history](docs/assets/Cap5/sprint02/shift-history.png)
+
+Para evidenciar las funcionalidades implementadas, se adjunta un video donde se muestra la navegación entre las vistas, la interacción con el botón de pánico y la comunicación con la Fake API desplegada.
+
+URL del video de ejecución de la Web Application: []()
+
 ##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo implementó y desplegó una Fake API RESTful con json-server, que simula el comportamiento del backend de SecurityBus mientras se desarrollan los servicios reales. La API expone siete recursos (conductores, vehículos, asignaciones, turnos, alertas, destinatarios y entregas) y soporta operaciones CRUD con los verbos GET, POST, PUT y DELETE. Su configuración de rutas redirige el prefijo /api/v1 a los recursos de la base de datos, de forma que la aplicación consume la misma estructura de URL que tendrá el servicio definitivo. Esto permitió desacoplar la aplicación web de datos locales y realizar pruebas colaborativas sobre una API pública.
+
+URL base del servicio: [https://astro-bus-team-fake-api-aw-730.vercel.app](https://astro-bus-team-fake-api-aw-730.vercel.app)
+
+Dado que json-server no genera documentación OpenAPI automáticamente, en este Sprint los endpoints se documentan en las siguientes tablas. La especificación OpenAPI formal se elaborará con los Web Services definitivos en los siguientes Sprints.
+
+|Endpoint|Acciones implementadas|Descripción|
+|--------|----------------------|-----------|
+|/drivers|GET,POST,PUT,DELETE|Gestión de conductores|
+|/vehicles|GET,POST,PUT,DELETE|Gestión de vehículos de la flota|
+|/assigments|GET,POST,DELETE|Asociación entre conductor, vehículo y ruta|
+|/shifts|GET,POST,PUT|Registro de turnos de servicio|
+|/alerts|GET,POST,PUT,DELETE|Emisión, consulta, actualización y reenvío de alertas|
+|/recipients|GET,PUT|Destinatarios de las alertas|
+|/deliveries|GET,POST|Registro de entregas de notificaciones|
+
+|Acción|Verbo HTTP|Sintaxis de llamada|Parámetros|Response|
+|------|---------|-------------------|------------|-------|
+|Listar recursos|GET|/{recurso}|Opcionales: filtros por campo, por ejemplo ?employeeCode=SF-90210 o ?driverId=1&status=active|200 OK con un arreglo JSON.|
+|Obtener por id|GET|/{recurso}/{id}|id en la ruta|200 OK con el recurso. 404 si no existe.|
+|Crear|POST|/{recurso}|Cuerpo JSON con los campos del recurso|201 Created con el recurso y su id.|
+|Actualizar|PUT|/{recurso}/{id}|id en la ruta y cuerpo JSON completo|200 OK con el recurso actualizado.|
+|Eliminar|DELETE|/{recurso}/{id}|id en la ruta|	200 OK con un objeto vacío.|
+
+Ejemplo 1. Verificación del conductor por código de empleado (US01 y US14).
+
+```
+GET /api/v1/drivers?employeeCode=SF-90210
+```
+
+El response es un arreglo con el conductor que coincide, junto con los datos de su licencia y su estado:
+
+```
+[
+  {
+    "id": 1,
+    "employeeCode": "SF-90210",
+    "firstName": "Marcos",
+    "lastName": "Silva",
+    "dni": "77443322",
+    "category": "A-IIIb",
+    "licenseNumber": "Q77443322",
+    "licenseExpiry": "2027-05-12",
+    "points": 14,
+    "rating": 4.9,
+    "yearsExperience": 12,
+    "status": "active"
+  }
+]
+```
+
+Ejemplo 2. Consulta de la asignación vigente del conductor (US14 y US15).
+
+```
+GET /api/v1/assignments?driverId=1&status=active
+```
+
+```
+[
+  {
+    "id": 1,
+    "driverId": 1,
+    "vehicleId": 1,
+    "route": "R-42 Terminal Norte - Estación Central",
+    "startTime": "05:30",
+    "status": "active"
+  }
+]
+```
+
+Ejemplo 3. Emisión de una alerta de pánico con la ubicación de la unidad (US03, US05 y US42).
+
+```
+POST /api/v1/alerts
+Content-Type: application/json
+```
+
+```
+{
+  "code": "AL-9928",
+  "vehicleId": 4,
+  "type": "Botón de pánico",
+  "receiver": "UNIDAD_MOVIL_04",
+  "attempts": 1,
+  "status": "pending",
+  "createdAt": "2026-10-04T14:22:05",
+  "latitude": -12.042,
+  "longitude": -77.034
+}
+```
+
+El response es 201 Created con el mismo objeto y el id generado. Mientras la alerta no sea confirmada, puede reenviarse con PUT /alerts/{id}, que incrementa attempts hasta un máximo de 3.
+
+Se adjuntan las siguientes capturas de la interacción con la API usando los datos de muestra:
+
+![evidencia1](docs/assets/Cap5/sprint02/evidencia1.png)
+
+![evidencia2](docs/assets/Cap5/sprint02/evidencia2.png)
+
+
+Repositorio de la Fake API: [https://astro-bus-team-fake-api-aw-730.vercel.app/](https://astro-bus-team-fake-api-aw-730.vercel.app/)
+
+Commits relacionados con la API en este Sprint:
+
+|Commit Id|Commit Message|Descripción Técnica|
+|---------|---------------|------------------|
+|f6589ff  |feat: deploy fake-api| Se implementó la configuración inicial necesaria para desplegar la Fake API, preparando el proyecto para ejecutarse en un entorno de producción mediante Vercel.|
+|aaaac67  |fix: import express in entrypoint for Vercel detection|Se corrigió el punto de entrada de la aplicación incorporando la importación de Express, permitiendo que Vercel identifique correctamente el servidor y pueda ejecutar la Fake API.|
+|894f6b3|fix: import express in entrypoint so Vercel detects the Express app|Se agregó la importación de Express en el archivo de entrada de la aplicación para que Vercel pueda detectar correctamente la aplicación Express durante el despliegue.|
+
+
+
 
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
