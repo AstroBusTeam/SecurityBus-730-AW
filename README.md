@@ -117,10 +117,15 @@ Carrera de Ingeniería de Software<br><br><br>
 - **URL del Repositorio de Documentación:** [https://github.com/AstroBusTeam/SecurityBus-730-AW](https://github.com/AstroBusTeam/SecurityBus-730-AW)
 - **URL del Repositorio de la Landing Page:** [https://github.com/AstroBusTeam/SecurityBus-landing-page-aw](https://github.com/AstroBusTeam/SecurityBus-landing-page-aw)
 - **Video Exposición AV1:** [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4)
+- **Video Exposición TB1:** []()
+* **URL del Repositorio del Frontend:** [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+* **URL del Frontend Desplegado:** [https://securitybus-730-aw-front-7bf31.firebaseapp.com/](https://securitybus-730-aw-front-7bf31.firebaseapp.com/)
+* **URL del Fake API Desplegado:** [https://astro-bus-team-fake-api-aw-730.vercel.app/](https://astro-bus-team-fake-api-aw-730.vercel.app/)
 
 ## Project Report Collaboration Insights
 
 - **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+- **TB1:** - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 ---
 
 ## Contenido
@@ -202,6 +207,15 @@ Carrera de Ingeniería de Software<br><br><br>
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint-1)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
