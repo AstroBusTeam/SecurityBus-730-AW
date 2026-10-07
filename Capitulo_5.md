@@ -551,7 +551,7 @@ Se adjuntan las siguientes capturas de la interacción con la API usando los dat
 ![evidencia2](docs/assets/Cap5/sprint02/evidencia2.png)
 
 
-Repositorio de la Fake API: [https://astro-bus-team-fake-api-aw-730.vercel.app/](https://astro-bus-team-fake-api-aw-730.vercel.app/)
+Repositorio de la Fake API: [https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730](https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730)
 
 Commits relacionados con la API en este Sprint:
 
@@ -562,11 +562,42 @@ Commits relacionados con la API en este Sprint:
 |894f6b3|fix: import express in entrypoint so Vercel detects the Express app|Se agregó la importación de Express en el archivo de entrada de la aplicación para que Vercel pueda detectar correctamente la aplicación Express durante el despliegue.|
 
 
-
-
 ##### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 2, el equipo realizó el despliegue de la Web Application y de la Fake API. A diferencia del Sprint 1, donde solo se publicó la Landing Page en GitHub Pages, en esta iteración se consolidó una arquitectura de dos servicios: la aplicación web, publicada con Firebase Hosting, y la Fake API, publicada en Vercel. Ambos servicios se configuran mediante variables de entorno, de modo que la URL base de la API y las rutas de cada recurso no quedan escritas en el código.
+
+La arquitectura de despliegue se compone de los siguientes elementos:
+
+Web Application: aplicación Vue 3 compilada con Vite, cuyo resultado (carpeta dist) se publica en Firebase Hosting.
+Fake API: servicio RESTful basado en json-server, publicado en Vercel.
+Variables de entorno: archivos .env.development y .env.production con la URL base de la API, las rutas de los recursos y el servidor de tiles del mapa.
+
+**Despliegue de la Fake API en Vercel**
+
+- Se creó la cuenta en Vercel y se importó el repositorio de la Fake API desde GitHub.
+- Se configuró json-server con el archivo db.json y se definió en routes.json la redirección del prefijo /api/v1/* hacia los  recursos.
+- Se publicó el proyecto y Vercel generó la URL pública del servicio.
+- Se verificó el funcionamiento consultando los recursos desde el navegador y desde la Web Application.
+
+![evidence-fake-api](docs/assets/Cap5/sprint02/evidence-fake-api.png)
+
+**Despliegue de la Web Application en Firebase Hosting**
+
+- Se creó el proyecto en Firebase y se habilitó Hosting.
+- Se configuró firebase.json con la carpeta dist como directorio público y una regla de reescritura de todas las rutas hacia index.html, necesaria para que Vue Router funcione al recargar la página.
+- Se definió en .env.production la URL base de la Fake API desplegada.
+- Se generó la versión de producción con npm run build y se publicó con Firebase Hosting.
+
+![evidence-frontend-firebase](docs/assets/Cap5/sprint02/evidence-frontend-firebase.png)
+
+La Web Application desplegada está disponible en: [https://securitybus-730-aw-front-7bf31.web.app/](https://securitybus-730-aw-front-7bf31.web.app/)
+
+Repositorio de la Web Application: [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+
+
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
 
 ## Conclusiones
 
