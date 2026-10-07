@@ -698,6 +698,20 @@ El proyecto busca facilitar una respuesta más rápida ante situaciones de riesg
 
 Asimismo, SecurityBus busca complementar las medidas tradicionales de seguridad mediante herramientas digitales que permitan mejorar la comunicación y supervisión entre conductores y empresas de transporte.
 
+Primera versión funcional lograda. Con el Sprint 2 la propuesta pasó de la Landing Page a una Web Application que cubre el flujo del conductor (verificación, inicio y cierre de servicio, botón de pánico) y el de la empresa (centro de control, flota, alertas y notificaciones).
+
+Funciones críticas ya demostrables. El botón de pánico envía la alerta con la ubicación de la unidad y ofrece 5 segundos para cancelarla. Esto responde a la recomendación de mantener las acciones de emergencia simples y rápidas.
+
+Arquitectura modular. Organizar el frontend por bounded contexts (iam, operations, fleet y alerts), con capas de dominio, aplicación, infraestructura y presentación, facilita que el trabajo se reparta y que el sistema crezca.
+
+Desacople mediante la Fake API. Consumir una API con la misma estructura de URL que tendrá el servicio real permitió desarrollar la interfaz sin esperar al backend y reducirá el trabajo de integración.
+
+Trabajo colaborativo. GitFlow, Pull Requests y la matriz de líderes y colaboradores permitieron avanzar en paralelo en interfaz, datos de prueba y despliegue.
+
+Despliegue continuo del producto. Ahora hay dos servicios publicados (aplicación en Firebase Hosting, API en Vercel) configurados con variables de entorno.
+
+Experiencia de uso. La interfaz en español e inglés, el tema oscuro y el diseño responsive mantienen la identidad definida en las Style Guidelines.
+
 **Recomendaciones**
 
 Se recomienda priorizar una experiencia de uso sencilla y rápida, especialmente en funcionalidades destinadas a situaciones de emergencia, evitando procesos complejos que puedan dificultar su utilización por parte del conductor.
@@ -708,6 +722,11 @@ También se recomienda garantizar la confiabilidad de funciones críticas como e
 
 Finalmente, se recomienda desarrollar SecurityBus de manera progresiva, evaluando los resultados obtenidos con los usuarios y utilizando esta información para mejorar las funcionalidades y adaptar la plataforma a las necesidades del transporte público.
 
+Comunicación en tiempo real. Las alertas y la posición de las unidades hoy se consultan de la Fake API. Para que la central reaccione a tiempo, se necesitaría un mecanismo como WebSockets o actualización periódica.
+
+Reemplazar la Fake API por los Web Services reales y documentarlos con OpenAPI, ya que json-server no valida datos ni ofrece seguridad.
+
+Autenticación real. Hoy el ingreso se valida solo con el código de empleado; conviene usar tokens y control de permisos por rol (conductor y empresa).
 ---
 
 ## Bibliografía
