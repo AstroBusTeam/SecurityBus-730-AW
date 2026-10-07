@@ -597,7 +597,39 @@ Repositorio de la Web Application: [https://github.com/AstroBusTeam/AstroBusTeam
 
 ##### 5.2.2.8. Team Collaboration Insights during Sprint
 
+Durante el Sprint 2, el equipo trabajó de forma colaborativa en la implementación de la Web Application y de la Fake API. Se mantuvo la estrategia GitFlow definida en la configuración del proyecto: cada funcionalidad se desarrolló en una rama feature/* creada a partir de develop, y los cambios se integraron mediante Pull Requests revisados por otro integrante antes de incorporarse. Los commits siguieron la convención Conventional Commits, lo que permitió mantener la trazabilidad de cada cambio.
 
+El trabajo se distribuyó según la matriz de líderes y colaboradores de la sección 5.2.2.2. Cada integrante lideró un aspecto del Sprint y colaboró en los demás: IAM & Operations, Fleet Management, Alerts Management, Fake API y Deployment. Esta organización permitió que la interfaz, los datos de prueba y el despliegue avanzaran en paralelo. El seguimiento de las tareas se realizó en el tablero de Trello del Sprint.
+
+A continuación se presentan las evidencias extraídas de los repositorios del proyecto, que reflejan la participación de los integrantes durante el Sprint.
+
+**Evidencia 1: Gráfico de contribuciones por integrante**
+
+![contributors](docs/assets/Cap5/sprint02/contributors.png)
+
+**Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse**
+
+![pulse](docs/assets/Cap5/sprint02/pulse.png)
+
+**Evidencia 3: Gestión de cambios mediante Pull Requests**
+
+![pull-requests](docs/assets/Cap5/sprint02/pull-requests.png)
+
+**Evidencia 4: Organización de ramas bajo GitFlow**
+
+![gitflow](docs/assets/Cap5/sprint02/git-flow.png)
+
+Las evidencias muestran que todos los integrantes participaron en la implementación, con commits distribuidos durante el Sprint e integraciones frecuentes hacia la rama develop. Entre las actividades colaborativas más relevantes destacan:
+
+- Implementación de las vistas del conductor: verificación de identidad, dashboard, mapa y botón de pánico.
+- Desarrollo de los módulos de flota y alertas, con sus tablas, formularios y detalle.
+- Configuración de la Fake API y conexión de la aplicación mediante variables de entorno.
+- Internacionalización de la interfaz en español e inglés.
+- Despliegue de la Web Application y de la Fake API.
+
+Repositorio de la Web Application: [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+
+Repositorio de la Fake API: [https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730](https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730)
 
 ## Conclusiones
 
