@@ -603,6 +603,8 @@ Se adjuntan las siguientes capturas de la interacción con la API usando los dat
 
 ![evidencia1](docs/assets/Cap5/sprint02/evidencia1.png)
 
+<br>
+
 ![evidencia2](docs/assets/Cap5/sprint02/evidencia2.png)
 
 
@@ -642,6 +644,7 @@ Variables de entorno: archivos .env.development y .env.production con la URL bas
 - Se configuró firebase.json con la carpeta dist como directorio público y una regla de reescritura de todas las rutas hacia index.html, necesaria para que Vue Router funcione al recargar la página.
 - Se definió en .env.production la URL base de la Fake API desplegada.
 - Se generó la versión de producción con npm run build y se publicó con Firebase Hosting.
+<br>
 
 ![evidence-frontend-firebase](docs/assets/Cap5/sprint02/evidence-frontend-firebase.png)
 
@@ -666,13 +669,19 @@ A continuación se presentan las evidencias extraídas de los repositorios del p
 
 ![pulse](docs/assets/Cap5/sprint02/pulse.png)
 
+<br>
+
 **Evidencia 3: Gestión de cambios mediante Pull Requests**
 
 ![pull-requests](docs/assets/Cap5/sprint02/pull-requests.png)
 
+<br>
+
 **Evidencia 4: Organización de ramas bajo GitFlow**
 
 ![gitflow](docs/assets/Cap5/sprint02/git-flow.png)
+
+<br>
 
 Las evidencias muestran que todos los integrantes participaron en la implementación, con commits distribuidos durante el Sprint e integraciones frecuentes hacia la rama develop. Entre las actividades colaborativas más relevantes destacan:
 
@@ -727,6 +736,7 @@ Comunicación en tiempo real. Las alertas y la posición de las unidades hoy se 
 Reemplazar la Fake API por los Web Services reales y documentarlos con OpenAPI, ya que json-server no valida datos ni ofrece seguridad.
 
 Autenticación real. Hoy el ingreso se valida solo con el código de empleado; conviene usar tokens y control de permisos por rol (conductor y empresa).
+
 ---
 
 ## Bibliografía
