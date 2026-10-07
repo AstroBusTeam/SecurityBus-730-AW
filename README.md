@@ -1,21 +1,28 @@
 <div align="center">
   
 ![logo](docs/assets/upcLogo.png)<br>
-Universidad Peruana de Ciencias Aplicadas<br>
-Facultad de Ingenería, Carrera de Ingeniería de Software<br>
-**Ciclo:** 2026-02
+Universidad Peruana de Ciencias Aplicadas<br><br>
+Carrera de Ingeniería de Software<br><br><br>
 
-**INFORME DE AV1**
+**1ASI030**
 
-**1ASI0730** Aplicaciones Web<br>
-**NRC:** 8074<br>
-**Profesor:** Alex Humberto Sánchez Ponce<br>
+**Aplicaciones Web**
 
-**Nombre del startup:** AstroBus<br>
-**Nombre del producto:** SecurityBus<br>
-Septiembre, 2026
+**NRC** 
+<br><br>8074<br>
 
-#### Relación de integrantes
+**Informe del Trabajo Parcial**
+
+**Docente**
+<br><br>Sánchez Ponce, Alex Humberto <br>
+
+**Equipo** 
+<br><br>AstroBus<br>
+
+**Proyecto**
+<br><br>SecurityBus<br>
+
+#### Integrantes
 
   <table style="margin: auto;">
     <thead>
@@ -47,6 +54,10 @@ Septiembre, 2026
       </tr>
     </tbody>
   </table>
+
+  <br>Período 202620<br>
+
+  Octubre 2026
 
 </div>
 
@@ -81,19 +92,40 @@ Septiembre, 2026
           Elaboración de la primera versión del documento del proyecto SecurityBus, que comprende los Capítulos I al V. Se desarrolló la definición de la startup y la solución propuesta, el análisis de segmentos objetivo, competidores y usuarios, así como el levantamiento y especificación de requerimientos mediante entrevistas, Needfinding, EventStorming, User Stories, Impact Mapping y Product Backlog. Asimismo, se documentó el diseño del producto, incluyendo la arquitectura de información, diseño UX/UI, prototipado, arquitectura de software basada en DDD, diseño orientado a objetos y diseño de base de datos. Finalmente, se incorporaron aspectos relacionados con la configuración del entorno de desarrollo, gestión del código fuente, implementación, despliegue y seguimiento de los Sprints.
         </td>
       </tr>
+      <tr>
+        <td>V2.0</td>
+        <td>06/10/2026</td>
+        <td>
+          Alvarado Millan, Boris<br>
+          Justo Yauricasa, Alexander Paolo<br>
+          Martinez Ramos, Bryan Felix<br>
+          Pillaca Gonzales, Andy Saúl<br>
+          Nawrocki Loureiro, Ian Andre
+        </td>
+        <td style="text-align: left;">
+        En el Sprint 2 se desarrolló la segunda entrega formal del proyecto AutoService, enfocada en la implementación de la aplicación web mediante Vue.js y JavaScript. Se incorporaron funcionalidades para la gestión de vehículos, órdenes de trabajo, clientes y procesos administrativos.
+        Además, se configuró una Fake REST API con JSON Server en Google Cloud Platform, permitiendo obtener y gestionar información dinámica mediante peticiones HTTP. Para el despliegue, se integraron Azure Static Web Apps y GitHub Actions, automatizando la actualización del sistema en producción.
+        Finalmente, se aplicaron buenas prácticas de trabajo colaborativo mediante GitFlow, utilizando ramas feature y Pull Requests para integrar los cambios, logrando disponer de una versión funcional del sistema desplegada en producción.
+        </td>
+      </tr>
     </tbody>
   </table>
 </div>
 
 ## Enlaces del proyecto
 
-- **URL del Repositorio de Documentación:** https://github.com/AstroBusTeam/SecurityBus-730-AW
-- **URL del Repositorio de la Landing Page:** https://github.com/AstroBusTeam/SecurityBus-landing-page-aw
-- **Video Exposición AV1:** https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4
+- **URL del Repositorio de Documentación:** [https://github.com/AstroBusTeam/SecurityBus-730-AW](https://github.com/AstroBusTeam/SecurityBus-730-AW)
+- **URL del Repositorio de la Landing Page:** [https://github.com/AstroBusTeam/SecurityBus-landing-page-aw](https://github.com/AstroBusTeam/SecurityBus-landing-page-aw)
+- **Video Exposición AV1:** [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4)
+- **Video Exposición TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCvxQWq90fWRIhlgpWOinmpAcg8GUGx2Qat4fDj3RE3LS4?e=58NPnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCvxQWq90fWRIhlgpWOinmpAcg8GUGx2Qat4fDj3RE3LS4?e=58NPnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **URL del Repositorio del Frontend:** [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+* **URL del Frontend Desplegado:** [https://securitybus-730-aw-front-7bf31.firebaseapp.com/](https://securitybus-730-aw-front-7bf31.firebaseapp.com/)
+* **URL del Fake API Desplegado:** [https://astro-bus-team-fake-api-aw-730.vercel.app/](https://astro-bus-team-fake-api-aw-730.vercel.app/)
 
 ## Project Report Collaboration Insights
 
 - **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+- **TB1:** - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 ---
 
 ## Contenido
@@ -175,6 +207,15 @@ Septiembre, 2026
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint-1)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
@@ -200,17 +241,22 @@ Septiembre, 2026
           <b>Alvarado Millan, Boris</b><br>
           Me encargué de desarrollar el análisis de los competidores, identificando sus principales características y estrategias para aportar información útil a las decisiones del equipo. Asimismo, trabajé en el análisis de las entrevistas y en la definición del Ubiquitous Language, coordinando con los demás integrantes para mantener una comprensión común del dominio. También participé en la elaboración de los diagramas de componentes, clases y base de datos, aportando en la definición de la estructura técnica de la solución.<br>
           <b>Justo Yauricasa, Alexander Paolo</b>
-          AV1: 
-          Durante todo el proceso del proyecto, participe en el desarrollo en el primer capitulo:  Lean UX Problem Statements, Lean UX Assumptions,Lean UX Hypothesis Statements y el Segmentos objetivo Y el Capitulo 5: Spring Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1 y Development Evidence for Sprint Review. Asimismo, ayude creando y gestionando el Trello. Por parte de la landing pague, pude ayudar con los Styles de features, how-it-works, plans, about y gallery.<br>
+          AV1:
+          Durante el desarrollo del proyecto, el equipo distribuyó responsabilidades de forma coordinada para abordar las distintas secciones del informe y la Landing Page de SafeBus. Participé en la elaboración de los artefactos de análisis de usuarios y en el diseño UX/UI, mientras otros integrantes avanzaban en paralelo con la arquitectura del sistema y la documentación de los bounded contexts. La toma de decisiones sobre la estructura del informe, los lineamientos de diseño y el contenido de la Landing Page se realizó de manera conjunta, permitiendo que cada miembro liderara su área sin perder coherencia en el producto final entregado.<br>
+          TB2:
+          Durante el Sprint correspondiente, el equipo mantuvo el liderazgo compartido mediante la asignación de bounded contexts y módulos independientes del frontend de SafeBus entre los integrantes, lo que permitió avanzar en paralelo en la implementación de la Web Application. Lideré el desarrollo de los módulos asignados, coordinando con los demás integrantes a través de ramas de trabajo y Pull Requests para mantener la compatibilidad entre las diferentes partes del frontend. Las decisiones sobre la integración con la Fake API, los componentes compartidos y el despliegue de la solución se acordaron en equipo. De esta manera, cada integrante ejerció liderazgo en su dominio y el equipo logró transformar los diseños definidos en iteraciones anteriores en una primera versión funcional de la Web Application de SafeBus.<br>
           <b>Martinez Ramos, Bryan Felix</b><br>
           AV1:
           Durante el desarrollo del proyecto SecurityBus, contribuí con el desarrollo de los Lean UX Problem Statements, Lean UX Assumptions, Lean UX Hypothesis Statements y la definición de los segmentos objetivos, considerando principalmente las necesidades de las empresas de transporte y los conductores.
-También participé en el desarrollo del Big Picture Event Storming, colaborando en la identificación y organización de los principales eventos, timelines, pain points y pivotal points relacionados con el funcionamiento y las situaciones que pueden presentarse durante los viajes.
-En el Capítulo 5, apoyé en la elaboración del Sprint Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1 y Development Evidence for Sprint Review. Asimismo, contribuí con la organización y seguimiento de las actividades del equipo mediante Trello y con la gestión de documentación y avances a través del repositorio en GitHub.
+          También participé en el desarrollo del Big Picture Event Storming, colaborando en la identificación y organización de los principales eventos, timelines, pain points y pivotal points relacionados con el funcionamiento y las situaciones que pueden presentarse durante los viajes.
+          En el Capítulo 5, apoyé en la elaboración del Sprint Planning 1, Aspect Leaders and Collaborators, Sprint Backlog 1 y Development Evidence for Sprint Review. Asimismo, contribuí con la organización y seguimiento de las actividades del equipo mediante Trello y con la gestión de documentación y avances a través del repositorio en GitHub.
           <br><b>Pillaca Gonzales, Andy Saúl</b><br>
           AV1:
           Durante el desarrollo del proyecto, participé en el análisis de usuarios mediante la elaboración de User Personas, User Task Matrix, User Journey Mapping y Empathy Mapping, permitiendo identificar sus principales necesidades, actividades y experiencias. También participé en el diseño UX/UI de SecurityBus, desarrollando las Style Guidelines, la Information Architecture y el diseño de la Landing Page mediante wireframes y mock-ups.
-          Asimismo, trabajé en el diseño de las aplicaciones web, elaborando wireframes, wireflow diagrams, mock-ups, user flow diagrams y el prototipo de las principales funcionalidades. Finalmente, participé en la configuración del entorno de desarrollo, gestión del código fuente, definición de convenciones y configuración del despliegue. Estas actividades se realizaron de manera coordinada con el equipo, contribuyendo al avance y cumplimiento de los objetivos establecidos. <br>
+          Asimismo, trabajé en el diseño de las aplicaciones web, elaborando wireframes, wireflow diagrams, mock-ups, user flow diagrams y el prototipo de las principales funcionalidades. Finalmente, participé en la configuración del entorno de desarrollo, gestión del código fuente, definición de convenciones y configuración del despliegue. Estas actividades se realizaron de manera coordinada con el equipo, contribuyendo al avance y cumplimiento de los objetivos establecidos.<br>
+          TB1: 
+          Durante el Sprint 2, participé activamente en la implementación de la Web Application de SecurityBus, trabajando principalmente en los bounded contexts y módulos de Shared, Alerts y Operations del frontend. Desarrollé e integré funcionalidades relacionadas con la gestión y visualización de alertas, operaciones del sistema y componentes compartidos, coordinando los cambios con los demás integrantes mediante ramas de trabajo y Pull Requests. Asimismo, participé en la integración del frontend con la Fake API RESTful, permitiendo que las funcionalidades implementadas trabajaran con datos dinámicos y una estructura de endpoints definida para el proyecto. También contribuí en el proceso de despliegue de la solución, participando en la publicación del frontend mediante Firebase Hosting y de la Fake API mediante Vercel. Estas actividades requirieron coordinación con los integrantes responsables de otros bounded contexts y permitieron avanzar de manera paralela en la implementación de la aplicación, manteniendo una integración consistente entre los diferentes módulos.
+          <br>
           <b>Nawrocki Loureiro, Ian Andre</b><br>
           AV1:
           Contribuí al liderazgo compartido del equipo participando en la especificación de requerimientos, redactando gran parte de las 50 User Stories con sus criterios de aceptación y coordinando la elaboración de los Impact Maps que conectan los objetivos del negocio con el backlog. Además, lideré el diseño de la arquitectura de software del producto, identificando los bounded contexts mediante Domain-Driven Design y elaborando el Design-Level EventStorming junto con los diagramas de Contexto y Contenedores (C4), y apoyé el registro de entrevistas y la documentación de los perfiles del equipo, manteniendo comunicación constante con mis compañeros para alinear el avance del proyecto.
@@ -218,6 +264,8 @@ En el Capítulo 5, apoyé en la elaboración del Sprint Planning 1, Aspect Leade
         <td valign="top">
         <br>AV1:<br> 
         El desarrollo de las actividades permitió fortalecer el liderazgo compartido dentro del equipo, especialmente mediante la coordinación de los trabajos de análisis de usuarios y diseño UX/UI. La participación en la elaboración de los diferentes artefactos de diseño y en la configuración del entorno de desarrollo facilitó la toma de decisiones conjunta y permitió mantener una organización adecuada para avanzar con los objetivos establecidos.
+        <br>TB1:<br>
+        Durante el desarrollo de la primera entrega (TB1), el equipo demostró una eficiente gestión del liderazgo distribuido. Cada miembro asumió el control de tareas específicas como el desarrollo del front-end, la integración de la Fake API, el despliegue de la aplicación y la administración de repositorios, lo que facilitó la toma colaborativa de decisiones técnicas y garantizó el cumplimiento de los objetivos programados para el Sprint 2 dentro de un marco estructurado de trabajo.
         </td>
       </tr>
       <tr>
@@ -227,13 +275,18 @@ En el Capítulo 5, apoyé en la elaboración del Sprint Planning 1, Aspect Leade
           AV1:
           Me encargué de organizar y documentar las actividades relacionadas con el análisis competitivo y el levantamiento de información de las entrevistas. Además, desarrollé los diagramas de componentes, clases y base de datos, coordinando con los integrantes responsables de otras áreas para mantener consistencia entre los requerimientos y la arquitectura propuesta. Estas actividades permitieron avanzar de manera organizada y cumplir con las tareas asignadas dentro de los plazos establecidos.<br>
           <b>Justo Yauricasa, Alexander Paolo</b>
-          AV1: 
-          Guestione el Spring en el Implementé Trello con el fin de organizar la carga de trabajo y asegurar que las actividades prioritarias estuvieran claramente definidas. Con el apoyo de la información suministrada por todo el equipo, pude estructurar y completar el Lean UX Canvas. Asimismo, me encargué de delimitar los segmentos objetivo, lo que permitió al grupo enfocar los esfuerzos en nuestro nicho específico y recopilar la información necesaria para el proyecto.<br>
+          AV1:
+          Durante el desarrollo del proyecto, contribuí a establecer un entorno de trabajo colaborativo participando en la definición de convenciones de documentación, la distribución de secciones del informe y los acuerdos para la elaboración de la Landing Page de SafeBus. Estas decisiones fueron coordinadas con el equipo para asegurar que todos los integrantes pudieran trabajar de forma autónoma dentro de un marco común. Asimismo, participé en la planificación de tareas del Sprint 1, contribuyendo a la elaboración del Sprint Planning y el Sprint Backlog, lo que permitió un avance ordenado y el cumplimiento de los entregables establecidos para esta primera entrega.<br>
+          TB2:
+          Durante el Sprint, el equipo consolidó un entorno colaborativo e inclusivo en el que cada integrante tuvo claridad sobre sus responsabilidades dentro del desarrollo del frontend de SafeBus. Participé en la planificación del Sprint definiendo las tareas asociadas a los módulos asignados, estableciendo metas alcanzables alineadas con los objetivos del Sprint Backlog. El seguimiento del avance se realizó mediante revisiones periódicas que permitieron identificar bloqueos a tiempo y redistribuir esfuerzos cuando fue necesario. La integración de los aportes individuales a través de ramas específicas y Pull Requests garantizó que el trabajo de cada integrante fuera revisado y validado antes de incorporarse a la rama principal, promoviendo la calidad y la responsabilidad compartida. Al cierre del Sprint, el equipo cumplió con los objetivos establecidos, entregando una primera versión funcional de la Web Application de SafeBus con sus módulos integrados y desplegados.<br>
           <b>Martinez Ramos, Bryan Felix</b><br>
           Participé activamente en la organización y planificación de las actividades del equipo, colaborando en el Sprint Planning 1, Sprint Backlog 1 y la recopilacion de evidencias de aportes de los miembros. Asimismo. Durante el desarrollo de la Landing Page de SecurityBus, contribuí en la recopilación de las secciones Hero,funcionalidades,estadisticas,diseño, coordinando mis aportes con los demás integrantes mediante el uso de GitHub, ramas y commits. De esta manera, cumplí con las actividades asignadas y contribuí al avance conjunto de los objetivos establecidos para el proyecto.
           <br><b>Pillaca Gonzales, Andy Saúl</b><br>
           AV1:
-          Organicé y documenté diferentes evidencias de la landing page, ademas de haber recopilado las evidencias de la participacion de todos los miembros del equipo,tambien colabore y apoye en la elaboración del Sprint Planning 1, Sprint Backlog 1, Durante la recopilacion de evidencia de la Landing Page de SecurityBus, contribuí recopilando los estilos de las secciones Features, How It Works, Plans, About y Gallery, coordinando mis aportes con los demás integrantes mediante el uso de GitHub, ramas y commits. De esta manera, cumplí con las actividades asignadas y contribuí al avance conjunto de los objetivos establecidos para el proyecto<br>
+          Organicé y documenté diferentes evidencias de la landing page, ademas de haber recopilado las evidencias de la participacion de todos los miembros del equipo,tambien colabore y apoye en la elaboración del Sprint Planning 1, Sprint Backlog 1, Durante la recopilacion de evidencia de la Landing Page de SecurityBus, contribuí recopilando los estilos de las secciones Features, How It Works, Plans, About y Gallery, coordinando mis aportes con los demás integrantes mediante el uso de GitHub, ramas y commits. De esta manera, cumplí con las actividades asignadas y contribuí al avance conjunto de los objetivos establecidos para el proyecto <br>
+          TB1: 
+          Durante el Sprint 2, el equipo fortaleció el liderazgo compartido mediante la distribución de responsabilidades por funcionalidades y bounded contexts, permitiendo que los integrantes trabajaran en paralelo y posteriormente integraran sus avances mediante GitFlow y Pull Requests. La implementación de los módulos del frontend, la integración con la Fake API y el despliegue de los servicios requirieron coordinación constante entre los miembros para mantener la compatibilidad entre las diferentes partes de la solución. De esta manera, el equipo logró transformar los diseños y requerimientos definidos en iteraciones anteriores en una primera versión funcional de la Web Application de SecurityBus. El uso de ramas independientes y revisiones mediante Pull Requests facilitó la toma de decisiones conjunta, la integración de los aportes individuales y el cumplimiento de los objetivos establecidos para el Sprint. La evidencia del Sprint registra ramas específicas para IAM, Fleet, Operations, Alerts y Shared, mostrando una implementación distribuida entre los integrantes.
+          <br>
           <b>Nawrocki Loureiro, Ian Andre</b><br>
           AV1:
           Planifiqué y documenté el backlog del producto priorizando las User Stories según las épicas definidas, y estructuré los Impact Maps para vincular cada objetivo de negocio con sus entregables. Organicé la refactorización de la documentación del repositorio para mantenerla clara y consistente entre capítulos, registré una entrevista adicional para enriquecer el Needfinding, y diseñé la arquitectura orientada al dominio (EventStorming de diseño y diagramas C4) cumpliendo con los plazos acordados con el equipo, fomentando un ambiente de trabajo donde cada avance quedaba documentado y disponible para todos.
@@ -241,6 +294,8 @@ En el Capítulo 5, apoyé en la elaboración del Sprint Planning 1, Aspect Leade
         <td valign="top">
         <br>AV1:<br>
         El equipo logró mantener una dinámica de trabajo organizada, basada en la coordinación constante y en la distribución de responsabilidades. La planificación de las actividades de diseño, documentación y configuración permitió dar seguimiento a las tareas asignadas y cumplir con los entregables establecidos, manteniendo una participación activa y colaborativa durante el desarrollo del proyecto.
+        <br>TB1:<br>
+        La adopción del modelo GitFlow y la centralización de repositorios en GitHub, junto con el uso de herramientas de integración continua y documentación estandarizada, permitieron articular una dinámica operativa sumamente ordenada en la TB1. Como resultado, la asignación de responsabilidades y la planificación se realizaron de forma equitativa y fluida, lo que hizo posible alcanzar en su totalidad las metas fijadas para el Sprint 2 dentro de los plazos establecidos.
         </td>
       </tr>
     </tbody>
@@ -457,26 +512,27 @@ En esta sección, se presenta un análisis de los principales competidores de Se
 
 Este análisis nos permitirá comprender mejor el entorno competitivo de SecurityBus, identificar las fortalezas y debilidades de las alternativas existentes y determinar oportunidades de diferenciación mediante soluciones tecnológicas orientadas a mejorar la seguridad de pasajeros y operadores durante los recorridos.
 
-1. ### Metropolitano:
+1. ### Hikvision Peru:
 
-Es uno de los principales sistemas de transporte público de Lima Metropolitana. Cuenta con una infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y sistemas de videovigilancia destinados a mejorar la seguridad y eficiencia del servicio.
+Es uno de los mayores fabricantes globales de soluciones tecnologicas de videovigilancia y seguridad. Cuenta con una linea especializada en transporte urbano que integra hardware robusto de alta definicion con herramientas de Inteligencia Artificial para el monitoreo remoto en tiempo real de flotas comerciales.
 
-- **Fortalezas:** infraestructura organizada, rutas definidas, carriles exclusivos, estaciones y cámaras de videovigilancia. Además, cuenta con una marca reconocida y un sistema formal de transporte.
-- **Debilidades:** saturación durante las horas punta, posibles fallas operativas y problemas asociados a la inseguridad ciudadana y la congestión en determinadas zonas.
+- **Fortalezas:** camaras de alta definicion antivandalismo, grabadores moviles (MDVR) resistentes a vibraciones constantes, tecnologia avanzada de conteo de pasajeros y sistemas ADAS de asistencia al conductor.
+- **Debilidades:** • requiere de un integrador o instalador local calificado, costos de inversion inicial elevados en equipos de gama alta y dependencia de una optima conectividad movil (4G/5G) para la transmisión fluida de video.
 
-2. ### RTP:
+2. ### Global GPS Peru:
 
-Es un sistema de transporte público que incorpora diferentes tecnologías y mecanismos orientados a mejorar la seguridad y experiencia de los usuarios. Entre sus características se encuentran las cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.
+Es una empresa con amplia trayectoria en el mercado peruano que se enfoca en el desarrollo y suministro de soluciones avanzadas de rastreo satelital, telemática y videovigilancia para el transporte público y corporativo. Su plataforma está diseñada para optimizar los costos operativos y cuenta con las homologaciones exigidas por las entidades reguladoras nacionales.
 
-- **Fortalezas:** incorporación de tecnología, cámaras de seguridad, monitoreo en tiempo real, conductores capacitados y tarifas accesibles para diferentes segmentos de usuarios.
-- **Debilidades:** dependencia de la infraestructura existente, costos asociados a la modernización de la flota y competencia con alternativas de transporte concesionado e informal.
+- **Fortalezas:**  equipos completamente homologados para el transporte de pasajeros ante la SUTRAN y la ATU (sistema SICM), planes avanzados que integran hasta 3 cámaras con soporte de Inteligencia Artificial (ADAS), y sensores de combustible con un 99% de precisión que reducen hasta un 30% el desperdicio.
+- **Debilidades:**  la instalación presencial gratuita está limitada a un número específico de ciudades principales del país, los sensores avanzados de combustible y video en vivo exigen la contratación exclusiva de sus planes Pro o Live, y la efectividad de las alertas ADAS depende del calibrado inicial físico en el taller.
 
-3. ### Mi Transporte:
+3. ### Ditrack:
 
-Es un sistema orientado a ofrecer una experiencia de transporte integrada, incorporando herramientas digitales y mecanismos de seguimiento para mejorar la movilidad de los usuarios. Entre sus soluciones se encuentran servicios multimodales, aplicaciones móviles y sistemas de información para pasajeros.
+Es un proveedor peruano especializado en la gestión de flotas y cumplimiento normativo mediante tecnologías de rastreo vehicular en tiempo real. Se posiciona como una opción flexible para empresas de transporte que buscan una plataforma multi-operador transparente, sin cláusulas de permanencia y con alta velocidad de transmisión de datos.
 
-- **Fortalezas:** integración de diferentes modalidades de transporte, herramientas digitales, modernización de la flota, monitoreo y protocolos de seguimiento en tiempo real.
-- **Debilidades:** resistencia al cambio por parte de algunos usuarios y operadores, dependencia de la infraestructura disponible, inseguridad e incidentes de vandalismo.
+- **Fortalezas:** total transparencia con precios publicados sin contratos de permanencia mínima, retransmisión oficial integrada a la SUTRAN, ATU y MININTER, y plataforma multimarca compatible con marcas globales de hardware ya instaladas (como Teltonika o Concox).
+- **Debilidades:** no fabrican hardware propio por lo que dependen de la estabilidad de marcas importadas, su servicio base está fuertemente enfocado en datos GPS y telemetría por encima de sistemas de video robustos, y el soporte se gestiona principalmente vía canales digitales como WhatsApp.
+
 
 #### 2.1.1. Análisis competitivo
 
@@ -501,101 +557,101 @@ Es un sistema orientado a ofrecer una experiencia de transporte integrada, incor
   <tr>
     <td colspan="2">Productos</td>
     <td>SecurityBus</td>
-    <td>Metropolitano</td>
-    <td>RTP</td>
-    <td>Mi Transporte</td>
+    <td>Hikvision Peru</td>
+    <td>Global GPS Peru</td>
+    <td>Ditrack</td>
   </tr>
 
   <tr>
     <td rowspan="2">Perfil</td>
     <td>Overview</td>
     <td>Plataforma de seguridad para transporte público con monitoreo en tiempo real.</td>
-    <td>Sistema de transporte urbano con estaciones, rutas definidas y cámaras.</td>
-    <td>Sistema de transporte con cámaras, monitoreo y capacitación del personal.</td>
-    <td>Sistema de transporte con seguimiento en tiempo real y reportes ciudadanos.</td>
+    <td>Fabricante global de hardware de videovigilancia y software con Inteligencia Artificial para el transporte masivo.</td>
+    <td>Operador peruano especializado en soluciones de telemática, control de combustible y seguridad de video vehicular.</td>
+    <td>Eliminación total de las cláusulas de permanencia mínima para otorgar máxima flexibilidad comercial.</td>
   </tr>
 
   <tr>
     <td>Ventaja competitiva</td>
     <td>Monitoreo en tiempo real, botón de emergencia y conteo de pasajeros mediante sensores.</td>
-    <td>Infraestructura organizada, estaciones, rutas definidas, carriles exclusivos y videovigilancia.</td>
-    <td>Cámaras de seguridad, monitoreo en tiempo real y capacitación del personal.</td>
-    <td>Monitoreo, protocolos de seguimiento en tiempo real y reportes ciudadanos.</td>
+    <td>Integra algoritmos de analítica predictiva en equipos de alta resistencia antivandálica militar.</td>
+    <td>Plataformas de software completamente homologadas ante las exigencias de la ATU y la SUTRAN.</td>
+    <td>Pequeñas empresas de transporte urbano, comités de buses y transportistas independientes.</td>
   </tr>
 
   <tr>
     <td rowspan="2">Perfil de Marketing</td>
     <td>Mercado Objetivo</td>
     <td>Consorcios y empresas de transporte público y operadores de vehículos.</td>
-    <td>Usuarios urbanos de Lima Metropolitana.</td>
-    <td>Población de zonas periféricas, estudiantes y grupos vulnerables.</td>
-    <td>Población de zonas periféricas y estudiantes.</td>
+    <td>Grandes consorcios de transporte público, municipalidades urbanas y corporaciones logísticas masivas.</td>
+    <td>Empresas medianas y grandes de buses urbanos e interprovinciales que requieren fiscalización oficial.</td>
+    <td>Campañas digitales directas y total transparencia publicando sus tarifas planas en la web.</td>
   </tr>
 
   <tr>
     <td>Estrategias de Marketing</td>
     <td>Enfatizar la seguridad durante la ruta mediante un sistema integrado al vehículo.</td>
-    <td>Servicio rápido, moderno, formal y seguro, destacando eficiencia y orden.</td>
-    <td>Campaña "Yo Soy RTP" y sustentabilidad mediante unidades eléctricas.</td>
-    <td>Posicionamiento del transporte como sistema integrado, moderno y eficiente.</td>
+    <td>Alianzas corporativas a gran escala y certificación técnica de una red exclusiva de integradores locales.</td>
+    <td>Demostraciones en vivo en rutas operativas y paquetes comerciales con instalación bonificada en ciudades principales.</td>
+    <td>Monitoreo GPS básico, alertas de velocidad y retransmisión directa a entidades reguladoras.</td>
   </tr>
 
   <tr>
     <td rowspan="3">Perfil de Producto</td>
     <td>Productos & Servicios</td>
     <td>Botón de pánico, información sobre paraderos y monitoreo de riesgos 24h.</td>
-    <td>Transporte troncal, tarjeta recargable, estaciones seguras e información de rutas.</td>
-    <td>Servicio ordinario, expreso, Ecobús y Nochebús.</td>
-    <td>Transporte multimodal, Tarjeta Mi Movilidad, App Mi Saldo y Mi Pasaje.</td>
+    <td>Grabadores móviles (MDVR), cámaras modulares IP de alta definición y software centralizado HikCentral.</td>
+    <td>Licencias de monitoreo satelital continuo, sensores de combustible y kits de cámaras inteligentes.</td>
+    <td>Alternativa muy económica con tarifas fijas y sin penalidades contractuales ocultas.</td>
   </tr>
 
   <tr>
     <td>Precios & Costos</td>
-    <td>Desde S/. 99 por unidad/mes incluyendo instalación. 20% de descuento desde 3 unidades.</td>
-    <td>S/. 3.50 por viaje.</td>
-    <td>De S/. 0.40 para servicio ordinario a S/. 1.50 para Nochebús.</td>
-    <td>Tarifa plana S/. 2.00 y tarifa preferencial S/. 1.00.</td>
+    <td>Desde S/ 149.00 por unidad/mes incluyendo instalación.</td>
+    <td>Desde S/ 1,700.00 por unidad/año incluyendo instalación.</td>
+    <td>Desde S/ 1,150.00 por unidad/año incluyendo instalación.</td>
+    <td>Desde S/ 1,200.00 por unidad/año.</td>
   </tr>
 
   <tr>
     <td>Canales de distribución (Web y/o Móvil)</td>
     <td>Web y aplicación móvil.</td>
-    <td>Web, móvil, recarga digital y puntos físicos.</td>
-    <td>App, tarjeta de movilidad integrada y sitio web oficial.</td>
-    <td>Web, App Mi Saldo y puntos físicos.</td>
+    <td>Web.</td>
+    <td>web y aplicación móvil.</td>
+    <td>Web y aplicación móvil.</td>
   </tr>
 
   <tr>
     <td rowspan="4">Análisis SWOT</td>
     <td>Fortalezas</td>
     <td>Monitoreo en tiempo real, botón de emergencia, conteo de pasajeros y enfoque en seguridad.</td>
-    <td>Marca reconocida, sistema formal, infraestructura organizada y modernización digital.</td>
-    <td>Tarifas sociales subsidiadas, flota moderna eléctrica y conductores capacitados.</td>
-    <td>Marca unificada, interoperabilidad y modernización de flota.</td>
+    <td>Robustez extrema de hardware y analítica avanzada para el conteo de pasajeros.</td>
+    <td>Sensores de combustible con 99% de precisión y retransmisión nativa al sistema SICM.</td>
+    <td>Compatibilidad de software con dispositivos GPS ya instalados de marcas globales líderes.</td>
   </tr>
 
   <tr>
     <td>Debilidades</td>
     <td>Startup en etapa inicial, inversión para sensores y dependencia de adopción por empresas.</td>
-    <td>Saturación en horas punta y posibles fallas operativas.</td>
-    <td>Dependencia de subsidios y necesidad de mantener la flota moderna.</td>
-    <td>Resistencia al cambio y dependencia de infraestructura disponible.</td>
+    <td>Dependencia obligatoria de técnicos certificados y de una excelente cobertura móvil para transmitir video.</td>
+    <td>Cobertura de soporte técnico físico limitada principalmente a las sedes de las grandes ciudades.</td>
+    <td>No fabrica hardware propio y gestiona su soporte principalmente de forma digital.</td>
   </tr>
 
   <tr>
     <td>Oportunidades</td>
     <td>Expansión a provincias, acuerdos con la policía y alianzas con empresas de transporte.</td>
-    <td>Expansión urbana y digitalización del servicio.</td>
-    <td>Expansión de rutas eléctricas y modernización del transporte.</td>
-    <td>Crecimiento urbano y oportunidades relacionadas con la crisis de combustibles.</td>
+    <td> Crecimiento de las normativas de seguridad ciudadana que exigen cámaras interconectadas en las rutas.</td>
+    <td>Renovación obligatoria de flotas de transporte público que acelera la demanda de sistemas homologados.</td>
+    <td> Captación de empresas que ya tienen GPS pero buscan una plataforma web más ágil.</td>
   </tr>
 
   <tr>
     <td>Amenazas</td>
     <td>Extorsiones a transportistas, competencia tecnológica, resistencia a la adopción y costos de implementación.</td>
-    <td>Inseguridad ciudadana, saturación en horas punta y fallas operativas.</td>
-    <td>Competencia del transporte concesionado informal y congestión vial.</td>
-    <td>Resistencia al cambio, inseguridad e incidentes de vandalismo.</td>
+    <td>Ingreso masivo de hardware genérico de bajo costo en plataformas de comercio electrónico.</td>
+    <td>Modificaciones técnicas imprevistas en los protocolos de interconexión de las plataformas del Estado.</td>
+    <td>Alta saturación de empresas informales de GPS que devalúan los precios del mercado local.</td>
   </tr>
 </table>
 
@@ -648,6 +704,13 @@ Se buscarán acuerdos con autoridades, municipalidades y entidades de seguridad 
 
 #### 2.2.1. Diseño de entrevistas
 
+Introducción 
+
+1. ¿Podría proporcionar sus nombres y apellidos?
+2. ¿Qué edad tiene actualmente?
+3. ¿Cual es el puesto de trabajo actual?
+4. ¿En que distrito vive actualmente?
+
 User: Empresas y organizaciones de transporte publico
 
 1. ¿Cómo gestionan actualmente las emergencias que ocurren durante el recorrido de sus unidades?
@@ -688,7 +751,7 @@ User: Conductores de transporte público
 - Duración: 7:20
 
 Link:<br>
-[Ver video](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FU202418823%5FConductor%5FDiego%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7a646787%2D9374%2D44ab%2D9528%2D0eb31fcb2c93)
+[https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FU202418823%5FConductor%5FDiego%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7a646787%2D9374%2D44ab%2D9528%2D0eb31fcb2c93](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FU202418823%5FConductor%5FDiego%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E7a646787%2D9374%2D44ab%2D9528%2D0eb31fcb2c93)
 
 ---
 
@@ -702,7 +765,7 @@ Actualmente, para gestionar emergencias o accidentes, su primer canal de comunic
 
 **Evidencia:**<br>
 
-![Entrevista 1](/docs/assets/interviews/interview-01.png)
+![Entrevista 1](docs/assets/interviews/interview-01.png)
 
 ---
 
@@ -716,7 +779,7 @@ Actualmente, para gestionar emergencias o accidentes, su primer canal de comunic
 - Duración: 5:30
 
 Link:<br>
-[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCafsY8x7sOSqukvMmXMFyoAVl7C4qydnHb8NbOpXa81b4?e=wgnskb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCafsY8x7sOSqukvMmXMFyoAVl7C4qydnHb8NbOpXa81b4?e=wgnskb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCafsY8x7sOSqukvMmXMFyoAVl7C4qydnHb8NbOpXa81b4?e=wgnskb&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
 
@@ -728,7 +791,7 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 
 **Evidencia:**<br>
 
-![Entrevista 2](/docs/assets/interviews/interview-02.png)
+![Entrevista 2](docs/assets/interviews/interview-02.png)
 
 ---
 
@@ -742,7 +805,7 @@ El entrevistado Renzo, conductor de transporte público, indica que no ha presen
 - Duración: 8:56
 
 Link:<br>
-[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCwl8UgRY7sT67ipDf8i4CMAevjO6BK_gkIuROOGWtTEqE?e=rE1L6A)
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCwl8UgRY7sT67ipDf8i4CMAevjO6BK_gkIuROOGWtTEqE?e=rE1L6A](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCwl8UgRY7sT67ipDf8i4CMAevjO6BK_gkIuROOGWtTEqE?e=rE1L6A)
 
 ---
 
@@ -756,7 +819,7 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 
 **Evidencia:**<br>
 
-![Entrevista 3](/docs/assets/interviews/interview-03.png)
+![Entrevista 3](docs/assets/interviews/interview-03.png)
 
 ---
 
@@ -772,7 +835,7 @@ Cuando sucede alguna emergencia o accidente ya que no tiene un sistema que le pe
 - Duración: 10:05
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQCL3fTvBLxITYjDhPrtLj7KAcQFgukmFh_QtFFPPKJ-eHY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ckw8Ai)
 
 ---
 
@@ -786,7 +849,7 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 1](/docs/assets/interviews/entrevistaconsorcio1.png)
+![Entrevista Consorcio 1](docs/assets/interviews/entrevistaconsorcio1.png)
 
 ---
 
@@ -800,7 +863,7 @@ La entrevistada considera que una solución tecnológica que permita monitorear 
 - Duración: 9:09
 
 Link:<br>
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBcP-tLhCQARb4AwSg-W0BFAbZ7pD90b24OMl_0ON6_G3Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vIKChc)
 
 ---
 
@@ -814,7 +877,7 @@ El entrevistado considera que el uso de herramientas tecnológicas para monitore
 
 Link
 
-![Entrevista Consorcio 2](/docs/assets/interviews/entrevistaconsorcio2.png)
+![Entrevista Consorcio 2](docs/assets/interviews/entrevistaconsorcio2.png)
 
 ---
 
@@ -829,7 +892,7 @@ Link
 
 Link:<br>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQDCZZFwhpmnTbMiDpsMPlX1ATSjSjmOMbAAfT8FFxeKJJo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6pfzBw
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQDCZZFwhpmnTbMiDpsMPlX1ATSjSjmOMbAAfT8FFxeKJJo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6pfzBw](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQDCZZFwhpmnTbMiDpsMPlX1ATSjSjmOMbAAfT8FFxeKJJo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6pfzBw)
 
 ---
 
@@ -841,7 +904,7 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 3](/docs/assets/interviews/entrevistaconsorcio3.png)
+![Entrevista Consorcio 3](docs/assets/interviews/entrevistaconsorcio3.png)
 
 ---
 
@@ -856,7 +919,7 @@ El representante de la empresa Nueva Estrella describe un contexto altamente cr�
 
 Link:<br>
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAh67Qa_nB2T7570M-iamP3AcTgmIbi4jbhVjuJhRDEV-w?e=lEUTTf
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQDHmp9-2CqcSILQNNkNkatEAZyKlcHDyE3INzmOPthFIo0?e=HRpHE8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQDHmp9-2CqcSILQNNkNkatEAZyKlcHDyE3INzmOPthFIo0?e=HRpHE8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ---
 
@@ -870,7 +933,7 @@ La principal limitación para conocer en tiempo real lo que ocurre dentro de una
 
 **Evidencia:**<br>
 
-![Entrevista Consorcio 4](/docs/assets/interviews/entrevistaconsorcio4.png)
+![Entrevista Consorcio 4](docs/assets/interviews/entrevistaconsorcio4.png)
 
 ---
 
@@ -953,12 +1016,12 @@ Los entrevistados muestran una actitud favorable hacia la incorporación de tecn
 **User Persona 1: Conductor de transporte público**<br><br>
 Perfil de un conductor de transporte público que necesita un mecanismo rápido y discreto para alertar sobre situaciones de riesgo durante su recorrido.
 
-![Conductor de transporte público](/docs/assets/needfinding/user-persona-1.png)
+![Conductor de transporte público](docs/assets/needfinding/user-persona-1.png)
 
 **User Persona 2: Jefa de operaciones/Monitoreo de flota**<br><br>
 Perfil de una administradora de flota que gestiona el monitoreo, las alertas de emergencia y la seguridad de las unidades y conductores a su cargo.
 
-![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/user-persona-2.png)
+![Jefa de operacinoes/Monitoreo de flota](docs/assets/needfinding/user-persona-2.png)
 
 #### 2.3.2. User Task Matrix
 
@@ -1078,12 +1141,12 @@ En tercer lugar, la matriz muestra la oportunidad de integrar en un solo flujo d
 **Journey Map 1: Conductor de transporte público**<br>
 Representa el recorrido del conductor desde el inicio de su turno hasta la resolución de un intento de extorsión durante el servicio.
 
-![Conductor de transporte público](/docs/assets/needfinding/journey-map-1.png)
+![Conductor de transporte público](docs/assets/needfinding/journey-map-1.png)
 
 **Journey Map 2: Conductor de transporte público**<br>
 Describe la gestión de una alerta de emergencia por parte de la jefa de operaciones, desde el monitoreo rutinario hasta el cierre del incidente.
 
-![Jefa de operaciones/Monitoreo de flota](/docs/assets/needfinding/journey-map-2.png)
+![Jefa de operaciones/Monitoreo de flota](docs/assets/needfinding/journey-map-2.png)
 
 #### 2.3.4. Empathy Mapping
 
@@ -1092,50 +1155,50 @@ A continuación se presentan los Empathy Maps correspondientes a cada uno de los
 **Empathy Map 1: Conductor de transporte público**<br><br>
 Identifica pensamientos, emociones y necesidades del conductor ante situaciones de riesgo durante su recorrido.<br>
 
-![Conductor de transporte público](/docs/assets/needfinding/empathy-map-1.png)
+![Conductor de transporte público](docs/assets/needfinding/empathy-map-1.png)
 
 **Empathy Map 2: Jefa de operaciones/Monitoreo de flota**<br><br>
 Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones al gestionar la seguridad de la flota.<br>
 
-![Jefa de operacinoes/Monitoreo de flota](/docs/assets/needfinding/empathy-map-2.png)
+![Jefa de operacinoes/Monitoreo de flota](docs/assets/needfinding/empathy-map-2.png)
 
 ### 2.4. Big Picture EventStorming
 
 1.- Unstructured Exploration
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/1.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/1.jpg)
 
 2.- Timelines
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/2.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/2.jpg)
 
 3.- Pain Points
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/3.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/3.jpg)
 
 4.- Pivotal Points
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/4.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/4.jpg)
 
 5.- Commands
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/5.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/5.jpg)
 
 6.- Policies
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/6.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/6.jpg)
 
 7.- Read Models
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/7.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/7.jpg)
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/8.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/8.jpg)
 
 8.- Aggregates
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/9.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/9.jpg)
 
-![Big_Picture_Event_Storming/Unstructure_Exploration](/docs/assets/Event-Storming/10.jpg)
+![Big_Picture_Event_Storming/Unstructure_Exploration](docs/assets/Event-Storming/10.jpg)
 
 ### 2.5. Ubiquitous Language
 
@@ -1191,13 +1254,16 @@ Refleja las preocupaciones, objetivos y frustraciones de la jefa de operaciones 
 
 **Interrupción del Servicio (Interrupción del Servicio):** Situación en la que una unidad deja de realizar su recorrido de manera parcial o total debido a una emergencia, incidente, falla u otra circunstancia.
 
+
 ---
 
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories
 
-A continuación se especifican las 50 User Stories que delimitan el alcance funcional de **SecurityBus**. Cada historia se enuncia desde la perspectiva de quien obtiene el valor —conductor, empresa operadora, sistema, visitante o developer— y se acompaña de criterios de aceptación en notación Gherkin: un escenario de éxito, que describe el camino esperado, y un escenario de fracaso, que fija cómo debe comportarse el sistema cuando la precondición no se cumple. Esta segunda mitad es la que permite verificar la historia durante las pruebas, por lo que se redactó buscando condiciones observables antes que enunciados generales.
+A continuación se especifican las 41 User Stories y las 13 Technical Stories que delimitan el alcance funcional de **SecurityBus**. Las User Stories se enuncian desde la perspectiva de quien obtiene el valor —conductor, empresa operadora, sistema o visitante—, mientras que las Technical Stories recogen lo que el developer necesita de los Web Services para operar e integrar la plataforma sin pasar por la interfaz. Todas se acompañan de criterios de aceptación en notación Gherkin: un escenario de éxito, que describe el camino esperado, y un escenario de fracaso, que fija cómo debe comportarse el sistema cuando la precondición no se cumple. Esta segunda mitad es la que permite verificar la historia durante las pruebas, por lo que se redactó buscando condiciones observables antes que enunciados generales.
+
+Ninguna historia supera los 5 Story Points: las que se estimaron inicialmente en 8 resultaban demasiado grandes para completarse con holgura dentro de un Sprint, de modo que se descompusieron en historias más acotadas (US51 a US54), cada una verificable por separado.
 
 Las historias se agrupan en cinco épicas, que corresponden a los frentes de trabajo del producto:
 
@@ -1209,62 +1275,71 @@ Las historias se agrupan en cinco épicas, que corresponden a los frentes de tra
 | EPNN04  | Landing Page informativa           | Contenido público orientado al visitante que evalúa la solución: problemática, propuesta de valor, funcionalidades, beneficios, cifras de impacto e identidad de la startup. |
 | EPNN05  | Web Services / API                 | Servicios expuestos para que el equipo técnico y los integradores operen, consulten y administren los recursos del sistema sin pasar por la interfaz.                        |
 
-| Story ID | Título                                            | Descripción                                                                                                                                           | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Epic ID |
-| :------- | :------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------ |
-| US01     | Autenticación del conductor al iniciar la jornada | Como conductor, necesito acreditar quién soy antes de tomar la unidad, para que cada viaje quede asociado a una persona identificable.                | **Escenario 1 (Éxito): Identificación con código vigente**<br>**Given** que soy un conductor habilitado y comienzo mi jornada<br>**When** ingreso mi código de verificación vigente<br>**Then** el sistema confirma mi identidad y me habilita para iniciar el servicio<br><br>**Escenario 2 (Fracaso): Código inválido o vencido**<br>**Given** que comienzo mi jornada<br>**When** ingreso un código que no corresponde o ya venció<br>**Then** el sistema deniega la autenticación y no me permite continuar                 | EPNN01  |
-| US02     | Apertura del registro de servicio                 | Como conductor, quiero dejar constancia del momento en que empiezo a operar, para que el recorrido quede documentado desde su inicio.                 | **Escenario 1 (Éxito): Apertura con identidad confirmada**<br>**Given** que mi identidad ya fue confirmada por el sistema<br>**When** indico que comienzo el recorrido<br>**Then** el sistema abre el registro del servicio con la fecha, la hora y el estado «en curso»<br><br>**Escenario 2 (Fracaso): Conductor sin autenticar**<br>**Given** que aún no he superado la autenticación<br>**When** intento abrir el registro del servicio<br>**Then** el sistema bloquea la acción y me indica que debo identificarme primero | EPNN01  |
-| US03     | Envío de alerta desde la unidad                   | Como conductor, quiero avisar de una situación de riesgo con una sola acción, para pedir auxilio sin llamar la atención de quien me amenaza.          | **Escenario 1 (Éxito): Alerta emitida durante el servicio**<br>**Given** que tengo un servicio en curso<br>**When** acciono la alerta de emergencia<br>**Then** el sistema la transmite a la central de monitoreo y me devuelve el acuse de envío<br><br>**Escenario 2 (Fracaso): Alerta sin recorrido asociado**<br>**Given** que no tengo ningún servicio en curso<br>**When** intento accionar la alerta<br>**Then** el sistema descarta la solicitud por no estar asociada a un recorrido activo                            | EPNN02  |
-| US04     | Notificación de la alerta a la central            | Como sistema, debo hacer llegar cada alerta a la central de operaciones, para que alguien pueda hacerse cargo de la emergencia.                       | **Escenario 1 (Éxito): Entrega a la central**<br>**Given** una alerta emitida desde una unidad<br>**When** la proceso<br>**Then** la central la recibe junto con los datos de la unidad y del conductor<br><br>**Escenario 2 (Fracaso): Alerta sin datos mínimos**<br>**Given** una alerta que llega sin los datos mínimos de la unidad<br>**When** intento procesarla<br>**Then** la descarto y no la envío a la central                                                                                                       | EPNN02  |
-| US05     | Persistencia del evento de emergencia             | Como sistema, debo guardar cada alerta emitida, para que la empresa pueda revisarla después del hecho.                                                | **Escenario 1 (Éxito): Alerta con formato válido**<br>**Given** una alerta que cumple el formato esperado<br>**When** la recibo<br>**Then** la almaceno como un evento consultable<br><br>**Escenario 2 (Fracaso): Formato no reconocido**<br>**Given** una alerta con un formato que no reconozco<br>**When** intento almacenarla<br>**Then** no la registro y dejo constancia del rechazo                                                                                                                                     | EPNN02  |
-| US06     | Conteo automático de ocupantes                    | Como sistema, debo llevar la cuenta de las personas a bordo, para poder dimensionar el riesgo cuando ocurra una emergencia.                           | **Escenario 1 (Éxito): Actualización por lectura de sensores**<br>**Given** que la unidad se encuentra operando<br>**When** los sensores detectan el ingreso de pasajeros<br>**Then** actualizo el conteo a bordo<br><br>**Escenario 2 (Fracaso): Sensores sin lecturas**<br>**Given** que los sensores no están enviando lecturas<br>**When** corresponde actualizar el conteo<br>**Then** conservo el último valor conocido en lugar de reportar cero                                                                         | EPNN03  |
-| US07     | Disponibilidad del conteo para reportes           | Como sistema, debo poder informar cuántas personas viajan en la unidad, para acompañar los reportes de emergencia con ese dato.                       | **Escenario 1 (Éxito): Consulta durante un viaje**<br>**Given** un viaje en curso<br>**When** se consulta el estado de la unidad<br>**Then** devuelvo la cantidad de pasajeros a bordo<br><br>**Escenario 2 (Fracaso): Unidad sin viaje en curso**<br>**Given** que la unidad no tiene un viaje en curso<br>**When** se consulta el estado<br>**Then** respondo que no hay información de ocupación disponible                                                                                                                  | EPNN03  |
-| US08     | Presentación de la propuesta en la landing page   | Como visitante, quiero enterarme de qué ofrece SecurityBus al entrar al sitio, para decidir si me conviene seguir leyendo.                            | **Escenario 1 (Éxito): Carga de la sección principal**<br>**Given** que entro al sitio web<br>**When** la página termina de cargar<br>**Then** encuentro la descripción del servicio en la sección principal<br><br>**Escenario 2 (Fracaso): Contenido no recuperable**<br>**Given** que el contenido no puede recuperarse<br>**When** entro al sitio<br>**Then** el sitio me avisa que la información no está disponible por el momento                                                                                        | EPNN04  |
-| US09     | Detalle de las funcionalidades                    | Como visitante, quiero ver qué hace concretamente la plataforma, para juzgar si resuelve lo que necesito.                                             | **Escenario 1 (Éxito): Funcionalidades publicadas**<br>**Given** que recorro el sitio<br>**When** abro la sección de funcionalidades<br>**Then** veo listadas las capacidades de la plataforma<br><br>**Escenario 2 (Fracaso): Sin funcionalidades cargadas**<br>**Given** que no hay funcionalidades cargadas<br>**When** abro la sección<br>**Then** el sitio me indica que todavía no hay contenido publicado                                                                                                                | EPNN04  |
-| US10     | Servicio de validación de conductores             | Como developer, quiero comprobar la identidad de un conductor por API, para no depender de la interfaz cuando necesito ese dato.                      | **Escenario 1 (Éxito): Identificador registrado**<br>**Given** una petición con el identificador de un conductor registrado<br>**When** el servicio la atiende<br>**Then** responde con la confirmación de identidad y el estado del conductor<br><br>**Escenario 2 (Fracaso): Identificador inexistente**<br>**Given** una petición cuyo identificador no corresponde a ningún conductor<br>**When** el servicio la atiende<br>**Then** responde con un error de validación                                                    | EPNN05  |
-| US11     | Servicio de apertura de servicio                  | Como developer, quiero abrir un servicio por API, para montar escenarios de prueba sin usar la aplicación del conductor.                              | **Escenario 1 (Éxito): Datos completos del servicio**<br>**Given** una petición con los datos completos del servicio<br>**When** la envío al endpoint<br>**Then** el servicio queda abierto y recibo su identificador<br><br>**Escenario 2 (Fracaso): Datos inconsistentes**<br>**Given** una petición cuyos datos del servicio son inconsistentes<br>**When** la envío al endpoint<br>**Then** recibo un error y ningún servicio queda abierto                                                                                 | EPNN05  |
-| US12     | Servicio de emisión de alertas                    | Como developer, quiero emitir alertas por API, para probar el circuito de emergencia de punta a punta.                                                | **Escenario 1 (Éxito): Alerta con datos completos**<br>**Given** una petición con los datos completos de la alerta<br>**When** el servicio la recibe<br>**Then** la alerta queda registrada y recibo su identificador<br><br>**Escenario 2 (Fracaso): Faltan datos obligatorios**<br>**Given** una petición a la que le faltan datos obligatorios<br>**When** el servicio la recibe<br>**Then** recibo un error y la alerta no se registra                                                                                      | EPNN05  |
-| US13     | Servicio de actualización del conteo              | Como developer, quiero fijar el número de pasajeros por API, para armar pruebas que dependan de la ocupación de la unidad.                            | **Escenario 1 (Éxito): Conteo válido**<br>**Given** una petición con un conteo válido<br>**When** la envío al endpoint<br>**Then** el valor de ocupación queda actualizado<br><br>**Escenario 2 (Fracaso): Error interno del servicio**<br>**Given** una petición que falla por un error interno del servicio<br>**When** la envío al endpoint<br>**Then** recibo un mensaje de error y la ocupación conserva su valor anterior                                                                                                 | EPNN05  |
-| US14     | Verificación de habilitación del conductor        | Como sistema, debo comprobar que el conductor esté habilitado para la unidad que pretende operar, para impedir que alguien conduzca sin autorización. | **Escenario 1 (Éxito): Habilitación vigente**<br>**Given** un conductor registrado con habilitación vigente<br>**When** verifico su autorización sobre la unidad<br>**Then** confirmo que puede operarla<br><br>**Escenario 2 (Fracaso): Sin habilitación para la unidad**<br>**Given** un conductor sin habilitación vigente para esa unidad<br>**When** verifico su autorización<br>**Then** rechazo la operación del vehículo                                                                                                | EPNN01  |
-| US15     | Vínculo entre conductor y unidad                  | Como sistema, debo dejar asentado qué conductor opera cada unidad, para que cualquier evento pueda atribuirse a un responsable.                       | **Escenario 1 (Éxito): Asignación registrada**<br>**Given** un conductor habilitado y una unidad disponible<br>**When** se ejecuta la asignación<br>**Then** registro el vínculo conductor–unidad con su fecha de inicio<br><br>**Escenario 2 (Fracaso): Datos que no identifican al conductor o la unidad**<br>**Given** datos que no permiten identificar al conductor o a la unidad<br>**When** se intenta la asignación<br>**Then** rechazo el vínculo y no modifico los registros                                          | EPNN01  |
-| US16     | Revisión del historial de emergencias             | Como empresa, quiero repasar las alertas ocurridas en mi flota, para detectar dónde y cuándo se concentran los incidentes.                            | **Escenario 1 (Éxito): Historial con eventos**<br>**Given** que existen eventos almacenados para mi flota<br>**When** consulto el historial<br>**Then** obtengo la lista de emergencias con su fecha, unidad y estado<br><br>**Escenario 2 (Fracaso): Historial vacío**<br>**Given** que no hay eventos almacenados<br>**When** consulto el historial<br>**Then** el sistema me informa que no hay registros para mostrar                                                                                                       | EPNN02  |
-| US17     | Aviso por exceso de capacidad                     | Como sistema, debo advertir cuando la unidad lleva más personas de las que admite, para prevenir situaciones de conflicto a bordo.                    | **Escenario 1 (Éxito): Umbral superado**<br>**Given** una unidad con capacidad máxima configurada<br>**When** el conteo de pasajeros supera ese límite<br>**Then** emito un aviso de sobrecapacidad<br><br>**Escenario 2 (Fracaso): Sin umbral configurado**<br>**Given** una unidad sin capacidad máxima configurada<br>**When** evalúo la ocupación<br>**Then** no emito ningún aviso por falta de un umbral de referencia                                                                                                    | EPNN03  |
-| US18     | Estadísticas de impacto en la landing page        | Como visitante, quiero ver cifras sobre el problema y los resultados de la solución, para valorar si vale la pena.                                    | **Escenario 1 (Éxito): Datos estadísticos cargados**<br>**Given** que hay datos estadísticos cargados<br>**When** abro la sección de impacto<br>**Then** veo las cifras presentadas de forma legible<br><br>**Escenario 2 (Fracaso): Sin datos estadísticos**<br>**Given** que no hay datos estadísticos cargados<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo en lugar de cifras vacías                                                                                                     | EPNN04  |
-| US19     | Servicio de consulta del historial                | Como developer, quiero recuperar los eventos registrados por API, para extraer información sin entrar a la interfaz.                                  | **Escenario 1 (Éxito): Filtros válidos**<br>**Given** una petición con filtros válidos<br>**When** el servicio la atiende<br>**Then** devuelve los eventos que coinciden con los filtros<br><br>**Escenario 2 (Fracaso): Filtros mal formados**<br>**Given** una petición con filtros mal formados<br>**When** el servicio la atiende<br>**Then** devuelve un error describiendo el parámetro inválido                                                                                                                          | EPNN05  |
-| US20     | Servicio de consulta del estado de la unidad      | Como developer, quiero conocer el estado actual de una unidad por API, para no trabajar a ciegas sobre su situación.                                  | **Escenario 1 (Éxito): Unidad existente**<br>**Given** el identificador de una unidad existente<br>**When** consulto el endpoint<br>**Then** obtengo su estado actual y su ocupación<br><br>**Escenario 2 (Fracaso): Unidad inexistente**<br>**Given** un identificador que no corresponde a ninguna unidad<br>**When** consulto el endpoint<br>**Then** obtengo un error de recurso no encontrado                                                                                                                              | EPNN05  |
-| US21     | Recorrido por las secciones del sitio             | Como visitante, quiero moverme entre las secciones del sitio, para llegar a lo que me interesa sin buscar a ciegas.                                   | **Escenario 1 (Éxito): Navegación efectiva**<br>**Given** que estoy en el sitio web<br>**When** elijo una sección del menú<br>**Then** el sitio me lleva a esa sección y muestra su contenido<br><br>**Escenario 2 (Fracaso): Sección que no carga**<br>**Given** una sección que no puede cargarse<br>**When** intento acceder a ella<br>**Then** el sitio me informa del error de acceso y me deja volver                                                                                                                     | EPNN04  |
-| US22     | Servicio de autenticación de peticiones           | Como developer, quiero que las peticiones al sistema exijan credenciales, para que nadie acceda a más de lo que le corresponde.                       | **Escenario 1 (Éxito): Credenciales vigentes**<br>**Given** credenciales válidas y vigentes<br>**When** envío la petición<br>**Then** el servicio la autoriza y devuelve un token de acceso<br><br>**Escenario 2 (Fracaso): Credenciales inválidas**<br>**Given** credenciales inválidas o vencidas<br>**When** envío la petición<br>**Then** el servicio rechaza el acceso sin exponer el motivo exacto                                                                                                                        | EPNN05  |
-| US23     | Acuse de recepción de la alerta                   | Como sistema, debo asentar si la central efectivamente recibió la alerta, para saber si el pedido de auxilio llegó a destino.                         | **Escenario 1 (Éxito): Acuse recibido**<br>**Given** una alerta transmitida a la central<br>**When** la central acusa su recepción<br>**Then** registro la confirmación con su marca de tiempo<br><br>**Escenario 2 (Fracaso): Sin acuse en el plazo**<br>**Given** una alerta transmitida a la central<br>**When** no llega ningún acuse dentro del plazo previsto<br>**Then** marco la alerta como no confirmada                                                                                                              | EPNN02  |
-| US24     | Reenvío de alertas sin confirmar                  | Como sistema, debo insistir con las alertas que nadie confirmó, para que un fallo de comunicación no deje una emergencia sin atender.                 | **Escenario 1 (Éxito): Reintento ejecutado**<br>**Given** una alerta marcada como no confirmada<br>**When** ejecuto el reintento<br>**Then** vuelvo a transmitirla y registro el nuevo intento<br><br>**Escenario 2 (Fracaso): Reintentos agotados**<br>**Given** una alerta que agotó los reintentos previstos<br>**When** intento reenviarla otra vez<br>**Then** la marco como fallida y suspendo los reintentos                                                                                                             | EPNN02  |
-| US25     | Cierre del registro de servicio                   | Como conductor, quiero cerrar el servicio al terminar mi turno, para que el registro del recorrido quede completo.                                    | **Escenario 1 (Éxito): Cierre de un servicio en curso**<br>**Given** un servicio en curso a mi nombre<br>**When** indico que finalizo el recorrido<br>**Then** el sistema cierra el registro con la hora de término<br><br>**Escenario 2 (Fracaso): Nada que cerrar**<br>**Given** que no tengo ningún servicio en curso<br>**When** intento finalizar<br>**Then** el sistema rechaza la operación por no haber nada que cerrar                                                                                                 | EPNN01  |
-| US26     | Consulta del estado del propio servicio           | Como conductor, quiero saber cómo figura mi servicio en el sistema, para confirmar que todo está registrado como corresponde.                         | **Escenario 1 (Éxito): Servicio en curso**<br>**Given** un servicio en curso a mi nombre<br>**When** consulto su estado<br>**Then** el sistema me muestra la unidad, la hora de inicio y el estado actual<br><br>**Escenario 2 (Fracaso): Sin servicio activo**<br>**Given** que no tengo ningún servicio en curso<br>**When** consulto su estado<br>**Then** el sistema me indica que no hay un servicio activo                                                                                                                | EPNN01  |
-| US27     | Tablero de estado de la flota                     | Como empresa, quiero ver cómo están mis unidades en operación, para tener una lectura general de la flota sin llamar a cada conductor.                | **Escenario 1 (Éxito): Flota con unidades operando**<br>**Given** unidades registradas y operando<br>**When** consulto el tablero<br>**Then** veo el estado actual de cada unidad con su conductor asignado<br><br>**Escenario 2 (Fracaso): Sin unidades registradas**<br>**Given** que no tengo unidades registradas<br>**When** consulto el tablero<br>**Then** el sistema me informa que no hay unidades para mostrar                                                                                                        | EPNN01  |
-| US28     | Seguimiento de la ocupación en operación          | Como empresa, quiero seguir cuán llenas van mis unidades, para anticipar riesgos asociados a la aglomeración.                                         | **Escenario 1 (Éxito): Lecturas disponibles**<br>**Given** lecturas de ocupación disponibles para mis unidades<br>**When** genero el reporte<br>**Then** veo la ocupación de cada unidad al momento de la consulta<br><br>**Escenario 2 (Fracaso): Lecturas incompletas**<br>**Given** lecturas de ocupación incompletas<br>**When** genero el reporte<br>**Then** el sistema señala qué unidades no tienen información confiable                                                                                               | EPNN03  |
-| US29     | Segmento al que apunta la solución                | Como visitante, quiero saber a qué tipo de usuario está dirigido SecurityBus, para reconocer si soy parte de ese público.                             | **Escenario 1 (Éxito): Segmentos definidos**<br>**Given** que los segmentos están definidos en el sitio<br>**When** abro la sección correspondiente<br>**Then** veo descritos los segmentos objetivo<br><br>**Escenario 2 (Fracaso): Sin segmentos definidos**<br>**Given** que no hay segmentos definidos<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo                                                                                                                                      | EPNN04  |
-| US30     | Misión y visión de la startup                     | Como visitante, quiero conocer hacia dónde va la startup, para entender qué la mueve más allá del producto.                                           | **Escenario 1 (Éxito): Contenido publicado**<br>**Given** que la misión y la visión están publicadas<br>**When** abro la sección «Nosotros»<br>**Then** leo ambas declaraciones<br><br>**Escenario 2 (Fracaso): Contenido no publicado**<br>**Given** que ese contenido no está publicado<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje de contenido no disponible                                                                                                                                        | EPNN04  |
-| US31     | Servicio de cierre de servicio                    | Como developer, quiero cerrar un servicio por API, para completar su ciclo de vida durante las pruebas.                                               | **Escenario 1 (Éxito): Servicio en curso referenciado**<br>**Given** una petición que referencia un servicio en curso<br>**When** el endpoint la procesa<br>**Then** el servicio queda cerrado con su hora de término<br><br>**Escenario 2 (Fracaso): Servicio ya cerrado o inexistente**<br>**Given** una petición que referencia un servicio ya cerrado o inexistente<br>**When** el endpoint la procesa<br>**Then** devuelve un error y no altera ningún registro                                                            | EPNN05  |
-| US32     | Servicio de consulta de ocupación                 | Como developer, quiero obtener la ocupación de una unidad por API, para conocer cuántos pasajeros lleva en ese momento.                               | **Escenario 1 (Éxito): Unidad existente**<br>**Given** el identificador de una unidad existente<br>**When** consulto el endpoint<br>**Then** obtengo el número de pasajeros a bordo y la hora de la lectura<br><br>**Escenario 2 (Fracaso): Unidad inexistente**<br>**Given** un identificador que no corresponde a ninguna unidad<br>**When** consulto el endpoint<br>**Then** obtengo un error de recurso no encontrado                                                                                                       | EPNN05  |
-| US33     | Difusión de la alerta a varios destinatarios      | Como sistema, debo enviar la alerta a todos los destinos configurados, para que el aviso no dependa de un solo receptor.                              | **Escenario 1 (Éxito): Envío a la lista completa**<br>**Given** una alerta emitida y una lista de destinatarios configurada<br>**When** la proceso<br>**Then** la envío a cada destinatario y registro el resultado por destino<br><br>**Escenario 2 (Fracaso): Destinatarios no válidos**<br>**Given** destinatarios cuya dirección no es válida<br>**When** intento el envío<br>**Then** registro el fallo para esos destinos y continúo con los restantes                                                                    | EPNN02  |
-| US34     | Medición del tiempo de respuesta                  | Como sistema, debo medir cuánto tarda la central en atender cada alerta, para que ese indicador quede disponible en el registro.                      | **Escenario 1 (Éxito): Alerta atendida**<br>**Given** una alerta transmitida a la central<br>**When** la central la atiende<br>**Then** calculo y registro el tiempo transcurrido entre el envío y la atención<br><br>**Escenario 2 (Fracaso): Alerta nunca atendida**<br>**Given** una alerta que nunca fue atendida<br>**When** evalúo el evento<br>**Then** registro la ausencia de respuesta en lugar de un tiempo                                                                                                          | EPNN02  |
-| US35     | Promedio de pasajeros por viaje                   | Como empresa, quiero conocer el promedio de pasajeros por viaje, para contar con una referencia de la demanda habitual.                               | **Escenario 1 (Éxito): Datos históricos suficientes**<br>**Given** suficientes viajes con datos de ocupación registrados<br>**When** solicito el cálculo<br>**Then** obtengo el promedio de pasajeros por viaje del período<br><br>**Escenario 2 (Fracaso): Datos por debajo del mínimo**<br>**Given** menos viajes registrados que el mínimo requerido<br>**When** solicito el cálculo<br>**Then** el sistema me indica que los datos no alcanzan para calcularlo                                                              | EPNN03  |
-| US36     | Detección de variaciones anómalas de ocupación    | Como sistema, debo señalar los cambios inusuales en el número de pasajeros, para que la empresa revise qué ocurrió en esa unidad.                     | **Escenario 1 (Éxito): Variación fuera de lo habitual**<br>**Given** una serie de lecturas de ocupación consistentes<br>**When** detecto una variación que se aparta del comportamiento habitual<br>**Then** emito un aviso para su revisión<br><br>**Escenario 2 (Fracaso): Lecturas no concluyentes**<br>**Given** lecturas de ocupación inconsistentes o con vacíos<br>**When** analizo la variación<br>**Then** descarto el caso por no ser concluyente                                                                     | EPNN03  |
-| US37     | Problemática del transporte en la landing page    | Como visitante, quiero entender el problema que la solución aborda, para situar la propuesta en un contexto real.                                     | **Escenario 1 (Éxito): Problemática publicada**<br>**Given** que el contenido está publicado<br>**When** abro la sección de problemática<br>**Then** leo la descripción del problema con los datos que la respaldan<br><br>**Escenario 2 (Fracaso): Contenido no publicado**<br>**Given** que el contenido no está publicado<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo                                                                                                                    | EPNN04  |
-| US38     | Propuesta de valor en la landing page             | Como visitante, quiero leer qué promete SecurityBus y hasta dónde llega, para comparar la propuesta con lo que ya conozco.                            | **Escenario 1 (Éxito): Propuesta definida**<br>**Given** que la propuesta de valor está definida<br>**When** abro la sección correspondiente<br>**Then** leo la propuesta y el alcance del servicio<br><br>**Escenario 2 (Fracaso): Propuesta incompleta**<br>**Given** que la propuesta está incompleta<br>**When** abro la sección<br>**Then** el sitio advierte que falta información por publicar                                                                                                                           | EPNN04  |
-| US39     | Control de operación simultánea                   | Como sistema, debo impedir que un mismo conductor figure operando dos unidades a la vez, para cerrar la puerta al uso indebido de credenciales.       | **Escenario 1 (Éxito): Conductor sin servicios abiertos**<br>**Given** un conductor sin servicios abiertos en otras unidades<br>**When** solicita iniciar un servicio<br>**Then** autorizo la apertura del servicio<br><br>**Escenario 2 (Fracaso): Conductor con servicio abierto**<br>**Given** un conductor que ya tiene un servicio abierto en otra unidad<br>**When** solicita iniciar un segundo servicio<br>**Then** rechazo la solicitud y notifico la operación duplicada                                              | EPNN01  |
-| US40     | Clasificación de alertas por gravedad             | Como sistema, debo asignar un nivel de gravedad a cada alerta, para que las más críticas no compitan con las menores.                                 | **Escenario 1 (Éxito): Alerta clasificable**<br>**Given** una alerta con su tipo informado<br>**When** evalúo sus datos<br>**Then** le asigno el nivel de prioridad correspondiente<br><br>**Escenario 2 (Fracaso): Datos insuficientes para clasificar**<br>**Given** una alerta sin datos suficientes para clasificarla<br>**When** intento evaluarla<br>**Then** le asigno la prioridad por defecto y la marco para revisión                                                                                                 | EPNN02  |
-| US41     | Escalamiento de alertas sin atención              | Como sistema, debo derivar a un nivel superior las alertas que nadie atendió, para que ninguna quede olvidada en la cola.                             | **Escenario 1 (Éxito): Plazo de respuesta superado**<br>**Given** una alerta sin atender<br>**When** se supera el plazo máximo de respuesta<br>**Then** la escalo al siguiente nivel y registro el escalamiento<br><br>**Escenario 2 (Fracaso): Alerta atendida en plazo**<br>**Given** una alerta ya atendida dentro del plazo<br>**When** evalúo su tiempo de respuesta<br>**Then** no realizo ningún escalamiento                                                                                                            | EPNN02  |
-| US42     | Ubicación asociada al evento                      | Como sistema, debo guardar dónde se produjo cada emergencia, para permitir después un análisis por zona.                                              | **Escenario 1 (Éxito): Alerta con coordenadas**<br>**Given** una alerta que llega con coordenadas de ubicación<br>**When** proceso el evento<br>**Then** almaceno la ubicación junto al registro de la alerta<br><br>**Escenario 2 (Fracaso): Alerta sin coordenadas**<br>**Given** una alerta que llega sin coordenadas<br>**When** proceso el evento<br>**Then** registro el evento indicando que la ubicación no está disponible                                                                                             | EPNN02  |
-| US43     | Seguimiento de la unidad asignada                 | Como empresa, quiero seguir por dónde va la unidad, para saber dónde está cuando necesito ubicarla.                                                   | **Escenario 1 (Éxito): Unidad reportando posición**<br>**Given** una unidad con servicio en curso que reporta su posición<br>**When** consulto su seguimiento<br>**Then** veo su última ubicación registrada con la hora del reporte<br><br>**Escenario 2 (Fracaso): Unidad sin señal**<br>**Given** una unidad que no está reportando su posición<br>**When** consulto su seguimiento<br>**Then** el sistema me indica que la ubicación no está disponible                                                                     | EPNN01  |
-| US44     | Comparación de ocupación entre viajes             | Como empresa, quiero contrastar la ocupación de distintas unidades y rutas, para ver dónde se concentra la demanda.                                   | **Escenario 1 (Éxito): Registros de varios viajes**<br>**Given** registros de ocupación de varios viajes<br>**When** solicito la comparación<br>**Then** obtengo las diferencias de ocupación entre los viajes seleccionados<br><br>**Escenario 2 (Fracaso): Registros insuficientes**<br>**Given** registros insuficientes para comparar<br>**When** solicito la comparación<br>**Then** el sistema me indica que no puede realizarla                                                                                          | EPNN03  |
-| US45     | Beneficios del sistema en la landing page         | Como visitante, quiero ver qué gano al usar la plataforma, para traducir las funcionalidades en algo concreto.                                        | **Escenario 1 (Éxito): Beneficios publicados**<br>**Given** que los beneficios están publicados<br>**When** abro la sección correspondiente<br>**Then** leo los beneficios expresados desde la perspectiva del usuario<br><br>**Escenario 2 (Fracaso): Beneficios no publicados**<br>**Given** que los beneficios no están publicados<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo                                                                                                           | EPNN04  |
-| US46     | Equipo detrás de la solución                      | Como visitante, quiero saber quiénes desarrollan SecurityBus, para poder identificar a los responsables y contactarlos.                               | **Escenario 1 (Éxito): Perfiles cargados**<br>**Given** que los perfiles del equipo están cargados<br>**When** abro la sección del equipo<br>**Then** veo a los integrantes con su rol<br><br>**Escenario 2 (Fracaso): Sin perfiles cargados**<br>**Given** que no hay perfiles cargados<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje de contenido faltante                                                                                                                                              | EPNN04  |
-| US47     | Servicio de actualización de conductores          | Como developer, quiero modificar los datos de un conductor por API, para mantener la información al día sin intervención manual.                      | **Escenario 1 (Éxito): Datos válidos**<br>**Given** una petición con datos válidos para un conductor existente<br>**When** la envío al endpoint<br>**Then** los datos quedan actualizados y recibo el registro resultante<br><br>**Escenario 2 (Fracaso): Datos que no pasan la validación**<br>**Given** una petición con datos que no pasan la validación<br>**When** la envío al endpoint<br>**Then** recibo un error y el registro conserva sus valores anteriores                                                          | EPNN05  |
-| US48     | Servicio de baja lógica de registros              | Como developer, quiero desactivar registros sin borrarlos, para no perder el rastro de lo que existió.                                                | **Escenario 1 (Éxito): Registro activo**<br>**Given** un registro existente y activo<br>**When** solicito su desactivación<br>**Then** el registro pasa a estado inactivo y deja de aparecer en las consultas corrientes<br><br>**Escenario 2 (Fracaso): Registro inexistente**<br>**Given** un registro que no existe<br>**When** solicito su desactivación<br>**Then** recibo un error de recurso no encontrado                                                                                                               | EPNN05  |
-| US49     | Servicio de métricas del sistema                  | Como developer, quiero obtener métricas agregadas del sistema, para tener una lectura general de lo que se está registrando.                          | **Escenario 1 (Éxito): Período con datos**<br>**Given** datos suficientes en el período consultado<br>**When** consulto el endpoint de métricas<br>**Then** obtengo los indicadores agregados del sistema<br><br>**Escenario 2 (Fracaso): Período sin datos**<br>**Given** un período sin datos registrados<br>**When** consulto el endpoint<br>**Then** obtengo una respuesta vacía indicando la ausencia de datos                                                                                                             | EPNN05  |
-| US50     | Servicio de verificación de permisos              | Como developer, quiero comprobar los permisos antes de ejecutar una operación, para no intentar acciones que serán rechazadas.                        | **Escenario 1 (Éxito): Permisos suficientes**<br>**Given** un solicitante con los permisos requeridos para la operación<br>**When** el servicio los verifica<br>**Then** autoriza la operación<br><br>**Escenario 2 (Fracaso): Permisos insuficientes**<br>**Given** un solicitante sin los permisos requeridos<br>**When** el servicio los verifica<br>**Then** rechaza la operación e informa que el permiso es insuficiente                                                                                                  | EPNN05  |
+| Story ID | Título                                            | Descripción                                                                                                                                                       | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Epic ID |
+| :------- | :------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------ |
+| US01     | Autenticación del conductor al iniciar la jornada | Como conductor, necesito acreditar quién soy antes de tomar la unidad, para que cada viaje quede asociado a una persona identificable.                            | **Escenario 1 (Éxito): Identificación con código vigente**<br>**Given** que soy un conductor habilitado y comienzo mi jornada<br>**When** ingreso mi código de verificación vigente<br>**Then** el sistema confirma mi identidad y me habilita para iniciar el servicio<br><br>**Escenario 2 (Fracaso): Código inválido o vencido**<br>**Given** que comienzo mi jornada<br>**When** ingreso un código que no corresponde o ya venció<br>**Then** el sistema deniega la autenticación y no me permite continuar                 | EPNN01  |
+| US02     | Apertura del registro de servicio                 | Como conductor, quiero dejar constancia del momento en que empiezo a operar, para que el recorrido quede documentado desde su inicio.                             | **Escenario 1 (Éxito): Apertura con identidad confirmada**<br>**Given** que mi identidad ya fue confirmada por el sistema<br>**When** indico que comienzo el recorrido<br>**Then** el sistema abre el registro del servicio con la fecha, la hora y el estado «en curso»<br><br>**Escenario 2 (Fracaso): Conductor sin autenticar**<br>**Given** que aún no he superado la autenticación<br>**When** intento abrir el registro del servicio<br>**Then** el sistema bloquea la acción y me indica que debo identificarme primero | EPNN01  |
+| US03     | Envío de alerta desde la unidad                   | Como conductor, quiero avisar de una situación de riesgo con una sola acción, para pedir auxilio sin llamar la atención de quien me amenaza.                      | **Escenario 1 (Éxito): Alerta emitida durante el servicio**<br>**Given** que tengo un servicio en curso<br>**When** acciono la alerta de emergencia<br>**Then** el sistema la transmite a la central de monitoreo y me devuelve el acuse de envío<br><br>**Escenario 2 (Fracaso): Alerta sin recorrido asociado**<br>**Given** que no tengo ningún servicio en curso<br>**When** intento accionar la alerta<br>**Then** el sistema descarta la solicitud por no estar asociada a un recorrido activo                            | EPNN02  |
+| US04     | Notificación de la alerta a la central            | Como sistema, debo hacer llegar cada alerta a la central de operaciones, para que alguien pueda hacerse cargo de la emergencia.                                   | **Escenario 1 (Éxito): Entrega a la central**<br>**Given** una alerta emitida desde una unidad<br>**When** la proceso<br>**Then** la central la recibe junto con los datos de la unidad y del conductor<br><br>**Escenario 2 (Fracaso): Alerta sin datos mínimos**<br>**Given** una alerta que llega sin los datos mínimos de la unidad<br>**When** intento procesarla<br>**Then** la descarto y no la envío a la central                                                                                                       | EPNN02  |
+| US05     | Persistencia del evento de emergencia             | Como sistema, debo guardar cada alerta emitida, para que la empresa pueda revisarla después del hecho.                                                            | **Escenario 1 (Éxito): Alerta con formato válido**<br>**Given** una alerta que cumple el formato esperado<br>**When** la recibo<br>**Then** la almaceno como un evento consultable<br><br>**Escenario 2 (Fracaso): Formato no reconocido**<br>**Given** una alerta con un formato que no reconozco<br>**When** intento almacenarla<br>**Then** no la registro y dejo constancia del rechazo                                                                                                                                     | EPNN02  |
+| US06     | Conteo automático de ocupantes                    | Como sistema, debo sumar al conteo a las personas que suben a la unidad, para poder dimensionar el riesgo cuando ocurra una emergencia.                           | **Escenario 1 (Éxito): Actualización por lectura de ingreso**<br>**Given** que la unidad se encuentra operando<br>**When** los sensores detectan el ingreso de pasajeros<br>**Then** sumo esos ingresos al conteo a bordo<br><br>**Escenario 2 (Fracaso): Sensores sin lecturas**<br>**Given** que los sensores no están enviando lecturas<br>**When** corresponde actualizar el conteo<br>**Then** conservo el último valor conocido en lugar de reportar cero                                                                 | EPNN03  |
+| US07     | Disponibilidad del conteo para reportes           | Como sistema, debo poder informar cuántas personas viajan en la unidad, para acompañar los reportes de emergencia con ese dato.                                   | **Escenario 1 (Éxito): Consulta durante un viaje**<br>**Given** un viaje en curso<br>**When** se consulta el estado de la unidad<br>**Then** devuelvo la cantidad de pasajeros a bordo<br><br>**Escenario 2 (Fracaso): Unidad sin viaje en curso**<br>**Given** que la unidad no tiene un viaje en curso<br>**When** se consulta el estado<br>**Then** respondo que no hay información de ocupación disponible                                                                                                                  | EPNN03  |
+| US08     | Presentación de la propuesta en la landing page   | Como visitante, quiero enterarme de qué ofrece SecurityBus al entrar al sitio, para decidir si me conviene seguir leyendo.                                        | **Escenario 1 (Éxito): Carga de la sección principal**<br>**Given** que entro al sitio web<br>**When** la página termina de cargar<br>**Then** encuentro la descripción del servicio en la sección principal<br><br>**Escenario 2 (Fracaso): Contenido no recuperable**<br>**Given** que el contenido no puede recuperarse<br>**When** entro al sitio<br>**Then** el sitio me avisa que la información no está disponible por el momento                                                                                        | EPNN04  |
+| US09     | Detalle de las funcionalidades                    | Como visitante, quiero ver qué hace concretamente la plataforma, para juzgar si resuelve lo que necesito.                                                         | **Escenario 1 (Éxito): Funcionalidades publicadas**<br>**Given** que recorro el sitio<br>**When** abro la sección de funcionalidades<br>**Then** veo listadas las capacidades de la plataforma<br><br>**Escenario 2 (Fracaso): Sin funcionalidades cargadas**<br>**Given** que no hay funcionalidades cargadas<br>**When** abro la sección<br>**Then** el sitio me indica que todavía no hay contenido publicado                                                                                                                | EPNN04  |
+| US14     | Verificación de habilitación del conductor        | Como sistema, debo comprobar que el conductor esté habilitado para la unidad que pretende operar, para impedir que alguien conduzca sin autorización.             | **Escenario 1 (Éxito): Habilitación vigente**<br>**Given** un conductor registrado con habilitación vigente<br>**When** verifico su autorización sobre la unidad<br>**Then** confirmo que puede operarla<br><br>**Escenario 2 (Fracaso): Sin habilitación para la unidad**<br>**Given** un conductor sin habilitación vigente para esa unidad<br>**When** verifico su autorización<br>**Then** rechazo la operación del vehículo                                                                                                | EPNN01  |
+| US15     | Vínculo entre conductor y unidad                  | Como sistema, debo dejar asentado qué conductor opera cada unidad, para que cualquier evento pueda atribuirse a un responsable.                                   | **Escenario 1 (Éxito): Asignación registrada**<br>**Given** un conductor habilitado y una unidad disponible<br>**When** se ejecuta la asignación<br>**Then** registro el vínculo conductor–unidad con su fecha de inicio<br><br>**Escenario 2 (Fracaso): Datos que no identifican al conductor o la unidad**<br>**Given** datos que no permiten identificar al conductor o a la unidad<br>**When** se intenta la asignación<br>**Then** rechazo el vínculo y no modifico los registros                                          | EPNN01  |
+| US16     | Revisión del historial de emergencias             | Como empresa, quiero repasar las alertas ocurridas en mi flota, para detectar dónde y cuándo se concentran los incidentes.                                        | **Escenario 1 (Éxito): Historial con eventos**<br>**Given** que existen eventos almacenados para mi flota<br>**When** consulto el historial<br>**Then** obtengo la lista de emergencias con su fecha, unidad y estado<br><br>**Escenario 2 (Fracaso): Historial vacío**<br>**Given** que no hay eventos almacenados<br>**When** consulto el historial<br>**Then** el sistema me informa que no hay registros para mostrar                                                                                                       | EPNN02  |
+| US17     | Aviso por exceso de capacidad                     | Como sistema, debo advertir cuando la unidad lleva más personas de las que admite, para prevenir situaciones de conflicto a bordo.                                | **Escenario 1 (Éxito): Umbral superado**<br>**Given** una unidad con capacidad máxima configurada<br>**When** el conteo de pasajeros supera ese límite<br>**Then** emito un aviso de sobrecapacidad<br><br>**Escenario 2 (Fracaso): Sin umbral configurado**<br>**Given** una unidad sin capacidad máxima configurada<br>**When** evalúo la ocupación<br>**Then** no emito ningún aviso por falta de un umbral de referencia                                                                                                    | EPNN03  |
+| US18     | Estadísticas de impacto en la landing page        | Como visitante, quiero ver cifras sobre el problema y los resultados de la solución, para valorar si vale la pena.                                                | **Escenario 1 (Éxito): Datos estadísticos cargados**<br>**Given** que hay datos estadísticos cargados<br>**When** abro la sección de impacto<br>**Then** veo las cifras presentadas de forma legible<br><br>**Escenario 2 (Fracaso): Sin datos estadísticos**<br>**Given** que no hay datos estadísticos cargados<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo en lugar de cifras vacías                                                                                                     | EPNN04  |
+| US21     | Recorrido por las secciones del sitio             | Como visitante, quiero moverme entre las secciones del sitio, para llegar a lo que me interesa sin buscar a ciegas.                                               | **Escenario 1 (Éxito): Navegación efectiva**<br>**Given** que estoy en el sitio web<br>**When** elijo una sección del menú<br>**Then** el sitio me lleva a esa sección y muestra su contenido<br><br>**Escenario 2 (Fracaso): Sección que no carga**<br>**Given** una sección que no puede cargarse<br>**When** intento acceder a ella<br>**Then** el sitio me informa del error de acceso y me deja volver                                                                                                                     | EPNN04  |
+| US23     | Acuse de recepción de la alerta                   | Como sistema, debo asentar si la central efectivamente recibió la alerta, para saber si el pedido de auxilio llegó a destino.                                     | **Escenario 1 (Éxito): Acuse recibido**<br>**Given** una alerta transmitida a la central<br>**When** la central acusa su recepción<br>**Then** registro la confirmación con su marca de tiempo<br><br>**Escenario 2 (Fracaso): Sin acuse en el plazo**<br>**Given** una alerta transmitida a la central<br>**When** no llega ningún acuse dentro del plazo previsto<br>**Then** marco la alerta como no confirmada                                                                                                              | EPNN02  |
+| US24     | Reenvío de alertas sin confirmar                  | Como sistema, debo insistir con las alertas que nadie confirmó, para que un fallo de comunicación no deje una emergencia sin atender.                             | **Escenario 1 (Éxito): Reintento ejecutado**<br>**Given** una alerta marcada como no confirmada<br>**When** ejecuto el reintento<br>**Then** vuelvo a transmitirla y registro el nuevo intento<br><br>**Escenario 2 (Fracaso): Reintentos agotados**<br>**Given** una alerta que agotó los reintentos previstos<br>**When** intento reenviarla otra vez<br>**Then** la marco como fallida y suspendo los reintentos                                                                                                             | EPNN02  |
+| US25     | Cierre del registro de servicio                   | Como conductor, quiero cerrar el servicio al terminar mi turno, para que el registro del recorrido quede completo.                                                | **Escenario 1 (Éxito): Cierre de un servicio en curso**<br>**Given** un servicio en curso a mi nombre<br>**When** indico que finalizo el recorrido<br>**Then** el sistema cierra el registro con la hora de término<br><br>**Escenario 2 (Fracaso): Nada que cerrar**<br>**Given** que no tengo ningún servicio en curso<br>**When** intento finalizar<br>**Then** el sistema rechaza la operación por no haber nada que cerrar                                                                                                 | EPNN01  |
+| US26     | Consulta del estado del propio servicio           | Como conductor, quiero saber cómo figura mi servicio en el sistema, para confirmar que todo está registrado como corresponde.                                     | **Escenario 1 (Éxito): Servicio en curso**<br>**Given** un servicio en curso a mi nombre<br>**When** consulto su estado<br>**Then** el sistema me muestra la unidad, la hora de inicio y el estado actual<br><br>**Escenario 2 (Fracaso): Sin servicio activo**<br>**Given** que no tengo ningún servicio en curso<br>**When** consulto su estado<br>**Then** el sistema me indica que no hay un servicio activo                                                                                                                | EPNN01  |
+| US27     | Tablero de estado de la flota                     | Como empresa, quiero ver cómo están mis unidades en operación, para tener una lectura general de la flota sin llamar a cada conductor.                            | **Escenario 1 (Éxito): Flota con unidades operando**<br>**Given** unidades registradas y operando<br>**When** consulto el tablero<br>**Then** veo el estado actual de cada unidad con su conductor asignado<br><br>**Escenario 2 (Fracaso): Sin unidades registradas**<br>**Given** que no tengo unidades registradas<br>**When** consulto el tablero<br>**Then** el sistema me informa que no hay unidades para mostrar                                                                                                        | EPNN01  |
+| US28     | Seguimiento de la ocupación en operación          | Como empresa, quiero seguir cuán llenas van mis unidades, para anticipar riesgos asociados a la aglomeración.                                                     | **Escenario 1 (Éxito): Lecturas disponibles**<br>**Given** lecturas de ocupación disponibles para mis unidades<br>**When** genero el reporte<br>**Then** veo la ocupación de cada unidad al momento de la consulta<br><br>**Escenario 2 (Fracaso): Lecturas incompletas**<br>**Given** lecturas de ocupación incompletas<br>**When** genero el reporte<br>**Then** el sistema señala qué unidades no tienen información confiable                                                                                               | EPNN03  |
+| US29     | Segmento al que apunta la solución                | Como visitante, quiero saber a qué tipo de usuario está dirigido SecurityBus, para reconocer si soy parte de ese público.                                         | **Escenario 1 (Éxito): Segmentos definidos**<br>**Given** que los segmentos están definidos en el sitio<br>**When** abro la sección correspondiente<br>**Then** veo descritos los segmentos objetivo<br><br>**Escenario 2 (Fracaso): Sin segmentos definidos**<br>**Given** que no hay segmentos definidos<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo                                                                                                                                      | EPNN04  |
+| US30     | Misión y visión de la startup                     | Como visitante, quiero conocer hacia dónde va la startup, para entender qué la mueve más allá del producto.                                                       | **Escenario 1 (Éxito): Contenido publicado**<br>**Given** que la misión y la visión están publicadas<br>**When** abro la sección «Nosotros»<br>**Then** leo ambas declaraciones<br><br>**Escenario 2 (Fracaso): Contenido no publicado**<br>**Given** que ese contenido no está publicado<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje de contenido no disponible                                                                                                                                        | EPNN04  |
+| US33     | Difusión de la alerta a varios destinatarios      | Como sistema, debo enviar la alerta a todos los destinos configurados, para que el aviso no dependa de un solo receptor.                                          | **Escenario 1 (Éxito): Envío a la lista completa**<br>**Given** una alerta emitida y una lista de destinatarios configurada<br>**When** la proceso<br>**Then** la envío a cada destinatario y registro el resultado por destino<br><br>**Escenario 2 (Fracaso): Destinatarios no válidos**<br>**Given** destinatarios cuya dirección no es válida<br>**When** intento el envío<br>**Then** registro el fallo para esos destinos y continúo con los restantes                                                                    | EPNN02  |
+| US34     | Medición del tiempo de respuesta                  | Como sistema, debo medir cuánto tarda la central en atender cada alerta, para que ese indicador quede disponible en el registro.                                  | **Escenario 1 (Éxito): Alerta atendida**<br>**Given** una alerta transmitida a la central<br>**When** la central la atiende<br>**Then** calculo y registro el tiempo transcurrido entre el envío y la atención<br><br>**Escenario 2 (Fracaso): Alerta nunca atendida**<br>**Given** una alerta que nunca fue atendida<br>**When** evalúo el evento<br>**Then** registro la ausencia de respuesta en lugar de un tiempo                                                                                                          | EPNN02  |
+| US35     | Promedio de pasajeros por viaje                   | Como empresa, quiero conocer el promedio de pasajeros por viaje, para contar con una referencia de la demanda habitual.                                           | **Escenario 1 (Éxito): Datos históricos suficientes**<br>**Given** suficientes viajes con datos de ocupación registrados<br>**When** solicito el cálculo<br>**Then** obtengo el promedio de pasajeros por viaje del período<br><br>**Escenario 2 (Fracaso): Datos por debajo del mínimo**<br>**Given** menos viajes registrados que el mínimo requerido<br>**When** solicito el cálculo<br>**Then** el sistema me indica que los datos no alcanzan para calcularlo                                                              | EPNN03  |
+| US36     | Detección de variaciones anómalas de ocupación    | Como sistema, debo señalar los cambios de ocupación que se apartan de la línea base de la unidad, para que la empresa revise qué ocurrió en ella.                 | **Escenario 1 (Éxito): Variación fuera de la línea base**<br>**Given** una unidad con línea base de ocupación establecida<br>**When** una lectura se aparta de esa línea base más allá de la tolerancia configurada<br>**Then** emito un aviso para su revisión<br><br>**Escenario 2 (Fracaso): Unidad sin línea base**<br>**Given** una unidad que todavía no tiene línea base establecida<br>**When** analizo la variación de sus lecturas<br>**Then** descarto el caso por no ser concluyente                                | EPNN03  |
+| US37     | Problemática del transporte en la landing page    | Como visitante, quiero entender el problema que la solución aborda, para situar la propuesta en un contexto real.                                                 | **Escenario 1 (Éxito): Problemática publicada**<br>**Given** que el contenido está publicado<br>**When** abro la sección de problemática<br>**Then** leo la descripción del problema con los datos que la respaldan<br><br>**Escenario 2 (Fracaso): Contenido no publicado**<br>**Given** que el contenido no está publicado<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo                                                                                                                    | EPNN04  |
+| US38     | Propuesta de valor en la landing page             | Como visitante, quiero leer qué promete SecurityBus y hasta dónde llega, para comparar la propuesta con lo que ya conozco.                                        | **Escenario 1 (Éxito): Propuesta definida**<br>**Given** que la propuesta de valor está definida<br>**When** abro la sección correspondiente<br>**Then** leo la propuesta y el alcance del servicio<br><br>**Escenario 2 (Fracaso): Propuesta incompleta**<br>**Given** que la propuesta está incompleta<br>**When** abro la sección<br>**Then** el sitio advierte que falta información por publicar                                                                                                                           | EPNN04  |
+| US39     | Control de operación simultánea                   | Como sistema, debo impedir que un mismo conductor figure operando dos unidades a la vez, para cerrar la puerta al uso indebido de credenciales.                   | **Escenario 1 (Éxito): Conductor sin servicios abiertos**<br>**Given** un conductor sin servicios abiertos en otras unidades<br>**When** solicita iniciar un servicio<br>**Then** autorizo la apertura del servicio<br><br>**Escenario 2 (Fracaso): Conductor con servicio abierto**<br>**Given** un conductor que ya tiene un servicio abierto en otra unidad<br>**When** solicita iniciar un segundo servicio<br>**Then** rechazo la solicitud y notifico la operación duplicada                                              | EPNN01  |
+| US40     | Clasificación de alertas por gravedad             | Como sistema, debo asignar un nivel de gravedad a cada alerta, para que las más críticas no compitan con las menores.                                             | **Escenario 1 (Éxito): Alerta clasificable**<br>**Given** una alerta con su tipo informado<br>**When** evalúo sus datos<br>**Then** le asigno el nivel de prioridad correspondiente<br><br>**Escenario 2 (Fracaso): Datos insuficientes para clasificar**<br>**Given** una alerta sin datos suficientes para clasificarla<br>**When** intento evaluarla<br>**Then** le asigno la prioridad por defecto y la marco para revisión                                                                                                 | EPNN02  |
+| US41     | Escalamiento de alertas sin atención              | Como sistema, debo derivar a un nivel superior las alertas que nadie atendió, para que ninguna quede olvidada en la cola.                                         | **Escenario 1 (Éxito): Plazo de respuesta superado**<br>**Given** una alerta sin atender<br>**When** se supera el plazo máximo de respuesta<br>**Then** la escalo al siguiente nivel y registro el escalamiento<br><br>**Escenario 2 (Fracaso): Alerta atendida en plazo**<br>**Given** una alerta ya atendida dentro del plazo<br>**When** evalúo su tiempo de respuesta<br>**Then** no realizo ningún escalamiento                                                                                                            | EPNN02  |
+| US42     | Ubicación asociada al evento                      | Como sistema, debo guardar dónde se produjo cada emergencia, para permitir después un análisis por zona.                                                          | **Escenario 1 (Éxito): Alerta con coordenadas**<br>**Given** una alerta que llega con coordenadas de ubicación<br>**When** proceso el evento<br>**Then** almaceno la ubicación junto al registro de la alerta<br><br>**Escenario 2 (Fracaso): Alerta sin coordenadas**<br>**Given** una alerta que llega sin coordenadas<br>**When** proceso el evento<br>**Then** registro el evento indicando que la ubicación no está disponible                                                                                             | EPNN02  |
+| US43     | Seguimiento de la unidad asignada                 | Como empresa, quiero consultar la última posición registrada de una unidad, para saber dónde está cuando necesito ubicarla.                                       | **Escenario 1 (Éxito): Unidad con posición registrada**<br>**Given** una unidad con servicio en curso y posiciones registradas<br>**When** consulto su seguimiento<br>**Then** veo su última ubicación registrada con la hora del reporte<br><br>**Escenario 2 (Fracaso): Unidad sin posición registrada**<br>**Given** una unidad sin posiciones registradas en el servicio en curso<br>**When** consulto su seguimiento<br>**Then** el sistema me indica que la ubicación no está disponible                                  | EPNN01  |
+| US44     | Comparación de ocupación entre viajes             | Como empresa, quiero contrastar la ocupación de distintas unidades y rutas, para ver dónde se concentra la demanda.                                               | **Escenario 1 (Éxito): Registros de varios viajes**<br>**Given** registros de ocupación de varios viajes<br>**When** solicito la comparación<br>**Then** obtengo las diferencias de ocupación entre los viajes seleccionados<br><br>**Escenario 2 (Fracaso): Registros insuficientes**<br>**Given** registros insuficientes para comparar<br>**When** solicito la comparación<br>**Then** el sistema me indica que no puede realizarla                                                                                          | EPNN03  |
+| US45     | Beneficios del sistema en la landing page         | Como visitante, quiero ver qué gano al usar la plataforma, para traducir las funcionalidades en algo concreto.                                                    | **Escenario 1 (Éxito): Beneficios publicados**<br>**Given** que los beneficios están publicados<br>**When** abro la sección correspondiente<br>**Then** leo los beneficios expresados desde la perspectiva del usuario<br><br>**Escenario 2 (Fracaso): Beneficios no publicados**<br>**Given** que los beneficios no están publicados<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje informativo                                                                                                           | EPNN04  |
+| US46     | Equipo detrás de la solución                      | Como visitante, quiero saber quiénes desarrollan SecurityBus, para poder identificar a los responsables y contactarlos.                                           | **Escenario 1 (Éxito): Perfiles cargados**<br>**Given** que los perfiles del equipo están cargados<br>**When** abro la sección del equipo<br>**Then** veo a los integrantes con su rol<br><br>**Escenario 2 (Fracaso): Sin perfiles cargados**<br>**Given** que no hay perfiles cargados<br>**When** abro la sección<br>**Then** el sitio muestra un mensaje de contenido faltante                                                                                                                                              | EPNN04  |
+| US51     | Filtro del tablero por estado operativo           | Como empresa, quiero filtrar el tablero por el estado de las unidades, para concentrarme en las que requieren atención.                                           | **Escenario 1 (Éxito): Filtro con coincidencias**<br>**Given** que el tablero muestra unidades en distintos estados<br>**When** selecciono un estado operativo<br>**Then** veo únicamente las unidades que se encuentran en ese estado<br><br>**Escenario 2 (Fracaso): Filtro sin coincidencias**<br>**Given** que ninguna unidad se encuentra en el estado seleccionado<br>**When** aplico el filtro<br>**Then** el sistema me informa que no hay unidades en ese estado y me deja quitar el filtro                            | EPNN01  |
+| US52     | Registro de la posición de la unidad              | Como sistema, debo registrar la posición que reporta cada unidad en servicio, para que su ubicación pueda consultarse en cualquier momento.                       | **Escenario 1 (Éxito): Posición reportada durante el servicio**<br>**Given** una unidad con servicio en curso<br>**When** recibo un reporte de posición con coordenadas válidas<br>**Then** almaceno la posición junto con la hora del reporte<br><br>**Escenario 2 (Fracaso): Reporte con coordenadas inválidas**<br>**Given** una unidad con servicio en curso<br>**When** recibo un reporte con coordenadas inválidas o incompletas<br>**Then** descarto el reporte y conservo la última posición válida                     | EPNN01  |
+| US53     | Descuento de pasajeros que descienden             | Como sistema, debo descontar del conteo a quienes bajan de la unidad, para que la ocupación refleje solo a las personas que siguen a bordo.                       | **Escenario 1 (Éxito): Descenso detectado**<br>**Given** que la unidad se encuentra operando con pasajeros a bordo<br>**When** los sensores detectan el descenso de pasajeros<br>**Then** resto esos descensos del conteo a bordo<br><br>**Escenario 2 (Fracaso): Descensos por encima del conteo**<br>**Given** un conteo a bordo menor que los descensos detectados<br>**When** aplico el descuento<br>**Then** dejo el conteo en cero y marco la lectura para revisión                                                       | EPNN03  |
+| US54     | Línea base de ocupación por unidad                | Como sistema, debo establecer el comportamiento habitual de ocupación de cada unidad, para contar con una referencia contra la cual comparar las lecturas nuevas. | **Escenario 1 (Éxito): Historial suficiente**<br>**Given** una unidad con suficientes lecturas de ocupación consistentes<br>**When** calculo su línea base<br>**Then** almaceno el rango de ocupación habitual de la unidad<br><br>**Escenario 2 (Fracaso): Historial insuficiente o con vacíos**<br>**Given** una unidad con lecturas insuficientes o con vacíos<br>**When** intento calcular su línea base<br>**Then** no la establezco y marco la unidad como sin referencia                                                 | EPNN03  |
+
+Las Technical Stories corresponden a la épica EPNN05 y describen los servicios que la plataforma expone al equipo técnico y a los integradores:
+
+| Story ID | Título                                       | Descripción                                                                                                                      | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Epic ID |
+| :------- | :------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------ |
+| TS01     | Servicio de validación de conductores        | Como developer, quiero comprobar la identidad de un conductor por API, para no depender de la interfaz cuando necesito ese dato. | **Escenario 1 (Éxito): Identificador registrado**<br>**Given** una petición con el identificador de un conductor registrado<br>**When** el servicio la atiende<br>**Then** responde con la confirmación de identidad y el estado del conductor<br><br>**Escenario 2 (Fracaso): Identificador inexistente**<br>**Given** una petición cuyo identificador no corresponde a ningún conductor<br>**When** el servicio la atiende<br>**Then** responde con un error de validación | EPNN05  |
+| TS02     | Servicio de apertura de servicio             | Como developer, quiero abrir un servicio por API, para montar escenarios de prueba sin usar la aplicación del conductor.         | **Escenario 1 (Éxito): Datos completos del servicio**<br>**Given** una petición con los datos completos del servicio<br>**When** la envío al endpoint<br>**Then** el servicio queda abierto y recibo su identificador<br><br>**Escenario 2 (Fracaso): Datos inconsistentes**<br>**Given** una petición cuyos datos del servicio son inconsistentes<br>**When** la envío al endpoint<br>**Then** recibo un error y ningún servicio queda abierto                              | EPNN05  |
+| TS03     | Servicio de emisión de alertas               | Como developer, quiero emitir alertas por API, para probar el circuito de emergencia de punta a punta.                           | **Escenario 1 (Éxito): Alerta con datos completos**<br>**Given** una petición con los datos completos de la alerta<br>**When** el servicio la recibe<br>**Then** la alerta queda registrada y recibo su identificador<br><br>**Escenario 2 (Fracaso): Faltan datos obligatorios**<br>**Given** una petición a la que le faltan datos obligatorios<br>**When** el servicio la recibe<br>**Then** recibo un error y la alerta no se registra                                   | EPNN05  |
+| TS04     | Servicio de actualización del conteo         | Como developer, quiero fijar el número de pasajeros por API, para armar pruebas que dependan de la ocupación de la unidad.       | **Escenario 1 (Éxito): Conteo válido**<br>**Given** una petición con un conteo válido<br>**When** la envío al endpoint<br>**Then** el valor de ocupación queda actualizado<br><br>**Escenario 2 (Fracaso): Error interno del servicio**<br>**Given** una petición que falla por un error interno del servicio<br>**When** la envío al endpoint<br>**Then** recibo un mensaje de error y la ocupación conserva su valor anterior                                              | EPNN05  |
+| TS05     | Servicio de consulta del historial           | Como developer, quiero recuperar los eventos registrados por API, para extraer información sin entrar a la interfaz.             | **Escenario 1 (Éxito): Filtros válidos**<br>**Given** una petición con filtros válidos<br>**When** el servicio la atiende<br>**Then** devuelve los eventos que coinciden con los filtros<br><br>**Escenario 2 (Fracaso): Filtros mal formados**<br>**Given** una petición con filtros mal formados<br>**When** el servicio la atiende<br>**Then** devuelve un error describiendo el parámetro inválido                                                                       | EPNN05  |
+| TS06     | Servicio de consulta del estado de la unidad | Como developer, quiero conocer el estado actual de una unidad por API, para no trabajar a ciegas sobre su situación.             | **Escenario 1 (Éxito): Unidad existente**<br>**Given** el identificador de una unidad existente<br>**When** consulto el endpoint<br>**Then** obtengo su estado actual y su ocupación<br><br>**Escenario 2 (Fracaso): Unidad inexistente**<br>**Given** un identificador que no corresponde a ninguna unidad<br>**When** consulto el endpoint<br>**Then** obtengo un error de recurso no encontrado                                                                           | EPNN05  |
+| TS07     | Servicio de autenticación de peticiones      | Como developer, quiero que las peticiones al sistema exijan credenciales, para que nadie acceda a más de lo que le corresponde.  | **Escenario 1 (Éxito): Credenciales vigentes**<br>**Given** credenciales válidas y vigentes<br>**When** envío la petición<br>**Then** el servicio la autoriza y devuelve un token de acceso<br><br>**Escenario 2 (Fracaso): Credenciales inválidas**<br>**Given** credenciales inválidas o vencidas<br>**When** envío la petición<br>**Then** el servicio rechaza el acceso sin exponer el motivo exacto                                                                     | EPNN05  |
+| TS08     | Servicio de cierre de servicio               | Como developer, quiero cerrar un servicio por API, para completar su ciclo de vida durante las pruebas.                          | **Escenario 1 (Éxito): Servicio en curso referenciado**<br>**Given** una petición que referencia un servicio en curso<br>**When** el endpoint la procesa<br>**Then** el servicio queda cerrado con su hora de término<br><br>**Escenario 2 (Fracaso): Servicio ya cerrado o inexistente**<br>**Given** una petición que referencia un servicio ya cerrado o inexistente<br>**When** el endpoint la procesa<br>**Then** devuelve un error y no altera ningún registro         | EPNN05  |
+| TS09     | Servicio de consulta de ocupación            | Como developer, quiero obtener la ocupación de una unidad por API, para conocer cuántos pasajeros lleva en ese momento.          | **Escenario 1 (Éxito): Unidad existente**<br>**Given** el identificador de una unidad existente<br>**When** consulto el endpoint<br>**Then** obtengo el número de pasajeros a bordo y la hora de la lectura<br><br>**Escenario 2 (Fracaso): Unidad inexistente**<br>**Given** un identificador que no corresponde a ninguna unidad<br>**When** consulto el endpoint<br>**Then** obtengo un error de recurso no encontrado                                                    | EPNN05  |
+| TS10     | Servicio de actualización de conductores     | Como developer, quiero modificar los datos de un conductor por API, para mantener la información al día sin intervención manual. | **Escenario 1 (Éxito): Datos válidos**<br>**Given** una petición con datos válidos para un conductor existente<br>**When** la envío al endpoint<br>**Then** los datos quedan actualizados y recibo el registro resultante<br><br>**Escenario 2 (Fracaso): Datos que no pasan la validación**<br>**Given** una petición con datos que no pasan la validación<br>**When** la envío al endpoint<br>**Then** recibo un error y el registro conserva sus valores anteriores       | EPNN05  |
+| TS11     | Servicio de baja lógica de registros         | Como developer, quiero desactivar registros sin borrarlos, para no perder el rastro de lo que existió.                           | **Escenario 1 (Éxito): Registro activo**<br>**Given** un registro existente y activo<br>**When** solicito su desactivación<br>**Then** el registro pasa a estado inactivo y deja de aparecer en las consultas corrientes<br><br>**Escenario 2 (Fracaso): Registro inexistente**<br>**Given** un registro que no existe<br>**When** solicito su desactivación<br>**Then** recibo un error de recurso no encontrado                                                            | EPNN05  |
+| TS12     | Servicio de métricas del sistema             | Como developer, quiero obtener métricas agregadas del sistema, para tener una lectura general de lo que se está registrando.     | **Escenario 1 (Éxito): Período con datos**<br>**Given** datos suficientes en el período consultado<br>**When** consulto el endpoint de métricas<br>**Then** obtengo los indicadores agregados del sistema<br><br>**Escenario 2 (Fracaso): Período sin datos**<br>**Given** un período sin datos registrados<br>**When** consulto el endpoint<br>**Then** obtengo una respuesta vacía indicando la ausencia de datos                                                          | EPNN05  |
+| TS13     | Servicio de verificación de permisos         | Como developer, quiero comprobar los permisos antes de ejecutar una operación, para no intentar acciones que serán rechazadas.   | **Escenario 1 (Éxito): Permisos suficientes**<br>**Given** un solicitante con los permisos requeridos para la operación<br>**When** el servicio los verifica<br>**Then** autoriza la operación<br><br>**Escenario 2 (Fracaso): Permisos insuficientes**<br>**Given** un solicitante sin los permisos requeridos<br>**When** el servicio los verifica<br>**Then** rechaza la operación e informa que el permiso es insuficiente                                               | EPNN05  |
 
 ### 3.2. Impact Mapping
 
-El Impact Mapping une lo que el negocio quiere conseguir con lo que el equipo va a construir. Se lee de izquierda a derecha respondiendo cuatro preguntas encadenadas: por qué se hace (_Goal_), quién puede hacerlo posible (_Actor_), cómo debe cambiar su comportamiento (_Impact_) y qué hay que entregarle para lograrlo (_Deliverable_). A esas cuatro columnas se añadió una quinta con las User Stories de la sección 3.1, de modo que cada entregable queda enganchado al backlog y ninguna historia queda suelta.
+El Impact Mapping une lo que el negocio quiere conseguir con lo que el equipo va a construir. Se lee de izquierda a derecha respondiendo cuatro preguntas encadenadas: por qué se hace (_Goal_), quién puede hacerlo posible (_Actor_), cómo debe cambiar su comportamiento (_Impact_) y qué hay que entregarle para lograrlo (_Deliverable_). A esas cuatro columnas se añadió una quinta con las User Stories y Technical Stories de la sección 3.1, de modo que cada entregable queda enganchado al backlog y ninguna historia queda suelta.
 
 SecurityBus persigue dos objetivos que se sostienen mutuamente: uno atiende el problema de seguridad que da origen a la solución, y el otro, la adopción que la hace viable. Ambos se derivan de los _Business Outcomes_ y de las _Hypothesis Statements_ del Lean UX Process (sección 1.2.2).
 
@@ -1294,58 +1369,63 @@ Aquí el recorrido es distinto: el visitante llega sin conocer la solución y ne
 
 ### 3.3. Product Backlog
 
-| #   | US_ID | Título                                            | Descripción                                                                                                                                           | Story Point |
-| :-- | :---- | :------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
-| 1   | US01  | Autenticación del conductor al iniciar la jornada | Como conductor, necesito acreditar quién soy antes de tomar la unidad, para que cada viaje quede asociado a una persona identificable.                | 3           |
-| 2   | US02  | Apertura del registro de servicio                 | Como conductor, quiero dejar constancia del momento en que empiezo a operar, para que el recorrido quede documentado desde su inicio.                 | 3           |
-| 3   | US14  | Verificación de habilitación del conductor        | Como sistema, debo comprobar que el conductor esté habilitado para la unidad que pretende operar, para impedir que alguien conduzca sin autorización. | 3           |
-| 4   | US15  | Vínculo entre conductor y unidad                  | Como sistema, debo dejar asentado qué conductor opera cada unidad, para que cualquier evento pueda atribuirse a un responsable.                       | 3           |
-| 5   | US03  | Envío de alerta desde la unidad                   | Como conductor, quiero avisar de una situación de riesgo con una sola acción, para pedir auxilio sin llamar la atención de quien me amenaza.          | 5           |
-| 6   | US04  | Notificación de la alerta a la central            | Como sistema, debo hacer llegar cada alerta a la central de operaciones, para que alguien pueda hacerse cargo de la emergencia.                       | 5           |
-| 7   | US05  | Persistencia del evento de emergencia             | Como sistema, debo guardar cada alerta emitida, para que la empresa pueda revisarla después del hecho.                                                | 3           |
-| 8   | US23  | Acuse de recepción de la alerta                   | Como sistema, debo asentar si la central efectivamente recibió la alerta, para saber si el pedido de auxilio llegó a destino.                         | 3           |
-| 9   | US42  | Ubicación asociada al evento                      | Como sistema, debo guardar dónde se produjo cada emergencia, para permitir después un análisis por zona.                                              | 5           |
-| 10  | US24  | Reenvío de alertas sin confirmar                  | Como sistema, debo insistir con las alertas que nadie confirmó, para que un fallo de comunicación no deje una emergencia sin atender.                 | 5           |
-| 11  | US40  | Clasificación de alertas por gravedad             | Como sistema, debo asignar un nivel de gravedad a cada alerta, para que las más críticas no compitan con las menores.                                 | 3           |
-| 12  | US41  | Escalamiento de alertas sin atención              | Como sistema, debo derivar a un nivel superior las alertas que nadie atendió, para que ninguna quede olvidada en la cola.                             | 5           |
-| 13  | US33  | Difusión de la alerta a varios destinatarios      | Como sistema, debo enviar la alerta a todos los destinos configurados, para que el aviso no dependa de un solo receptor.                              | 5           |
-| 14  | US25  | Cierre del registro de servicio                   | Como conductor, quiero cerrar el servicio al terminar mi turno, para que el registro del recorrido quede completo.                                    | 2           |
-| 15  | US26  | Consulta del estado del propio servicio           | Como conductor, quiero saber cómo figura mi servicio en el sistema, para confirmar que todo está registrado como corresponde.                         | 2           |
-| 16  | US08  | Presentación de la propuesta en la landing page   | Como visitante, quiero enterarme de qué ofrece SecurityBus al entrar al sitio, para decidir si me conviene seguir leyendo.                            | 2           |
-| 17  | US37  | Problemática del transporte en la landing page    | Como visitante, quiero entender el problema que la solución aborda, para situar la propuesta en un contexto real.                                     | 2           |
-| 18  | US38  | Propuesta de valor en la landing page             | Como visitante, quiero leer qué promete SecurityBus y hasta dónde llega, para comparar la propuesta con lo que ya conozco.                            | 2           |
-| 19  | US09  | Detalle de las funcionalidades                    | Como visitante, quiero ver qué hace concretamente la plataforma, para juzgar si resuelve lo que necesito.                                             | 3           |
-| 20  | US45  | Beneficios del sistema en la landing page         | Como visitante, quiero ver qué gano al usar la plataforma, para traducir las funcionalidades en algo concreto.                                        | 2           |
-| 21  | US21  | Recorrido por las secciones del sitio             | Como visitante, quiero moverme entre las secciones del sitio, para llegar a lo que me interesa sin buscar a ciegas.                                   | 3           |
-| 22  | US27  | Tablero de estado de la flota                     | Como empresa, quiero ver cómo están mis unidades en operación, para tener una lectura general de la flota sin llamar a cada conductor.                | 8           |
-| 23  | US43  | Seguimiento de la unidad asignada                 | Como empresa, quiero seguir por dónde va la unidad, para saber dónde está cuando necesito ubicarla.                                                   | 8           |
-| 24  | US16  | Revisión del historial de emergencias             | Como empresa, quiero repasar las alertas ocurridas en mi flota, para detectar dónde y cuándo se concentran los incidentes.                            | 5           |
-| 25  | US06  | Conteo automático de ocupantes                    | Como sistema, debo llevar la cuenta de las personas a bordo, para poder dimensionar el riesgo cuando ocurra una emergencia.                           | 8           |
-| 26  | US07  | Disponibilidad del conteo para reportes           | Como sistema, debo poder informar cuántas personas viajan en la unidad, para acompañar los reportes de emergencia con ese dato.                       | 2           |
-| 27  | US17  | Aviso por exceso de capacidad                     | Como sistema, debo advertir cuando la unidad lleva más personas de las que admite, para prevenir situaciones de conflicto a bordo.                    | 3           |
-| 28  | US28  | Seguimiento de la ocupación en operación          | Como empresa, quiero seguir cuán llenas van mis unidades, para anticipar riesgos asociados a la aglomeración.                                         | 5           |
-| 29  | US34  | Medición del tiempo de respuesta                  | Como sistema, debo medir cuánto tarda la central en atender cada alerta, para que ese indicador quede disponible en el registro.                      | 3           |
-| 30  | US39  | Control de operación simultánea                   | Como sistema, debo impedir que un mismo conductor figure operando dos unidades a la vez, para cerrar la puerta al uso indebido de credenciales.       | 5           |
-| 31  | US22  | Servicio de autenticación de peticiones           | Como developer, quiero que las peticiones al sistema exijan credenciales, para que nadie acceda a más de lo que le corresponde.                       | 5           |
-| 32  | US50  | Servicio de verificación de permisos              | Como developer, quiero comprobar los permisos antes de ejecutar una operación, para no intentar acciones que serán rechazadas.                        | 3           |
-| 33  | US10  | Servicio de validación de conductores             | Como developer, quiero comprobar la identidad de un conductor por API, para no depender de la interfaz cuando necesito ese dato.                      | 3           |
-| 34  | US11  | Servicio de apertura de servicio                  | Como developer, quiero abrir un servicio por API, para montar escenarios de prueba sin usar la aplicación del conductor.                              | 3           |
-| 35  | US31  | Servicio de cierre de servicio                    | Como developer, quiero cerrar un servicio por API, para completar su ciclo de vida durante las pruebas.                                               | 2           |
-| 36  | US12  | Servicio de emisión de alertas                    | Como developer, quiero emitir alertas por API, para probar el circuito de emergencia de punta a punta.                                                | 3           |
-| 37  | US13  | Servicio de actualización del conteo              | Como developer, quiero fijar el número de pasajeros por API, para armar pruebas que dependan de la ocupación de la unidad.                            | 2           |
-| 38  | US20  | Servicio de consulta del estado de la unidad      | Como developer, quiero conocer el estado actual de una unidad por API, para no trabajar a ciegas sobre su situación.                                  | 3           |
-| 39  | US32  | Servicio de consulta de ocupación                 | Como developer, quiero obtener la ocupación de una unidad por API, para conocer cuántos pasajeros lleva en ese momento.                               | 2           |
-| 40  | US19  | Servicio de consulta del historial                | Como developer, quiero recuperar los eventos registrados por API, para extraer información sin entrar a la interfaz.                                  | 3           |
-| 41  | US47  | Servicio de actualización de conductores          | Como developer, quiero modificar los datos de un conductor por API, para mantener la información al día sin intervención manual.                      | 3           |
-| 42  | US48  | Servicio de baja lógica de registros              | Como developer, quiero desactivar registros sin borrarlos, para no perder el rastro de lo que existió.                                                | 3           |
-| 43  | US49  | Servicio de métricas del sistema                  | Como developer, quiero obtener métricas agregadas del sistema, para tener una lectura general de lo que se está registrando.                          | 5           |
-| 44  | US18  | Estadísticas de impacto en la landing page        | Como visitante, quiero ver cifras sobre el problema y los resultados de la solución, para valorar si vale la pena.                                    | 3           |
-| 45  | US29  | Segmento al que apunta la solución                | Como visitante, quiero saber a qué tipo de usuario está dirigido SecurityBus, para reconocer si soy parte de ese público.                             | 2           |
-| 46  | US30  | Misión y visión de la startup                     | Como visitante, quiero conocer hacia dónde va la startup, para entender qué la mueve más allá del producto.                                           | 2           |
-| 47  | US46  | Equipo detrás de la solución                      | Como visitante, quiero saber quiénes desarrollan SecurityBus, para poder identificar a los responsables y contactarlos.                               | 2           |
-| 48  | US35  | Promedio de pasajeros por viaje                   | Como empresa, quiero conocer el promedio de pasajeros por viaje, para contar con una referencia de la demanda habitual.                               | 3           |
-| 49  | US44  | Comparación de ocupación entre viajes             | Como empresa, quiero contrastar la ocupación de distintas unidades y rutas, para ver dónde se concentra la demanda.                                   | 5           |
-| 50  | US36  | Detección de variaciones anómalas de ocupación    | Como sistema, debo señalar los cambios inusuales en el número de pasajeros, para que la empresa revise qué ocurrió en esa unidad.                     | 8           |
+| #  | Story ID | Título                                            | Descripción                                                                                                                                                       | Story Point |
+| :- | :------- | :------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------- |
+| 1  | US01     | Autenticación del conductor al iniciar la jornada | Como conductor, necesito acreditar quién soy antes de tomar la unidad, para que cada viaje quede asociado a una persona identificable.                            | 3           |
+| 2  | US02     | Apertura del registro de servicio                 | Como conductor, quiero dejar constancia del momento en que empiezo a operar, para que el recorrido quede documentado desde su inicio.                             | 3           |
+| 3  | US14     | Verificación de habilitación del conductor        | Como sistema, debo comprobar que el conductor esté habilitado para la unidad que pretende operar, para impedir que alguien conduzca sin autorización.             | 3           |
+| 4  | US15     | Vínculo entre conductor y unidad                  | Como sistema, debo dejar asentado qué conductor opera cada unidad, para que cualquier evento pueda atribuirse a un responsable.                                   | 3           |
+| 5  | US03     | Envío de alerta desde la unidad                   | Como conductor, quiero avisar de una situación de riesgo con una sola acción, para pedir auxilio sin llamar la atención de quien me amenaza.                      | 5           |
+| 6  | US04     | Notificación de la alerta a la central            | Como sistema, debo hacer llegar cada alerta a la central de operaciones, para que alguien pueda hacerse cargo de la emergencia.                                   | 5           |
+| 7  | US05     | Persistencia del evento de emergencia             | Como sistema, debo guardar cada alerta emitida, para que la empresa pueda revisarla después del hecho.                                                            | 3           |
+| 8  | US23     | Acuse de recepción de la alerta                   | Como sistema, debo asentar si la central efectivamente recibió la alerta, para saber si el pedido de auxilio llegó a destino.                                     | 3           |
+| 9  | US42     | Ubicación asociada al evento                      | Como sistema, debo guardar dónde se produjo cada emergencia, para permitir después un análisis por zona.                                                          | 5           |
+| 10 | US24     | Reenvío de alertas sin confirmar                  | Como sistema, debo insistir con las alertas que nadie confirmó, para que un fallo de comunicación no deje una emergencia sin atender.                             | 5           |
+| 11 | US40     | Clasificación de alertas por gravedad             | Como sistema, debo asignar un nivel de gravedad a cada alerta, para que las más críticas no compitan con las menores.                                             | 3           |
+| 12 | US41     | Escalamiento de alertas sin atención              | Como sistema, debo derivar a un nivel superior las alertas que nadie atendió, para que ninguna quede olvidada en la cola.                                         | 5           |
+| 13 | US33     | Difusión de la alerta a varios destinatarios      | Como sistema, debo enviar la alerta a todos los destinos configurados, para que el aviso no dependa de un solo receptor.                                          | 5           |
+| 14 | US25     | Cierre del registro de servicio                   | Como conductor, quiero cerrar el servicio al terminar mi turno, para que el registro del recorrido quede completo.                                                | 2           |
+| 15 | US26     | Consulta del estado del propio servicio           | Como conductor, quiero saber cómo figura mi servicio en el sistema, para confirmar que todo está registrado como corresponde.                                     | 2           |
+| 16 | US08     | Presentación de la propuesta en la landing page   | Como visitante, quiero enterarme de qué ofrece SecurityBus al entrar al sitio, para decidir si me conviene seguir leyendo.                                        | 2           |
+| 17 | US37     | Problemática del transporte en la landing page    | Como visitante, quiero entender el problema que la solución aborda, para situar la propuesta en un contexto real.                                                 | 2           |
+| 18 | US38     | Propuesta de valor en la landing page             | Como visitante, quiero leer qué promete SecurityBus y hasta dónde llega, para comparar la propuesta con lo que ya conozco.                                        | 2           |
+| 19 | US09     | Detalle de las funcionalidades                    | Como visitante, quiero ver qué hace concretamente la plataforma, para juzgar si resuelve lo que necesito.                                                         | 3           |
+| 20 | US45     | Beneficios del sistema en la landing page         | Como visitante, quiero ver qué gano al usar la plataforma, para traducir las funcionalidades en algo concreto.                                                    | 2           |
+| 21 | US21     | Recorrido por las secciones del sitio             | Como visitante, quiero moverme entre las secciones del sitio, para llegar a lo que me interesa sin buscar a ciegas.                                               | 3           |
+| 22 | US27     | Tablero de estado de la flota                     | Como empresa, quiero ver cómo están mis unidades en operación, para tener una lectura general de la flota sin llamar a cada conductor.                            | 5           |
+| 23 | US51     | Filtro del tablero por estado operativo           | Como empresa, quiero filtrar el tablero por el estado de las unidades, para concentrarme en las que requieren atención.                                           | 3           |
+| 24 | US52     | Registro de la posición de la unidad              | Como sistema, debo registrar la posición que reporta cada unidad en servicio, para que su ubicación pueda consultarse en cualquier momento.                       | 5           |
+| 25 | US43     | Seguimiento de la unidad asignada                 | Como empresa, quiero consultar la última posición registrada de una unidad, para saber dónde está cuando necesito ubicarla.                                       | 3           |
+| 26 | US16     | Revisión del historial de emergencias             | Como empresa, quiero repasar las alertas ocurridas en mi flota, para detectar dónde y cuándo se concentran los incidentes.                                        | 5           |
+| 27 | US06     | Conteo automático de ocupantes                    | Como sistema, debo sumar al conteo a las personas que suben a la unidad, para poder dimensionar el riesgo cuando ocurra una emergencia.                           | 5           |
+| 28 | US53     | Descuento de pasajeros que descienden             | Como sistema, debo descontar del conteo a quienes bajan de la unidad, para que la ocupación refleje solo a las personas que siguen a bordo.                       | 3           |
+| 29 | US07     | Disponibilidad del conteo para reportes           | Como sistema, debo poder informar cuántas personas viajan en la unidad, para acompañar los reportes de emergencia con ese dato.                                   | 2           |
+| 30 | US17     | Aviso por exceso de capacidad                     | Como sistema, debo advertir cuando la unidad lleva más personas de las que admite, para prevenir situaciones de conflicto a bordo.                                | 3           |
+| 31 | US28     | Seguimiento de la ocupación en operación          | Como empresa, quiero seguir cuán llenas van mis unidades, para anticipar riesgos asociados a la aglomeración.                                                     | 5           |
+| 32 | US34     | Medición del tiempo de respuesta                  | Como sistema, debo medir cuánto tarda la central en atender cada alerta, para que ese indicador quede disponible en el registro.                                  | 3           |
+| 33 | US39     | Control de operación simultánea                   | Como sistema, debo impedir que un mismo conductor figure operando dos unidades a la vez, para cerrar la puerta al uso indebido de credenciales.                   | 5           |
+| 34 | TS07     | Servicio de autenticación de peticiones           | Como developer, quiero que las peticiones al sistema exijan credenciales, para que nadie acceda a más de lo que le corresponde.                                   | 5           |
+| 35 | TS13     | Servicio de verificación de permisos              | Como developer, quiero comprobar los permisos antes de ejecutar una operación, para no intentar acciones que serán rechazadas.                                    | 3           |
+| 36 | TS01     | Servicio de validación de conductores             | Como developer, quiero comprobar la identidad de un conductor por API, para no depender de la interfaz cuando necesito ese dato.                                  | 3           |
+| 37 | TS02     | Servicio de apertura de servicio                  | Como developer, quiero abrir un servicio por API, para montar escenarios de prueba sin usar la aplicación del conductor.                                          | 3           |
+| 38 | TS08     | Servicio de cierre de servicio                    | Como developer, quiero cerrar un servicio por API, para completar su ciclo de vida durante las pruebas.                                                           | 2           |
+| 39 | TS03     | Servicio de emisión de alertas                    | Como developer, quiero emitir alertas por API, para probar el circuito de emergencia de punta a punta.                                                            | 3           |
+| 40 | TS04     | Servicio de actualización del conteo              | Como developer, quiero fijar el número de pasajeros por API, para armar pruebas que dependan de la ocupación de la unidad.                                        | 2           |
+| 41 | TS06     | Servicio de consulta del estado de la unidad      | Como developer, quiero conocer el estado actual de una unidad por API, para no trabajar a ciegas sobre su situación.                                              | 3           |
+| 42 | TS09     | Servicio de consulta de ocupación                 | Como developer, quiero obtener la ocupación de una unidad por API, para conocer cuántos pasajeros lleva en ese momento.                                           | 2           |
+| 43 | TS05     | Servicio de consulta del historial                | Como developer, quiero recuperar los eventos registrados por API, para extraer información sin entrar a la interfaz.                                              | 3           |
+| 44 | TS10     | Servicio de actualización de conductores          | Como developer, quiero modificar los datos de un conductor por API, para mantener la información al día sin intervención manual.                                  | 3           |
+| 45 | TS11     | Servicio de baja lógica de registros              | Como developer, quiero desactivar registros sin borrarlos, para no perder el rastro de lo que existió.                                                            | 3           |
+| 46 | TS12     | Servicio de métricas del sistema                  | Como developer, quiero obtener métricas agregadas del sistema, para tener una lectura general de lo que se está registrando.                                      | 5           |
+| 47 | US18     | Estadísticas de impacto en la landing page        | Como visitante, quiero ver cifras sobre el problema y los resultados de la solución, para valorar si vale la pena.                                                | 3           |
+| 48 | US29     | Segmento al que apunta la solución                | Como visitante, quiero saber a qué tipo de usuario está dirigido SecurityBus, para reconocer si soy parte de ese público.                                         | 2           |
+| 49 | US30     | Misión y visión de la startup                     | Como visitante, quiero conocer hacia dónde va la startup, para entender qué la mueve más allá del producto.                                                       | 2           |
+| 50 | US46     | Equipo detrás de la solución                      | Como visitante, quiero saber quiénes desarrollan SecurityBus, para poder identificar a los responsables y contactarlos.                                           | 2           |
+| 51 | US35     | Promedio de pasajeros por viaje                   | Como empresa, quiero conocer el promedio de pasajeros por viaje, para contar con una referencia de la demanda habitual.                                           | 3           |
+| 52 | US44     | Comparación de ocupación entre viajes             | Como empresa, quiero contrastar la ocupación de distintas unidades y rutas, para ver dónde se concentra la demanda.                                               | 5           |
+| 53 | US54     | Línea base de ocupación por unidad                | Como sistema, debo establecer el comportamiento habitual de ocupación de cada unidad, para contar con una referencia contra la cual comparar las lecturas nuevas. | 5           |
+| 54 | US36     | Detección de variaciones anómalas de ocupación    | Como sistema, debo señalar los cambios de ocupación que se apartan de la línea base de la unidad, para que la empresa revise qué ocurrió en ella.                 | 3           |
+
 
 ---
 
@@ -1367,10 +1447,10 @@ La identidad visual de SecurityBus busca representar una plataforma tecnológica
 
 La aplicación busca transmitir las siguientes características:
 
-- Segura
-- Precisa
-- Moderna
-- Siempre activa
++ Segura
++ Precisa
++ Moderna
++ Siempre activa
 
 El tono de comunicación es serio, formal, respetuoso y sereno, debido al contexto de seguridad en el que se utiliza la plataforma. Por ello, se priorizan mensajes directos y claros, evitando expresiones informales o ambiguas.
 
@@ -1378,60 +1458,58 @@ El tono de comunicación es serio, formal, respetuoso y sereno, debido al contex
 
 La paleta de colores de SecurityBus utiliza principalmente tonos oscuros, acompañados de un verde neón como color principal de acento y rojo para situaciones críticas. Esta combinación busca reforzar la identidad tecnológica del producto y facilitar la identificación de acciones y alertas dentro de la interfaz.
 
-| Color            | Hex     | Significado y justificación                                                                                                                                         | Uso en la interfaz                                  | Imagen                                                              |
-| ---------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------- |
-| Negro            | -       | Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. | Fondo principal y diferentes áreas de la interfaz.  | ![Color Negro](/docs/assets/colors/negro.jpg)                       |
-| Verde neón       | #C3F400 | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Botones principales, indicadores y títulos.         | ![Color Verde Neón](/docs/assets/colors/verde-neon.jpg)             |
-| Verde secundario | #596D0B | Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación.                                     | Elementos secundarios y variaciones de componentes. | ![Color Verde Secundario](/docs/assets/colors/verde-secundario.jpg) |
-| Rojo             | -       | Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata.                                                         | Alertas y elementos críticos.                       | ![Color Rojo](/docs/assets/colors/rojo.jpg)                         |
+|Color|Hex|Significado y justificación| Uso en la interfaz|Imagen|
+|-----|---|---------------------------|-------------------|------|
+|Negro| - |Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. |Fondo principal y diferentes áreas de la interfaz. | ![Color Negro](docs/assets/colors/negro.jpg)|
+|Verde neón| #C3F400 |Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Botones principales, indicadores y títulos.|![Color Verde Neón](docs/assets/colors/verde-neon.jpg)|
+|Verde secundario| #596D0B|Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Elementos secundarios y variaciones de componentes.|![Color Verde Secundario](docs/assets/colors/verde-secundario.jpg)|
+|Rojo| - |Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata. | Alertas y elementos críticos.|![Color Rojo](docs/assets/colors/rojo.jpg)|
 
 **Tipografía**
 
 Para la interfaz se utilizan las familias tipográficas Space Grotesk e Inter, seleccionadas por su legibilidad y adaptación a entornos digitales.
 
-- Títulos: Space Grotesk Bold, 96 px.
-- Subtítulos: Space Grotesk Bold, entre 48 y 60 px.
-- Párrafos: Inter Light/Bold, entre 12 y 24 px.
++ Títulos: Space Grotesk Bold, 96 px.
++ Subtítulos: Space Grotesk Bold, entre 48 y 60 px.
++ Párrafos: Inter Light/Bold, entre 12 y 24 px.
 
 Esta combinación permite establecer una jerarquía visual clara entre títulos, subtítulos y contenido informativo.
 
-![Tipografia](/docs/assets/style-guidelines/Type.png)
+![Tipografia](docs/assets/style-guidelines/Type.png)
 
 **Spacing y Layout**
 
 El diseño utiliza un sistema de espaciado consistente para mantener una distribución ordenada de los elementos. Las medidas empleadas para padding y spacing siguen múltiplos de 2 px.
 
-- Base unit: múltiplos de 2 px para padding y spacing.
-- Grid: márgenes de 24 px para mantener una distribución equilibrada.
-- Breakpoints: se considera un ancho de 1440 px y un alto de 1024 px como referencia para la versión web.
++ Base unit: múltiplos de 2 px para padding y spacing.
++ Grid: márgenes de 24 px para mantener una distribución equilibrada.
++ Breakpoints: se considera un ancho de 1440 px y un alto de 1024 px como referencia para la versión web.
 
-![spacing y layout](/docs/assets/style-guidelines/spacing.png)
+![spacing y layout](docs/assets/style-guidelines/spacing.png)
 
 **Componentes visuales**
 
 Los principales componentes de la interfaz siguen criterios visuales consistentes:
 
-- Botones: verde para acciones principales, rojo para acciones críticas y gris para acciones secundarias.
++ Botones: verde para acciones principales, rojo para acciones críticas y gris para acciones secundarias.
 
-![botones](/docs/assets/style-guidelines/button.png)
+![botones](docs/assets/style-guidelines/button.png)
++ Cards: utilizadas para organizar información relacionada dentro de contenedores diferenciados.
 
-- Cards: utilizadas para organizar información relacionada dentro de contenedores diferenciados.
+![botones](docs/assets/style-guidelines/cuadros.png)
++ Iconografía: se emplea un estilo simple y fácilmente reconocible para facilitar la identificación de acciones y funcionalidades.
 
-![botones](/docs/assets/style-guidelines/cuadros.png)
-
-- Iconografía: se emplea un estilo simple y fácilmente reconocible para facilitar la identificación de acciones y funcionalidades.
-
-![botones](/docs/assets/style-guidelines/icons.png)
+![botones](docs/assets/style-guidelines/icons.png)
 
 **Principios de diseño**
 
 Las decisiones de diseño de SecurityBus se basan en los siguientes principios:
 
-- **Claridad**: presentar la información de forma comprensible.
-- **Jerarquía visual**: destacar los elementos de mayor importancia.
-- **Consistencia:** mantener uniformidad en colores, tipografías y componentes.
-- **Accesibilidad**: asegurar una adecuada legibilidad y contraste.
-- **Feedback inmediato**: proporcionar una respuesta visual ante las acciones realizadas por el usuario.
++ **Claridad**: presentar la información de forma comprensible.
++ **Jerarquía visual**: destacar los elementos de mayor importancia.
++ **Consistencia:** mantener uniformidad en colores, tipografías y componentes.
++ **Accesibilidad**: asegurar una adecuada legibilidad y contraste.
++ **Feedback inmediato**: proporcionar una respuesta visual ante las acciones realizadas por el usuario.
 
 #### 4.1.2. Web Style Guidelines
 
@@ -1444,7 +1522,6 @@ Asimismo, se utilizan componentes como cards, botones, indicadores y elementos d
 Los botones y enlaces mantienen una apariencia consistente y proporcionan retroalimentación visual durante la interacción. De esta manera, el usuario puede identificar fácilmente las acciones disponibles y comprender el resultado de sus interacciones con el sistema.
 
 ### 4.2. Information Architecture
-
 La arquitectura de información de SecurityBus define cómo se distribuyen, agrupan y presentan los contenidos de la plataforma para facilitar el acceso a las funciones principales. Su diseño considera las necesidades de los dos segmentos identificados: los conductores de transporte público y las empresas o consorcios responsables de supervisar sus unidades.
 
 La estructura busca que cada usuario pueda encontrar la información y las acciones que necesita sin realizar recorridos innecesarios. Para ello, se consideran diferentes mecanismos de organización, etiquetado, búsqueda y navegación que mantienen una relación coherente entre la Landing Page y la aplicación web.
@@ -1468,24 +1545,24 @@ La organización de la información se establece de acuerdo con el tipo de conte
 El sistema de etiquetado utiliza nombres breves y fáciles de identificar para que los usuarios reconozcan rápidamente el propósito de cada sección y acción. Se mantiene principalmente el inglés en los elementos de interfaz, conforme a la implementación de la plataforma.
 
 - **Etiquetas de navegación:**
-  - Home: acceso a la página principal.
-  - Features: muestra las principales funcionalidades de SecurityBus.
-  - Statistics: presenta indicadores y datos relacionados con la supervisión de la operación.
-  - Plans: permite consultar los planes de suscripción disponibles para empresas y consorcios.
-  - Contact: proporciona un medio de comunicación con el equipo de SecurityBus.
-  - Login: permite acceder a la aplicación web.
+    - Home: acceso a la página principal.
+    - Features: muestra las principales funcionalidades de SecurityBus.
+    - Statistics: presenta indicadores y datos relacionados con la supervisión de la operación.
+    - Plans: permite consultar los planes de suscripción disponibles para empresas y consorcios.
+    - Contact: proporciona un medio de comunicación con el equipo de SecurityBus.
+    - Login: permite acceder a la aplicación web.
 - **Etiquetas de acción:**
-  - Get Started: inicia el proceso para comenzar a utilizar SecurityBus.
-  - Choose Plan: permite seleccionar un plan de suscripción.
-  - Report Incident: permite registrar o reportar un incidente.
-  - View Details: permite consultar información detallada.
+    - Get Started: inicia el proceso para comenzar a utilizar SecurityBus.
+    - Choose Plan: permite seleccionar un plan de suscripción.
+    - Report Incident: permite registrar o reportar un incidente.
+    - View Details: permite consultar información detallada.
     Contact Us: dirige al usuario hacia los medios de contacto.
 - **Etiquetas relacionadas con seguridad y operación:**
-  - GPS Monitoring: supervisión de la ubicación de las unidades.
-  - Panic Button: mecanismo para generar una alerta de emergencia.
-  - Incident Log: registro de incidentes reportados.
-  - Emergency Alerts: visualización de alertas generadas ante situaciones de emergencia.
-  - Route History: consulta del historial de recorridos.
+    - GPS Monitoring: supervisión de la ubicación de las unidades.
+    - Panic Button: mecanismo para generar una alerta de emergencia.
+    - Incident Log: registro de incidentes reportados.
+    - Emergency Alerts: visualización de alertas generadas ante situaciones de emergencia.
+    - Route History: consulta del historial de recorridos.
 
 Estas etiquetas buscan mantener una relación directa entre el nombre de cada elemento y la acción o información que representa, reduciendo posibles confusiones durante la navegación.
 
@@ -1496,39 +1573,33 @@ Para SecurityBus se consideran etiquetas SEO y metadatos que permiten identifica
 - Título de página, que incorpora el nombre del producto y una descripción breve de su finalidad:
 
 ```html
-<title>SecurityBus - Public Transport Security</title>
+<title> SecurityBus - Public Transport Security </title>
 ```
 
 - Codificación de caracteres, para representar correctamente el contenido de la plataforma:
 
 ```html
-<meta charset="UTF-8" />
+<meta charset = "UTF-8">
 ```
 
 - Configuración responsive, que permite adaptar la visualización a distintos tamaños de pantalla:
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
 - Descripción SEO, que resume la propuesta principal utilizando términos relacionados con seguridad, monitoreo y transporte público:
 
 ```html
-<meta
-  name="description"
-  content="SecurityBus provides security and monitoring solutions for public transport companies, with GPS monitoring, emergency alerts and incident management."
-/>
+<meta name="description" content="SecurityBus provides security and monitoring solutions for public transport companies, with GPS monitoring, emergency alerts and incident management.">
 ```
 
 - Open Graph, que controla la información mostrada al compartir la Landing Page en redes sociales o servicios de mensajería:
 
 ```html
-<meta property="og:title" content="SecurityBus - Public Transport Security" />
-<meta
-  property="og:description"
-  content="Improve public transport security with GPS monitoring, emergency alerts and incident management."
-/>
-<meta property="og:type" content="website" />
+<meta property="og:title" content="SecurityBus - Public Transport Security">
+<meta property="og:description" content="Improve public transport security with GPS monitoring, emergency alerts and incident management.">
+<meta property="og:type" content="website">
 ```
 
 - Favicon: se utiliza el ícono asociado a la identidad visual de SecurityBus para facilitar el reconocimiento de la página en las pestañas del navegador.
@@ -1569,47 +1640,47 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 1. Hero
 
-![hero](/docs/assets/landing-page-wireframe/01_hero_inicio.png)
+![hero](docs/assets/landing-page-wireframe/01_hero_inicio.png)
 
-2. Metrics
+2. Metrics 
 
-![hero](/docs/assets/landing-page-wireframe/02_metricas.png)
+![hero](docs/assets/landing-page-wireframe/02_metricas.png)
 
-3. Features
+3. Features 
 
-![hero](/docs/assets/landing-page-wireframe/03_caracteristicas.png)
+![hero](docs/assets/landing-page-wireframe/03_caracteristicas.png)
 
-4. How SecurityBus Works
+4. How SecurityBus Works 
 
-![hero](/docs/assets/landing-page-wireframe/04_como_funciona.png)
+![hero](docs/assets/landing-page-wireframe/04_como_funciona.png)
 
-5. Plan for Consortia
+5. Plan for Consortia 
 
-![hero](/docs/assets/landing-page-wireframe/05_planes_consorcios.png)
+![hero](docs/assets/landing-page-wireframe/05_planes_consorcios.png)
 
-6. SecurityBus Statistics
+6. SecurityBus Statistics 
 
-![hero](/docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
+![hero](docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
 
-7. Elite Protection CTA
+7. Elite Protection CTA 
 
-![hero](/docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
+![hero](docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
 
-8. About The Team
+8. About The Team 
 
-![hero](/docs/assets/landing-page-wireframe/08_about_the_team.png)
+![hero](docs/assets/landing-page-wireframe/08_about_the_team.png)
 
-9. Product Gallery
+9. Product Gallery 
 
-![hero](/docs/assets/landing-page-wireframe/09_product_gallery.png)
+![hero](docs/assets/landing-page-wireframe/09_product_gallery.png)
 
-10. Footer
+10. Footer 
 
-![hero](/docs/assets/landing-page-wireframe/10_footer.png)
+![hero](docs/assets/landing-page-wireframe/10_footer.png)
 
 - Mobile Web Browser
 
-![Mobile Web Browser](/docs/assets/landing-page-wireframe/Landing-page-wireframe-mobile.png)
+![Mobile Web Browser](docs/assets/landing-page-wireframe/Landing-page-wireframe-mobile.png)
 
 #### 4.3.2. Landing Page Mock-up
 
@@ -1617,47 +1688,47 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 1. Hero
 
-![hero](/docs/assets/landing-page-mockup/01_hero.png)
+![hero](docs/assets/landing-page-mockup/01_hero.png)
 
-2. Metrics
+2. Metrics 
 
-![hero](/docs/assets/landing-page-mockup/02_metrics.png)
+![hero](docs/assets/landing-page-mockup/02_metrics.png)
 
-3. Features
+3. Features 
 
-![hero](/docs/assets/landing-page-mockup/03_features.png)
+![hero](docs/assets/landing-page-mockup/03_features.png)
 
-4. How SecurityBus Works
+4. How SecurityBus Works 
 
-![hero](/docs/assets/landing-page-mockup/04_how_securitybus_works.png)
+![hero](docs/assets/landing-page-mockup/04_how_securitybus_works.png)
 
-5. Plan for Consortia
+5. Plan for Consortia 
 
-![hero](/docs/assets/landing-page-mockup/05_plans_for_consortia.png)
+![hero](docs/assets/landing-page-mockup/05_plans_for_consortia.png)
 
-6. SecurityBus Statistics
+6. SecurityBus Statistics 
 
-![hero](/docs/assets/landing-page-mockup/06_securitybus_statistics.png)
+![hero](docs/assets/landing-page-mockup/06_securitybus_statistics.png)
 
-7. Elite Protection CTA
+7. Elite Protection CTA 
 
-![hero](/docs/assets/landing-page-mockup/07_elite_protection_cta.png)
+![hero](docs/assets/landing-page-mockup/07_elite_protection_cta.png)
 
-8. About The Team
+8. About The Team 
 
-![hero](/docs/assets/landing-page-mockup/08_about_the_team.png)
+![hero](docs/assets/landing-page-mockup/08_about_the_team.png)
 
-9. Product Gallery
+9. Product Gallery 
 
-![hero](/docs/assets/landing-page-mockup/09_product_gallery.png)
+![hero](docs/assets/landing-page-mockup/09_product_gallery.png)
 
-10. Footer
+10. Footer 
 
-![hero](/docs/assets/landing-page-mockup/10_footer.png)
+![hero](docs/assets/landing-page-mockup/10_footer.png)
 
 - Mobile Web Browser
 
-![Mobile Web Browser](/docs/assets/landing-page-mockup/Mockup-landing-page-mobile.png)
+![Mobile Web Browser](docs/assets/landing-page-mockup/Mockup-landing-page-mobile.png)
 
 ### 4.4. Web Applications UX/UI Design
 
@@ -1667,9 +1738,9 @@ En esta sección se presentan los wireframes elaborados para la plataforma Secur
 
 El desarrollo de los wireframes contempla las principales interacciones de los usuarios con la plataforma, considerando de manera diferenciada las necesidades y objetivos correspondientes a los perfiles de consorcio o empresas de transporte público y conductores de trasnporte público. De esta manera, se establece una estructura que facilita la navegación y permite validar la organización de las funcionalidades del sistema.
 
-![Web applications wireframes](/docs/assets/web-applications-ux-ui-design/wireframes/web-application-wireframes.png)
+![Web applications wireframes](docs/assets/web-applications-ux-ui-design/wireframes/web-application-wireframes.png)
 
-Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0 'Web Applications Wireframes')
+Trabajo elaborado en Figma: [https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0 'Web Applications Wireframes')
 
 **1. Acceso y autenticación del conductor**
 
@@ -1794,14 +1865,14 @@ User Goal 2: Como conductor, deseo registrar el inicio del servicio, para dejar 
 User Persona: Conductor
 Desde Inicio de Servicio, el conductor selecciona el vehículo y el turno (mañana/tarde/noche) y confirma "Iniciar Servicio". El sistema lo redirige al Panel principal (Inicio), donde ve distancia, tiempo, pasajeros y la ruta operada en tiempo real.
 
-![User Goal 2](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2a_inicio_servicio.png)
+![User Goal 2](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2a_inicio_servicio.png)
 
 User Goal 3: Como sistema, deseo contabilizar los pasajeros a bordo y alertar cuando se supera la capacidad del vehículo, para evitar altercados y estimar el riesgo.
 
 User Persona: Conductor
 Desde el panel de Conteo de Pasajeros, el conductor registra abordajes (+) y bajadas (−). Si el conteo (62/60) supera la capacidad máxima, el sistema dispara el modal "Has alcanzado el límite de pasajeros", que el conductor reconoce con "OK". Desde el mismo panel puede acceder a Ver Mapa para visualizar la ubicación de la unidad y su ruta.
 
-![User Goal 3](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2b_conteo_pasajeros.png)
+![User Goal 3](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2b_conteo_pasajeros.png)
 
 Secuencia: Inicio de Servicio → Panel principal (Inicio) → Conteo de Pasajeros → Alerta de límite de pasajeros → Ver Mapa
 
@@ -1820,7 +1891,7 @@ User Goal 4: Como conductor, deseo enviar una alerta de emergencia, para notific
 User Persona: Conductor / Central de Operaciones
 Al presionar "Panic Signal", el conductor ve el modal "¡Alerta enviada!" con coordenadas GPS, estado de notificación a central y audio remoto activo, pudiendo cancelar en 5 segundos. La central, en su mapa de operaciones, recibe el pin "SOS" con el popup "Alerta crítica – Unidad" y accede a "Ver detalles". Finalmente, el sistema de central confirma la alerta mediante los pasos "Alert Sent → Alert Received → Confirmed".
 
-![User goal 4](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf3_alerta_emergencia.png)
+![User goal 4](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf3_alerta_emergencia.png)
 
 Secuencia: Envío de Alerta → Ubicación de Envío de Alerta (vista central) → Confirmación de Alerta (central)
 
@@ -1832,13 +1903,13 @@ Pasos del Task Flow:
 1. Consultar el resumen del turno (distancia, tiempo, pasajeros, recaudación).
 2. Completar el protocolo de cierre (checklist).
 3. Confirmar la finalización del servicio.
-   Visualizar la confirmación de cierre exitoso.
+Visualizar la confirmación de cierre exitoso.
 
 User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evidencia registrada, para garantizar la trazabilidad del servicio.
 User Persona: Conductor
 Al terminar la ruta, el panel muestra el Resumen de Servicio con los totales del turno y el checklist de protocolo de cierre. Al presionar "Finalizar Servicio" (acción irreversible), el sistema muestra el modal "Servicio finalizado correctamente", con opciones "Ver reporte" o "Salir".
 
-![User Goal 5](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf4_cierre_turno.png)
+![User Goal 5](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf4_cierre_turno.png)
 
 Secuencia: Resumen de Servicio → Finalizar Turno (confirmación)
 
@@ -1855,7 +1926,7 @@ User Goal 6: Como empresa, deseo conocer el estado de mis vehículos en operaci�
 User Persona: Administrador / Central de Operaciones
 Desde el Centro de Control, el administrador visualiza las unidades activas sobre el mapa de Lima. Cuando ocurre una emergencia, el mismo mapa resalta "Alerts: 1 Active". Desde Notificaciones, el administrador gestiona los destinatarios activos y simula el envío de alertas según prioridad (baja/media/urgente).
 
-![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf5_supervision_alertas_admin.png)
+![User Goal 6](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf5_supervision_alertas_admin.png)
 
 Secuencia: Centro de Control → Centro de Control con Alerta → Notificaciones
 
@@ -1873,7 +1944,7 @@ User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegu
 User Persona: Administrador
 Desde Gestión de Conductores, el administrador revisa el listado y accede al detalle de un conductor (licencia, puntos, calificación, historial de autorizaciones). Desde Asignación de Unidades, selecciona un conductor disponible y un vehículo disponible, y confirma con "Confirmar Asignación", quedando reflejado en la tabla de asignaciones vigentes.
 
-![User Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf6_gestion_conductores_unidades.png)
+![User Goal 7](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf6_gestion_conductores_unidades.png)
 
 Secuencia: Gestión de Conductores → Asignación de Unidades
 
@@ -1890,7 +1961,7 @@ Pasos del Task Flow:
 User Persona: Administrador
 Desde Historial de Turnos, el administrador filtra por rango de fecha y ruta, revisando el log de operaciones, pasajeros transportados e incidentes de cada turno. Desde Impacto en Números consulta métricas globales (conductores verificados, alertas gestionadas, pasajeros protegidos). Desde Gestión de Reenvíos, monitorea alertas pendientes/críticas y reenvía las que no fueron confirmadas.
 
-![User Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf7_trazabilidad_reportes_admin.png)
+![User Goal 8](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf7_trazabilidad_reportes_admin.png)
 
 Secuencia: Historial de Turnos → Impacto en Números → Gestión de Reenvíos
 
@@ -1902,7 +1973,7 @@ Los mockups fueron elaborados considerando los principales perfiles de usuario d
 
 ![Web Application Mockups](docs/assets/web-applications-ux-ui-design/mockups/web-application-mockup.png)
 
-Trabajo elaborado en Figma: [Web Application Mockups](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=0-1&p=f&t=rfW5UFtjZ6xjUzo9-0 'Web Application Mockups')
+Trabajo elaborado en Figma: [https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=0-1&p=f&t=rfW5UFtjZ6xjUzo9-0](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=0-1&p=f&t=rfW5UFtjZ6xjUzo9-0 'Web Application Mockups')
 
 **1. Acceso y autenticación del conductor**
 
@@ -1984,52 +2055,52 @@ Trabajo elaborado en Figma: [Web Application Mockups](https://www.figma.com/desi
 Relacionado al User Goal 1: Como conductor, quiero validar mi identidad mediante código QR antes de iniciar mi turno, para asegurar la trazabilidad del servicio.
 El conductor accede a la pantalla de Acceso Conductor, escanea su credencial digital o ingresa su código de empleado. El sistema muestra la pantalla de Validación de Identidad con el escaneo del QR; una vez validado, se presenta la confirmación de acceso autorizado con la transmisión activa hacia central, habilitando el turno.
 
-![Goal 1](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal1_autenticacion.png)
+![Goal 1](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal1_autenticacion.png)
 
 Relacionado al User Goal 2: Como conductor, quiero configurar e iniciar mi servicio, para dejar registro del recorrido que voy a realizar.
 Desde Inicio de Servicio, el conductor selecciona el vehículo y el turno de trabajo y confirma "Iniciar Servicio". El sistema lo redirige al Panel Principal (Dashboard), donde visualiza distancia, tiempo, pasajeros y la ruta operada en tiempo real.
 
-![Goal 2](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal2_inicio_servicio.png)
+![Goal 2](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal2_inicio_servicio.png)
 
 **User Flow 2: Monitoreo de pasajeros y atención de emergencias**
 
 Relacionado al User Goal 3: Como sistema, deseo contabilizar los pasajeros a bordo y alertar cuando se supera la capacidad del vehículo, para evitar altercados y estimar el riesgo.
 Desde el panel de Conteo de Pasajeros, el conductor registra abordajes y bajadas. Si el conteo supera la capacidad máxima, el sistema dispara la alerta "Has alcanzado el límite de pasajeros". Desde el mismo panel puede acceder a Ver Mapa para visualizar la ubicación de la unidad en ruta.
 
-![Goal 3](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal3_conteo_pasajeros.png)
+![Goal 3](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal3_conteo_pasajeros.png)
 
 Relacionado al User Goal 4: Como conductor, deseo enviar una alerta de emergencia, para notificar una situación de riesgo; como sistema, deseo notificar a la central de operaciones, para gestionar la emergencia.
 Al presionar el botón de pánico, el conductor ve la confirmación "¡Alerta enviada!" con coordenadas GPS y estado de notificación a central. La central, en su mapa de operaciones, recibe el pin "SOS" con los detalles de la unidad y confirma la alerta mediante el protocolo "Alert Sent → Alert Received → Confirmed".
 
-![Goal 4](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal4_alerta_emergencia.png)
+![Goal 4](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal4_alerta_emergencia.png)
 
 **User Flow 3: Cierre de turno del conductor**
 
 Relacionado al User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evidencia registrada, para garantizar la trazabilidad del servicio.
 Al terminar la ruta, el panel muestra el Resumen de Servicio con los totales del turno y el checklist de protocolo de cierre. Al presionar "Finalizar Servicio", el sistema muestra la confirmación "Servicio finalizado correctamente".
 
-![Goal 5](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf3_goal5_cierre_turno.png)
+![Goal 5](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf3_goal5_cierre_turno.png)
 
 **User Flow 4: Supervisión y atención de alertas (Administrador)**
 
 Relacionado al User Goal 6: Como empresa, deseo conocer el estado de mis vehículos en operación y clasificar las alertas según su gravedad, para tener control operativo.
 Desde el Centro de Control, el administrador visualiza las unidades activas sobre el mapa de Lima. Cuando ocurre una emergencia, el mapa resalta la unidad en alerta. Desde Notificaciones, gestiona los destinatarios activos y simula el envío de alertas según prioridad.
 
-![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf4_goal6_supervision_admin.png)
+![User Goal 6](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf4_goal6_supervision_admin.png)
 
 **User Flow 5: Gestión de conductores y unidades (Administrador)**
 
 Relacionado al User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegurar la trazabilidad.
 Desde Gestión de Conductores, el administrador revisa el listado y el detalle de cada conductor. Desde Asignación de Unidades, selecciona un conductor y un vehículo disponibles y confirma la asociación, reflejada en la tabla de asignaciones vigentes.
 
-![Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
+![Goal 7](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
 
 **User Flow 6: Trazabilidad y reportes operativos (Administrador)**
 
 Relacionado al User Goal 8: Como empresa, deseo conocer indicadores globales y el historial de turnos, para comparar la ocupación y el desempeño entre distintas rutas.
 Desde Historial de Turnos, el administrador filtra por fecha y ruta, revisando pasajeros e incidentes de cada turno. Desde Impacto en Números consulta métricas globales de la red. Desde Gestión de Reenvíos, monitorea y reenvía alertas no confirmadas.
 
-![Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf6_goal8_trazabilidad_reportes.png)
+![Goal 8](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf6_goal8_trazabilidad_reportes.png)
 
 ### 4.5. Web Applications Prototyping
 
@@ -2041,33 +2112,33 @@ Finalmente, el video muestra los principales flujos de interacción del prototip
 
 **<center>Web Applications Prototyping</center>**
 
-![Web Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/desktop.png)
+![Web Applications Prototyping](docs/assets/web-applications-ux-ui-design/web-applications-prototyping/desktop.png)
 
-URL del video: [Web applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true)
+URL del video: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true)
 
-**<center>Web Applications Prototyping</center>**
+**<center>Mobile Applications Prototyping</center>**
 
-![Mobile Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/mobile.png)
+![Mobile Applications Prototyping](docs/assets/web-applications-ux-ui-design/web-applications-prototyping/mobile.png)
 
-URL del video: [Mobile applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0)
+URL del video: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0)
 
 ### 4.6. Domain-Driven Software Architecture
 
-La arquitectura de software de **SecurityBus** se diseñó aplicando los principios de Domain-Driven Design (DDD). A partir de las cinco épicas definidas en la sección 3.1 se identificaron los _bounded contexts_ del sistema y se clasificaron según su valor estratégico para el negocio:
+La arquitectura de software de **SecurityBus** se diseñó aplicando los principios de Domain-Driven Design (DDD). A partir de las cinco épicas definidas en la sección 3.1 se identificaron los *bounded contexts* del sistema y se clasificaron según su valor estratégico para el negocio:
 
-| Bounded Context                    | Clasificación DDD      | Épica relacionada | Responsabilidad                                                                                                           |
-| :--------------------------------- | :--------------------- | :---------------- | :------------------------------------------------------------------------------------------------------------------------ |
-| Gestión de Alertas de Emergencia   | **Núcleo (Core)**      | EPNN02            | Emisión, clasificación, difusión, reintento, escalamiento y registro de cada alerta. Es la razón de ser de la plataforma. |
-| Gestión de Conductores y Servicios | Apoyo (Supporting)     | EPNN01            | Identificación del conductor, habilitación, vínculo con la unidad y ciclo de vida del servicio.                           |
-| Monitoreo de Pasajeros y Ocupación | Apoyo (Supporting)     | EPNN03            | Conteo de ocupantes, detección de sobrecapacidad y análisis de variaciones.                                               |
-| Landing Page informativa           | Genérico               | EPNN04            | Contenido público orientado a visitantes.                                                                                 |
-| Web Services / API                 | Genérico (habilitador) | EPNN05            | Punto de entrada técnico que expone y protege los recursos del sistema.                                                   |
+| Bounded Context                             | Clasificación DDD    | Épica relacionada | Responsabilidad                                                                                          |
+| :------------------------------------------- | :-------------------- | :----------------- | :--------------------------------------------------------------------------------------------------------- |
+| Gestión de Alertas de Emergencia             | **Núcleo (Core)**     | EPNN02              | Emisión, clasificación, difusión, reintento, escalamiento y registro de cada alerta. Es la razón de ser de la plataforma. |
+| Gestión de Conductores y Servicios           | Apoyo (Supporting)    | EPNN01              | Identificación del conductor, habilitación, vínculo con la unidad y ciclo de vida del servicio.            |
+| Monitoreo de Pasajeros y Ocupación           | Apoyo (Supporting)    | EPNN03              | Conteo de ocupantes, detección de sobrecapacidad y análisis de variaciones.                                |
+| Landing Page informativa                     | Genérico              | EPNN04              | Contenido público orientado a visitantes.                                                                  |
+| Web Services / API                           | Genérico (habilitador)| EPNN05              | Punto de entrada técnico que expone y protege los recursos del sistema.                                    |
 
 Esta clasificación guía las decisiones de las siguientes tres secciones: el EventStorming de diseño profundiza en los tres contextos con lógica de negocio propia, mientras que los diagramas C4 sitúan a la plataforma completa dentro de su ecosistema técnico.
 
 #### 4.6.1. Design-Level EventStorming
 
-El EventStorming de nivel de diseño toma los _hotspots_ identificados en el Big Picture EventStorming (sección 2.4) y los refina en comandos, agregados, eventos de dominio, políticas y modelos de lectura, siguiendo la notación de colores estándar. La Figura 4.1 muestra este refinamiento para los tres _bounded contexts_ con lógica de negocio propia:
+El EventStorming de nivel de diseño toma los *hotspots* identificados en el Big Picture EventStorming (sección 2.4) y los refina en comandos, agregados, eventos de dominio, políticas y modelos de lectura, siguiendo la notación de colores estándar. La Figura 4.1 muestra este refinamiento para los tres *bounded contexts* con lógica de negocio propia:
 
 <p align="center">
   <img src="docs/assets/chapter-4/eventstorming-design-level.svg" alt="Design-Level EventStorming de SecurityBus" width="100%">
@@ -2075,11 +2146,11 @@ El EventStorming de nivel de diseño toma los _hotspots_ identificados en el Big
 
 <p align="center"><em>Figura 4.1. Design-Level EventStorming — Gestión de Conductores y Servicios, Gestión de Alertas de Emergencia (dominio núcleo) y Monitoreo de Ocupación.</em></p>
 
-**Gestión de Conductores y Servicios.** El conductor se autentica con su código vigente (US01) sobre el agregado `Conductor`, lo que produce el evento `Conductor Autenticado`. Antes de aceptar el comando `Abrir Servicio` (US02) sobre el agregado `Servicio`, una política verifica que la habilitación esté vigente (US14) y bloquea cualquier intento de operación simultánea del mismo conductor en otra unidad (US39). El servicio permanece abierto hasta que el conductor emite `Cerrar Servicio` (US25); ambos estados alimentan el modelo de lectura _Tablero de Flota / Seguimiento_ que consulta la empresa (US26, US27, US43).
+**Gestión de Conductores y Servicios.** El conductor se autentica con su código vigente (US01) sobre el agregado `Conductor`, lo que produce el evento `Conductor Autenticado`. Antes de aceptar el comando `Abrir Servicio` (US02) sobre el agregado `Servicio`, una política verifica que la habilitación esté vigente (US14) y bloquea cualquier intento de operación simultánea del mismo conductor en otra unidad (US39). El servicio permanece abierto hasta que el conductor emite `Cerrar Servicio` (US25); ambos estados alimentan el modelo de lectura *Tablero de Flota / Seguimiento* que consulta la empresa (US26, US27, US43, US51, US52).
 
-**Gestión de Alertas de Emergencia (dominio núcleo).** El conductor emite la alerta (US03) sobre el agregado `Alerta`; si no existe un servicio en curso, la alerta se descarta en el mismo paso. Una vez emitida, el sistema la procesa, le asocia la ubicación (US04, US42) y la clasifica por gravedad (US40) antes de difundirla a los destinatarios configurados (US33), lo que involucra al sistema externo de notificaciones. La central debe acusar recepción (US23); dos políticas gobiernan lo que ocurre si no lo hace: una reenvía la alerta cuando se vence el plazo (US24) y otra la escala cuando los reintentos se agotan (US41). El tiempo de respuesta se mide (US34) y todo el recorrido queda disponible en el _Historial de Emergencias_ que consulta la empresa (US16).
+**Gestión de Alertas de Emergencia (dominio núcleo).** El conductor emite la alerta (US03) sobre el agregado `Alerta`; si no existe un servicio en curso, la alerta se descarta en el mismo paso. Una vez emitida, el sistema la procesa, le asocia la ubicación (US04, US42) y la clasifica por gravedad (US40) antes de difundirla a los destinatarios configurados (US33), lo que involucra al sistema externo de notificaciones. La central debe acusar recepción (US23); dos políticas gobiernan lo que ocurre si no lo hace: una reenvía la alerta cuando se vence el plazo (US24) y otra la escala cuando los reintentos se agotan (US41). El tiempo de respuesta se mide (US34) y todo el recorrido queda disponible en el *Historial de Emergencias* que consulta la empresa (US16).
 
-**Monitoreo de Pasajeros y Ocupación.** Los sensores IoT reportan el ingreso y salida de pasajeros, lo que actualiza el conteo del agregado `Ocupación` (US06). Una política evalúa si se superó la capacidad máxima configurada y, de ser así, dispara el evento `Sobrecapacidad Detectada` (US17). En paralelo, el sistema analiza la ocupación para calcular promedios, detectar variaciones anómalas y comparar unidades (US35, US36, US44), publicando los resultados en el _Reporte de Ocupación_ que consulta la empresa (US07, US28).
+**Monitoreo de Pasajeros y Ocupación.** Los sensores IoT reportan el ingreso y salida de pasajeros, lo que actualiza el conteo del agregado `Ocupación` (US06, US53). Una política evalúa si se superó la capacidad máxima configurada y, de ser así, dispara el evento `Sobrecapacidad Detectada` (US17). En paralelo, el sistema analiza la ocupación para calcular promedios, detectar variaciones anómalas y comparar unidades (US35, US36, US44, US54), publicando los resultados en el *Reporte de Ocupación* que consulta la empresa (US07, US28).
 
 #### 4.6.2. Software Architecture Context Diagram
 
@@ -2095,7 +2166,7 @@ Cuatro tipos de usuario interactúan con la plataforma: el **conductor**, que se
 
 #### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en sus unidades desplegables. Un API Gateway centraliza la autenticación y autorización de toda petición (US22, US50) y enruta el tráfico hacia cuatro microservicios, cada uno alineado a uno de los _bounded contexts_ de la sección 4.6:
+El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en sus unidades desplegables. Un API Gateway centraliza la autenticación y autorización de toda petición (TS07, TS13) y enruta el tráfico hacia cuatro microservicios, cada uno alineado a uno de los *bounded contexts* de la sección 4.6:
 
 <p align="center">
   <img src="docs/assets/chapter-4/container-diagram-c4-l2.svg" alt="Diagrama de Contenedores C4 Nivel 2 de SecurityBus" width="100%">
@@ -2103,9 +2174,10 @@ El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en su
 
 <p align="center"><em>Figura 4.3. Diagrama de Contenedores (C4 — Nivel 2) de la Plataforma SecurityBus.</em></p>
 
-Los tres clientes (la app móvil del conductor, el dashboard web de la empresa y la landing page) y el developer externo acceden siempre a través del API Gateway, nunca directamente a un microservicio. El **Servicio de Alertas de Emergencia**, alineado al dominio núcleo, se distingue de los demás por delegar sus reintentos y escalamientos (US24, US41) a una **Cola de Reintentos y Escalamiento**, que a su vez alimenta un **Despachador de Notificaciones** encargado de integrar con el servicio externo de SMS, push y correo. Los servicios de **Conductores y Servicios**, **Monitoreo de Ocupación** y **Contenido** siguen el mismo patrón: cada uno persiste su propio estado en una base de datos dedicada, evitando el acoplamiento entre _bounded contexts_ a nivel de datos.
+Los tres clientes (la app móvil del conductor, el dashboard web de la empresa y la landing page) y el developer externo acceden siempre a través del API Gateway, nunca directamente a un microservicio. El **Servicio de Alertas de Emergencia**, alineado al dominio núcleo, se distingue de los demás por delegar sus reintentos y escalamientos (US24, US41) a una **Cola de Reintentos y Escalamiento**, que a su vez alimenta un **Despachador de Notificaciones** encargado de integrar con el servicio externo de SMS, push y correo. Los servicios de **Conductores y Servicios**, **Monitoreo de Ocupación** y **Contenido** siguen el mismo patrón: cada uno persiste su propio estado en una base de datos dedicada, evitando el acoplamiento entre *bounded contexts* a nivel de datos.
 
 #### 4.6.4. Software Architecture Components Diagrams
+
 
 <center>
 <h4>Components Diagram — Authentication Service</h4>
@@ -2128,8 +2200,8 @@ Los tres clientes (la app móvil del conductor, el dashboard web de la empresa y
 
 ---
 
-### 4.7. Software Object-Oriented Design
 
+### 4.7. Software Object-Oriented Design
 #### 4.7.1 Class Diagrams
 
 La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Design (DDD) para garantizar una alta cohesión y un bajo acoplamiento. Con el objetivo de facilitar el análisis del dominio y asegurar la legibilidad técnica, la representación visual del backend se ha segmentado. A continuación, se presentan los diagramas de clases correspondientes a los 4 Bounded Contexts identificados, detallando sus respectivos Agregados, Entidades y Objetos de Valor (Value Objects).
@@ -2155,14 +2227,16 @@ La arquitectura del sistema se ha modelado bajo el enfoque de Domain-Driven Desi
 
 ### 4.8. Database Design
 
-Se adopta una estrategia de persistencia poliglota, con una base de datos independiente por Bounded Context (_database-per-service_), siguiendo el mismo límite que los Aggregates definidos en la sección 4.9. Authentication, User y Profile manejan datos estructurados de bajo volumen de escritura y se modelan como bases de datos **relacionales** (PostgreSQL). Monitoring recibe escritura de alta frecuencia (velocidad, pasajeros, ubicación) y necesita un esquema flexible para el historial de ubicación, por lo que se modela como base de datos **no relacional** orientada a documentos (MongoDB).
+Se adopta una estrategia de persistencia poliglota, con una base de datos independiente por Bounded Context (*database-per-service*), siguiendo el mismo límite que los Aggregates definidos en la sección 4.9. Authentication, User y Profile manejan datos estructurados de bajo volumen de escritura y se modelan como bases de datos **relacionales** (PostgreSQL). Monitoring recibe escritura de alta frecuencia (velocidad, pasajeros, ubicación) y necesita un esquema flexible para el historial de ubicación, por lo que se modela como base de datos **no relacional** orientada a documentos (MongoDB).
+
 
 #### 4.8.1. Database Diagrams
 
 ![DataBaseDiagram](docs/assets/diagramadatabase.png)
 
 LINK:
-https://www.plantuml.com/plantuml/uml/hLVXRjks4_-kfn3w_v3-XxfekcPT1moeOYkP2bloP3aOEWp2MJmxN2HIeoXtJTkds2FjnKP9L4qJYeesKJw4lj_TaR_Z7OzyNKaGiYvonpbnVxx7fyodKNWHNAvZRnhy-q_eNlgX7tlp-_fr92zToTqDbv8NBg42CqavSvpgXh8I11Jk1hARdU0r8rEUS-7-xzbvysTev9IXV5-YouMyvgOjCadbU_U3uwhlt7PqqNuTnWL1qK_GVgtyWZCvB5tHMtHFJvrFvdoU4FoTrd_flVAKlWKQ3lNqjaBl-vNfcE0MwbmsO0W5AbKAkQd0EC4AI_VxCqCeWDqqmXTdpWEaW1ycmSoR-QjxxxhUbaV-OXdxA--H2vMhntglldCfIR4e1LRW_kHUUV7q5oz-VFhi_oqycRJ_H9sPu6a72hZbBAruHY4_ijN6RPPbb3C3VDw34dFSSiPDmxCEmWBee4F89Dqt5kTHDFUzKEN4WQCgdDbwcaHno_BpBvDdnXcfCyd57Ko_70_2g27ziHCoNcm43Ywun3odX0zXESsGPHJCuFIneILF1t0Tdorcrv3k6xIWYdxZVkObVWjcdD0TJ_yIfj-pi-406ku4xcWbHGCcmS9V9TvYUHJVU9rq2TGCpAYAMjwHEkF1uOBka0qc3bQICZu8gKL24vRqfcXe-zDWuSqV__3aUHywB5Jm6WS549uMj9aX21F_qe-_d4JdwrNBKVqtAMxgwfjJfimX6v8Nd63EpTtj0H0P3CY1KMvnoQ24Z18WQG5_VmtFP1s7KSkq7PbSPIqO7sKxKaZZ0Hj95vs5bD6C7kMW0Mufin4NAmbjVVdXUl7uPEc7iy1NKJXvSk9Da-0gKeEB8FJcmLjl5ftepDjKAFRG74rODIxztvAZy5pvSN0HJ5KFZiBqr-v4iMHcoFOew9PchSDxH6ua-98M3TEYj0FGrpjM6J04meVANc1LvnA8NVcqJ0cjIbvHbIgcvGjjI9b49dbbf9OP9c_kn_fGw8PcK2178M4y72DyIzx7QXWszjmBWscppwfZNWNDuCgVHzEcXQhnqbjvR_muMkczPtIFUIeeLhk3YtFlJMEty6UjlJTFcd_JE4YKPssOWo9TayEXerRpvAN6EDiDWwDxHx3A12tRjD5Ps6yNvXBkEAShdjUDYUdExeI97wKzy-v4iuLMNvGuNlCZ9JsoYrn2diA62mA2MmUnHZVmfuLPbjo21i9fyLz4OQ0wls9xkUp87qbCvWLdL7BnyEJlaIygFtbtgDyKruR6IztZnXDgJtbAK69crVjHA_UNKPpuRMZq-AYXOyc5n2-4X9SeW7pLGMPNRX2gAjMdzIpmuhRuLlx2K-TrMuxXQgr6PeFO8KC1TlgFLHE8x9hkULgBt3uRZuf6hIFsvkaqKjFFkjveoOvAHja9oB_btfFHcW2n6xnn9KwnGB6pBt_wTZpUrwEb7tipVGVkVnZhjdRDMlWulM-_x8vSwNMUs5VWSPPUueTj6pORa2cpEf54DjwQHnlMIE2iUZHcid8JikwoaKfU087AJD2CSq4eusd9oWDXgt5RBwXF3_7EZFrvUvlnL-uoRcfnwSqVuD7PFp0_VfnC-8V3IqnnmABC4MmDTTbMMCahHCSvg6kqlQ0gN23az1QSvlbXOmItbA6Z7Da8L7J7WF01nzQ5JYbNc48jcopBm74w5rgvoogbqnr0nw3TMvMQVaw1kQOnDKFFwbPDrAX4SqPBvR0gfo_vNgy_tUrrswZ0BOecTvKF-zJJohthrbSbAMTALuT5gzWrg9PUjJL1A05hRKFQ8AdInGVExMYwdYTUazT-9Q5o5NyeGM26pDtJgeQyG2RngL9OKR5NKeM2omL11iB5t2KKTW8AU7hVTIdxYVhSfQ05gZcsD8TMOgRdvFThIjJSVmYwkvQJzhtTPRsDg9nnFlliYmg4e9lUQoSqB0b_noQ7cXnMq7CEOjQiNJuHLDSuRZEn3LjTYuc9ACU3m66s5UvgHi2zvQnds6eSp7BSoebTsbh9yjsbdSQiqDgrQZ1UWf3eKgOAXdBHolewiBqSbwbpzClMxOlnCD7RXYH1WTbrJrRhs4pwodBwmK6XBYVsDUPEAhhfsvJCgUoYFSnexO2jvpYlaP6woFy3
+[https://www.plantuml.com/plantuml/uml/hLVXRjks4_-kfn3w_v3-XxfekcPT1moeOYkP2bloP3aOEWp2MJmxN2HIeoXtJTkds2FjnKP9L4qJYeesKJw4lj_TaR_Z7OzyNKaGiYvonpbnVxx7fyodKNWHNAvZRnhy-q_eNlgX7tlp-_fr92zToTqDbv8NBg42CqavSvpgXh8I11Jk1hARdU0r8rEUS-7-xzbvysTev9IXV5-YouMyvgOjCadbU_U3uwhlt7PqqNuTnWL1qK_GVgtyWZCvB5tHMtHFJvrFvdoU4FoTrd_flVAKlWKQ3lNqjaBl-vNfcE0MwbmsO0W5AbKAkQd0EC4AI_VxCqCeWDqqmXTdpWEaW1ycmSoR-QjxxxhUbaV-OXdxA--H2vMhntglldCfIR4e1LRW_kHUUV7q5oz-VFhi_oqycRJ_H9sPu6a72hZbBAruHY4_ijN6RPPbb3C3VDw34dFSSiPDmxCEmWBee4F89Dqt5kTHDFUzKEN4WQCgdDbwcaHno_BpBvDdnXcfCyd57Ko_70_2g27ziHCoNcm43Ywun3odX0zXESsGPHJCuFIneILF1t0Tdorcrv3k6xIWYdxZVkObVWjcdD0TJ_yIfj-pi-406ku4xcWbHGCcmS9V9TvYUHJVU9rq2TGCpAYAMjwHEkF1uOBka0qc3bQICZu8gKL24vRqfcXe-zDWuSqV__3aUHywB5Jm6WS549uMj9aX21F_qe-_d4JdwrNBKVqtAMxgwfjJfimX6v8Nd63EpTtj0H0P3CY1KMvnoQ24Z18WQG5_VmtFP1s7KSkq7PbSPIqO7sKxKaZZ0Hj95vs5bD6C7kMW0Mufin4NAmbjVVdXUl7uPEc7iy1NKJXvSk9Da-0gKeEB8FJcmLjl5ftepDjKAFRG74rODIxztvAZy5pvSN0HJ5KFZiBqr-v4iMHcoFOew9PchSDxH6ua-98M3TEYj0FGrpjM6J04meVANc1LvnA8NVcqJ0cjIbvHbIgcvGjjI9b49dbbf9OP9c_kn_fGw8PcK2178M4y72DyIzx7QXWszjmBWscppwfZNWNDuCgVHzEcXQhnqbjvR_muMkczPtIFUIeeLhk3YtFlJMEty6UjlJTFcd_JE4YKPssOWo9TayEXerRpvAN6EDiDWwDxHx3A12tRjD5Ps6yNvXBkEAShdjUDYUdExeI97wKzy-v4iuLMNvGuNlCZ9JsoYrn2diA62mA2MmUnHZVmfuLPbjo21i9fyLz4OQ0wls9xkUp87qbCvWLdL7BnyEJlaIygFtbtgDyKruR6IztZnXDgJtbAK69crVjHA_UNKPpuRMZq-AYXOyc5n2-4X9SeW7pLGMPNRX2gAjMdzIpmuhRuLlx2K-TrMuxXQgr6PeFO8KC1TlgFLHE8x9hkULgBt3uRZuf6hIFsvkaqKjFFkjveoOvAHja9oB_btfFHcW2n6xnn9KwnGB6pBt_wTZpUrwEb7tipVGVkVnZhjdRDMlWulM-_x8vSwNMUs5VWSPPUueTj6pORa2cpEf54DjwQHnlMIE2iUZHcid8JikwoaKfU087AJD2CSq4eusd9oWDXgt5RBwXF3_7EZFrvUvlnL-uoRcfnwSqVuD7PFp0_VfnC-8V3IqnnmABC4MmDTTbMMCahHCSvg6kqlQ0gN23az1QSvlbXOmItbA6Z7Da8L7J7WF01nzQ5JYbNc48jcopBm74w5rgvoogbqnr0nw3TMvMQVaw1kQOnDKFFwbPDrAX4SqPBvR0gfo_vNgy_tUrrswZ0BOecTvKF-zJJohthrbSbAMTALuT5gzWrg9PUjJL1A05hRKFQ8AdInGVExMYwdYTUazT-9Q5o5NyeGM26pDtJgeQyG2RngL9OKR5NKeM2omL11iB5t2KKTW8AU7hVTIdxYVhSfQ05gZcsD8TMOgRdvFThIjJSVmYwkvQJzhtTPRsDg9nnFlliYmg4e9lUQoSqB0b_noQ7cXnMq7CEOjQiNJuHLDSuRZEn3LjTYuc9ACU3m66s5UvgHi2zvQnds6eSp7BSoebTsbh9yjsbdSQiqDgrQZ1UWf3eKgOAXdBHolewiBqSbwbpzClMxOlnCD7RXYH1WTbrJrRhs4pwodBwmK6XBYVsDUPEAhhfsvJCgUoYFSnexO2jvpYlaP6woFy3](https://www.plantuml.com/plantuml/uml/hLVXRjks4_-kfn3w_v3-XxfekcPT1moeOYkP2bloP3aOEWp2MJmxN2HIeoXtJTkds2FjnKP9L4qJYeesKJw4lj_TaR_Z7OzyNKaGiYvonpbnVxx7fyodKNWHNAvZRnhy-q_eNlgX7tlp-_fr92zToTqDbv8NBg42CqavSvpgXh8I11Jk1hARdU0r8rEUS-7-xzbvysTev9IXV5-YouMyvgOjCadbU_U3uwhlt7PqqNuTnWL1qK_GVgtyWZCvB5tHMtHFJvrFvdoU4FoTrd_flVAKlWKQ3lNqjaBl-vNfcE0MwbmsO0W5AbKAkQd0EC4AI_VxCqCeWDqqmXTdpWEaW1ycmSoR-QjxxxhUbaV-OXdxA--H2vMhntglldCfIR4e1LRW_kHUUV7q5oz-VFhi_oqycRJ_H9sPu6a72hZbBAruHY4_ijN6RPPbb3C3VDw34dFSSiPDmxCEmWBee4F89Dqt5kTHDFUzKEN4WQCgdDbwcaHno_BpBvDdnXcfCyd57Ko_70_2g27ziHCoNcm43Ywun3odX0zXESsGPHJCuFIneILF1t0Tdorcrv3k6xIWYdxZVkObVWjcdD0TJ_yIfj-pi-406ku4xcWbHGCcmS9V9TvYUHJVU9rq2TGCpAYAMjwHEkF1uOBka0qc3bQICZu8gKL24vRqfcXe-zDWuSqV__3aUHywB5Jm6WS549uMj9aX21F_qe-_d4JdwrNBKVqtAMxgwfjJfimX6v8Nd63EpTtj0H0P3CY1KMvnoQ24Z18WQG5_VmtFP1s7KSkq7PbSPIqO7sKxKaZZ0Hj95vs5bD6C7kMW0Mufin4NAmbjVVdXUl7uPEc7iy1NKJXvSk9Da-0gKeEB8FJcmLjl5ftepDjKAFRG74rODIxztvAZy5pvSN0HJ5KFZiBqr-v4iMHcoFOew9PchSDxH6ua-98M3TEYj0FGrpjM6J04meVANc1LvnA8NVcqJ0cjIbvHbIgcvGjjI9b49dbbf9OP9c_kn_fGw8PcK2178M4y72DyIzx7QXWszjmBWscppwfZNWNDuCgVHzEcXQhnqbjvR_muMkczPtIFUIeeLhk3YtFlJMEty6UjlJTFcd_JE4YKPssOWo9TayEXerRpvAN6EDiDWwDxHx3A12tRjD5Ps6yNvXBkEAShdjUDYUdExeI97wKzy-v4iuLMNvGuNlCZ9JsoYrn2diA62mA2MmUnHZVmfuLPbjo21i9fyLz4OQ0wls9xkUp87qbCvWLdL7BnyEJlaIygFtbtgDyKruR6IztZnXDgJtbAK69crVjHA_UNKPpuRMZq-AYXOyc5n2-4X9SeW7pLGMPNRX2gAjMdzIpmuhRuLlx2K-TrMuxXQgr6PeFO8KC1TlgFLHE8x9hkULgBt3uRZuf6hIFsvkaqKjFFkjveoOvAHja9oB_btfFHcW2n6xnn9KwnGB6pBt_wTZpUrwEb7tipVGVkVnZhjdRDMlWulM-_x8vSwNMUs5VWSPPUueTj6pORa2cpEf54DjwQHnlMIE2iUZHcid8JikwoaKfU087AJD2CSq4eusd9oWDXgt5RBwXF3_7EZFrvUvlnL-uoRcfnwSqVuD7PFp0_VfnC-8V3IqnnmABC4MmDTTbMMCahHCSvg6kqlQ0gN23az1QSvlbXOmItbA6Z7Da8L7J7WF01nzQ5JYbNc48jcopBm74w5rgvoogbqnr0nw3TMvMQVaw1kQOnDKFFwbPDrAX4SqPBvR0gfo_vNgy_tUrrswZ0BOecTvKF-zJJohthrbSbAMTALuT5gzWrg9PUjJL1A05hRKFQ8AdInGVExMYwdYTUazT-9Q5o5NyeGM26pDtJgeQyG2RngL9OKR5NKeM2omL11iB5t2KKTW8AU7hVTIdxYVhSfQ05gZcsD8TMOgRdvFThIjJSVmYwkvQJzhtTPRsDg9nnFlliYmg4e9lUQoSqB0b_noQ7cXnMq7CEOjQiNJuHLDSuRZEn3LjTYuc9ACU3m66s5UvgHi2zvQnds6eSp7BSoebTsbh9yjsbdSQiqDgrQZ1UWf3eKgOAXdBHolewiBqSbwbpzClMxOlnCD7RXYH1WTbrJrRhs4pwodBwmK6XBYVsDUPEAhhfsvJCgUoYFSnexO2jvpYlaP6woFy3)
+
 
 ---
 
@@ -2463,6 +2537,16 @@ link: https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae91
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
+En este primer Sprint el equipo implementó la landing page. Todo el trabajo se desarrolló sobre ramas feature/* que se integraron a develop mediante Pull Requests revisados. A continuación se listan los commits más representativos del sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SecurityBus-730-AW | feature/00-chapter-01 | ce1b67ea7c64e009aa307b91b9498b2e4d3211fd | docs: Merge chapter 1 | Merge branch 'feature/00-chapter-01' of https://github.com/AstroBusTeam/SecurityBus-730-AW into feature/00-chapter-01 | 10/09/2026 |
+| SecurityBus-730-AW | feature/10-chapter-02 | e4c0da51c90fd37c8a59aa353c58aa894d881e12 | fix: fix a litle problem in the document | - | 11/09/2026 |
+| SecurityBus-730-AW | feature/chapter-3 | 0e8fbc867149f98f4a5e1b9058293ccb81b53b93 | docs: Merge chapter 3 | Merge branch 'feature/chapter-3' into develop| 10/09/2026 |
+| SecurityBus-730-AW | feature/chapter-04 | 9063bdf2ee33ae22be820af08c69f8ebb2443b58 | Docs: Create Event Storming | -| 10/09/2026 |
+| SecurityBus-730-AW | feature/chapter-05 | 8d75682360fd891997329ce480af8349b238b4a8 | Docs:Event Storming folder created | -| 11/09/2026 |
+
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
 Durante el primer Sprint, la prioridad del equipo fue la implementación y el lanzamiento de la primera versión de la página. El propósito central fue posicionar la propuesta de valor en materia de seguridad para el transporte público mediante una estructura que abarca desde la presentación general y los beneficios, hasta testimonios, funcionalidades clave y canales de contacto. 
@@ -2536,6 +2620,323 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 
 ![Contribuciones](docs/assets/Cap5/Contributions.png)
 
+
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Spring Planning 2
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 27/09/2026 |
+| Time | 5:30 PM |
+| Location | Virtual |
+| Prepared By | Justo Yauricasa, Alexander Paolo |
+| Attendees (to planning meeting) | Pillaca Gonzales, Andy Saúl<br>Justo Yauricasa, Alexander Paolo |
+| **Sprint 2 Review Summary** | Durante este sprint, el equipo se enfocó de lleno en el desarrollo e implementación de la interfaz de usuario (UI) de la aplicación web SafeBus. Se logró maquetar, diseñar e integrar la experiencia visual abarcando. Esto incluyó la creación de componentes interactivos, vistas de reportes, mapas de alertas y flujos de navegación, sentando toda la base frontend de la plataforma. |
+| **Sprint 2 Retrospective Summary** | El equipo demostró una gran capacidad de ejecución para manejar el alto volumen de tareas visuales. El uso de componentes reutilizables agilizó significativamente el desarrollo. Como punto de mejora, identificamos que para los próximos sprints debemos optimizar los cardinaciones para el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Completar el diseño y la maquetación frontend de la aplicación web SabeBus, garantizando que las interfaces planificadas sean totalmente funcionales a nivel visual, responsivas y alineadas con la guía de estilos, dejando el proyecto listo para la integración con los servicios del backend. |
+| **Sprint 2 Velocity** | 109 |
+| **Sum of Story Points** | 109 |
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el desarrollo del Sprint 2, se han identificado distintos aspectos funcionales relacionados al diseño y construcción de la aplicación web de SafeBus. Con el objetivo de organizar el trabajo del equipo de manera eficiente, se ha elaborado una matriz de Liderazgo y Colaboración (LACX), donde se asigna a cada integrante el rol de líder (L) en los módulos clave del desarrollo que se le han asignado, y el rol de colaborador (C) en otros aspectos. 
+
+Los aspectos definidos para este Sprint, son:
+
+1. **Apartado de Login:** Registro e inicio de sesión.
+2. **Apartado de Dashboard:** Monitoreo de distancia, tiempo, pasajeros, dinero recuadado, ruta y boton de finalizado.
+3. **Gestion de flora:** Creacion de conductor y buses. Ademas, de la vinculacion conductor con bus.
+4. **Boton de alarma:** Boton que ayuda a mostar el peligro de un conducntor, su ubicacion y estado.
+5. **Registros de Alarma:** Visualizacion de reguistos de alarmas y sus estados.
+6. **Mapa:** Mostrar las alertas en el mapa.
+7. **Sistema de notificaciones:** Envio de alerta a los busces cercanos.
+
+
+A continuación, se presenta la matriz de responsabilidades del equipo:
+
+| Team Member (Last Name, First Name) | GitHub Username | Login | Configuration of Dashboard | Vegetation management | Alarm button | Alarm Logs | Map | Notification system |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Justo Yauricasa, Alexander Paolo | AlexanderJusto | L | L | L | C | C | C | C |
+| Pillaca Gonzales, Andy Saúl | DiazDeveloper | C | C | C | L | L | L | L |
+
+**Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 2, indicando el liderazgo (L) y la colaboración (C) en cada funcionalidad desarrollada.
+
+##### 5.2.2.3. Sprint Backlog 2
+
+| User Story Id | User Story Title | Work Item/Task Id | Work Item/Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US-01 | Autenticación del conductor al iniciar la jornada | T01 | UI Autenticación Conductor | Maquetación e ingreso de código. | 3h | Alexander Justo | To Do |
+| US-14 | Verificación de habilitación del conductor | T08 | Lógica Verificación Habilitación | Validación de permisos del conductor. | 3h | Alexander Justo | To Do |
+| US-15 | Vínculo entre conductor y unidad | T09 | Registro Asignación Conductor | Asociación del conductor a la unidad. | 3h | Alexander Justo | To Do |
+| US-02 | Apertura del registro de servicio | T02 | UI Apertura Servicio | Botón para iniciar el servicio. | 2h | Alexander Justo | To Do |
+| US-03 | Envío de alerta desde la unidad | T03 | UI Botón de Alerta | Botón de pánico silencioso. | 3h | Andy Pillaca | To Do |
+| US-04 | Notificación de la alerta a la central | T04 | Servicio Recepción Alerta | Envío de alerta a la central. | 4h | Andy Pillaca | To Do |
+| US-42 | Ubicación asociada al evento | T20 | Captura GPS en Alerta | Captura de ubicación GPS. | 3h | Andy Pillaca | To Do |
+| US-05 | Persistencia del evento de emergencia | T05 | Persistencia de Alertas | Guardado del evento de alerta. | 3h | Andy Pillaca | To Do |
+| US-23 | Acuse de recepción de la alerta | T11 | Módulo Acuse de Recibo | Registro de confirmación de alerta. | 3h | Andy Pillaca | To Do |
+| US-24 | Reenvío de alertas sin confirmar | T12 | Mecanismo Reintentos Alerta | Reintento de envío no confirmado. | 4h | Andy Pillaca | To Do |
+| US-40 | Clasificación de alertas por gravedad | T19 | Priorización de Alertas | Asignación de nivel de prioridad. | 3h | Andy Pillaca | To Do |
+| US-33 | Difusión de la alerta a varios destinatarios | T17 | Servicio Multidifusión Alertas | Envío a múltiples destinatarios. | 4h | Andy Pillaca | To Do |
+| US-43 | Seguimiento de la unidad asignada | T21 | UI Mapas y Seguimiento GPS | Visualización GPS en mapa. | 5h | Andy Pillaca | To Do |
+| US-06 | Conteo automático de ocupantes | T06 | Integración Sensores Pasajeros | Conteo de pasajeros a bordo. | 4h | Alexander Justo | To Do |
+| US-07 | Disponibilidad del conteo para reportes | T07 | API Consulta Ocupación | Consulta del número de ocupantes. | 2h | Alexander Justo | To Do |
+| US-25 | Cierre del registro de servicio | T13 | UI Cierre Servicio | Botón para finalizar el servicio. | 2h | Alexander Justo | To Do |
+| US-26 | Consulta del estado del propio servicio | T14 | UI Estado de Servicio Conductor | Vista del estado actual del viaje. | 3h | Alexander Justo | To Do |
+| US-27 | Tablero de estado de la flota | T15 | Dashboard Flota | Panel general de la flota. | 5h | Alexander Justo | To Do |
+| US-16 | Revisión del historial de emergencias | T10 | UI Historial Emergencias | Listado de emergencias pasadas. | 4h | Andy Pillaca | To Do |
+| US-28 | Seguimiento de la ocupación en operación | T16 | UI Reporte Ocupación Flota | Monitoreo del nivel de carga. | 4h | Alexander Justo | To Do |
+| US-35 | Promedio de pasajeros por viaje | T18 | Cálculo Estadístico Ocupación | Cálculo promedio de pasajeros. | 3h | Alexander Justo | To Do |
+
+**Nota:** Relación entre las historias de usuario del Sprint 2 y las tareas planificadas para su implementación, incluyendo su estimación, responsable asignado y estado de ejecución.
+
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+En este segundo Sprint hemos realizado la implementación del fronte-end, donde todo el equipo ha aportado mediante la gestión de ramas. En la siguiente tabla se muestran los commits realizados.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| AstroBusTeam-FrontEnd | feature/iam | 2317a3abf7b753f4b52e65aed1632721b0c10258 | feature: add iam | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/fleet | b4b01276395f339487e1b7b3fdb1e36e9536ef05 | feature: create the fleet component and functions | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/operations | 830f93a480adb5f957ff975f007e2058a0b2fd88 | Merge pull request #3 from AstroBusTeam/feature/operations | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/alerts | 5c51e4912c9308f6e14fa750d7a1e1316efe779d | Merge pull request #2 from AstroBusTeam/feature/alerts | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/shared | 0a53309b6b74c59fb78f26beb44be9cb3cff9339 | Merge pull request #1 from AstroBusTeam/feature/shared | -- | [06/10/2026] |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este Sprint se logró la primera versión funcional de la Web Application de SecurityBus. La aplicación permite que el conductor ingrese con su código de empleado, inicie y cierre su servicio, vea el mapa de su unidad y emita una alerta de emergencia con un solo botón. Del lado de la empresa, permite supervisar la flota desde el centro de control, administrar conductores, vehículos y asignaciones, revisar las alertas y consultar los destinatarios notificados. La interfaz está disponible en español e inglés mediante el selector de idioma del toolbar y se adapta a distintos tamaños de pantalla.
+
+Verificación de identidad del conductor. El conductor ingresa su código de empleado (por ejemplo, SF-90210). El sistema valida que el conductor esté habilitado y tenga una asignación activa, y luego lo redirige al dashboard. Las demás rutas quedan protegidas si no existe una sesión.
+
+![verificación de identidad del conductor](docs/assets/Cap5/sprint02/identity-verification.png)
+
+Dashboard e inicio de servicio. Muestra la unidad y la ruta asignadas, permite iniciar el servicio y, al finalizar el turno, presenta el protocolo de cierre y el resumen del turno.
+
+![dashboard](docs/assets/Cap5/sprint02/dashboard.png)
+
+Mapa del servicio y centro de control. El mapa dibuja la posición de las unidades y las alertas activas sobre los tiles de OpenStreetMap. El conductor ve su unidad y la empresa ve toda la flota.
+
+![control-center](docs/assets/Cap5/sprint02/control-center.png)
+
+Botón de pánico. Disponible en el toolbar, envía la alerta con la ubicación de la unidad y abre una ventana de 5 segundos para cancelarla.
+
+![panic-signal](docs/assets/Cap5/sprint02/panic-signal.png)
+
+Registro y detalle de alertas. El registro lista las alertas por fecha y estado y permite reenviar las pendientes. El detalle muestra la línea de tiempo de la alerta, el número de intentos y su confirmación.
+
+![alert-details](docs/assets/Cap5/sprint02/alert-details.png)
+
+Notificaciones. Presenta los destinatarios activos con su rol y canal, y el registro de entregas con su prioridad y estado.
+
+![notifications](docs/assets/Cap5/sprint02/notifications.png)
+
+Gestión de conductores, vehículos y asignaciones. Tablas con formularios para crear, editar y eliminar registros, y una vista para asociar conductores con unidades y rutas.
+
+![vehicles](docs/assets/Cap5/sprint02/vehicles.png)
+
+![drivers](docs/assets/Cap5/sprint02/drivers.png)
+
+Historial de turnos e impacto en números. El historial lista los turnos con su ruta, distancia, pasajeros e incidentes. La vista de impacto resume indicadores y gráficos de pasajeros y alertas.
+
+![shift-history](docs/assets/Cap5/sprint02/shift-history.png)
+
+Para evidenciar las funcionalidades implementadas, se adjunta un video donde se muestra la navegación entre las vistas, la interacción con el botón de pánico y la comunicación con la Fake API desplegada.
+
+URL del video de ejecución de la Web Application: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQC9xqrLUfGBTKetm5mY0sOrAQ1vPREJ-m9pPR_8LgcypCI?e=u1aGF4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQC9xqrLUfGBTKetm5mY0sOrAQ1vPREJ-m9pPR_8LgcypCI?e=u1aGF4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo implementó y desplegó una Fake API RESTful con json-server, que simula el comportamiento del backend de SecurityBus mientras se desarrollan los servicios reales. La API expone siete recursos (conductores, vehículos, asignaciones, turnos, alertas, destinatarios y entregas) y soporta operaciones CRUD con los verbos GET, POST, PUT y DELETE. Su configuración de rutas redirige el prefijo /api/v1 a los recursos de la base de datos, de forma que la aplicación consume la misma estructura de URL que tendrá el servicio definitivo. Esto permitió desacoplar la aplicación web de datos locales y realizar pruebas colaborativas sobre una API pública.
+
+URL base del servicio: [https://astro-bus-team-fake-api-aw-730.vercel.app](https://astro-bus-team-fake-api-aw-730.vercel.app)
+
+Dado que json-server no genera documentación OpenAPI automáticamente, en este Sprint los endpoints se documentan en las siguientes tablas. La especificación OpenAPI formal se elaborará con los Web Services definitivos en los siguientes Sprints.
+
+|Endpoint|Acciones implementadas|Descripción|
+|--------|----------------------|-----------|
+|/drivers|GET,POST,PUT,DELETE|Gestión de conductores|
+|/vehicles|GET,POST,PUT,DELETE|Gestión de vehículos de la flota|
+|/assigments|GET,POST,DELETE|Asociación entre conductor, vehículo y ruta|
+|/shifts|GET,POST,PUT|Registro de turnos de servicio|
+|/alerts|GET,POST,PUT,DELETE|Emisión, consulta, actualización y reenvío de alertas|
+|/recipients|GET,PUT|Destinatarios de las alertas|
+|/deliveries|GET,POST|Registro de entregas de notificaciones|
+
+|Acción|Verbo HTTP|Sintaxis de llamada|Parámetros|Response|
+|------|---------|-------------------|------------|-------|
+|Listar recursos|GET|/{recurso}|Opcionales: filtros por campo, por ejemplo ?employeeCode=SF-90210 o ?driverId=1&status=active|200 OK con un arreglo JSON.|
+|Obtener por id|GET|/{recurso}/{id}|id en la ruta|200 OK con el recurso. 404 si no existe.|
+|Crear|POST|/{recurso}|Cuerpo JSON con los campos del recurso|201 Created con el recurso y su id.|
+|Actualizar|PUT|/{recurso}/{id}|id en la ruta y cuerpo JSON completo|200 OK con el recurso actualizado.|
+|Eliminar|DELETE|/{recurso}/{id}|id en la ruta|	200 OK con un objeto vacío.|
+
+Ejemplo 1. Verificación del conductor por código de empleado (US01 y US14).
+
+```
+GET /api/v1/drivers?employeeCode=SF-90210
+```
+
+El response es un arreglo con el conductor que coincide, junto con los datos de su licencia y su estado:
+
+```
+[
+  {
+    "id": 1,
+    "employeeCode": "SF-90210",
+    "firstName": "Marcos",
+    "lastName": "Silva",
+    "dni": "77443322",
+    "category": "A-IIIb",
+    "licenseNumber": "Q77443322",
+    "licenseExpiry": "2027-05-12",
+    "points": 14,
+    "rating": 4.9,
+    "yearsExperience": 12,
+    "status": "active"
+  }
+]
+```
+
+Ejemplo 2. Consulta de la asignación vigente del conductor (US14 y US15).
+
+```
+GET /api/v1/assignments?driverId=1&status=active
+```
+
+```
+[
+  {
+    "id": 1,
+    "driverId": 1,
+    "vehicleId": 1,
+    "route": "R-42 Terminal Norte - Estación Central",
+    "startTime": "05:30",
+    "status": "active"
+  }
+]
+```
+
+Ejemplo 3. Emisión de una alerta de pánico con la ubicación de la unidad (US03, US05 y US42).
+
+```
+POST /api/v1/alerts
+Content-Type: application/json
+```
+
+```
+{
+  "code": "AL-9928",
+  "vehicleId": 4,
+  "type": "Botón de pánico",
+  "receiver": "UNIDAD_MOVIL_04",
+  "attempts": 1,
+  "status": "pending",
+  "createdAt": "2026-10-04T14:22:05",
+  "latitude": -12.042,
+  "longitude": -77.034
+}
+```
+
+El response es 201 Created con el mismo objeto y el id generado. Mientras la alerta no sea confirmada, puede reenviarse con PUT /alerts/{id}, que incrementa attempts hasta un máximo de 3.
+
+Se adjuntan las siguientes capturas de la interacción con la API usando los datos de muestra:
+
+![evidencia1](docs/assets/Cap5/sprint02/evidencia1.png)
+
+<br>
+
+![evidencia2](docs/assets/Cap5/sprint02/evidencia2.png)
+
+
+Repositorio de la Fake API: [https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730](https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730)
+
+Commits relacionados con la API en este Sprint:
+
+|Commit Id|Commit Message|Descripción Técnica|
+|---------|---------------|------------------|
+|f6589ff  |feat: deploy fake-api| Se implementó la configuración inicial necesaria para desplegar la Fake API, preparando el proyecto para ejecutarse en un entorno de producción mediante Vercel.|
+|aaaac67  |fix: import express in entrypoint for Vercel detection|Se corrigió el punto de entrada de la aplicación incorporando la importación de Express, permitiendo que Vercel identifique correctamente el servidor y pueda ejecutar la Fake API.|
+|894f6b3|fix: import express in entrypoint so Vercel detects the Express app|Se agregó la importación de Express en el archivo de entrada de la aplicación para que Vercel pueda detectar correctamente la aplicación Express durante el despliegue.|
+
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo realizó el despliegue de la Web Application y de la Fake API. A diferencia del Sprint 1, donde solo se publicó la Landing Page en GitHub Pages, en esta iteración se consolidó una arquitectura de dos servicios: la aplicación web, publicada con Firebase Hosting, y la Fake API, publicada en Vercel. Ambos servicios se configuran mediante variables de entorno, de modo que la URL base de la API y las rutas de cada recurso no quedan escritas en el código.
+
+La arquitectura de despliegue se compone de los siguientes elementos:
+
+Web Application: aplicación Vue 3 compilada con Vite, cuyo resultado (carpeta dist) se publica en Firebase Hosting.
+Fake API: servicio RESTful basado en json-server, publicado en Vercel.
+Variables de entorno: archivos .env.development y .env.production con la URL base de la API, las rutas de los recursos y el servidor de tiles del mapa.
+
+**Despliegue de la Fake API en Vercel**
+
+- Se creó la cuenta en Vercel y se importó el repositorio de la Fake API desde GitHub.
+- Se configuró json-server con el archivo db.json y se definió en routes.json la redirección del prefijo /api/v1/* hacia los  recursos.
+- Se publicó el proyecto y Vercel generó la URL pública del servicio.
+- Se verificó el funcionamiento consultando los recursos desde el navegador y desde la Web Application.
+
+![evidence-fake-api](docs/assets/Cap5/sprint02/evidence-fake-api.png)
+
+**Despliegue de la Web Application en Firebase Hosting**
+
+- Se creó el proyecto en Firebase y se habilitó Hosting.
+- Se configuró firebase.json con la carpeta dist como directorio público y una regla de reescritura de todas las rutas hacia index.html, necesaria para que Vue Router funcione al recargar la página.
+- Se definió en .env.production la URL base de la Fake API desplegada.
+- Se generó la versión de producción con npm run build y se publicó con Firebase Hosting.
+<br>
+
+![evidence-frontend-firebase](docs/assets/Cap5/sprint02/evidence-frontend-firebase.png)
+
+La Web Application desplegada está disponible en: [https://securitybus-730-aw-front-7bf31.web.app/](https://securitybus-730-aw-front-7bf31.web.app/)
+
+Repositorio de la Web Application: [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajó de forma colaborativa en la implementación de la Web Application y de la Fake API. Se mantuvo la estrategia GitFlow definida en la configuración del proyecto: cada funcionalidad se desarrolló en una rama feature/* creada a partir de develop, y los cambios se integraron mediante Pull Requests revisados por otro integrante antes de incorporarse. Los commits siguieron la convención Conventional Commits, lo que permitió mantener la trazabilidad de cada cambio.
+
+El trabajo se distribuyó según la matriz de líderes y colaboradores de la sección 5.2.2.2. Cada integrante lideró un aspecto del Sprint y colaboró en los demás: IAM & Operations, Fleet Management, Alerts Management, Fake API y Deployment. Esta organización permitió que la interfaz, los datos de prueba y el despliegue avanzaran en paralelo. El seguimiento de las tareas se realizó en el tablero de Trello del Sprint.
+
+A continuación se presentan las evidencias extraídas de los repositorios del proyecto, que reflejan la participación de los integrantes durante el Sprint.
+
+**Evidencia 1: Gráfico de contribuciones por integrante**
+
+![contributors](docs/assets/Cap5/sprint02/contributors.png)
+
+**Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse**
+
+![pulse](docs/assets/Cap5/sprint02/pulse.png)
+
+<br>
+
+**Evidencia 3: Gestión de cambios mediante Pull Requests**
+
+![pull-requests](docs/assets/Cap5/sprint02/pull-requests.png)
+
+<br>
+
+**Evidencia 4: Organización de ramas bajo GitFlow**
+
+![gitflow](docs/assets/Cap5/sprint02/git-flow.png)
+
+<br>
+
+Las evidencias muestran que todos los integrantes participaron en la implementación, con commits distribuidos durante el Sprint e integraciones frecuentes hacia la rama develop. Entre las actividades colaborativas más relevantes destacan:
+
+- Implementación de las vistas del conductor: verificación de identidad, dashboard, mapa y botón de pánico.
+- Desarrollo de los módulos de flota y alertas, con sus tablas, formularios y detalle.
+- Configuración de la Fake API y conexión de la aplicación mediante variables de entorno.
+- Internacionalización de la interfaz en español e inglés.
+- Despliegue de la Web Application y de la Fake API.
+
+Repositorio de la Web Application: [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+
+Repositorio de la Fake API: [https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730](https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730)
+
 ## Conclusiones
 
 ### Conclusiones y Recomendaciones
@@ -2548,6 +2949,20 @@ El proyecto busca facilitar una respuesta más rápida ante situaciones de riesg
 
 Asimismo, SecurityBus busca complementar las medidas tradicionales de seguridad mediante herramientas digitales que permitan mejorar la comunicación y supervisión entre conductores y empresas de transporte.
 
+Primera versión funcional lograda. Con el Sprint 2 la propuesta pasó de la Landing Page a una Web Application que cubre el flujo del conductor (verificación, inicio y cierre de servicio, botón de pánico) y el de la empresa (centro de control, flota, alertas y notificaciones).
+
+Funciones críticas ya demostrables. El botón de pánico envía la alerta con la ubicación de la unidad y ofrece 5 segundos para cancelarla. Esto responde a la recomendación de mantener las acciones de emergencia simples y rápidas.
+
+Arquitectura modular. Organizar el frontend por bounded contexts (iam, operations, fleet y alerts), con capas de dominio, aplicación, infraestructura y presentación, facilita que el trabajo se reparta y que el sistema crezca.
+
+Desacople mediante la Fake API. Consumir una API con la misma estructura de URL que tendrá el servicio real permitió desarrollar la interfaz sin esperar al backend y reducirá el trabajo de integración.
+
+Trabajo colaborativo. GitFlow, Pull Requests y la matriz de líderes y colaboradores permitieron avanzar en paralelo en interfaz, datos de prueba y despliegue.
+
+Despliegue continuo del producto. Ahora hay dos servicios publicados (aplicación en Firebase Hosting, API en Vercel) configurados con variables de entorno.
+
+Experiencia de uso. La interfaz en español e inglés, el tema oscuro y el diseño responsive mantienen la identidad definida en las Style Guidelines.
+
 **Recomendaciones**
 
 Se recomienda priorizar una experiencia de uso sencilla y rápida, especialmente en funcionalidades destinadas a situaciones de emergencia, evitando procesos complejos que puedan dificultar su utilización por parte del conductor.
@@ -2557,6 +2972,12 @@ Es importante continuar validando las necesidades de conductores y empresas de t
 También se recomienda garantizar la confiabilidad de funciones críticas como el botón de pánico, la verificación mediante QR y el monitoreo, debido a que su correcto funcionamiento resulta fundamental dentro de la propuesta de seguridad de SecurityBus.
 
 Finalmente, se recomienda desarrollar SecurityBus de manera progresiva, evaluando los resultados obtenidos con los usuarios y utilizando esta información para mejorar las funcionalidades y adaptar la plataforma a las necesidades del transporte público.
+
+Comunicación en tiempo real. Las alertas y la posición de las unidades hoy se consultan de la Fake API. Para que la central reaccione a tiempo, se necesitaría un mecanismo como WebSockets o actualización periódica.
+
+Reemplazar la Fake API por los Web Services reales y documentarlos con OpenAPI, ya que json-server no valida datos ni ofrece seguridad.
+
+Autenticación real. Hoy el ingreso se valida solo con el código de empleado; conviene usar tokens y control de permisos por rol (conductor y empresa).
 
 ---
 
@@ -2623,12 +3044,16 @@ Se presenta el desglose tecnico de las historias seleccionadas para esta iteraci
 
 
 **<center>Anexo C: Prototipado y Diseño de Interfaces en Figma</center><br>
+
 **Referencia:** AstroBus. (2026). Design System & Mockups de SecurityBus. Figma.
 <a href="https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=194-17020&t=qkGb9pUHIXJa9Tu6-0">https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=194-17020&t=qkGb9pUHIXJa9Tu6-0</a>
 
 <center>Captura o Evidencia del Diseño de Interfaces - Figma</center><br>
 
 ![Diseño UX/UI](/docs/assets/Cap5/figmaWireframesMockups.png)
+
+
+
 
 
 

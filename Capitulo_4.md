@@ -29,10 +29,10 @@ La paleta de colores de SecurityBus utiliza principalmente tonos oscuros, acompa
 
 |Color|Hex|Significado y justificación| Uso en la interfaz|Imagen|
 |-----|---|---------------------------|-------------------|------|
-|Negro| - |Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. |Fondo principal y diferentes áreas de la interfaz. | ![Color Negro](/docs/assets/colors/negro.jpg)|
-|Verde neón| #C3F400 |Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Botones principales, indicadores y títulos.|![Color Verde Neón](/docs/assets/colors/verde-neon.jpg)|
-|Verde secundario| #596D0B|Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Elementos secundarios y variaciones de componentes.|![Color Verde Secundario](/docs/assets/colors/verde-secundario.jpg)|
-|Rojo| - |Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata. | Alertas y elementos críticos.|![Color Rojo](/docs/assets/colors/rojo.jpg)|
+|Negro| - |Se utiliza como color base debido a que transmite seriedad, profundidad y tecnología. También permite generar un entorno visual enfocado y con pocas distracciones. |Fondo principal y diferentes áreas de la interfaz. | ![Color Negro](docs/assets/colors/negro.jpg)|
+|Verde neón| #C3F400 |Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Botones principales, indicadores y títulos.|![Color Verde Neón](docs/assets/colors/verde-neon.jpg)|
+|Verde secundario| #596D0B|Es el color principal de acento. Su alta visibilidad permite destacar elementos importantes y transmite dinamismo e innovación. | Elementos secundarios y variaciones de componentes.|![Color Verde Secundario](docs/assets/colors/verde-secundario.jpg)|
+|Rojo| - |Se utiliza para representar situaciones de emergencia, peligro o acciones que requieren atención inmediata. | Alertas y elementos críticos.|![Color Rojo](docs/assets/colors/rojo.jpg)|
 
 **Tipografía**
 
@@ -44,7 +44,7 @@ Para la interfaz se utilizan las familias tipográficas Space Grotesk e Inter, s
 
 Esta combinación permite establecer una jerarquía visual clara entre títulos, subtítulos y contenido informativo.
 
-![Tipografia](/docs/assets/style-guidelines/Type.png)
+![Tipografia](docs/assets/style-guidelines/Type.png)
 
 **Spacing y Layout**
 
@@ -54,7 +54,7 @@ El diseño utiliza un sistema de espaciado consistente para mantener una distrib
 + Grid: márgenes de 24 px para mantener una distribución equilibrada.
 + Breakpoints: se considera un ancho de 1440 px y un alto de 1024 px como referencia para la versión web.
 
-![spacing y layout](/docs/assets/style-guidelines/spacing.png)
+![spacing y layout](docs/assets/style-guidelines/spacing.png)
 
 **Componentes visuales**
 
@@ -62,13 +62,13 @@ Los principales componentes de la interfaz siguen criterios visuales consistente
 
 + Botones: verde para acciones principales, rojo para acciones críticas y gris para acciones secundarias.
 
-![botones](/docs/assets/style-guidelines/button.png)
+![botones](docs/assets/style-guidelines/button.png)
 + Cards: utilizadas para organizar información relacionada dentro de contenedores diferenciados.
 
-![botones](/docs/assets/style-guidelines/cuadros.png)
+![botones](docs/assets/style-guidelines/cuadros.png)
 + Iconografía: se emplea un estilo simple y fácilmente reconocible para facilitar la identificación de acciones y funcionalidades.
 
-![botones](/docs/assets/style-guidelines/icons.png)
+![botones](docs/assets/style-guidelines/icons.png)
 
 **Principios de diseño**
 
@@ -209,47 +209,47 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 1. Hero
 
-![hero](/docs/assets/landing-page-wireframe/01_hero_inicio.png)
+![hero](docs/assets/landing-page-wireframe/01_hero_inicio.png)
 
 2. Metrics 
 
-![hero](/docs/assets/landing-page-wireframe/02_metricas.png)
+![hero](docs/assets/landing-page-wireframe/02_metricas.png)
 
 3. Features 
 
-![hero](/docs/assets/landing-page-wireframe/03_caracteristicas.png)
+![hero](docs/assets/landing-page-wireframe/03_caracteristicas.png)
 
 4. How SecurityBus Works 
 
-![hero](/docs/assets/landing-page-wireframe/04_como_funciona.png)
+![hero](docs/assets/landing-page-wireframe/04_como_funciona.png)
 
 5. Plan for Consortia 
 
-![hero](/docs/assets/landing-page-wireframe/05_planes_consorcios.png)
+![hero](docs/assets/landing-page-wireframe/05_planes_consorcios.png)
 
 6. SecurityBus Statistics 
 
-![hero](/docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
+![hero](docs/assets/landing-page-wireframe/06_securitybus_statistics.png)
 
 7. Elite Protection CTA 
 
-![hero](/docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
+![hero](docs/assets/landing-page-wireframe/07_elite_protection_cta.png)
 
 8. About The Team 
 
-![hero](/docs/assets/landing-page-wireframe/08_about_the_team.png)
+![hero](docs/assets/landing-page-wireframe/08_about_the_team.png)
 
 9. Product Gallery 
 
-![hero](/docs/assets/landing-page-wireframe/09_product_gallery.png)
+![hero](docs/assets/landing-page-wireframe/09_product_gallery.png)
 
 10. Footer 
 
-![hero](/docs/assets/landing-page-wireframe/10_footer.png)
+![hero](docs/assets/landing-page-wireframe/10_footer.png)
 
 - Mobile Web Browser
 
-![Mobile Web Browser](/docs/assets/landing-page-wireframe/Landing-page-wireframe-mobile.png)
+![Mobile Web Browser](docs/assets/landing-page-wireframe/Landing-page-wireframe-mobile.png)
 
 #### 4.3.2. Landing Page Mock-up
 
@@ -257,47 +257,47 @@ SecurityBus organiza su navegación en función del contexto en el que se encuen
 
 1. Hero
 
-![hero](/docs/assets/landing-page-mockup/01_hero.png)
+![hero](docs/assets/landing-page-mockup/01_hero.png)
 
 2. Metrics 
 
-![hero](/docs/assets/landing-page-mockup/02_metrics.png)
+![hero](docs/assets/landing-page-mockup/02_metrics.png)
 
 3. Features 
 
-![hero](/docs/assets/landing-page-mockup/03_features.png)
+![hero](docs/assets/landing-page-mockup/03_features.png)
 
 4. How SecurityBus Works 
 
-![hero](/docs/assets/landing-page-mockup/04_how_securitybus_works.png)
+![hero](docs/assets/landing-page-mockup/04_how_securitybus_works.png)
 
 5. Plan for Consortia 
 
-![hero](/docs/assets/landing-page-mockup/05_plans_for_consortia.png)
+![hero](docs/assets/landing-page-mockup/05_plans_for_consortia.png)
 
 6. SecurityBus Statistics 
 
-![hero](/docs/assets/landing-page-mockup/06_securitybus_statistics.png)
+![hero](docs/assets/landing-page-mockup/06_securitybus_statistics.png)
 
 7. Elite Protection CTA 
 
-![hero](/docs/assets/landing-page-mockup/07_elite_protection_cta.png)
+![hero](docs/assets/landing-page-mockup/07_elite_protection_cta.png)
 
 8. About The Team 
 
-![hero](/docs/assets/landing-page-mockup/08_about_the_team.png)
+![hero](docs/assets/landing-page-mockup/08_about_the_team.png)
 
 9. Product Gallery 
 
-![hero](/docs/assets/landing-page-mockup/09_product_gallery.png)
+![hero](docs/assets/landing-page-mockup/09_product_gallery.png)
 
 10. Footer 
 
-![hero](/docs/assets/landing-page-mockup/10_footer.png)
+![hero](docs/assets/landing-page-mockup/10_footer.png)
 
 - Mobile Web Browser
 
-![Mobile Web Browser](/docs/assets/landing-page-mockup/Mockup-landing-page-mobile.png)
+![Mobile Web Browser](docs/assets/landing-page-mockup/Mockup-landing-page-mobile.png)
 
 ### 4.4. Web Applications UX/UI Design
 
@@ -307,9 +307,9 @@ En esta sección se presentan los wireframes elaborados para la plataforma Secur
 
 El desarrollo de los wireframes contempla las principales interacciones de los usuarios con la plataforma, considerando de manera diferenciada las necesidades y objetivos correspondientes a los perfiles de consorcio o empresas de transporte público y conductores de trasnporte público. De esta manera, se establece una estructura que facilita la navegación y permite validar la organización de las funcionalidades del sistema.
 
-![Web applications wireframes](/docs/assets/web-applications-ux-ui-design/wireframes/web-application-wireframes.png)
+![Web applications wireframes](docs/assets/web-applications-ux-ui-design/wireframes/web-application-wireframes.png)
 
-Trabajo elaborado en Figma: [Web Applications Wireframes](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0 'Web Applications Wireframes')
+Trabajo elaborado en Figma: [https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=130-15&p=f&t=3KHRsRuGU2L8xZIc-0 'Web Applications Wireframes')
 
 **1. Acceso y autenticación del conductor**
 
@@ -434,14 +434,14 @@ User Goal 2: Como conductor, deseo registrar el inicio del servicio, para dejar 
 User Persona: Conductor
 Desde Inicio de Servicio, el conductor selecciona el vehículo y el turno (mañana/tarde/noche) y confirma "Iniciar Servicio". El sistema lo redirige al Panel principal (Inicio), donde ve distancia, tiempo, pasajeros y la ruta operada en tiempo real.
 
-![User Goal 2](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2a_inicio_servicio.png)
+![User Goal 2](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2a_inicio_servicio.png)
 
 User Goal 3: Como sistema, deseo contabilizar los pasajeros a bordo y alertar cuando se supera la capacidad del vehículo, para evitar altercados y estimar el riesgo.
 
 User Persona: Conductor
 Desde el panel de Conteo de Pasajeros, el conductor registra abordajes (+) y bajadas (−). Si el conteo (62/60) supera la capacidad máxima, el sistema dispara el modal "Has alcanzado el límite de pasajeros", que el conductor reconoce con "OK". Desde el mismo panel puede acceder a Ver Mapa para visualizar la ubicación de la unidad y su ruta.
 
-![User Goal 3](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2b_conteo_pasajeros.png)
+![User Goal 3](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf2b_conteo_pasajeros.png)
 
 Secuencia: Inicio de Servicio → Panel principal (Inicio) → Conteo de Pasajeros → Alerta de límite de pasajeros → Ver Mapa
 
@@ -460,7 +460,7 @@ User Goal 4: Como conductor, deseo enviar una alerta de emergencia, para notific
 User Persona: Conductor / Central de Operaciones
 Al presionar "Panic Signal", el conductor ve el modal "¡Alerta enviada!" con coordenadas GPS, estado de notificación a central y audio remoto activo, pudiendo cancelar en 5 segundos. La central, en su mapa de operaciones, recibe el pin "SOS" con el popup "Alerta crítica – Unidad" y accede a "Ver detalles". Finalmente, el sistema de central confirma la alerta mediante los pasos "Alert Sent → Alert Received → Confirmed".
 
-![User goal 4](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf3_alerta_emergencia.png)
+![User goal 4](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf3_alerta_emergencia.png)
 
 Secuencia: Envío de Alerta → Ubicación de Envío de Alerta (vista central) → Confirmación de Alerta (central)
 
@@ -478,7 +478,7 @@ User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evi
 User Persona: Conductor
 Al terminar la ruta, el panel muestra el Resumen de Servicio con los totales del turno y el checklist de protocolo de cierre. Al presionar "Finalizar Servicio" (acción irreversible), el sistema muestra el modal "Servicio finalizado correctamente", con opciones "Ver reporte" o "Salir".
 
-![User Goal 5](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf4_cierre_turno.png)
+![User Goal 5](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf4_cierre_turno.png)
 
 Secuencia: Resumen de Servicio → Finalizar Turno (confirmación)
 
@@ -495,7 +495,7 @@ User Goal 6: Como empresa, deseo conocer el estado de mis vehículos en operaci�
 User Persona: Administrador / Central de Operaciones
 Desde el Centro de Control, el administrador visualiza las unidades activas sobre el mapa de Lima. Cuando ocurre una emergencia, el mismo mapa resalta "Alerts: 1 Active". Desde Notificaciones, el administrador gestiona los destinatarios activos y simula el envío de alertas según prioridad (baja/media/urgente).
 
-![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf5_supervision_alertas_admin.png)
+![User Goal 6](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf5_supervision_alertas_admin.png)
 
 Secuencia: Centro de Control → Centro de Control con Alerta → Notificaciones
 
@@ -513,7 +513,7 @@ User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegu
 User Persona: Administrador
 Desde Gestión de Conductores, el administrador revisa el listado y accede al detalle de un conductor (licencia, puntos, calificación, historial de autorizaciones). Desde Asignación de Unidades, selecciona un conductor disponible y un vehículo disponible, y confirma con "Confirmar Asignación", quedando reflejado en la tabla de asignaciones vigentes.
 
-![User Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf6_gestion_conductores_unidades.png)
+![User Goal 7](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf6_gestion_conductores_unidades.png)
 
 Secuencia: Gestión de Conductores → Asignación de Unidades
 
@@ -530,7 +530,7 @@ Pasos del Task Flow:
 User Persona: Administrador
 Desde Historial de Turnos, el administrador filtra por rango de fecha y ruta, revisando el log de operaciones, pasajeros transportados e incidentes de cada turno. Desde Impacto en Números consulta métricas globales (conductores verificados, alertas gestionadas, pasajeros protegidos). Desde Gestión de Reenvíos, monitorea alertas pendientes/críticas y reenvía las que no fueron confirmadas.
 
-![User Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf7_trazabilidad_reportes_admin.png)
+![User Goal 8](docs/assets/web-applications-ux-ui-design/web-applications-wireflow-diagrams/tf7_trazabilidad_reportes_admin.png)
 
 Secuencia: Historial de Turnos → Impacto en Números → Gestión de Reenvíos
 
@@ -542,7 +542,7 @@ Los mockups fueron elaborados considerando los principales perfiles de usuario d
 
 ![Web Application Mockups](docs/assets/web-applications-ux-ui-design/mockups/web-application-mockup.png)
 
-Trabajo elaborado en Figma: [Web Application Mockups](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=0-1&p=f&t=rfW5UFtjZ6xjUzo9-0 'Web Application Mockups')
+Trabajo elaborado en Figma: [https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=0-1&p=f&t=rfW5UFtjZ6xjUzo9-0](https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=0-1&p=f&t=rfW5UFtjZ6xjUzo9-0 'Web Application Mockups')
 
 **1. Acceso y autenticación del conductor**
 
@@ -624,52 +624,52 @@ Trabajo elaborado en Figma: [Web Application Mockups](https://www.figma.com/desi
 Relacionado al User Goal 1: Como conductor, quiero validar mi identidad mediante código QR antes de iniciar mi turno, para asegurar la trazabilidad del servicio.
 El conductor accede a la pantalla de Acceso Conductor, escanea su credencial digital o ingresa su código de empleado. El sistema muestra la pantalla de Validación de Identidad con el escaneo del QR; una vez validado, se presenta la confirmación de acceso autorizado con la transmisión activa hacia central, habilitando el turno.
 
-![Goal 1](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal1_autenticacion.png)
+![Goal 1](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal1_autenticacion.png)
 
 Relacionado al User Goal 2: Como conductor, quiero configurar e iniciar mi servicio, para dejar registro del recorrido que voy a realizar.
 Desde Inicio de Servicio, el conductor selecciona el vehículo y el turno de trabajo y confirma "Iniciar Servicio". El sistema lo redirige al Panel Principal (Dashboard), donde visualiza distancia, tiempo, pasajeros y la ruta operada en tiempo real.
 
-![Goal 2](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal2_inicio_servicio.png)
+![Goal 2](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf1_goal2_inicio_servicio.png)
 
 **User Flow 2: Monitoreo de pasajeros y atención de emergencias**
 
 Relacionado al User Goal 3: Como sistema, deseo contabilizar los pasajeros a bordo y alertar cuando se supera la capacidad del vehículo, para evitar altercados y estimar el riesgo.
 Desde el panel de Conteo de Pasajeros, el conductor registra abordajes y bajadas. Si el conteo supera la capacidad máxima, el sistema dispara la alerta "Has alcanzado el límite de pasajeros". Desde el mismo panel puede acceder a Ver Mapa para visualizar la ubicación de la unidad en ruta.
 
-![Goal 3](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal3_conteo_pasajeros.png)
+![Goal 3](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal3_conteo_pasajeros.png)
 
 Relacionado al User Goal 4: Como conductor, deseo enviar una alerta de emergencia, para notificar una situación de riesgo; como sistema, deseo notificar a la central de operaciones, para gestionar la emergencia.
 Al presionar el botón de pánico, el conductor ve la confirmación "¡Alerta enviada!" con coordenadas GPS y estado de notificación a central. La central, en su mapa de operaciones, recibe el pin "SOS" con los detalles de la unidad y confirma la alerta mediante el protocolo "Alert Sent → Alert Received → Confirmed".
 
-![Goal 4](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal4_alerta_emergencia.png)
+![Goal 4](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf2_goal4_alerta_emergencia.png)
 
 **User Flow 3: Cierre de turno del conductor**
 
 Relacionado al User Goal 5: Como conductor, quiero finalizar mi turno de forma segura y con evidencia registrada, para garantizar la trazabilidad del servicio.
 Al terminar la ruta, el panel muestra el Resumen de Servicio con los totales del turno y el checklist de protocolo de cierre. Al presionar "Finalizar Servicio", el sistema muestra la confirmación "Servicio finalizado correctamente".
 
-![Goal 5](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf3_goal5_cierre_turno.png)
+![Goal 5](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf3_goal5_cierre_turno.png)
 
 **User Flow 4: Supervisión y atención de alertas (Administrador)**
 
 Relacionado al User Goal 6: Como empresa, deseo conocer el estado de mis vehículos en operación y clasificar las alertas según su gravedad, para tener control operativo.
 Desde el Centro de Control, el administrador visualiza las unidades activas sobre el mapa de Lima. Cuando ocurre una emergencia, el mapa resalta la unidad en alerta. Desde Notificaciones, gestiona los destinatarios activos y simula el envío de alertas según prioridad.
 
-![User Goal 6](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf4_goal6_supervision_admin.png)
+![User Goal 6](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf4_goal6_supervision_admin.png)
 
 **User Flow 5: Gestión de conductores y unidades (Administrador)**
 
 Relacionado al User Goal 7: Como sistema, deseo asociar un conductor a un vehículo, para asegurar la trazabilidad.
 Desde Gestión de Conductores, el administrador revisa el listado y el detalle de cada conductor. Desde Asignación de Unidades, selecciona un conductor y un vehículo disponibles y confirma la asociación, reflejada en la tabla de asignaciones vigentes.
 
-![Goal 7](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
+![Goal 7](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf5_goal7_gestion_conductores.png)
 
 **User Flow 6: Trazabilidad y reportes operativos (Administrador)**
 
 Relacionado al User Goal 8: Como empresa, deseo conocer indicadores globales y el historial de turnos, para comparar la ocupación y el desempeño entre distintas rutas.
 Desde Historial de Turnos, el administrador filtra por fecha y ruta, revisando pasajeros e incidentes de cada turno. Desde Impacto en Números consulta métricas globales de la red. Desde Gestión de Reenvíos, monitorea y reenvía alertas no confirmadas.
 
-![Goal 8](/docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf6_goal8_trazabilidad_reportes.png)
+![Goal 8](docs/assets/web-applications-ux-ui-design/web-applications-user-flow-diagrams/uf6_goal8_trazabilidad_reportes.png)
 
 ### 4.5. Web Applications Prototyping
 
@@ -681,15 +681,15 @@ Finalmente, el video muestra los principales flujos de interacción del prototip
 
 **<center>Web Applications Prototyping</center>**
 
-![Web Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/desktop.png)
+![Web Applications Prototyping](docs/assets/web-applications-ux-ui-design/web-applications-prototyping/desktop.png)
 
-URL del video: [Web applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true)
+URL del video: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FDesktop%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3b7ed5d3%2D4cf6%2D4834%2D9541%2D63af6480793c&isDarkMode=true)
 
-**<center>Web Applications Prototyping</center>**
+**<center>Mobile Applications Prototyping</center>**
 
-![Mobile Applications Prototyping](/docs/assets/web-applications-ux-ui-design/web-applications-prototyping/mobile.png)
+![Mobile Applications Prototyping](docs/assets/web-applications-ux-ui-design/web-applications-prototyping/mobile.png)
 
-URL del video: [Mobile applications prototyping](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0)
+URL del video: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FMobile%20Prototyping%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0563ee92%2Dc5c9%2D4938%2Db01c%2D272aff8321f0)
 
 ### 4.6. Domain-Driven Software Architecture
 
@@ -715,11 +715,11 @@ El EventStorming de nivel de diseño toma los *hotspots* identificados en el Big
 
 <p align="center"><em>Figura 4.1. Design-Level EventStorming — Gestión de Conductores y Servicios, Gestión de Alertas de Emergencia (dominio núcleo) y Monitoreo de Ocupación.</em></p>
 
-**Gestión de Conductores y Servicios.** El conductor se autentica con su código vigente (US01) sobre el agregado `Conductor`, lo que produce el evento `Conductor Autenticado`. Antes de aceptar el comando `Abrir Servicio` (US02) sobre el agregado `Servicio`, una política verifica que la habilitación esté vigente (US14) y bloquea cualquier intento de operación simultánea del mismo conductor en otra unidad (US39). El servicio permanece abierto hasta que el conductor emite `Cerrar Servicio` (US25); ambos estados alimentan el modelo de lectura *Tablero de Flota / Seguimiento* que consulta la empresa (US26, US27, US43).
+**Gestión de Conductores y Servicios.** El conductor se autentica con su código vigente (US01) sobre el agregado `Conductor`, lo que produce el evento `Conductor Autenticado`. Antes de aceptar el comando `Abrir Servicio` (US02) sobre el agregado `Servicio`, una política verifica que la habilitación esté vigente (US14) y bloquea cualquier intento de operación simultánea del mismo conductor en otra unidad (US39). El servicio permanece abierto hasta que el conductor emite `Cerrar Servicio` (US25); ambos estados alimentan el modelo de lectura *Tablero de Flota / Seguimiento* que consulta la empresa (US26, US27, US43, US51, US52).
 
 **Gestión de Alertas de Emergencia (dominio núcleo).** El conductor emite la alerta (US03) sobre el agregado `Alerta`; si no existe un servicio en curso, la alerta se descarta en el mismo paso. Una vez emitida, el sistema la procesa, le asocia la ubicación (US04, US42) y la clasifica por gravedad (US40) antes de difundirla a los destinatarios configurados (US33), lo que involucra al sistema externo de notificaciones. La central debe acusar recepción (US23); dos políticas gobiernan lo que ocurre si no lo hace: una reenvía la alerta cuando se vence el plazo (US24) y otra la escala cuando los reintentos se agotan (US41). El tiempo de respuesta se mide (US34) y todo el recorrido queda disponible en el *Historial de Emergencias* que consulta la empresa (US16).
 
-**Monitoreo de Pasajeros y Ocupación.** Los sensores IoT reportan el ingreso y salida de pasajeros, lo que actualiza el conteo del agregado `Ocupación` (US06). Una política evalúa si se superó la capacidad máxima configurada y, de ser así, dispara el evento `Sobrecapacidad Detectada` (US17). En paralelo, el sistema analiza la ocupación para calcular promedios, detectar variaciones anómalas y comparar unidades (US35, US36, US44), publicando los resultados en el *Reporte de Ocupación* que consulta la empresa (US07, US28).
+**Monitoreo de Pasajeros y Ocupación.** Los sensores IoT reportan el ingreso y salida de pasajeros, lo que actualiza el conteo del agregado `Ocupación` (US06, US53). Una política evalúa si se superó la capacidad máxima configurada y, de ser así, dispara el evento `Sobrecapacidad Detectada` (US17). En paralelo, el sistema analiza la ocupación para calcular promedios, detectar variaciones anómalas y comparar unidades (US35, US36, US44, US54), publicando los resultados en el *Reporte de Ocupación* que consulta la empresa (US07, US28).
 
 #### 4.6.2. Software Architecture Context Diagram
 
@@ -735,7 +735,7 @@ Cuatro tipos de usuario interactúan con la plataforma: el **conductor**, que se
 
 #### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en sus unidades desplegables. Un API Gateway centraliza la autenticación y autorización de toda petición (US22, US50) y enruta el tráfico hacia cuatro microservicios, cada uno alineado a uno de los *bounded contexts* de la sección 4.6:
+El diagrama de contenedores (Nivel 2) descompone la Plataforma SecurityBus en sus unidades desplegables. Un API Gateway centraliza la autenticación y autorización de toda petición (TS07, TS13) y enruta el tráfico hacia cuatro microservicios, cada uno alineado a uno de los *bounded contexts* de la sección 4.6:
 
 <p align="center">
   <img src="docs/assets/chapter-4/container-diagram-c4-l2.svg" alt="Diagrama de Contenedores C4 Nivel 2 de SecurityBus" width="100%">
@@ -803,6 +803,5 @@ Se adopta una estrategia de persistencia poliglota, con una base de datos indepe
 
 ![DataBaseDiagram](docs/assets/diagramadatabase.png)
 
-LINK:
-https://www.plantuml.com/plantuml/uml/hLVXRjks4_-kfn3w_v3-XxfekcPT1moeOYkP2bloP3aOEWp2MJmxN2HIeoXtJTkds2FjnKP9L4qJYeesKJw4lj_TaR_Z7OzyNKaGiYvonpbnVxx7fyodKNWHNAvZRnhy-q_eNlgX7tlp-_fr92zToTqDbv8NBg42CqavSvpgXh8I11Jk1hARdU0r8rEUS-7-xzbvysTev9IXV5-YouMyvgOjCadbU_U3uwhlt7PqqNuTnWL1qK_GVgtyWZCvB5tHMtHFJvrFvdoU4FoTrd_flVAKlWKQ3lNqjaBl-vNfcE0MwbmsO0W5AbKAkQd0EC4AI_VxCqCeWDqqmXTdpWEaW1ycmSoR-QjxxxhUbaV-OXdxA--H2vMhntglldCfIR4e1LRW_kHUUV7q5oz-VFhi_oqycRJ_H9sPu6a72hZbBAruHY4_ijN6RPPbb3C3VDw34dFSSiPDmxCEmWBee4F89Dqt5kTHDFUzKEN4WQCgdDbwcaHno_BpBvDdnXcfCyd57Ko_70_2g27ziHCoNcm43Ywun3odX0zXESsGPHJCuFIneILF1t0Tdorcrv3k6xIWYdxZVkObVWjcdD0TJ_yIfj-pi-406ku4xcWbHGCcmS9V9TvYUHJVU9rq2TGCpAYAMjwHEkF1uOBka0qc3bQICZu8gKL24vRqfcXe-zDWuSqV__3aUHywB5Jm6WS549uMj9aX21F_qe-_d4JdwrNBKVqtAMxgwfjJfimX6v8Nd63EpTtj0H0P3CY1KMvnoQ24Z18WQG5_VmtFP1s7KSkq7PbSPIqO7sKxKaZZ0Hj95vs5bD6C7kMW0Mufin4NAmbjVVdXUl7uPEc7iy1NKJXvSk9Da-0gKeEB8FJcmLjl5ftepDjKAFRG74rODIxztvAZy5pvSN0HJ5KFZiBqr-v4iMHcoFOew9PchSDxH6ua-98M3TEYj0FGrpjM6J04meVANc1LvnA8NVcqJ0cjIbvHbIgcvGjjI9b49dbbf9OP9c_kn_fGw8PcK2178M4y72DyIzx7QXWszjmBWscppwfZNWNDuCgVHzEcXQhnqbjvR_muMkczPtIFUIeeLhk3YtFlJMEty6UjlJTFcd_JE4YKPssOWo9TayEXerRpvAN6EDiDWwDxHx3A12tRjD5Ps6yNvXBkEAShdjUDYUdExeI97wKzy-v4iuLMNvGuNlCZ9JsoYrn2diA62mA2MmUnHZVmfuLPbjo21i9fyLz4OQ0wls9xkUp87qbCvWLdL7BnyEJlaIygFtbtgDyKruR6IztZnXDgJtbAK69crVjHA_UNKPpuRMZq-AYXOyc5n2-4X9SeW7pLGMPNRX2gAjMdzIpmuhRuLlx2K-TrMuxXQgr6PeFO8KC1TlgFLHE8x9hkULgBt3uRZuf6hIFsvkaqKjFFkjveoOvAHja9oB_btfFHcW2n6xnn9KwnGB6pBt_wTZpUrwEb7tipVGVkVnZhjdRDMlWulM-_x8vSwNMUs5VWSPPUueTj6pORa2cpEf54DjwQHnlMIE2iUZHcid8JikwoaKfU087AJD2CSq4eusd9oWDXgt5RBwXF3_7EZFrvUvlnL-uoRcfnwSqVuD7PFp0_VfnC-8V3IqnnmABC4MmDTTbMMCahHCSvg6kqlQ0gN23az1QSvlbXOmItbA6Z7Da8L7J7WF01nzQ5JYbNc48jcopBm74w5rgvoogbqnr0nw3TMvMQVaw1kQOnDKFFwbPDrAX4SqPBvR0gfo_vNgy_tUrrswZ0BOecTvKF-zJJohthrbSbAMTALuT5gzWrg9PUjJL1A05hRKFQ8AdInGVExMYwdYTUazT-9Q5o5NyeGM26pDtJgeQyG2RngL9OKR5NKeM2omL11iB5t2KKTW8AU7hVTIdxYVhSfQ05gZcsD8TMOgRdvFThIjJSVmYwkvQJzhtTPRsDg9nnFlliYmg4e9lUQoSqB0b_noQ7cXnMq7CEOjQiNJuHLDSuRZEn3LjTYuc9ACU3m66s5UvgHi2zvQnds6eSp7BSoebTsbh9yjsbdSQiqDgrQZ1UWf3eKgOAXdBHolewiBqSbwbpzClMxOlnCD7RXYH1WTbrJrRhs4pwodBwmK6XBYVsDUPEAhhfsvJCgUoYFSnexO2jvpYlaP6woFy3 
 
+[Link de Database Diagrams](https://www.plantuml.com/plantuml/png/lLZTSjku5RxdKw3EXUtMthMJo6qocvsbNIhHh6MdjjnihpH7n9643GXm0D2fDid3z05orRkzzOiLFo8Dqw9MJRNrZ4S4yE7mu9mFvuS_Q0FAL0LFTichRVnPEUGQfdXQQV8jIRLHqZqUajUe3Rlxjo0KoPHB0-x1A12wbCeWAUz-dN2MIoVWJ-HKce2ry_yITfeiY6RQOE7t0KTbG3liK5BaaYZaa3CfWDjrnMw1IWVae0aAmoXGrCGYoLH9OGvHKBTvRyeHpG6H9IemThi-2BBjBuDYdooS48tg5jMtTFBDprgAhLag-OEPOu6avC14CcSKISvKpZ7HxvaeGK51E1De5YKIgSnSHWjw3bH-O696fi1rl4N9Ij1SAe6Ad4Jp5ATGSTENmbn0WIHL37YqddFGcdnC23c5_FtCYpcJN2hoRiuCkdcfAAemz-JPy-SlUfcTJPMI7zgJRn0ij2teINRMF-eV9v-ZrvOM0pCa7zilUD5BU-c9dNKQB-UUdZtBUaTsltN2uJR-70a6wT3oCyrpr9upkHIqoerKgAt_Ars1Ob87Df4SXL70j_R--lWxLeiTygJ_lF-Yt_V6SBGr2x9JQLHwXu0c_icl4V97mYXvIKu7hmSN8_BTTsz__Fvxls1b-dMF5b2WHVqzlJfxarxjzOxsBVJcOl2tcop0BQu4hJz8HSTpqFC8_BJNsrz2bEHEJ7PnCzpR1LemiNkm6-wCLFPHL_Rvbca_e8hTejeDUyDW_53N_ey7f5R23YzkpiyRRI0tTeT3NrwUP-a5UKL6LpUPN-MWpPZB6HDZC1RortIKZGR3RBarLmW6wQErprlcI_yyoqQMCMVtF3aWaqgx7rKPSAm1pMR21oJKs-TAdoCQnvPUlz_lFM1BC7ZWItZUd35Ob5mk4CUvf1WpOHLjfanPRxG8zfUZcZ8SrgrImUnyc5mXcxCSXRPwWC6PL8k6U-dXO320tOFmCAaVyjtzravH5HDKdMTeeV6V9LEB9MlgQo6PCDhENG_JytDdibVaoA-vJ25c3fsT3UpYtjE3u_3-1OBIJXegXYB7QBTVB-TIj0oxV9isO2hTd3FS0diy9fQF-xz9yeW4jpXdESV0WdgmCGqsyNx9mSIWurMWmgNc27JI73S7osMhQcIW3aFS0kCmuS4MXouJizmD2c32e02HrxR9AwLGc347mqn5CNBGYuEJ5aQAMIV8KxUKcXacEoBD9avGiZ9B5_Z7xJgWTRMEQof9nMPCh5gXg0qJO9XSlSoqSTOSloyYevmSFDrV7vdRnmRjGbzXX-7iqNXZ0tHaZURmIqft0xp1kvTzqJisp9imykijS4R7KoMBE1Q4MIEZkSrlR3Y-vSfayL2PaCszIf_jlv06oKGQOzyjfx7Ll9Whd75uIIfnNvsGXHjEgW3GaajILaXH48C2bSsmQPE6R2tjKLur840uM2F-GlRklWZASYHtl_eYkmILC-3xttY7Kg_LbhFdvTliAXqDBY-koI4PLKf8boyrpYfMC1H6ajTlhxUVCY-R2j_bpNx_j7_q86_gEPik6UiVDoPhvAfkmltUXFOgZoaOR4ZQ8dexYA6WxVarOU3FDWmq-SyLZ2Xcg1px7oH6l4LHORJl-2ZUs7rffammFKVgxuz1fQhIsD7-wiiH7EH5xZ2HCng2JTFT4Or4JWn3uOjv3poxlBaOxONURf-yUvDTPKkhCMeLP3Hc_EDKskI3G95cj35BrdiugDBjtywSvbVNPZDT8bBhpNcqs0i5YoSMvbBH_qFLd9vdLoDxvn-tzg7b3dMpa8PDMVwxLSwf9q080RrMwUor6BjkEpWv6c_ivbPQFbcHkkj6V5mg9XKpzzNjAVpiQjiXKkPhN6xSpvcw-s9O3aq9oFIu1C7o1wcudvvVFyh5kHH6IJxExKJT52ZCqGMZhov7dczIZXmjgufVf6ZPO_Dgel59v8xj5b7TbxAxUTtmoaRiwSGqldY482tFtKir1elIQ5-tNFmZHD_ZrT6rH46Pc5aAMMbJfWgaxbannoQ-k_-_nvRkIfYGvftTQ-kheX3s_KcpdqPn9b1iDZT4JfUKyDXX-jCu7OsouTlHjJN9Cp-PSi8vpa0H8C-8RnYCr4GpKQi0oWENbYj1WuNUs-X17VGeLDJE2FGCWyq96cHqyoV8QphPsj-rhr6ObRs9Gbrnqv30uQpNRVmJyWD7ElCaS9bVLcvX2epxJDlkNZ1d9Mkg-6Qu-VcwGaBpEQdzMG0BOBpTcgnfcrkNfDkK6yQQElVujY-VWn38m-dhmNyRV88BheVNrj3PC1sSsz-tDzTlxC-xx7GtZaYTzd-eYPqUFzBc7jlMwu14PbZkwm2r5Q38NMXYosJO33SqGWUzcmz-rWUQ5HKFpOdTkluetSVukiZxbRct7M8rYlWIhR-Rg9HKumArXXcsFxHkl-2wGhxjCYfyW6x-Fid3G_affCbc_YNPoIiK1WZ5dII95lsMJtRBnxYzzLjyhPuqNwhMOaDFIoL1aIm_hFo6zBoQA5ofV9Vq98dd6ybrQzWSTOO25RGEsGKEdNlhc9re_tczTS0kh2_Y5IOTefjkfO6NKXb8WfYsHTfeMYaGfbEulssntlu3r6ERo9LeodG9ggLA9xfkzf1GJEBol5kTd8FsKJrf2j-rwbiKctIGfGrkYeWaAFFGJvy-tjS4ZV2w1adQweGtn7dMxoXHsGqMcaGhaVfnFd3uIaDoFrw7tDbfQTte48LwhqET5pjKQCE31LjQT85lxxv0ovDTKCDAcVo0WbO5_my0)
