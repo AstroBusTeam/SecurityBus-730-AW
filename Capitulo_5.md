@@ -8,14 +8,14 @@ Para establecer el entorno de desarrollo del software, se han seleccionado difer
 
 | Proceso | Recurso o plataforma | Finalidad | Medio de acceso o Enlace |
 |---------|----------------------|-----------|--------------------------|
-|Especificación de requisitos|Convenciones Gherkin|Definir condiciones de aceptación y criterios funcionales de manera clara y precisa| [https://cucumber.io/docs/gherkin/](https://cucumber.io/docs/gherkin/)
-|Desarrollo Landing Page| Visual Studio Code | Desarrollar, modificar y optimizar el código fuente de la aplicación web|[https://code.visualstudio.com/](https://code.visualstudio.com/)|
-|Administrador de versiones| Git | Controlar las modificaciones realizadas y administrar las diferentes versiones del proyecto|[https://git-scm.com/](https://git-scm.com/)|
-|Diseño de experiencia e interfaz| Figma | Elaborar prototipos y organizar visualmente la interfaz de usuario|[https://figma.com](https://figma.com)|
-|Publicación y despliegue| Github Pages | Publicar y alojar la página web para permitir su acceso en línea|[https://pages.github.com/](https://pages.github.com/)|
-|Planificación y gestión del proyecto| Jira Software | Administrar el Product Backlog, planificar los Sprints y realizar el seguimiento de las actividades mediante una metodología ágil|[https://www.atlassian.com/es/software/jira](https://www.atlassian.com/es/software/jira)|
-|Diagramas| PlantUML | Crear representaciones UML relacionadas con la estructura y funcionamiento del sistema|[https://plantuml.com/](https://plantuml.com/)|
-|Modelado de procesos| UXPressia | Desarrollar herramientas de análisis UX enfocadas en las necesidades y experiencia del usuario|[https://uxpressia.com/](https://uxpressia.com/)|
+|Especificación de requisitos|Convenciones Gherkin|Definir condiciones de aceptación y criterios funcionales de manera clara y precisa| [Guía Gherkin](https://cucumber.io/docs/gherkin/)
+|Desarrollo Landing Page| Visual Studio Code | Desarrollar, modificar y optimizar el código fuente de la aplicación web|[Visual Studio Code](https://code.visualstudio.com/)|
+|Administrador de versiones| Git | Controlar las modificaciones realizadas y administrar las diferentes versiones del proyecto|[Git](https://git-scm.com/)|
+|Diseño de experiencia e interfaz| Figma | Elaborar prototipos y organizar visualmente la interfaz de usuario|[Figma](https://figma.com)|
+|Publicación y despliegue| Github Pages | Publicar y alojar la página web para permitir su acceso en línea|[Github Pages](https://pages.github.com/)|
+|Planificación y gestión del proyecto| Jira Software | Administrar el Product Backlog, planificar los Sprints y realizar el seguimiento de las actividades mediante una metodología ágil|[Jira](https://www.atlassian.com/es/software/jira)|
+|Diagramas| PlantUML | Crear representaciones UML relacionadas con la estructura y funcionamiento del sistema|[PlantUML](https://plantuml.com/)|
+|Modelado de procesos| UXPressia | Desarrollar herramientas de análisis UX enfocadas en las necesidades y experiencia del usuario|[UXPressia](https://uxpressia.com/)|
 
 #### 5.1.2. Source Code Management
 
@@ -279,7 +279,7 @@ Se presenta el desglose tecnico de las historias seleccionadas para esta iteraci
 
 <img src="docs/assets/Cap5/EvidenciaTrello.png">
 
-link: [https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae911466aeadaa1cec5C94715BC/sprint-1-astrobusteam](https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae911466aeadaa1cec5C94715BC/sprint-1-astrobusteam)
+link: https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae911466aeadaa1cec5C94715BC/sprint-1-astrobusteam 
 
 | Sprint # | Sprint 1 | | | | | | |
 |----------|----------|-|-|-|-|-|-|
@@ -294,6 +294,16 @@ link: [https://trello.com/invite/b/6aada76451c89821aa1c576d/ATTI9ede0c7d6fa24ae9
 
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
+
+En este primer Sprint el equipo implementó la landing page. Todo el trabajo se desarrolló sobre ramas feature/* que se integraron a develop mediante Pull Requests revisados. A continuación se listan los commits más representativos del sprint.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| SecurityBus-730-AW | feature/00-chapter-01 | ce1b67ea7c64e009aa307b91b9498b2e4d3211fd | docs: Merge chapter 1 | Merge branch 'feature/00-chapter-01' of https://github.com/AstroBusTeam/SecurityBus-730-AW into feature/00-chapter-01 | 10/09/2026 |
+| SecurityBus-730-AW | feature/10-chapter-02 | e4c0da51c90fd37c8a59aa353c58aa894d881e12 | fix: fix a litle problem in the document | - | 11/09/2026 |
+| SecurityBus-730-AW | feature/chapter-3 | 0e8fbc867149f98f4a5e1b9058293ccb81b53b93 | docs: Merge chapter 3 | Merge branch 'feature/chapter-3' into develop| 10/09/2026 |
+| SecurityBus-730-AW | feature/chapter-04 | 9063bdf2ee33ae22be820af08c69f8ebb2443b58 | Docs: Create Event Storming | -| 10/09/2026 |
+| SecurityBus-730-AW | feature/chapter-05 | 8d75682360fd891997329ce480af8349b238b4a8 | Docs:Event Storming folder created | -| 11/09/2026 |
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -325,7 +335,7 @@ La Landing Page incluye las siguientes secciones:
 
 ![Hero](docs/assets/Cap5/LP_Evidencia/Interfaz.png)
 
-Link a la Landing Page: [https://astrobusteam.github.io/SecurityBus-landing-page-aw/](https://astrobusteam.github.io/SecurityBus-landing-page-aw/)
+Link a la Landing Page: [SecurityBus Landing Page](https://astrobusteam.github.io/SecurityBus-landing-page-aw/)
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -368,6 +378,323 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 
 ![Contribuciones](docs/assets/Cap5/Contributions.png)
 
+
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Spring Planning 2
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 27/09/2026 |
+| Time | 5:30 PM |
+| Location | Virtual |
+| Prepared By | Justo Yauricasa, Alexander Paolo |
+| Attendees (to planning meeting) | Pillaca Gonzales, Andy Saúl<br>Justo Yauricasa, Alexander Paolo |
+| **Sprint 2 Review Summary** | Durante este sprint, el equipo se enfocó de lleno en el desarrollo e implementación de la interfaz de usuario (UI) de la aplicación web SafeBus. Se logró maquetar, diseñar e integrar la experiencia visual abarcando. Esto incluyó la creación de componentes interactivos, vistas de reportes, mapas de alertas y flujos de navegación, sentando toda la base frontend de la plataforma. |
+| **Sprint 2 Retrospective Summary** | El equipo demostró una gran capacidad de ejecución para manejar el alto volumen de tareas visuales. El uso de componentes reutilizables agilizó significativamente el desarrollo. Como punto de mejora, identificamos que para los próximos sprints debemos optimizar los cardinaciones para el desarrollo. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | Completar el diseño y la maquetación frontend de la aplicación web SabeBus, garantizando que las interfaces planificadas sean totalmente funcionales a nivel visual, responsivas y alineadas con la guía de estilos, dejando el proyecto listo para la integración con los servicios del backend. |
+| **Sprint 2 Velocity** | 109 |
+| **Sum of Story Points** | 109 |
+
+##### 5.2.2.2. Aspect Leaders and Collaborators
+
+Durante el desarrollo del Sprint 2, se han identificado distintos aspectos funcionales relacionados al diseño y construcción de la aplicación web de SafeBus. Con el objetivo de organizar el trabajo del equipo de manera eficiente, se ha elaborado una matriz de Liderazgo y Colaboración (LACX), donde se asigna a cada integrante el rol de líder (L) en los módulos clave del desarrollo que se le han asignado, y el rol de colaborador (C) en otros aspectos. 
+
+Los aspectos definidos para este Sprint, son:
+
+1. **Apartado de Login:** Registro e inicio de sesión.
+2. **Apartado de Dashboard:** Monitoreo de distancia, tiempo, pasajeros, dinero recuadado, ruta y boton de finalizado.
+3. **Gestion de flora:** Creacion de conductor y buses. Ademas, de la vinculacion conductor con bus.
+4. **Boton de alarma:** Boton que ayuda a mostar el peligro de un conducntor, su ubicacion y estado.
+5. **Registros de Alarma:** Visualizacion de reguistos de alarmas y sus estados.
+6. **Mapa:** Mostrar las alertas en el mapa.
+7. **Sistema de notificaciones:** Envio de alerta a los busces cercanos.
+
+
+A continuación, se presenta la matriz de responsabilidades del equipo:
+
+| Team Member (Last Name, First Name) | GitHub Username | Login | Configuration of Dashboard | Vegetation management | Alarm button | Alarm Logs | Map | Notification system |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Justo Yauricasa, Alexander Paolo | AlexanderJusto | L | L | L | C | C | C | C |
+| Pillaca Gonzales, Andy Saúl | DiazDeveloper | C | C | C | L | L | L | L |
+
+**Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 2, indicando el liderazgo (L) y la colaboración (C) en cada funcionalidad desarrollada.
+
+##### 5.2.2.3. Sprint Backlog 2
+
+| User Story Id | User Story Title | Work Item/Task Id | Work Item/Task Title | Description | Estimation | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| US-01 | Autenticación del conductor al iniciar la jornada | T01 | UI Autenticación Conductor | Maquetación e ingreso de código. | 3h | Alexander Justo | To Do |
+| US-14 | Verificación de habilitación del conductor | T08 | Lógica Verificación Habilitación | Validación de permisos del conductor. | 3h | Alexander Justo | To Do |
+| US-15 | Vínculo entre conductor y unidad | T09 | Registro Asignación Conductor | Asociación del conductor a la unidad. | 3h | Alexander Justo | To Do |
+| US-02 | Apertura del registro de servicio | T02 | UI Apertura Servicio | Botón para iniciar el servicio. | 2h | Alexander Justo | To Do |
+| US-03 | Envío de alerta desde la unidad | T03 | UI Botón de Alerta | Botón de pánico silencioso. | 3h | Andy Pillaca | To Do |
+| US-04 | Notificación de la alerta a la central | T04 | Servicio Recepción Alerta | Envío de alerta a la central. | 4h | Andy Pillaca | To Do |
+| US-42 | Ubicación asociada al evento | T20 | Captura GPS en Alerta | Captura de ubicación GPS. | 3h | Andy Pillaca | To Do |
+| US-05 | Persistencia del evento de emergencia | T05 | Persistencia de Alertas | Guardado del evento de alerta. | 3h | Andy Pillaca | To Do |
+| US-23 | Acuse de recepción de la alerta | T11 | Módulo Acuse de Recibo | Registro de confirmación de alerta. | 3h | Andy Pillaca | To Do |
+| US-24 | Reenvío de alertas sin confirmar | T12 | Mecanismo Reintentos Alerta | Reintento de envío no confirmado. | 4h | Andy Pillaca | To Do |
+| US-40 | Clasificación de alertas por gravedad | T19 | Priorización de Alertas | Asignación de nivel de prioridad. | 3h | Andy Pillaca | To Do |
+| US-33 | Difusión de la alerta a varios destinatarios | T17 | Servicio Multidifusión Alertas | Envío a múltiples destinatarios. | 4h | Andy Pillaca | To Do |
+| US-43 | Seguimiento de la unidad asignada | T21 | UI Mapas y Seguimiento GPS | Visualización GPS en mapa. | 5h | Andy Pillaca | To Do |
+| US-06 | Conteo automático de ocupantes | T06 | Integración Sensores Pasajeros | Conteo de pasajeros a bordo. | 4h | Alexander Justo | To Do |
+| US-07 | Disponibilidad del conteo para reportes | T07 | API Consulta Ocupación | Consulta del número de ocupantes. | 2h | Alexander Justo | To Do |
+| US-25 | Cierre del registro de servicio | T13 | UI Cierre Servicio | Botón para finalizar el servicio. | 2h | Alexander Justo | To Do |
+| US-26 | Consulta del estado del propio servicio | T14 | UI Estado de Servicio Conductor | Vista del estado actual del viaje. | 3h | Alexander Justo | To Do |
+| US-27 | Tablero de estado de la flota | T15 | Dashboard Flota | Panel general de la flota. | 5h | Alexander Justo | To Do |
+| US-16 | Revisión del historial de emergencias | T10 | UI Historial Emergencias | Listado de emergencias pasadas. | 4h | Andy Pillaca | To Do |
+| US-28 | Seguimiento de la ocupación en operación | T16 | UI Reporte Ocupación Flota | Monitoreo del nivel de carga. | 4h | Alexander Justo | To Do |
+| US-35 | Promedio de pasajeros por viaje | T18 | Cálculo Estadístico Ocupación | Cálculo promedio de pasajeros. | 3h | Alexander Justo | To Do |
+
+**Nota:** Relación entre las historias de usuario del Sprint 2 y las tareas planificadas para su implementación, incluyendo su estimación, responsable asignado y estado de ejecución.
+
+##### 5.2.2.4. Development Evidence for Sprint Review
+
+En este segundo Sprint hemos realizado la implementación del fronte-end, donde todo el equipo ha aportado mediante la gestión de ramas. En la siguiente tabla se muestran los commits realizados.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| AstroBusTeam-FrontEnd | feature/iam | 2317a3abf7b753f4b52e65aed1632721b0c10258 | feature: add iam | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/fleet | b4b01276395f339487e1b7b3fdb1e36e9536ef05 | feature: create the fleet component and functions | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/operations | 830f93a480adb5f957ff975f007e2058a0b2fd88 | Merge pull request #3 from AstroBusTeam/feature/operations | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/alerts | 5c51e4912c9308f6e14fa750d7a1e1316efe779d | Merge pull request #2 from AstroBusTeam/feature/alerts | -- | [06/10/2026] |
+| AstroBusTeam-FrontEnd | feature/shared | 0a53309b6b74c59fb78f26beb44be9cb3cff9339 | Merge pull request #1 from AstroBusTeam/feature/shared | -- | [06/10/2026] |
+
+##### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este Sprint se logró la primera versión funcional de la Web Application de SecurityBus. La aplicación permite que el conductor ingrese con su código de empleado, inicie y cierre su servicio, vea el mapa de su unidad y emita una alerta de emergencia con un solo botón. Del lado de la empresa, permite supervisar la flota desde el centro de control, administrar conductores, vehículos y asignaciones, revisar las alertas y consultar los destinatarios notificados. La interfaz está disponible en español e inglés mediante el selector de idioma del toolbar y se adapta a distintos tamaños de pantalla.
+
+Verificación de identidad del conductor. El conductor ingresa su código de empleado (por ejemplo, SF-90210). El sistema valida que el conductor esté habilitado y tenga una asignación activa, y luego lo redirige al dashboard. Las demás rutas quedan protegidas si no existe una sesión.
+
+![verificación de identidad del conductor](docs/assets/Cap5/sprint02/identity-verification.png)
+
+Dashboard e inicio de servicio. Muestra la unidad y la ruta asignadas, permite iniciar el servicio y, al finalizar el turno, presenta el protocolo de cierre y el resumen del turno.
+
+![dashboard](docs/assets/Cap5/sprint02/dashboard.png)
+
+Mapa del servicio y centro de control. El mapa dibuja la posición de las unidades y las alertas activas sobre los tiles de OpenStreetMap. El conductor ve su unidad y la empresa ve toda la flota.
+
+![control-center](docs/assets/Cap5/sprint02/control-center.png)
+
+Botón de pánico. Disponible en el toolbar, envía la alerta con la ubicación de la unidad y abre una ventana de 5 segundos para cancelarla.
+
+![panic-signal](docs/assets/Cap5/sprint02/panic-signal.png)
+
+Registro y detalle de alertas. El registro lista las alertas por fecha y estado y permite reenviar las pendientes. El detalle muestra la línea de tiempo de la alerta, el número de intentos y su confirmación.
+
+![alert-details](docs/assets/Cap5/sprint02/alert-details.png)
+
+Notificaciones. Presenta los destinatarios activos con su rol y canal, y el registro de entregas con su prioridad y estado.
+
+![notifications](docs/assets/Cap5/sprint02/notifications.png)
+
+Gestión de conductores, vehículos y asignaciones. Tablas con formularios para crear, editar y eliminar registros, y una vista para asociar conductores con unidades y rutas.
+
+![vehicles](docs/assets/Cap5/sprint02/vehicles.png)
+
+![drivers](docs/assets/Cap5/sprint02/drivers.png)
+
+Historial de turnos e impacto en números. El historial lista los turnos con su ruta, distancia, pasajeros e incidentes. La vista de impacto resume indicadores y gráficos de pasajeros y alertas.
+
+![shift-history](docs/assets/Cap5/sprint02/shift-history.png)
+
+Para evidenciar las funcionalidades implementadas, se adjunta un video donde se muestra la navegación entre las vistas, la interacción con el botón de pánico y la comunicación con la Fake API desplegada.
+
+URL del video de ejecución de la Web Application: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQC9xqrLUfGBTKetm5mY0sOrAQ1vPREJ-m9pPR_8LgcypCI?e=u1aGF4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQC9xqrLUfGBTKetm5mY0sOrAQ1vPREJ-m9pPR_8LgcypCI?e=u1aGF4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+##### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo implementó y desplegó una Fake API RESTful con json-server, que simula el comportamiento del backend de SecurityBus mientras se desarrollan los servicios reales. La API expone siete recursos (conductores, vehículos, asignaciones, turnos, alertas, destinatarios y entregas) y soporta operaciones CRUD con los verbos GET, POST, PUT y DELETE. Su configuración de rutas redirige el prefijo /api/v1 a los recursos de la base de datos, de forma que la aplicación consume la misma estructura de URL que tendrá el servicio definitivo. Esto permitió desacoplar la aplicación web de datos locales y realizar pruebas colaborativas sobre una API pública.
+
+URL base del servicio: [https://astro-bus-team-fake-api-aw-730.vercel.app](https://astro-bus-team-fake-api-aw-730.vercel.app)
+
+Dado que json-server no genera documentación OpenAPI automáticamente, en este Sprint los endpoints se documentan en las siguientes tablas. La especificación OpenAPI formal se elaborará con los Web Services definitivos en los siguientes Sprints.
+
+|Endpoint|Acciones implementadas|Descripción|
+|--------|----------------------|-----------|
+|/drivers|GET,POST,PUT,DELETE|Gestión de conductores|
+|/vehicles|GET,POST,PUT,DELETE|Gestión de vehículos de la flota|
+|/assigments|GET,POST,DELETE|Asociación entre conductor, vehículo y ruta|
+|/shifts|GET,POST,PUT|Registro de turnos de servicio|
+|/alerts|GET,POST,PUT,DELETE|Emisión, consulta, actualización y reenvío de alertas|
+|/recipients|GET,PUT|Destinatarios de las alertas|
+|/deliveries|GET,POST|Registro de entregas de notificaciones|
+
+|Acción|Verbo HTTP|Sintaxis de llamada|Parámetros|Response|
+|------|---------|-------------------|------------|-------|
+|Listar recursos|GET|/{recurso}|Opcionales: filtros por campo, por ejemplo ?employeeCode=SF-90210 o ?driverId=1&status=active|200 OK con un arreglo JSON.|
+|Obtener por id|GET|/{recurso}/{id}|id en la ruta|200 OK con el recurso. 404 si no existe.|
+|Crear|POST|/{recurso}|Cuerpo JSON con los campos del recurso|201 Created con el recurso y su id.|
+|Actualizar|PUT|/{recurso}/{id}|id en la ruta y cuerpo JSON completo|200 OK con el recurso actualizado.|
+|Eliminar|DELETE|/{recurso}/{id}|id en la ruta|	200 OK con un objeto vacío.|
+
+Ejemplo 1. Verificación del conductor por código de empleado (US01 y US14).
+
+```
+GET /api/v1/drivers?employeeCode=SF-90210
+```
+
+El response es un arreglo con el conductor que coincide, junto con los datos de su licencia y su estado:
+
+```
+[
+  {
+    "id": 1,
+    "employeeCode": "SF-90210",
+    "firstName": "Marcos",
+    "lastName": "Silva",
+    "dni": "77443322",
+    "category": "A-IIIb",
+    "licenseNumber": "Q77443322",
+    "licenseExpiry": "2027-05-12",
+    "points": 14,
+    "rating": 4.9,
+    "yearsExperience": 12,
+    "status": "active"
+  }
+]
+```
+
+Ejemplo 2. Consulta de la asignación vigente del conductor (US14 y US15).
+
+```
+GET /api/v1/assignments?driverId=1&status=active
+```
+
+```
+[
+  {
+    "id": 1,
+    "driverId": 1,
+    "vehicleId": 1,
+    "route": "R-42 Terminal Norte - Estación Central",
+    "startTime": "05:30",
+    "status": "active"
+  }
+]
+```
+
+Ejemplo 3. Emisión de una alerta de pánico con la ubicación de la unidad (US03, US05 y US42).
+
+```
+POST /api/v1/alerts
+Content-Type: application/json
+```
+
+```
+{
+  "code": "AL-9928",
+  "vehicleId": 4,
+  "type": "Botón de pánico",
+  "receiver": "UNIDAD_MOVIL_04",
+  "attempts": 1,
+  "status": "pending",
+  "createdAt": "2026-10-04T14:22:05",
+  "latitude": -12.042,
+  "longitude": -77.034
+}
+```
+
+El response es 201 Created con el mismo objeto y el id generado. Mientras la alerta no sea confirmada, puede reenviarse con PUT /alerts/{id}, que incrementa attempts hasta un máximo de 3.
+
+Se adjuntan las siguientes capturas de la interacción con la API usando los datos de muestra:
+
+![evidencia1](docs/assets/Cap5/sprint02/evidencia1.png)
+
+<br>
+
+![evidencia2](docs/assets/Cap5/sprint02/evidencia2.png)
+
+
+Repositorio de la Fake API: [https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730](https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730)
+
+Commits relacionados con la API en este Sprint:
+
+|Commit Id|Commit Message|Descripción Técnica|
+|---------|---------------|------------------|
+|f6589ff  |feat: deploy fake-api| Se implementó la configuración inicial necesaria para desplegar la Fake API, preparando el proyecto para ejecutarse en un entorno de producción mediante Vercel.|
+|aaaac67  |fix: import express in entrypoint for Vercel detection|Se corrigió el punto de entrada de la aplicación incorporando la importación de Express, permitiendo que Vercel identifique correctamente el servidor y pueda ejecutar la Fake API.|
+|894f6b3|fix: import express in entrypoint so Vercel detects the Express app|Se agregó la importación de Express en el archivo de entrada de la aplicación para que Vercel pueda detectar correctamente la aplicación Express durante el despliegue.|
+
+
+##### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2, el equipo realizó el despliegue de la Web Application y de la Fake API. A diferencia del Sprint 1, donde solo se publicó la Landing Page en GitHub Pages, en esta iteración se consolidó una arquitectura de dos servicios: la aplicación web, publicada con Firebase Hosting, y la Fake API, publicada en Vercel. Ambos servicios se configuran mediante variables de entorno, de modo que la URL base de la API y las rutas de cada recurso no quedan escritas en el código.
+
+La arquitectura de despliegue se compone de los siguientes elementos:
+
+Web Application: aplicación Vue 3 compilada con Vite, cuyo resultado (carpeta dist) se publica en Firebase Hosting.
+Fake API: servicio RESTful basado en json-server, publicado en Vercel.
+Variables de entorno: archivos .env.development y .env.production con la URL base de la API, las rutas de los recursos y el servidor de tiles del mapa.
+
+**Despliegue de la Fake API en Vercel**
+
+- Se creó la cuenta en Vercel y se importó el repositorio de la Fake API desde GitHub.
+- Se configuró json-server con el archivo db.json y se definió en routes.json la redirección del prefijo /api/v1/* hacia los  recursos.
+- Se publicó el proyecto y Vercel generó la URL pública del servicio.
+- Se verificó el funcionamiento consultando los recursos desde el navegador y desde la Web Application.
+
+![evidence-fake-api](docs/assets/Cap5/sprint02/evidence-fake-api.png)
+
+**Despliegue de la Web Application en Firebase Hosting**
+
+- Se creó el proyecto en Firebase y se habilitó Hosting.
+- Se configuró firebase.json con la carpeta dist como directorio público y una regla de reescritura de todas las rutas hacia index.html, necesaria para que Vue Router funcione al recargar la página.
+- Se definió en .env.production la URL base de la Fake API desplegada.
+- Se generó la versión de producción con npm run build y se publicó con Firebase Hosting.
+<br>
+
+![evidence-frontend-firebase](docs/assets/Cap5/sprint02/evidence-frontend-firebase.png)
+
+La Web Application desplegada está disponible en: [https://securitybus-730-aw-front-7bf31.web.app/](https://securitybus-730-aw-front-7bf31.web.app/)
+
+Repositorio de la Web Application: [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+
+
+##### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, el equipo trabajó de forma colaborativa en la implementación de la Web Application y de la Fake API. Se mantuvo la estrategia GitFlow definida en la configuración del proyecto: cada funcionalidad se desarrolló en una rama feature/* creada a partir de develop, y los cambios se integraron mediante Pull Requests revisados por otro integrante antes de incorporarse. Los commits siguieron la convención Conventional Commits, lo que permitió mantener la trazabilidad de cada cambio.
+
+El trabajo se distribuyó según la matriz de líderes y colaboradores de la sección 5.2.2.2. Cada integrante lideró un aspecto del Sprint y colaboró en los demás: IAM & Operations, Fleet Management, Alerts Management, Fake API y Deployment. Esta organización permitió que la interfaz, los datos de prueba y el despliegue avanzaran en paralelo. El seguimiento de las tareas se realizó en el tablero de Trello del Sprint.
+
+A continuación se presentan las evidencias extraídas de los repositorios del proyecto, que reflejan la participación de los integrantes durante el Sprint.
+
+**Evidencia 1: Gráfico de contribuciones por integrante**
+
+![contributors](docs/assets/Cap5/sprint02/contributors.png)
+
+**Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse**
+
+![pulse](docs/assets/Cap5/sprint02/pulse.png)
+
+<br>
+
+**Evidencia 3: Gestión de cambios mediante Pull Requests**
+
+![pull-requests](docs/assets/Cap5/sprint02/pull-requests.png)
+
+<br>
+
+**Evidencia 4: Organización de ramas bajo GitFlow**
+
+![gitflow](docs/assets/Cap5/sprint02/git-flow.png)
+
+<br>
+
+Las evidencias muestran que todos los integrantes participaron en la implementación, con commits distribuidos durante el Sprint e integraciones frecuentes hacia la rama develop. Entre las actividades colaborativas más relevantes destacan:
+
+- Implementación de las vistas del conductor: verificación de identidad, dashboard, mapa y botón de pánico.
+- Desarrollo de los módulos de flota y alertas, con sus tablas, formularios y detalle.
+- Configuración de la Fake API y conexión de la aplicación mediante variables de entorno.
+- Internacionalización de la interfaz en español e inglés.
+- Despliegue de la Web Application y de la Fake API.
+
+Repositorio de la Web Application: [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+
+Repositorio de la Fake API: [https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730](https://github.com/AstroBusTeam/AstroBusTeam-fake-api-aw-730)
+
 ## Conclusiones
 
 ### Conclusiones y Recomendaciones
@@ -380,6 +707,20 @@ El proyecto busca facilitar una respuesta más rápida ante situaciones de riesg
 
 Asimismo, SecurityBus busca complementar las medidas tradicionales de seguridad mediante herramientas digitales que permitan mejorar la comunicación y supervisión entre conductores y empresas de transporte.
 
+Primera versión funcional lograda. Con el Sprint 2 la propuesta pasó de la Landing Page a una Web Application que cubre el flujo del conductor (verificación, inicio y cierre de servicio, botón de pánico) y el de la empresa (centro de control, flota, alertas y notificaciones).
+
+Funciones críticas ya demostrables. El botón de pánico envía la alerta con la ubicación de la unidad y ofrece 5 segundos para cancelarla. Esto responde a la recomendación de mantener las acciones de emergencia simples y rápidas.
+
+Arquitectura modular. Organizar el frontend por bounded contexts (iam, operations, fleet y alerts), con capas de dominio, aplicación, infraestructura y presentación, facilita que el trabajo se reparta y que el sistema crezca.
+
+Desacople mediante la Fake API. Consumir una API con la misma estructura de URL que tendrá el servicio real permitió desarrollar la interfaz sin esperar al backend y reducirá el trabajo de integración.
+
+Trabajo colaborativo. GitFlow, Pull Requests y la matriz de líderes y colaboradores permitieron avanzar en paralelo en interfaz, datos de prueba y despliegue.
+
+Despliegue continuo del producto. Ahora hay dos servicios publicados (aplicación en Firebase Hosting, API en Vercel) configurados con variables de entorno.
+
+Experiencia de uso. La interfaz en español e inglés, el tema oscuro y el diseño responsive mantienen la identidad definida en las Style Guidelines.
+
 **Recomendaciones**
 
 Se recomienda priorizar una experiencia de uso sencilla y rápida, especialmente en funcionalidades destinadas a situaciones de emergencia, evitando procesos complejos que puedan dificultar su utilización por parte del conductor.
@@ -389,6 +730,12 @@ Es importante continuar validando las necesidades de conductores y empresas de t
 También se recomienda garantizar la confiabilidad de funciones críticas como el botón de pánico, la verificación mediante QR y el monitoreo, debido a que su correcto funcionamiento resulta fundamental dentro de la propuesta de seguridad de SecurityBus.
 
 Finalmente, se recomienda desarrollar SecurityBus de manera progresiva, evaluando los resultados obtenidos con los usuarios y utilizando esta información para mejorar las funcionalidades y adaptar la plataforma a las necesidades del transporte público.
+
+Comunicación en tiempo real. Las alertas y la posición de las unidades hoy se consultan de la Fake API. Para que la central reaccione a tiempo, se necesitaría un mecanismo como WebSockets o actualización periódica.
+
+Reemplazar la Fake API por los Web Services reales y documentarlos con OpenAPI, ya que json-server no valida datos ni ofrece seguridad.
+
+Autenticación real. Hoy el ingreso se valida solo con el código de empleado; conviene usar tokens y control de permisos por rol (conductor y empresa).
 
 ---
 
@@ -451,17 +798,16 @@ Segmento 2: Conductores de transporte público
 
 Se presenta el desglose tecnico de las historias seleccionadas para esta iteracion inicial. El proposito prioritario del Sprint abarca el despliegue de la pagina de aterrizaje y el cimiento de la arquitectura tecnologica del proyecto. Seguidamente, se incluye la imagen del tablero de Trello y la tabla de estados correspondiente a los elementos de trabajo.
 
-![Trello](docs/assets/Cap5/EvidenciaTrello.png)
+![Trello](/docs/assets/Cap5/EvidenciaTrello.png)
 
 
 **<center>Anexo C: Prototipado y Diseño de Interfaces en Figma</center><br>
-
 **Referencia:** AstroBus. (2026). Design System & Mockups de SecurityBus. Figma.
 <a href="https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=194-17020&t=qkGb9pUHIXJa9Tu6-0">https://www.figma.com/design/dZGVlWuEfGy76GBO9a8nmO/SecurityBus?node-id=194-17020&t=qkGb9pUHIXJa9Tu6-0</a>
 
 <center>Captura o Evidencia del Diseño de Interfaces - Figma</center><br>
 
-![Diseño UX/UI](docs/assets/Cap5/figmaWireframesMockups.png)
+![Diseño UX/UI](/docs/assets/Cap5/figmaWireframesMockups.png)
 
 
 
