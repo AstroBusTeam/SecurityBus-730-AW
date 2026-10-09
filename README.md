@@ -103,9 +103,21 @@ Carrera de Ingeniería de Software<br><br><br>
           Nawrocki Loureiro, Ian Andre
         </td>
         <td style="text-align: left;">
-        En el Sprint 2 se desarrolló la segunda entrega formal del proyecto AutoService, enfocada en la implementación de la aplicación web mediante Vue.js y JavaScript. Se incorporaron funcionalidades para la gestión de vehículos, órdenes de trabajo, clientes y procesos administrativos.
-        Además, se configuró una Fake REST API con JSON Server en Google Cloud Platform, permitiendo obtener y gestionar información dinámica mediante peticiones HTTP. Para el despliegue, se integraron Azure Static Web Apps y GitHub Actions, automatizando la actualización del sistema en producción.
-        Finalmente, se aplicaron buenas prácticas de trabajo colaborativo mediante GitFlow, utilizando ramas feature y Pull Requests para integrar los cambios, logrando disponer de una versión funcional del sistema desplegada en producción.
+        En el sprint 2 se desarrolló la implementación formal del frontend de la aplicación web del proyecto SecurityBus mediante Vue.js y JavaScript. Se incorporaron funcionalidades clave organizadas por bounded contexts (IAM, Fleet, Operations, Alerts y Shared), como la verificación de identidad del conductor, monitoreo en tiempo real, emisión y gestión de alertas de emergencia (botón de pánico), registro e historial de incidentes y conteo de ocupantes. Además, se configuró e integró una Fake REST API con JSON Server desplegada en Vercel, permitiendo gestionar información dinámica mediante peticiones HTTP. Para el despliegue del frontend, se utilizó Firebase Hosting. Finalmente, se aplicaron buenas prácticas de trabajo colaborativo mediante GitFlow, utilizando ramas por funcionalidad/bounded context y Pull Requests para integrar los cambios.
+        </td>
+      </tr>
+       <tr>
+        <td>V3.0</td>
+        <td></td>
+        <td>
+          Alvarado Millan, Boris<br>
+          Justo Yauricasa, Alexander Paolo<br>
+          Martinez Ramos, Bryan Felix<br>
+          Pillaca Gonzales, Andy Saúl<br>
+          Nawrocki Loureiro, Ian Andre
+        </td>
+        <td style="text-align: left;">
+        En la entrega AV2 (Sprint 3) se desarrolló e implementó el backend de servicios (RESTful API) en C# / ASP.NET Core y Entity Framework Core con arquitectura DDD, conectando la base de datos relacional y documentando los endpoints con OpenAPI / Swagger. Se integró la Web App frontend en Vue.js con el backend desplegado, se registraron las entrevistas de validación con evaluaciones heurísticas de UX, y se publicaron las primeras versiones de los videos About-the-Product y About-the-Team.
         </td>
       </tr>
     </tbody>
@@ -118,14 +130,17 @@ Carrera de Ingeniería de Software<br><br><br>
 - **URL del Repositorio de la Landing Page:** [https://github.com/AstroBusTeam/SecurityBus-landing-page-aw](https://github.com/AstroBusTeam/SecurityBus-landing-page-aw)
 - **Video Exposición AV1:** [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4)
 - **Video Exposición TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCvxQWq90fWRIhlgpWOinmpAcg8GUGx2Qat4fDj3RE3LS4?e=58NPnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCvxQWq90fWRIhlgpWOinmpAcg8GUGx2Qat4fDj3RE3LS4?e=58NPnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Video Exposición AV2:** []()
 * **URL del Repositorio del Frontend:** [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
 * **URL del Frontend Desplegado:** [https://securitybus-730-aw-front-7bf31.firebaseapp.com/](https://securitybus-730-aw-front-7bf31.firebaseapp.com/)
 * **URL del Fake API Desplegado:** [https://astro-bus-team-fake-api-aw-730.vercel.app/](https://astro-bus-team-fake-api-aw-730.vercel.app/)
+* **Video About The Team:** []()
 
 ## Project Report Collaboration Insights
 
 - **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 - **TB1:** - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+- **AV2:** - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 ---
 
 ## Contenido
@@ -216,6 +231,20 @@ Carrera de Ingeniería de Software<br><br><br>
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint-1)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+  - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
