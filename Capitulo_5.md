@@ -247,7 +247,7 @@ Cuando los cambios sean incorporados a la rama principal, GitHub Pages actualiza
 
 #### 5.2.1. Sprint 1
 
-##### 5.2.1.1. Spring Planning 1
+##### 5.2.1.1. Sprint Planning 1
 Para este primer Sprint, el equipo estableció como objetivo principal la implementación y despliegue de la primera versión de la Landing Page.
 
 | Campo | Detalle |
@@ -381,7 +381,7 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 
 #### 5.2.2. Sprint 2
 
-##### 5.2.2.1. Spring Planning 2
+##### 5.2.2.1. Sprint Planning 2
 
 | Sprint # | Sprint 2 |
 | :--- | :--- |
@@ -391,7 +391,7 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 | Location | Virtual |
 | Prepared By | Justo Yauricasa, Alexander Paolo |
 | Attendees (to planning meeting) | Pillaca Gonzales, Andy Saúl<br>Justo Yauricasa, Alexander Paolo |
-| **Sprint 2 Review Summary** | Durante este sprint, el equipo se enfocó en el desarrollo e implementación de la interfaz de usuario (UI) de la aplicación web SecurityBus y en una Fake API RESTful que simula el backend. Se logró maquetar, diseñar e integrar la experiencia visual, que incluyó componentes interactivos, vistas de reportes, mapa de alertas, flujos de navegación y el monitoreo de velocidad de los servicios con evaluación de conducta del conductor, sentando la base frontend de la plataforma. Además, se expusieron por API los servicios técnicos de validación de conductores (TS01), apertura de servicio (TS02), emisión de alertas (TS03), actualización del conteo (TS04), consulta del estado de la unidad (TS06) y cierre de servicio (TS08), verificados con 29 pruebas sobre los siete recursos de la API. |
+| **Sprint 2 Review Summary** | Durante este sprint, el equipo se enfocó en el desarrollo e implementación de la interfaz de usuario (UI) de la aplicación web SecurityBus y en una Fake API RESTful que simula el backend. Se logró maquetar, diseñar e integrar la experiencia visual, que incluyó componentes interactivos, vistas de reportes, mapa de alertas, flujos de navegación y el monitoreo de velocidad de los servicios con evaluación de conducta del conductor, sentando la base frontend de la plataforma. Además, se expusieron por API los servicios técnicos de validación de conductores (TS01), apertura de servicio (TS02), emisión de alertas (TS03), actualización del conteo (TS04), consulta del estado de la unidad (TS06) y cierre de servicio (TS08), verificados con 29 pruebas sobre los siete recursos de la API|
 | **Sprint 2 Retrospective Summary** | El equipo demostró una gran capacidad de ejecución para manejar el alto volumen de tareas visuales, y el uso de componentes reutilizables agilizó significativamente el desarrollo. Como punto de mejora, identificamos que en los próximos sprints debemos optimizar la coordinación entre los integrantes para el desarrollo. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 2 Goal** | Completar el diseño y la maquetación frontend de la aplicación web SecurityBus, incluyendo el monitoreo de velocidad de los servicios, y exponer mediante una Fake API RESTful desplegada los servicios técnicos (Technical Stories) de validación de conductores, apertura y cierre de servicio, actualización del conteo de pasajeros, consulta del estado de la unidad y emisión de alertas, garantizando que las interfaces sean funcionales a nivel visual, responsivas y alineadas con la guía de estilos, y dejando el proyecto listo para la integración con los servicios del backend. |
@@ -405,20 +405,20 @@ Durante el desarrollo del Sprint 2, se han identificado distintos aspectos funci
 Los aspectos definidos para este Sprint, son:
 
 1. **Apartado de Login:** Registro e inicio de sesión.
-2. **Apartado de Dashboard:** Monitoreo de distancia, tiempo, pasajeros, dinero recuadado, ruta y boton de finalizado.
-3. **Gestion de flora:** Creacion de conductor y buses. Ademas, de la vinculacion conductor con bus.
-4. **Boton de alarma:** Boton que ayuda a mostar el peligro de un conducntor, su ubicacion y estado.
-5. **Registros de Alarma:** Visualizacion de reguistos de alarmas y sus estados.
+2. **Apartado de Dashboard:** Monitoreo de distancia, tiempo, pasajeros, dinero recaudado, ruta y botón de finalizar.
+3. **Gestión de flota:** Creación de conductor y buses. Además, la vinculación del conductor con el bus.
+4. **Botón de alarma:** Botón que muestra el peligro de un conductor, su ubicación y su estado.
+5. **Registros de alarma:** Visualización de registros de alarmas y sus estados.
 6. **Mapa:** Mostrar las alertas en el mapa.
-7. **Sistema de notificaciones:** Envio de alerta a los busces cercanos.
+7. **Sistema de notificaciones:** Envío de alerta a los busces cercanos.
 8. **Fake API y Technical Stories:** Servicios por API (TS01, TS02, TS03, TS04, TS06 y TS08) y su despliegue.
 
 A continuación, se presenta la matriz de responsabilidades del equipo:
 
 | Team Member (Last Name, First Name) | GitHub Username | Login | Dashboard | Fleet management | Alarm button | Alarm Logs | Map | Notification system | Fake API y TS |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Justo Yauricasa, Alexander Paolo | AlexanderJusto | L | L | L | C | C | C | C | L (conductores, turnos) |
-| Pillaca Gonzales, Andy Saúl | DiazDeveloper | C | C | C | L | L | L | L | L (alertas, vehículos) | 
+| Justo Yauricasa, Alexander Paolo | AlexanderrJusto | L | L | L | C | C | C | C | L (conductores, turnos) |
+| Pillaca Gonzales, Andy Saúl | apillacag | C | C | C | L | L | L | L | L (alertas, vehículos) | 
 
 **Nota:** Distribución de responsabilidades de los integrantes del equipo durante el Sprint 2, indicando el liderazgo (L) y la colaboración (C) en cada funcionalidad desarrollada.
 
@@ -611,11 +611,11 @@ La Fake API implementa los siguientes servicios técnicos (Technical Stories) de
 
 | TS | Servicio | Verbo y Endpoint | Respuesta de éxito | Respuesta de fracaso |
 |----|----------|------------------|--------------------|----------------------|
-| TS01 | Validación de conductores | GET /drivers?employeeCode={código} | 200 con 1 conductor y su estado | 200 con 1 conductor y su estado | 200 con arreglo vacío si el código no existe |
-| TS02 | Apertura de servicio | POST/shifts | 201 con el turno y su id | No valida datos(limitación de json-server) |
-| TS03 | Emisión de alertas | POST/alerts | 201 con la alerta y su id | No valida datos (limitación de json-server) |
-| TS04 | Actualización del conteo | PUT/shifts/{id} | 200 con pasajeros y velocidad actualizados | 404 si el turno no existe |
-| TS06 | Estado de la unidad | GET/vehicles/{id} | 200 con status, latitude y longitude | 404 si la unidad no existe | 
+| TS01 | Validación de conductores | GET /drivers?employeeCode={código} | 200 con 1 conductor y su estado | 200 con arreglo vacío si el código no existe |
+| TS02 | Apertura de servicio | POST /shifts | 201 con el turno y su id | No valida datos(limitación de json-server) |
+| TS03 | Emisión de alertas | POST /alerts | 201 con la alerta y su id | No valida datos (limitación de json-server) |
+| TS04 | Actualización del conteo | PUT /shifts/{id} | 200 con pasajeros y velocidad actualizados | 404 si el turno no existe |
+| TS06 | Estado de la unidad | GET /vehicles/{id} | 200 con status, latitude y longitude | 404 si la unidad no existe | 
 | TS08 | Cierre de servicio | PUT /shifts/{id} | 200 con status: finished y endTime | 404 si el turno no existe |
 
 Los turnos (shifts) incorporan, además, los campos del monitoreo de velocidad:
@@ -625,8 +625,8 @@ Los turnos (shifts) incorporan, además, los campos del monitoreo de velocidad:
 | speedKmh | número | Velocidad actual del bus en km/h (0 al cerrar el turno) | 58 | 
 | maxSpeedKmh | número | Velocidad máxima registrada en el turno | 64 | 
 | averageSpeedKmh | número | Velocidad promedio del turno | 41.2 | 
-| SpeedSamples | entero | Cantidad de mediciones de velocidad tomadas | 6 | 
- OverspeedEvents | entero | Veces que se cruzó el limite de 60 km/h | 1 | 
+| speedSamples | entero | Cantidad de mediciones de velocidad tomadas | 6 | 
+ overspeedEvents | entero | Veces que se cruzó el limite de 60 km/h | 1 | 
 
 **Monitoreo de velocidad**
 
@@ -639,7 +639,7 @@ Durante el servicio, la aplicación simula la velocidad del bus cada 5 segundos 
 | Exceso | Más de 60 km/h; se cuenta uno solo al cruzar el límite, no en cada medición |
 | Simulación | Cada 5 segundos, entre 15 y 88 km/h |
 | Puntaje de conducta | Base = calificación x 20 (80 si no hay calificación), menos 3 por exceso y 5 por incidente; entre 0 y 100 |
-| Nivel de conducta | Buena (85 o más), regular (64 a 84), de riesgo (menos de 60)
+| Nivel de conducta | Buena (85 o más), regular (60 a 84), de riesgo (menos de 60)
 
 Ejemplo 4. Apertura de un servicio de conducción (TS02, US02)
 
@@ -702,11 +702,11 @@ Content-Type: application/json
 }
 ```
 
-El response es 200 OK con el turno actualizado. Para cerrar el servicio (TS08) se envía el mismo PUT con endTime completado, status en finished y speedKmh es 0.
+El response es 200 OK con el turno actualizado. Para cerrar el servicio (TS08) se envía el mismo PUT con endTime completado, status en finished y speedKmh en 0.
 
 
 **Pruebas de endpoints**
-Para validar la Fake API se ejecutaron 29 sobre los siete recursos (drivers, assignments, shifts, alerts, recipients y deliveries) y los cuatro verbos HTTP (GET, POST, PUT y DELETE). La URL base es https://astro-bus-team-fake-api-aw-730.vercel.app/ . La columna HTTP indica el código de estado devuelto por la API en cada prueba.
+Para validar la Fake API se ejecutaron 29 pruebas sobre los siete recursos (drivers, vehicles, assignments, shifts, alerts, recipients y deliveries) y los cuatro verbos HTTP (GET, POST, PUT y DELETE). La URL base es https://astro-bus-team-fake-api-aw-730.vercel.app/api/v1 . La columna HTTP indica el código de estado devuelto por la API en cada prueba.
 
 | Id | Recurso | Verbo y URL | Qué se prueba | Resultado esperado | HTTP | TS / US |
 |----|---------|-------------|---------------|--------------------|------|---------|
@@ -974,7 +974,7 @@ Segmento 2: Conductores de transporte público
 
 Se presenta el desglose tecnico de las historias seleccionadas para esta iteracion inicial. El proposito prioritario del Sprint abarca el despliegue de la pagina de aterrizaje y el cimiento de la arquitectura tecnologica del proyecto. Seguidamente, se incluye la imagen del tablero de Trello y la tabla de estados correspondiente a los elementos de trabajo.
 
-![Trello](/docs/assets/Cap5/EvidenciaTrello.png)
+![Trello](docs/assets/Cap5/EvidenciaTrello.png)
 
 
 **<center>Anexo C: Prototipado y Diseño de Interfaces en Figma</center><br>
@@ -985,5 +985,5 @@ Se presenta el desglose tecnico de las historias seleccionadas para esta iteraci
 
 <center>Captura o Evidencia del Diseño de Interfaces - Figma</center><br>
 
-![Diseño UX/UI](/docs/assets/Cap5/figmaWireframesMockups.png)
+![Diseño UX/UI](docs/assets/Cap5/figmaWireframesMockups.png)
 
