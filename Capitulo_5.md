@@ -391,8 +391,8 @@ Posteriormente, los cambios fueron integrados mediante Pull Requests, permitiend
 | Location | Virtual |
 | Prepared By | Justo Yauricasa, Alexander Paolo |
 | Attendees (to planning meeting) | Pillaca Gonzales, Andy Saúl<br>Justo Yauricasa, Alexander Paolo |
-| **Sprint 2 Review Summary** | Durante este sprint, el equipo se enfocó en el desarrollo e implementación de la interfaz de usuario (UI) de la aplicación web SecurityBus y en una Fake API RESTful que simula el backend. Se logró maquetar, diseñar e integrar la experiencia visual, que incluyó componentes interactivos, vistas de reportes, mapa de alertas, flujos de navegación y el monitoreo de velocidad de los servicios con evaluación de conducta del conductor, sentando la base frontend de la plataforma. Además, se expusieron por API los servicios técnicos de validación de conductores (TS01), apertura de servicio (TS02), emisión de alertas (TS03), actualización del conteo (TS04), consulta del estado de la unidad (TS06) y cierre de servicio (TS08), verificados con 29 pruebas sobre los siete recursos de la API|
-| **Sprint 2 Retrospective Summary** | El equipo demostró una gran capacidad de ejecución para manejar el alto volumen de tareas visuales, y el uso de componentes reutilizables agilizó significativamente el desarrollo. Como punto de mejora, identificamos que en los próximos sprints debemos optimizar la coordinación entre los integrantes para el desarrollo. |
+| **Sprint 1 Review Summary** | Durante este sprint, el equipo se enfocó en el desarrollo e implementación de la interfaz de usuario (UI) de la aplicación web SecurityBus y en una Fake API RESTful que simula el backend. Se logró maquetar, diseñar e integrar la experiencia visual, que incluyó componentes interactivos, vistas de reportes, mapa de alertas, flujos de navegación y el monitoreo de velocidad de los servicios con evaluación de conducta del conductor, sentando la base frontend de la plataforma. Además, se expusieron por API los servicios técnicos de validación de conductores (TS01), apertura de servicio (TS02), emisión de alertas (TS03), actualización del conteo (TS04), consulta del estado de la unidad (TS06) y cierre de servicio (TS08), verificados con 29 pruebas sobre los siete recursos de la API|
+| **Sprint 1 Retrospective Summary** | El equipo demostró una gran capacidad de ejecución para manejar el alto volumen de tareas visuales, y el uso de componentes reutilizables agilizó significativamente el desarrollo. Como punto de mejora, identificamos que en los próximos sprints debemos optimizar la coordinación entre los integrantes para el desarrollo. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 2 Goal** | Completar el diseño y la maquetación frontend de la aplicación web SecurityBus, incluyendo el monitoreo de velocidad de los servicios, y exponer mediante una Fake API RESTful desplegada los servicios técnicos (Technical Stories) de validación de conductores, apertura y cierre de servicio, actualización del conteo de pasajeros, consulta del estado de la unidad y emisión de alertas, garantizando que las interfaces sean funcionales a nivel visual, responsivas y alineadas con la guía de estilos, y dejando el proyecto listo para la integración con los servicios del backend. |
 | **Sprint 2 Velocity** | 125 |
@@ -846,29 +846,803 @@ Repositorio de la Fake API: [https://github.com/AstroBusTeam/AstroBusTeam-fake-a
 
 ##### 5.2.3.1. Sprint Planning 3
 
+La planificación del Sprint 3 es el punto de partida de la iteración: en ella el equipo revisó los resultados del Sprint anterior, recogió los aprendizajes de su retrospectiva y fijó el objetivo, las historias técnicas seleccionadas y la capacidad de trabajo comprometida. La siguiente tabla resume el acta de dicha reunión.
+
+| Sprint # | Sprint 3 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| Date | 26/10/2026 |
+| Time | 4:00 PM |
+| Location | Virtual |
+| Prepared By | Justo Yauricasa, Alexander Paolo |
+| Attendees (to planning meeting) | Alvarado Millan, Boris <br> Justo Yauricasa, Alexander Paolo <br> Martinez Ramos, Bryan Felix <br> Pillaca Gonzales, Andy Saúl <br> Nawrocki Loureiro, Ian Andre |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se implementó la aplicación web de SecurityBus con Vue 3, organizada en los bounded contexts IAM, Fleet, Operations, Alerts y Shared, y se publicó en Firebase Hosting. Los datos provenían de una Fake API construida con json-server y desplegada en Vercel, que exponía siete recursos bajo el prefijo /api/v1 y simulaba los servicios técnicos TS01, TS02, TS03, TS04, TS06 y TS08. |
+| **Sprint 2 Retrospective Summary** | El equipo destacó que el uso de componentes reutilizables y de ramas por bounded context aceleró el desarrollo. Como oportunidad de mejora, se acordó definir primero los contratos de datos (recursos, rutas y códigos de respuesta) y conservar en el backend la estructura de URL /api/v1 de la Fake API, con el fin de integrar ambos componentes sin reprocesos. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 3 Goal** | Desarrollar los Web Services RESTful de SecurityBus con C# y ASP.NET Core, persistir la información en una base de datos relacional MySQL mediante Entity Framework Core, documentar los endpoints con OpenAPI, desplegar el backend en Microsoft Azure y conectar la aplicación web para reemplazar por completo la Fake API. El objetivo se considerará cumplido cuando la aplicación opere sobre el backend desplegado y las entrevistas de validación evidencien el funcionamiento del flujo completo. |
+| **Sprint 3 Velocity** | 22 Story Points |
+| **Sum of Story Points** | 22 Story Points (TS01: 3, TS02: 3, TS03: 3, TS04: 2, TS05: 3, TS06: 3, TS08: 2, TS10: 3) |
+
 ##### 5.2.3.2. Aspect Leaders and Collaborators
+
+La matriz de liderazgo y colaboración permite repartir las responsabilidades del Sprint de forma explícita. Para cada aspecto del producto se designa a un integrante líder (L), responsable de coordinar su avance y de responder por su calidad, y se reconoce al resto como colaboradores (C), quienes aportan en su desarrollo y revisión. Esta organización evita la dispersión del trabajo, facilita la revisión del código mediante Pull Requests y permite saber con certeza a quién consultar ante una decisión técnica.
+ 
+Dado que el Sprint 3 abarca la construcción completa del backend, el equipo dividió el trabajo siguiendo los bounded contexts definidos en la arquitectura de Domain-Driven Design, de modo que cada integrante pudiera desarrollar un contexto con autonomía. A ello se sumaron dos aspectos transversales: la integración y el despliegue, y la validación con usuarios. Los aspectos definidos para el Sprint fueron los siguientes:
+
+1. Shared (persistencia): modelo de datos, llaves foráneas, repositorio base, Unit of Work, auditoría, datos de ejemplo y OpenAPI localizado.
+2. Fleet Management: conductores, vehículos, rutas y asignaciones.
+3. Operations: turnos de servicio y posiciones de los vehículos.
+4. Alerts Management: alertas, tipos de alerta, intentos, entregas, destinatarios, canales y centros de control.
+5. IAM: verificación de la identidad del conductor y usuarios del sistema.
+6. Frontend Integration & Deployment: adaptación del frontend al backend, internacionalización de la API, política CORS y despliegue en Azure.
+7. Validation Interviews: diseño, ejecución y análisis de las entrevistas de validación y de las evaluaciones heurísticas.
+
+|Team Member (Last Name, First Name) | GitHub Username | Shared | Fleet | Operations | IAM | Frontend Integration & Deployment | Validation Interviews |
+|---------------------|----------|--------|--------|---------|----------|-------------|--------------|
+| Alvarado Millan, Boris | borisalvaradomillanPE | L | C | C | C | C | C |
+| Justo Yauricasa, Alexander Paolo | AlexanderrJusto | C | L | C | C | C | C |
+| Martinez Ramos, Bryan Felix | BryanMR1 | C | L | C | C | C | C |
+| Nawrocki Loureiro, Ian Andre | IanNaw | C | C | C | L | C | C |
+| Pillaca Gonzales, Andy Saúl | apillacag | C | C | C | C | L | L |
+
+Como se observa en la matriz, cada bounded context tuvo un líder distinto, lo que permitió desarrollar en paralelo la persistencia, la gestión de flota, las operaciones, las alertas y la verificación de identidad. La integración con el frontend y el despliegue fueron lideradas por quien había construido la aplicación web, con el fin de resolver de forma directa los ajustes necesarios entre ambos componentes. La siguiente tabla precisa el alcance de cada aspecto y sus entregables principales.
+ 
+| Aspecto | Líder | Alcance | Entregables principales |
+|---|---|---|---|
+| Shared | Boris Alvarado | Infraestructura común de persistencia y documentación | `AppDbContext` con convención snake_case y llaves foráneas, repositorio base, Unit of Work, interceptor de auditoría, patrón Result, `DatabaseSeeder`, convención de rutas kebab-case y OpenAPI localizado |
+| Fleet | Bryan Martinez | Gestión de la flota | Agregados Driver, Vehicle y Assignment; comandos y consultas; repositorios; controladores REST; fachada ACL para otros contextos |
+| Operations | Alexander Justo | Operación diaria del servicio | Dominio, aplicación, infraestructura e interfaces de turnos y posiciones de los vehículos |
+| Alerts | Andy Pillaca | Emergencias y notificaciones | Alertas, tipos, intentos, entregas, destinatarios, canales y centros de control, con sus controladores, recursos y assemblers |
+| IAM | Ian Nawrocki | Identidad del conductor | Comando y servicio de verificación, objeto de valor `EmployeeCode`, `AuthenticationController` y usuarios |
+| Frontend Integration & Deployment | Andy Pillaca | Conexión y publicación | `backend-adapter.js`, internacionalización, CORS, variables de entorno y despliegue en Azure y Firebase |
 
 ##### 5.2.3.3. Sprint Backlog 3
 
+El Sprint Backlog es el plan de trabajo de la iteración: recoge las historias seleccionadas del Product Backlog y las descompone en tareas concretas que pueden estimarse, asignarse y verificarse. Su utilidad radica en que establece una relación trazable entre lo planificado y lo entregado, y en que permite al equipo monitorear el avance durante el Sprint.
+ 
+En esta iteración, las historias seleccionadas corresponden a Technical Stories (TS) que trasladan al backend real los servicios que en el Sprint 2 solo estaban simulados por la Fake API, junto con los servicios adicionales de consulta de historial y de actualización de conductores. Dado que dichos servicios no pueden funcionar sin una base de datos, una documentación y un entorno de ejecución, el equipo registró además tareas de soporte técnico: persistencia, documentación de la API, integración del frontend, documentación del código y despliegue. Estas tareas no se derivan de una historia del Product Backlog, por lo que figuran sin identificador de historia. La tabla detalla, para cada tarea, su descripción, estimación, responsable y estado.
+
+Tablero del Sprint 3: 
+
+| User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation | Assigned To | Status |
+|---|---|---|---|---|---|---|---|
+| TS01 | Servicio de validación de conductores | T28 | Verificación de conductor | `POST /authentication/driver-verification` y `GET /drivers?employeeCode=` validan la identidad y el estado del conductor. | 3h | Ian Nawrocki | Done |
+| TS02 | Servicio de apertura de servicio | T29 | Apertura de turno | `POST /shifts` registra el turno y devuelve su identificador. | 3h | Alexander Justo | Done |
+| TS03 | Servicio de emisión de alertas | T30 | Emisión de alerta | `POST /alerts` registra la alerta con su ubicación. | 3h | Andy Pillaca | Done |
+| TS04 | Servicio de actualización del conteo | T31 | Actualización de turno | `PUT /shifts/{id}` actualiza pasajeros, velocidad y recaudación. | 2h | Alexander Justo | Done |
+| TS05 | Servicio de consulta del historial | T32 | Filtros de historial | Filtros en alertas (`status`), intentos (`alertId`), asignaciones, turnos y posiciones. | 3h | Andy Pillaca | Done |
+| TS06 | Servicio de consulta del estado de la unidad | T33 | Estado de la unidad | `GET /vehicles/{id}` y `GET /vehicle-positions?vehicleId=`. | 3h | Bryan Martinez | Done |
+| TS08 | Servicio de cierre de servicio | T34 | Cierre de turno | `PUT /shifts/{id}` con `status` y `endTime`. | 2h | Alexander Justo | Done |
+| TS10 | Servicio de actualización de conductores | T35 | Actualización de conductor | `PUT /drivers/{id}`. | 3h | Bryan Martinez | Done |
+| — | Persistencia (soporte técnico) | T36 | Modelo de 15 tablas | `AppDbContext` con convención snake_case, llaves foráneas con `OnDelete(Restrict)` y vista `v_shift_summary`. | 4h | Boris Alvarado | Done |
+| — | Persistencia (soporte técnico) | T37 | Datos de ejemplo | `DatabaseSeeder` y `SampleData`, equivalentes al `db.json` de la Fake API. | 3h | Boris Alvarado | Done |
+| — | Documentación de la API | T38 | OpenAPI localizado | OpenAPI nativo de ASP.NET Core, Scalar y rutas en kebab-case, en español e inglés. | 3h | Andy Pillaca | Done |
+| — | Integración del frontend | T39 | Adaptador del backend | `backend-adapter.js` traduce el modelo del backend al del frontend sin modificar stores ni vistas. | 5h | Andy Pillaca | Done |
+| — | Despliegue | T40 | Despliegue en Azure | Web App Linux con .NET 10 y servidor MySQL flexible, con CORS para el frontend. | 4h | Andy Pillaca | Done |
+
 ##### 5.2.3.4. Development Evidence for Sprint Review
+
+Esta sección presenta la evidencia del desarrollo del backend: qué se construyó, con qué arquitectura y mediante qué commits quedó registrado en el repositorio.
+ 
+Durante el Sprint 3 el equipo implementó los Web Services de SecurityBus con C# y ASP.NET Core (.NET 10), organizados en cinco bounded contexts (Shared, Fleet, Operations, Alerts e IAM) que respetan las capas de Domain-Driven Design: Domain, Application, Infrastructure e Interfaces. La persistencia se resolvió con Entity Framework Core sobre MySQL, con un modelo de 15 tablas (`drivers`, `vehicles`, `routes`, `assignments`, `shifts`, `vehicle_positions`, `alerts`, `alert_types`, `alert_attempts`, `deliveries`, `recipients`, `recipient_channels`, `notification_channels`, `control_centers` y `users`) y la vista `v_shift_summary`, que consolida cada turno con su conductor, vehículo, ruta y cantidad de alertas.
+ 
+Complementan la implementación el patrón Result, el Unit of Work, un interceptor que audita las fechas de creación, la localización en español e inglés de las validaciones y de la documentación, el manejo centralizado de errores mediante `ProblemDetails` (RFC 7807), una política CORS configurable por entorno y la carga opcional de datos de ejemplo. La siguiente tabla reúne los commits que representan los hitos principales del Sprint.
+ 
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|---|---|---|---|---|
+| AstroBusTeam-BackEnd | develop | 1e9986b | feat: install packages | 05/11/2026 |
+| AstroBusTeam-BackEnd | develop | 1a19ced | feat: configure default connection | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | 0f7401e | feat: configure default connection | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 341e6c6 | feat: create alerts directory | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 43405e9 | feat: create AlertResources.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 4307b64 | feat: create CreateAlertResources.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | fff86f9 | feat: create DeliveryResources.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 762b8e8 | feat: create RecipientResource.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 410fccc | feat: create UpdateAlertResource.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 917ed2e | feat: create UpdateRecipientResource.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | bc7f696 | feat: create AlertsController.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 12a3169 | feat: create DeliveriesController.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | f685896 | feat: create RecipientsController.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 75196a0 | feat: create ActionResultFromCreateAlertResultAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 79a2c62 | feat: create ActionResultFromCreateDeliveryResultAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | e3c118f | feat: create ActionResultFromCreateDeleteAlertResultAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | eeb5d52 | feat: create ActionResultFromCreateUpdateAlertResultAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 58c52d6 | feat: create ActionResultFromCreateUpdateRecipientResultAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | ffb39ca | feat: create AlertResourceFromEntityAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 7bef758 | feat: create CreateAlertCommandFromResourceAssembler | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 090c185 | feat: create CreateDeliveryCommmandFromResourceAssembler | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | ac8d146 | feat: create DeliveryResourceFromEntityAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | cb54f8b | feat: create RecipientResourceFromEntityAssembler.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 820e7f7 | feat: create UpdateAlertCommandFromResourceAssembler | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 6f3c0e3 | feat: create UpdateRecipientCommandFromResourceAssembler | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 09e05b8 | feat: create domain repository | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 5611936 | feat: add Domain/repositories | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 1be485d | feat: add Domain/model | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | bc228a2 | feat: create infrastructure/persistence/efc/repositories repository | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | edd3842 | feat: create infastrucure/persistence/efc/configuration/extensions repository | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 338021c | feat: create application directory | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 955fa99 | feat: create application/errors directory | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | de01ae8 | feat: create application/internal directory | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/alerts | 3d910d2 | feat: create application/services directory | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | 0221b2d | Merge pull request #1 from AstroBusTeam/feature/alerts | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/internationalization | d34d1e1 | feat: define gitignore | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/internationalization | d21a044 | feat: implement internationalization | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/internationalization | 00ead1e | feat: improve internationalization and program.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/internationalization | 211228c | feat: improve internationalization and program.cs | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | b079bf7 | Merge pull request #2 from AstroBusTeam/feature/internationalization | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | 4763dd8 | feat: update appsettings.json | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | 4ad06bf | Merge pull request #3 from AstroBusTeam/develop | 06/11/2026 |
+| AstroBusTeam-BackEnd | feat/iam | 6b74321 | feat: add VerifyDriverCommand and EmployeeCode value object for driver identity verification | 06/11/2026 |
+| AstroBusTeam-BackEnd | feat/iam | c7cdf39 | feat: add VerifyDriverError enum and IDriverVerificationCommandService interface for driver identity verification | 06/11/2026 |
+| AstroBusTeam-BackEnd | feat/iam | 469e1f6 | feat: implement DriverVerificationCommandService for driver identity verification | 06/11/2026 |
+| AstroBusTeam-BackEnd | feat/iam | c7fc917 | feat: add DriverIdentityResource and VerifyDriverResource records, and their corresponding assemblers for driver verification | 06/11/2026 |
+| AstroBusTeam-BackEnd | feat/iam | 24b9c8c | feat: implement AuthenticationController for driver identity verification | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | c09a7ea | feat(fleet): add driver, vehicle and assignment aggregates | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 0e7729e | feat(fleet): add value objects for drivers, vehicles and assignments | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 569cdce | feat(fleet): add commands and queries for fleet management | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 63b68dd | feat(fleet): add repository interfaces for fleet entities | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 81cb5cb | feat(fleet): add error definitions for fleet operations | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 2ea0b99 | feat(fleet): add application service interfaces | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 54e7c45 | feat(fleet): implement command and query services | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | d4b89b6 | feat(fleet): implement persistence repositories and entity configurations | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 224eeda | feat(fleet): add REST resources for fleet management | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | b9364fb | feat(fleet): add REST assemblers for fleet operations | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 1781ee4 | feat(fleet): implement REST controllers for fleet management | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/fleet-bounded-context | 8849024 | feat(fleet): implement fleet context facade | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/shared | b91ab39 | feat(shared): add domain model and repository interfaces | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/shared | 3f0be49 | feat(shared): add result pattern and duplicate key helper | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/shared | b4e29ac | feat(shared): add auditing interceptor, base repository and unit of work | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/shared | c214583 | feat(shared): add AppDbContext with snake case naming and foreign keys | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/shared | 26dae7b | feat(shared): add database seeder with sample data | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/shared | 715ce5c | feat(shared): add kebab case route convention and localized OpenAPI | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | c610b5e | Merge pull request #4 from AstroBusTeam/feature/fleet-bounded-context | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/shared | 80ddf8b | revert(shared): restore original AppDbContext until foreign keys are tested | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | b683130 | Merge pull request #5 from AstroBusTeam/feature/shared | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/operation | e5444be | feat: add Domain of Operations | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/operation | 202e11a | feat: add Infrastructure of operation | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/operation | dc01d91 | feat: add Application of operation | 06/11/2026 |
+| AstroBusTeam-BackEnd | feature/operation | 1b8c2c2 | feat: add Interfaces of operation | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | aa81c48 | Merge pull request #6 from AstroBusTeam/feature/operation | 06/11/2026 |
+| AstroBusTeam-BackEnd | develop | e04a140 | chore: update gitignore and stop tracking build files | 07/11/2026 |
+| AstroBusTeam-BackEnd | develop | c5b033a | feat: change connection string | 07/11/2026 |
+| AstroBusTeam-BackEnd | develop | b3d6b0c | feat: update backend | 08/11/2026 |
+| AstroBusTeam-BackEnd | develop | 75f6028 | fix: update solution project reference | 08/11/2026 |
 
 ##### 5.2.3.5. Execution Evidence for Sprint Review
 
+La evidencia de ejecución muestra el producto en funcionamiento. Mientras que la sección anterior da cuenta de cómo se construyó la solución, esta busca demostrar que lo construido funciona de extremo a extremo: que la aplicación web envía sus peticiones al backend, que este las procesa y las almacena en la base de datos, y que el resultado se refleja en la interfaz. Para ello se describen los flujos que quedaron operativos y se presentan capturas de cada pantalla, cada una precedida por una explicación de lo que muestra.
+ 
+**Integración entre el frontend y el backend.** La aplicación web dejó de consumir la Fake API y pasó a operar sobre el backend. El cambio se concentró en el módulo `backend-adapter.js`, que traduce los identificadores y nombres del modelo del backend (rutas, tipos de alerta y canales de notificación) a los objetos que el frontend ya utilizaba. Gracias a ello, las entidades, los stores y las vistas del Sprint 2 se mantuvieron sin cambios. Las rutas de cada recurso continúan definidas mediante variables de entorno (`VITE_*_ENDPOINT_PATH`), por lo que cambiar de entorno solo requiere modificar la URL base (`VITE_SAFEBUS_API_URL`).
+ 
+| Flujo | Pantalla (ruta) | Servicios del backend consumidos |
+|---|---|---|
+| Verificación del conductor | Acceso conductor (`/iam/identity-verification`) | `GET /drivers?employeeCode=`, `GET /assignments?driverId=&status=active` y `GET /vehicles/{id}` |
+| Apertura, seguimiento y cierre del servicio | Inicio (`/operations/dashboard`) | `/shifts` (consulta, creación y actualización) |
+| Emisión y seguimiento de alertas | Botón de pánico, Registro de alertas y Confirmación de alerta (`/alerts/...`) | `/alerts`, `/recipients` y `/deliveries` |
+| Gestión de la flota | Conductores, Vehículos y Asignación de unidades (`/administration/...`) | `/drivers`, `/vehicles` y `/assignments` |
+| Consulta del historial | Historial de turnos (`/operations/history`) | `/shifts` |
+ 
+**Verificación del conductor.** El ingreso del conductor se resuelve combinando tres consultas: se busca al conductor por su código de empleado, se consulta su asignación activa y se obtiene el vehículo asignado. El backend dispone además del servicio consolidado `POST /authentication/driver-verification` (TS01), que realiza estas mismas comprobaciones en un único paso y devuelve la identidad del conductor, su vehículo y su ruta; su integración con el frontend se plantea como mejora (véanse las recomendaciones).
+ 
+A continuación se presentan las pantallas de la aplicación en ejecución sobre el backend.
+
+**Verificación del conductor**
+
+![verificacion-conductor](docs/assets/Cap5/sprint03/verificacion-conductor.png)
+
+**Dashboard**
+
+![verificacion-conductor](docs/assets/Cap5/sprint03/dashboard.png)
+
+**Mapa**
+
+![mapa](docs/assets/Cap5/sprint03/map.png)
+
+**Botón de pánico**
+
+![boton-panico](docs/assets/Cap5/sprint03/boton-panico.png)
+
+**Registro de alertas**
+
+![registro-alertas](docs/assets/Cap5/sprint03/alertas.png)
+
+**Gestión de flotas**
+
+![gestion-flotas](docs/assets/Cap5/sprint03/gestion-flotas.png)
+
+**Impacto en numeros**
+
+![impacto-numeros](docs/assets/Cap5/sprint03/impact-numbers.png)
+
+**Historial de turnos**
+
+![historial-turnos](docs/assets/Cap5/sprint03/historial-turnos.png)
+
+**Asignacion de unidades**
+
+![asignacion-unidades](docs/assets/Cap5/sprint03/asignacion-unidades.png)
+
+**Notificaciones**
+
+![notificaciones](docs/assets/Cap5/sprint03/notificaciones.png)
+
+Para ilustrar la navegación completa se preparó un video de ejecución:
+
+- Video de ejecución del Sprint 3: 
+
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+La documentación de los servicios es el contrato entre el backend y quienes lo consumen. Una API sin documentación obliga a leer el código fuente para conocer sus rutas, parámetros y respuestas, lo que genera errores de integración y demoras. Por ello, el equipo documentó los Web Services desde su construcción, aprovechando la especificación OpenAPI que ASP.NET Core genera a partir de los controladores y de los recursos. Esta especificación se explora de forma interactiva mediante Scalar, herramienta que permite revisar la estructura de las rutas, los esquemas de datos y los parámetros requeridos, y probar los endpoints directamente desde el navegador.
+ 
+En las siguientes líneas se detallan las convenciones adoptadas, los recursos expuestos y las operaciones disponibles en cada uno, de modo que cualquier desarrollador de la aplicación cliente pueda utilizarlos sin necesidad de consultar el código.
+ 
+Todas las rutas utilizan el prefijo `/api/v1`, nombres en minúscula y notación kebab-case, y la documentación se encuentra disponible en todos los entornos. Además, el contenido de la documentación y los mensajes de validación se adaptan al idioma de la petición (español o inglés). En total, la API expone 66 operaciones distribuidas en 15 recursos.
+ 
+- Repositorio del backend: [https://github.com/AstroBusTeam/AstroBusTeam-BackEnd](https://github.com/AstroBusTeam/AstroBusTeam-BackEnd)
+- Repositorio del frontend: [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
+- Documentación interactiva: [https://securitybus-apg-api-hha7gwepbjhqg3b6.westus3-01.azurewebsites.net/scalar/](https://securitybus-apg-api-hha7gwepbjhqg3b6.westus3-01.azurewebsites.net/scalar/)
+
+A continuación se presenta el registro completo de las operaciones implementadas, organizadas por módulo. En la columna de parámetros, el signo `?` indica un campo opcional; los nombres de los cuerpos (Body) corresponden a los recursos definidos en la capa de interfaces del backend.
+ 
+**Módulo de Autenticación y Acceso (Authentication)**
+ 
+Permite verificar la identidad del conductor antes de iniciar su jornada.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/authentication/driver-verification` | Verifica que el código de empleado pertenezca a un conductor habilitado con asignación activa. | Body: VerifyDriverResource (employeeCode). | 200 OK<br>DriverIdentityResource (driverId, employeeCode, fullName, vehicleId, vehicleCode, route).<br>Errores: 400, 403, 404. |
+ 
+**Módulo de Usuarios (Users)**
+ 
+Gestiona las cuentas de acceso del sistema.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/users` | Registra un nuevo usuario. | Body: CreateUserResource (username, password, role?, driverId?, active?). | 201 Created<br>UserResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/users` | Lista usuarios registrados. | Ninguno. | 200 OK<br>Colección de UserResource. |
+| `GET`<br>`/api/v1/users/{id}` | Obtiene los datos de un usuario según su identificador. | Path: id (integer). | 200 OK<br>UserResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/users/{id}` | Actualiza los datos de un usuario existente. | Path: id (integer).<br>Body: UpdateUserResource (username, role, active, password?, driverId?). | 200 OK<br>UserResource (actualizado).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/users/{id}` | Elimina un usuario del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Gestión de Conductores (Drivers)**
+ 
+Administra a los conductores de la empresa y su habilitación.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/drivers` | Registra un nuevo conductor. | Body: CreateDriverResource (employeeCode, firstName, lastName, dni, licenseCategory, licenseNumber, licenseExpiry, points, rating, yearsExperience, status, phone?). | 201 Created<br>DriverResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/drivers` | Lista los conductores o los filtra por código de empleado. | Query (opcional): employeeCode (string). | 200 OK<br>Colección de DriverResource. |
+| `GET`<br>`/api/v1/drivers/{id}` | Obtiene los datos de un conductor según su identificador. | Path: id (integer). | 200 OK<br>DriverResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/drivers/{id}` | Actualiza los datos de un conductor existente. | Path: id (integer).<br>Body: UpdateDriverResource (mismos campos que la creación). | 200 OK<br>DriverResource (actualizado).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/drivers/{id}` | Elimina un conductor del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Gestión de Vehículos (Vehicles)**
+ 
+Administra las unidades de la flota y su posición actual.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/vehicles` | Registra un nuevo vehículo. | Body: CreateVehicleResource (code, plate, model, capacity, status, currentLatitude, currentLongitude). | 201 Created<br>VehicleResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/vehicles` | Lista los vehículos de la flota. | Ninguno. | 200 OK<br>Colección de VehicleResource. |
+| `GET`<br>`/api/v1/vehicles/{id}` | Obtiene los datos de un vehículo según su identificador. | Path: id (integer). | 200 OK<br>VehicleResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/vehicles/{id}` | Actualiza los datos de un vehículo existente. | Path: id (integer).<br>Body: UpdateVehicleResource (mismos campos que la creación). | 200 OK<br>VehicleResource (actualizado).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/vehicles/{id}` | Elimina un vehículo del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Rutas (Routes)**
+ 
+Define las rutas de servicio de la empresa.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/routes` | Registra una nueva ruta. | Body: CreateBusRouteResource (code, name, origin, destination, distanceKm?, active?). | 201 Created<br>BusRouteResource (creada).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/routes` | Lista las rutas registradas. | Ninguno. | 200 OK<br>Colección de BusRouteResource. |
+| `GET`<br>`/api/v1/routes/{id}` | Obtiene los datos de una ruta según su identificador. | Path: id (integer). | 200 OK<br>BusRouteResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/routes/{id}` | Actualiza los datos de una ruta existente. | Path: id (integer).<br>Body: UpdateBusRouteResource (code, name, origin, destination, distanceKm, active). | 200 OK<br>BusRouteResource (actualizada).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/routes/{id}` | Elimina una ruta del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Asignaciones (Assignments)**
+ 
+Vincula a un conductor con una unidad y una ruta.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/assignments` | Registra una nueva asignación. | Body: CreateAssignmentResource (driverId, vehicleId, routeId, startTime, status, validFrom?, validTo?, assignedBy?). | 201 Created<br>AssignmentResource (creada).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/assignments` | Lista las asignaciones o las filtra por conductor y estado. | Query (opcional): driverId (integer), status (string). | 200 OK<br>Colección de AssignmentResource. |
+| `GET`<br>`/api/v1/assignments/{id}` | Obtiene los datos de una asignación según su identificador. | Path: id (integer). | 200 OK<br>AssignmentResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/assignments/{id}` | Actualiza los datos de una asignación existente. | Path: id (integer).<br>Body: UpdateAssignmentResource (status, validTo?). | 200 OK<br>AssignmentResource (actualizada).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/assignments/{id}` | Elimina una asignación del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Turnos de Servicio (Shifts)**
+ 
+Registra la apertura, el seguimiento y el cierre del servicio de cada conductor.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/shifts` | Registra un nuevo turno. | Body: CreateShiftResource (assignmentId, driverId, vehicleId, routeId, shiftDate?, startTime?, endTime?, distanceKm?, passengers?, revenue?, status?, averageSpeedKmh?, maxSpeedKmh?, overspeedEvents?). | 201 Created<br>ShiftResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/shifts` | Lista los turnos o los filtra por conductor. | Query (opcional): driverId (integer). | 200 OK<br>Colección de ShiftResource. |
+| `GET`<br>`/api/v1/shifts/{id}` | Obtiene los datos de un turno según su identificador. | Path: id (integer). | 200 OK<br>ShiftResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/shifts/{id}` | Actualiza los datos de un turno existente. | Path: id (integer).<br>Body: UpdateShiftResource (assignmentId, driverId, vehicleId, routeId, shiftDate, startTime, distanceKm, passengers, revenue, status, averageSpeedKmh, maxSpeedKmh, overspeedEvents, endTime?). | 200 OK<br>ShiftResource (actualizado).<br>Errores: 400, 404, 409. |
+ 
+**Módulo de Posiciones de Vehículos (VehiclePositions)**
+ 
+Almacena las posiciones GPS reportadas por las unidades.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/vehicle-positions` | Registra una nueva posición. | Body: CreateVehiclePositionResource (vehicleId, latitude, longitude, shiftId?, speedKmh?, recordedAt?). | 201 Created<br>VehiclePositionResource (creada).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/vehicle-positions` | Lista las posiciones o las filtra por vehículo y turno. | Query (opcional): vehicleId (integer), shiftId (integer). | 200 OK<br>Colección de VehiclePositionResource. |
+| `GET`<br>`/api/v1/vehicle-positions/{id}` | Obtiene los datos de una posición según su identificador. | Path: id (integer). | 200 OK<br>VehiclePositionResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/vehicle-positions/{id}` | Actualiza los datos de una posición existente. | Path: id (integer).<br>Body: UpdateVehiclePositionResource (vehicleId, latitude, longitude, speedKmh, recordedAt, shiftId?). | 200 OK<br>VehiclePositionResource (actualizada).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/vehicle-positions/{id}` | Elimina una posición del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Alertas (Alerts)**
+ 
+Gestiona las alertas de emergencia emitidas por los conductores.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/alerts` | Registra una nueva alerta. | Body: CreateAlertResource (vehicleId, alertTypeId, receiverId, latitude, longitude, driverId?, shiftId?, code?, attempts?, status?, createdAt?, confirmedAt?, confirmedBy?, notes?). | 201 Created<br>AlertResource (creada).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/alerts` | Lista las alertas o las filtra por estado. | Query (opcional): status (string). | 200 OK<br>Colección de AlertResource. |
+| `GET`<br>`/api/v1/alerts/{id}` | Obtiene los datos de una alerta según su identificador. | Path: id (integer). | 200 OK<br>AlertResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/alerts/{id}` | Actualiza los datos de una alerta existente. | Path: id (integer).<br>Body: UpdateAlertResource (code, vehicleId, alertTypeId, receiverId, attempts, status, createdAt, latitude, longitude, driverId?, shiftId?, confirmedAt?, confirmedBy?, notes?). | 200 OK<br>AlertResource (actualizada).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/alerts/{id}` | Elimina una alerta del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Tipos de Alerta (AlertTypes)**
+ 
+Mantiene el catálogo de tipos de alerta y su prioridad.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/alert-types` | Registra un nuevo tipo de alerta. | Body: CreateAlertTypeResource (name, defaultPriority?, isPanic?). | 201 Created<br>AlertTypeResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/alert-types` | Lista tipos de alerta registrados. | Ninguno. | 200 OK<br>Colección de AlertTypeResource. |
+| `GET`<br>`/api/v1/alert-types/{id}` | Obtiene los datos de un tipo de alerta según su identificador. | Path: id (integer). | 200 OK<br>AlertTypeResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/alert-types/{id}` | Actualiza los datos de un tipo de alerta existente. | Path: id (integer).<br>Body: UpdateAlertTypeResource (name, defaultPriority, isPanic). | 200 OK<br>AlertTypeResource (actualizado).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/alert-types/{id}` | Elimina un tipo de alerta del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Intentos de Envío (AlertAttempts)**
+ 
+Registra cada intento de envío de una alerta a la central.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/alert-attempts` | Registra un nuevo intento de envío. | Body: CreateAlertAttemptResource (alertId, attemptNumber, sentAt?, result?). | 201 Created<br>AlertAttemptResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/alert-attempts` | Lista los intentos de envío o los filtra por alerta. | Query (opcional): alertId (integer). | 200 OK<br>Colección de AlertAttemptResource. |
+| `GET`<br>`/api/v1/alert-attempts/{id}` | Obtiene los datos de un intento de envío según su identificador. | Path: id (integer). | 200 OK<br>AlertAttemptResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/alert-attempts/{id}` | Actualiza los datos de un intento de envío existente. | Path: id (integer).<br>Body: UpdateAlertAttemptResource (alertId, attemptNumber, sentAt, result). | 200 OK<br>AlertAttemptResource (actualizado).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/alert-attempts/{id}` | Elimina un intento de envío del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Entregas de Notificaciones (Deliveries)**
+ 
+Registra las entregas de las alertas a sus destinatarios por cada canal.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/deliveries` | Registra una nueva entrega. | Body: CreateDeliveryResource (alertId, recipientId, channelId, alertTypeId, priority, status?, sentAt?, errorMessage?). | 201 Created<br>DeliveryResource (creada).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/deliveries` | Lista las entregas de notificaciones. | Ninguno. | 200 OK<br>Colección de DeliveryResource. |
+| `GET`<br>`/api/v1/deliveries/{id}` | Obtiene los datos de una entrega según su identificador. | Path: id (integer). | 200 OK<br>DeliveryResource.<br>404 si no existe. |
+ 
+**Módulo de Destinatarios (Recipients)**
+ 
+Consulta y actualiza a las personas que reciben las alertas.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `GET`<br>`/api/v1/recipients` | Lista los destinatarios de las alertas. | Ninguno. | 200 OK<br>Colección de RecipientResource. |
+| `GET`<br>`/api/v1/recipients/{id}` | Obtiene los datos de un destinatario según su identificador. | Path: id (integer). | 200 OK<br>RecipientResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/recipients/{id}` | Actualiza los datos de un destinatario existente. | Path: id (integer).<br>Body: UpdateRecipientResource (name, role, active, email?, phone?, controlCenterId?, channelIds?). | 200 OK<br>RecipientResource (actualizado).<br>Errores: 400, 404, 409. |
+ 
+**Módulo de Canales de Notificación (NotificationChannels)**
+ 
+Mantiene los canales por los que se notifican las alertas.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/notification-channels` | Registra un nuevo canal de notificación. | Body: CreateNotificationChannelResource (code). | 201 Created<br>NotificationChannelResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/notification-channels` | Lista canales de notificación registrados. | Ninguno. | 200 OK<br>Colección de NotificationChannelResource. |
+| `GET`<br>`/api/v1/notification-channels/{id}` | Obtiene los datos de un canal de notificación según su identificador. | Path: id (integer). | 200 OK<br>NotificationChannelResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/notification-channels/{id}` | Actualiza los datos de un canal de notificación existente. | Path: id (integer).<br>Body: UpdateNotificationChannelResource (code). | 200 OK<br>NotificationChannelResource (actualizado).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/notification-channels/{id}` | Elimina un canal de notificación del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+**Módulo de Centros de Control (ControlCenters)**
+ 
+Administra los centros de control que supervisan la operación.
+ 
+| Endpoint / Verbo HTTP | Descripción de la Acción | Parámetros Requeridos | Respuesta Esperada (JSON) |
+|---|---|---|---|
+| `POST`<br>`/api/v1/control-centers` | Registra un nuevo centro de control. | Body: CreateControlCenterResource (code, name, zone, active?). | 201 Created<br>ControlCenterResource (creado).<br>Errores: 400, 409. |
+| `GET`<br>`/api/v1/control-centers` | Lista centros de control registrados. | Ninguno. | 200 OK<br>Colección de ControlCenterResource. |
+| `GET`<br>`/api/v1/control-centers/{id}` | Obtiene los datos de un centro de control según su identificador. | Path: id (integer). | 200 OK<br>ControlCenterResource.<br>404 si no existe. |
+| `PUT`<br>`/api/v1/control-centers/{id}` | Actualiza los datos de un centro de control existente. | Path: id (integer).<br>Body: UpdateControlCenterResource (code, name, zone, active). | 200 OK<br>ControlCenterResource (actualizado).<br>Errores: 400, 404, 409. |
+| `DELETE`<br>`/api/v1/control-centers/{id}` | Elimina un centro de control del sistema. | Path: id (integer). | 200 OK<br>Confirmación de eliminación.<br>404 si no existe. |
+ 
+ 
+**Códigos de respuesta.** Las respuestas siguen una convención uniforme: `200` o `201` ante una operación exitosa (las eliminaciones responden `200`), `400` por errores de validación (con `ProblemDetails` localizado), `404` cuando el recurso no existe, `409` ante conflictos por duplicados y `500` con un `ProblemDetails` genérico ante fallas inesperadas.
+ 
+**Ejemplo de uso: apertura de un servicio (TS02).** Para abrir el turno de un conductor se envía una petición `POST /api/v1/shifts` con los identificadores de su asignación, conductor, vehículo y ruta:
+ 
+```json
+{
+  "assignmentId": 1,
+  "driverId": 1,
+  "vehicleId": 1,
+  "routeId": 1,
+  "status": "active",
+  "startTime": "2026-11-08T08:00:00"
+}
+```
+ 
+La respuesta (`201 Created`) devuelve el turno registrado, con su identificador y los campos calculados por el backend: `id`, `shiftDate`, `startTime`, `endTime`, `distanceKm`, `passengers`, `revenue`, `status`, `averageSpeedKmh`, `maxSpeedKmh` y `overspeedEvents`.
+ 
+**Ejemplo de uso: verificación del conductor (TS01).** El servicio `POST /api/v1/authentication/driver-verification` recibe el código de empleado y devuelve la identidad del conductor con su unidad y su ruta (los valores del ejemplo son ilustrativos):
+ 
+```json
+{ "employeeCode": "SF-90210" }
+```
+ 
+```json
+{
+  "driverId": 1,
+  "employeeCode": "SF-90210",
+  "fullName": "…",
+  "vehicleId": 1,
+  "vehicleCode": "…",
+  "route": "…"
+}
+```
+ 
+Si el código no existe, el conductor no está activo, no tiene una asignación vigente o su vehículo no existe, el servicio responde con un `ProblemDetails` y los códigos `404` o `403` según el caso.
+
+<center> Vista General de los Endpoints Documentados </center>
+
+![endpoints1](docs/assets/Cap5/sprint03/endpoints1.png)
+
+![endpoints2](docs/assets/Cap5/sprint03/endpoints2.png)
+
+<center> Detalle de Parámetros y Esquemas en Endpoint POST </center>
+
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros1.png)
+
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros2.png)
+
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros3.png)
+
+<center> Prueba de Ejecución (Try it out) e Interacción con el API </center>
+
+![try-it-out1](docs/assets/Cap5/sprint03/try-it-out1.png)
+
+![try-it-out2](docs/assets/Cap5/sprint03/try-it-out2.png)
+
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+El despliegue es la actividad que pone el producto a disposición de sus usuarios fuera del entorno de desarrollo. En el Sprint 3 el reto principal consistió en publicar el backend junto con su base de datos y conectarlo con la aplicación web ya publicada, garantizando que las credenciales y la configuración sensible no se almacenaran en el repositorio. En este apartado se identifican los componentes desplegados y la plataforma que aloja a cada uno, se describe paso a paso el proceso seguido para el frontend y para el backend, y se presentan las evidencias gráficas de que los componentes se encuentran activos.
+ 
+**A. Componentes desplegados y entornos cloud**
+ 
+La solución se distribuye en cuatro componentes alojados en plataformas distintas, de acuerdo con las necesidades de cada uno: un sitio estático para la Landing Page, una aplicación web estática para el frontend, una aplicación de servidor para los Web Services y una base de datos administrada para la persistencia.
+ 
+| Componente | Plataforma | Descripción | URL |
+|---|---|---|---|
+| Landing Page | GitHub Pages | Sitio estático de presentación del producto | https://github.com/AstroBusTeam/SecurityBus-landing-page-aw |
+| Web Application (Frontend) | Firebase Hosting | Aplicación Vue 3 compilada con Vite y publicada como sitio estático | https://securitybus-730-aw-front-7bf31.web.app |
+| Web Services (Backend) | Microsoft Azure – Web App Linux (.NET 10) | API REST en ASP.NET Core con documentación Scalar | https://securitybus-apg-api-hha7gwepbjhqg3b6.westus3-01.azurewebsites.net/scalar/ |
+| Base de datos | Azure Database for MySQL – servidor flexible | Base de datos relacional del backend | No público |
+ 
+Dado que el frontend y el backend se publican en dominios distintos, el navegador aplica la política de mismo origen, por lo que fue necesario habilitar explícitamente las peticiones entre ambos mediante CORS. Del mismo modo, la cadena de conexión a la base de datos se inyecta mediante variables de entorno para no exponer credenciales en el código fuente.
+ 
+**B. Configuración paso a paso del proceso de despliegue**
+ 
+*B.1. Despliegue del backend en Microsoft Azure*
+ 
+El backend se ejecuta en una Web App Linux de Azure y se comunica con un servidor MySQL administrado. El proceso se llevó a cabo en los siguientes pasos:
+ 
+**Paso 1: Preparación de la cuenta y selección de regiones.** Se utilizó la suscripción Azure for Students. Esta suscripción restringe las regiones disponibles (Brazil South, West US 3, Chile Central, México Central y North Central US), por lo que el equipo ubicó cada recurso en una de ellas: la Web App en West US 3 y la base de datos en Chile Central.
+ 
+**Paso 2: Creación del grupo de recursos.** Se creó el grupo `securitybus-rg`, que agrupa todos los recursos del backend y permite administrarlos o eliminarlos conjuntamente.
+ 
+**Paso 3: Creación del servidor MySQL.** Dentro del grupo de recursos se creó un servidor MySQL de tipo flexible llamado `securitybus-apg-db` en la región Chile Central, con su usuario administrador y su base de datos para el esquema de la aplicación. Se habilitó el acceso desde los servicios de Azure mediante la regla de red «Permitir el acceso público desde cualquier servicio de Azure», de modo que la Web App pueda conectarse al servidor.
+ 
+**Paso 4: Creación de la Web App.** Se creó la aplicación web `securitybus-apg-api` con sistema operativo Linux, pila de ejecución .NET 10 y región West US 3.
+ 
+**Paso 5: Configuración de las variables de entorno.** En la sección de configuración de la Web App se registraron las variables que reemplazan a los valores de desarrollo del archivo `appsettings.Production.json`: `DATABASE_URL` (servidor), `DATABASE_USER` (usuario), `DATABASE_SCHEMA` (esquema) y la clave de acceso. De este modo, ningún secreto se almacena en el repositorio. La carga de datos de ejemplo permanece desactivada en producción (`Database:SeedSampleData = false`).
+ 
+**Paso 6: Configuración de CORS.** En `appsettings` se definió `Cors:AllowedOrigins` con los orígenes autorizados: `http://localhost:5173` (desarrollo) y los dominios de Firebase Hosting (`.web.app` y `.firebaseapp.com`). El backend aplica esta política mediante la política denominada «Frontend».
+ 
+**Paso 7: Compilación y publicación.** Se compiló el proyecto en modo Release (`dotnet publish -c Release`), se comprimió el resultado en un archivo zip y se subió a Azure Cloud Shell. Desde allí se desplegó el paquete en la Web App con la herramienta de línea de comandos de Azure (`az webapp deploy --resource-group securitybus-rg --name securitybus-apg-api --src-path SecurityBus-API.zip --type zip`).
+ 
+**Paso 8: Creación del esquema y verificación.** Al iniciar, la aplicación ejecuta `EnsureCreated()`, que crea las tablas y la vista `v_shift_summary` en la base de datos. Para verificar el despliegue se abrió la documentación Scalar de la Web App y se ejecutó una consulta de prueba (por ejemplo, `GET /api/v1/drivers`), que respondió correctamente.
+ 
+*B.2. Despliegue del frontend en Firebase Hosting*
+ 
+**Paso 1: Configuración de la URL del backend.** En el archivo `.env.production` se definió la variable `VITE_SAFEBUS_API_URL` con la URL de la Web App de Azure seguida del prefijo `/api/v1`.
+ 
+**Paso 2: Instalación de dependencias y compilación.** Se ejecutó `npm install` y luego `npm run build`, que genera la carpeta `dist` con los archivos estáticos optimizados.
+ 
+**Paso 3: Configuración de Firebase.** El proyecto de Firebase es `securitybus-730-aw-front-7bf31` (archivo `.firebaserc`). En `firebase.json` se indicó `dist` como carpeta pública y se definió una regla de reescritura que redirige todas las rutas a `/index.html`. Esta regla es necesaria porque la aplicación es de página única: sin ella, al recargar una ruta interna (por ejemplo, `/alerts/logs`) el servidor respondería con un error 404.
+ 
+**Paso 4: Publicación.** Se ejecutó `firebase deploy --only hosting`, que sube el contenido de `dist` y lo publica en el dominio `securitybus-730-aw-front-7bf31.firebaseapp.com`.
+ 
+*B.3. Landing Page en GitHub Pages*
+ 
+La Landing Page se aloja en el repositorio `SecurityBus-landing-page-aw`. En la configuración del repositorio (*Settings → Pages*) se seleccionó como fuente la rama principal y la carpeta raíz, con lo que GitHub Pages publica automáticamente el HTML, CSS y JavaScript cada vez que se integra un cambio en esa rama.
+ 
+**C. Evidencias gráficas de despliegue**
+
+Las siguientes capturas permiten verificar que los componentes se encuentran activos y correctamente configurados.
+
+<center> Grupo de recursos `securitybus-rg` en Azure </center>
+
+![grupo recursos](docs/assets/Cap5/sprint03/grupo-recursos.png)
+
+<center> Web App `securitybus-apg-api` </center>
+
+![web app](docs/assets/Cap5/sprint03/web-app-api.png)
+
+<center> Variables de entorno de la Web App </center>
+
+![variable entorno](docs/assets/Cap5/sprint03/variables-entorno.png)
+
+<center> Servidor MySQL `securitybus-apg-db` </center>
+
+![servidor mysql](docs/assets/Cap5/sprint03/bd.png)
+
+
+<center> Servidor MySQL `securitybus-apg-db` </center>
+
+![web app](docs/assets/Cap5/sprint03/bd.png)
+
+<center> Documentación Scalar en producción </center>
+
+![scalar](docs/assets/Cap5/sprint03/documentacion-scalar.png)
+
+<center> Frontend publicado en Firebase Hosting </center>
+
+![firebase](docs/assets/Cap5/sprint03/firebase-hosting.png)
+
+<center> Aplicación web consumiendo el backend desplegado </center>
+
+![firebase](docs/assets/Cap5/sprint03/app-web.png)
+
+<center> Landing Page publicada </center>
+
+![firebase](docs/assets/Cap5/sprint03/landing-page-publicada.png)
+
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+El trabajo colaborativo es uno de los pilares del desarrollo de software en equipo. Más allá de la cantidad de código producido, interesa evidenciar que el equipo se organizó, revisó mutuamente sus cambios y mantuvo un historial ordenado que permita reconstruir las decisiones tomadas. En esta sección se describe la estrategia de ramas y de integración empleada durante el Sprint 3, el aporte de cada integrante y las analíticas extraídas de los repositorios que respaldan dicha participación.
+ 
+Durante el Sprint 3 se mantuvo la estrategia GitFlow definida en la configuración del proyecto. Cada bounded context se desarrolló en una rama propia (`feature/shared`, `feature/fleet-bounded-context`, `feat/iam`, `feature/alerts`, `feature/operation` y `feature/internationalization`), creada a partir de `develop`, y sus cambios se integraron mediante Pull Requests, que permitieron revisar el código antes de incorporarlo. Tras su verificación, los cambios de `develop` se integraron en `main`. Los commits siguieron la convención Conventional Commits (`feat`, `fix`, `docs`, `chore`, `revert`), lo que facilita rastrear el propósito de cada cambio. El repositorio del backend registra 77 commits entre el 05 y el 08 de noviembre, repartidos entre los cinco integrantes, y el equipo mantuvo además un trabajo continuo sobre el frontend para su integración y documentación.
+ 
+| Integrante | Aporte principal en el backend |
+|---|---|
+| Andy Pillaca (apillacag) | Estructura del proyecto, bounded context Alerts, internacionalización, cadena de conexión y despliegue |
+| Boris Alvarado (borisalvaradomillanPE) | Shared: modelo base, repositorio, Unit of Work, `AppDbContext`, datos de ejemplo y OpenAPI localizado |
+| Bryan Martinez (BryanMR1) | Fleet: agregados, servicios, repositorios, controladores y fachada ACL |
+| Alexander Justo (AlexanderJusto) | Operations: dominio, aplicación, infraestructura e interfaces |
+| Ian Nawrocki | IAM: verificación de la identidad del conductor |
+
+Las evidencias muestran que todos los integrantes participaron en el desarrollo, con commits distribuidos a lo largo del Sprint e integraciones frecuentes hacia la rama `develop`. Entre las actividades colaborativas más relevantes destacan:
+ 
+- Desarrollo conjunto de los bounded contexts del backend (Shared, Fleet, Operations, Alerts e IAM) bajo la arquitectura DDD.
+- Implementación de la persistencia relacional con Entity Framework Core y carga de datos de ejemplo.
+- Documentación interactiva de los endpoints con OpenAPI y Scalar, y localización de la API en español e inglés.
+- Adaptación del frontend para consumir los Web Services y reemplazar la Fake API.
+- Configuración de CORS, variables de entorno y despliegue del backend en Azure.
+- Documentación del código del frontend para facilitar su mantenimiento.
+
+Repositorio del backend: https://github.com/AstroBusTeam/AstroBusTeam-BackEnd
+ 
+Repositorio del frontend: https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd
+
+<center> Evidencia 1: Gráfico de contribuciones por integrante del equipo </center>
+
+![Evidencia 1](docs/assets/Cap5/sprint03/evidence1.png)
+
+<center> Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse </center>
+
+![Evidencia 2](docs/assets/Cap5/sprint03/evidence2.png)
+
+<center> Evidencia 3: Gestión colaborativa mediante Pull Requests y merges </center>
+
+![Evidencia 3](docs/assets/Cap5/sprint03/evidence3.png)
+
+<center> Evidencia 4: Organización de ramas bajo estrategia GitFlow </center>
+
+![Evidencia 4](docs/assets/Cap5/sprint03/evidence4.png)
+
+<center> Evidencia 5: Gráfico de contribuciones del frontend </center>
+
+![Evidencia 5](docs/assets/Cap5/sprint03/evidence5.png)
+
+Actividades colaborativas más relevantes:
+
+• Diseño de los contextos Iam, Fleet, Operations y Alerts bajo Domain-Driven Design.
+• Persistencia con Entity Framework Core, claves foráneas, auditoría y Unit of Work.
+• Documentación de los endpoints con OpenAPI y Scalar en español e inglés.
+• Localización de los mensajes de error de la API.
+• Adaptación de la Web Application para consumir los Web Services.
 
 ### 5.3. Validation Interviews
 
+La validación con usuarios es la etapa en la que se contrasta las hipótesis con la realidad. Hasta el Sprint 2, SecurityBus se había diseñado a partir de entrevistas de descubrimiento y del análisis de competidores; con el backend integrado, el producto puede probarse completo, por lo que corresponde verificar si resuelve el problema planteado y si puede utilizarse sin dificultad.
+ 
+Para ello se llevan a cabo entrevistas de validación con representantes de los dos segmentos objetivo del proyecto (empresas de transporte y conductores) y se evalúa la interfaz según heurísticas de usabilidad. Esta sección documenta el diseño de las entrevistas, el registro de las sesiones y los resultados de la evaluación heurística.
+
 #### 5.3.1. Diseño de Entrevistas
+
+**Segmento 1, Empresas y organizaciones operadoras**
+Este segmento evalúa el contexto operativo de la empresa, la comprensión de la propuesta de valor y la utilidad del centro de control, la gestión de flota y las alertas.
+
+**Contexto y necesidades**
+
+1. ¿Cuál es su cargo y qué responsabilidades tiene en la supervisión de las
+unidades de su empresa?
+Evalúa: Perfil del participante y su relación con la operación de las unidades.
+2. ¿Cuántas unidades y rutas opera actualmente su empresa en Lima
+Metropolitana?
+Evalúa: Cumplimiento del criterio de inclusión del segmento (5 o más unidades) y
+tamaño de la operación.
+3. ¿Cómo se entera hoy su empresa cuando ocurre un incidente o una situación de
+riesgo en una de sus unidades?
+Evalúa: Necesidad de recibir información de incidentes en tiempo real.
+4. En la última emergencia que enfrentó una de sus unidades, ¿cuánto tiempo
+pasó entre el incidente y la respuesta de la empresa, y qué dificultades hubo?
+Evalúa: Necesidad de reducir el tiempo de respuesta ante emergencias.
+5. ¿Qué herramientas utiliza actualmente (llamadas, mensajería, GPS u otras)
+para supervisar los recorridos y comunicarse con sus conductores?
+Evalúa: Alternativas actuales y necesidad de supervisar unidades y mejorar la
+coordinación con los conductores.
+
+**Landing Page**
+
+6. Después de ver el Landing Page de SecurityBus, ¿qué entiende que ofrece la
+solución?
+Evalúa: Claridad del mensaje y de la propuesta de valor (H2).
+7. ¿Qué elemento o frase de la página le generó más interés o confianza, y cuál le
+generó dudas, por ejemplo las cifras del inicio o las estadísticas?
+Evalúa: Identificación de los elementos más valiosos y de los puntos de
+desconfianza (H4, H8).
+8. ¿Le quedó claro cuál es el siguiente paso para solicitar acceso o conocer más
+sobre SecurityBus?
+Evalúa: Efectividad del llamado a la acción y de la navegación (H6, H7).
+9. ¿Qué información adicional necesitaría ver en la página antes de considerar
+probar o contratar la solución?
+Evalúa: Información faltante para la decisión de adopción.
+
+**Aplicación: user flows**
+
+10. Al ingresar al panel, ¿qué esperaba ver sobre el estado de sus unidades y qué
+encontró?
+Evalúa: UF-06 · Visibilidad del estado del sistema y lenguaje comprensible (H1,
+H2).
+11. En el centro de control, ¿qué tan fácil le resulta identificar dónde está cada
+unidad y cuáles requieren atención? ¿Por qué?
+Evalúa: UF-06 · Claridad del monitoreo de la flota en vivo (H1, H6).
+12. Para registrar un nuevo conductor y un nuevo vehículo, ¿le quedó claro qué
+datos debe ingresar y qué significa cada campo o mensaje?
+Evalúa: UF-07 · Claridad de los formularios, prevención y recuperación de errores
+(H4, H5, H9).
+13. Al asignar un conductor a un vehículo, ¿cómo supo que la asignación se
+realizó correctamente?
+Evalúa: UF-08 · Retroalimentación del sistema y control del usuario (H1, H3).
+14. Si uno de sus conductores presionara la señal de pánico, ¿dónde y cómo se
+daría cuenta en la aplicación y qué haría primero?
+Evalúa: UF-09 · Necesidad de reportar incidentes rápidamente y visibilidad de las
+alertas (H1).
+15. En el detalle de una alerta no confirmada, ¿la información de ubicación,
+referencia y estado es suficiente para decidir cómo actuar? ¿Qué le faltaría?
+Evalúa: UF-09 · Suficiencia de la información para reducir el tiempo de respuesta
+(H6, H8).
+16. Al revisar los destinatarios activos y el simulacro de envío, ¿confiaría en este
+mecanismo para que los responsables reciban los avisos? ¿Por qué?
+Evalúa: UF-10 · Confianza en la red de notificaciones y claridad de la ayuda (H1,
+H10).
+17. ¿Qué datos del historial de turnos y de la sección de impacto en números le
+servirían para tomar decisiones y cuáles no comprende?
+Evalúa: UF-11 · Utilidad y comprensión de las métricas (H2, H8).
+Cierre
+18. ¿Estaría dispuesto a pagar por un plan de SecurityBus? ¿Cuál de los planes
+(Básico, Profesional o Empresarial) elegiría para su empresa y por qué?
+Evalúa: Disposición de pago, claridad de los planes y ajuste a la cantidad de
+unidades de la empresa.
+19. ¿Qué cambiaría, quitaría o agregaría para poder integrarla a su operación
+diaria?
+Evalúa: Prioridades de mejora desde la perspectiva de la empresa operadora.
+20. ¿Usaría SecurityBus en su flota si estuviera disponible hoy? ¿Por qué?
+Evalúa: Intención de uso y percepción general de valor de la solución, incluido su
+efecto esperado en el tiempo de respuesta y en la percepción de seguridad del
+servicio.
+
+**Segmento 2: Conductores de transporte público**
+Este segmento evalúa la sencillez del flujo del conductor y la confianza que le genera el botón de pánico durante una situación de riesgo.
+
+**Contexto y necesidades**
+
+1. ¿Cuánto tiempo llevas trabajando como conductor y en qué rutas y horarios
+trabajas, incluidos los turnos de madrugada o noche?
+Evalúa: Perfil del participante y cumplimiento de los criterios de inclusión.
+2. ¿Qué situaciones de inseguridad o extorsión has vivido o visto durante tus
+recorridos?
+Evalúa: Validación del problema central que SecurityBus busca resolver.
+3. Cuando ocurrió una de esas situaciones, ¿cómo intentaste avisar a tu empresa
+o pedir ayuda? ¿Qué funcionó y qué no?
+Evalúa: Necesidad de un mecanismo de alerta y de comunicación con la empresa.
+4. ¿Qué dispositivos usas mientras conduces (celular, radio, GPS) y qué tan
+cómodo te resulta usarlos en ruta?
+Evalúa: Contexto y restricciones de uso de la aplicación durante la conducción.
+5. ¿Qué cosas te harían sentir más seguro durante tus recorridos?
+Evalúa: Necesidad de incrementar la percepción de seguridad.
+
+**Landing Page**
+
+6. Después de ver el Landing Page, ¿qué entiendes que es SecurityBus y para qué
+te serviría?
+Evalúa: Claridad del mensaje y de la propuesta de valor (H2).
+7. ¿Qué de lo que ves en la página te da confianza o desconfianza, por ejemplo
+sobre el uso de tu ubicación o de tus datos?
+Evalúa: Confianza y percepción de privacidad.
+8. ¿Te quedó claro cuál es el siguiente paso para ingresar a la aplicación como
+conductor?
+Evalúa: Efectividad del llamado a la acción y claridad del acceso a la aplicación
+(H6, H7).
+
+**Aplicación: user flows**
+
+9. Al ingresar con tu código de empleado, ¿te quedó claro qué dato debes escribir
+y qué pasa después?
+Evalúa: UF-01 · Claridad del acceso y de los mensajes de error (H1, H9).
+10. Para iniciar tu servicio, ¿te quedó claro cómo elegir la ruta que vas a operar?
+Evalúa: UF-02 · Lenguaje comprensible y consistencia de la interfaz (H2, H4, H6).
+11. ¿Cómo te das cuenta de que la aplicación está enviando tu ubicación a la
+central y eso te genera tranquilidad o preocupación? ¿Por qué?
+Evalúa: UF-02 · Visibilidad del estado del sistema y confianza (H1).
+12. Si estuvieras en una situación de peligro, ¿qué tan fácil sería encontrar y
+presionar el botón de señal de pánico?
+Evalúa: UF-03 · Necesidad de contar con una alerta, rapidez y eficiencia de uso
+(H7).
+13. Después de enviar la alerta, ¿cómo sabrías que se envió y qué esperarías que
+ocurra a continuación?
+Evalúa: UF-03 · Retroalimentación al usuario y claridad de los siguientes pasos
+(H1, H10).
+14. Si presionaras el botón de pánico por error, ¿qué esperarías que pase y cómo
+debería poder cancelarse?
+Evalúa: UF-03 · Prevención de errores y control del usuario (H3, H5).
+15. En el mapa de operaciones, ¿qué información te sirve para responder ante un
+incidente y cuál te sobra o te falta?
+Evalúa: UF-04 · Utilidad de la información y diseño minimalista (H6, H8).
+16. Mientras manejas, ¿la velocidad actual y el límite indicado te ayudan o te
+distraen? ¿Por qué?
+Evalúa: UF-02 · Carga visual y seguridad durante la conducción (H8).
+17. Al finalizar tu servicio, ¿te quedaron claros los pasos y los mensajes del
+protocolo de cierre?
+Evalúa: UF-05 · Visibilidad del estado, control y consistencia (H1, H3, H4).
+Cierre
+18. ¿Qué tan fácil te sería leer y usar la aplicación de noche o con poca luz,
+pensando en el tamaño de las letras, los colores y los botones?
+Evalúa: Legibilidad y accesibilidad en el contexto real de uso (H8).
+19. ¿Usarías SecurityBus durante tus recorridos si estuviera disponible hoy? ¿Por
+qué?
+Evalúa: Intención de uso y percepción general de valor y de seguridad que aporta
+la solución.
+20. ¿Qué preocupaciones tienes sobre usar esta aplicación, por ejemplo por tu
+privacidad o por cómo la empresa usaría la información?
+Evalúa: Barreras de adopción y confianza.
 
 #### 5.3.2. Registro de Entrevistas
 
+
+
 #### 5.3.3. Evaluaciones según heurísticas
 
+
 ### 5.4. Video About-the-Product
+
+El video About-the-Product es el principal material de difusión del proyecto. Su propósito es presentar SecurityBus a una audiencia externa de forma breve y comprensible, sin necesidad de explicaciones adicionales, y mostrar tanto el problema que se atiende como la manera en que la solución lo resuelve.
+
+En él se expone la propuesta de valor y el modelo de negocio, se describen las principales funcionalidades (verificación del conductor, botón de pánico, monitoreo de la flota y registro de alertas), se muestra la aplicación en funcionamiento y se incluyen testimonios de los segmentos objetivo, que evidencian la utilidad y la aceptación de la solución. El material se publicó en Microsoft Stream y en YouTube, y se integró en la Landing Page del proyecto para facilitar su acceso.
+
+• About the product, Microsoft Stream: []()
+• About the product, YouTube: []()
 
 ## Conclusiones
 
@@ -896,6 +1670,16 @@ Despliegue continuo del producto. Ahora hay dos servicios publicados (aplicació
 
 Experiencia de uso. La interfaz en español e inglés, el tema oscuro y el diseño responsive mantienen la identidad definida en las Style Guidelines.
 
+Backend real con arquitectura modular. El Sprint 3 reemplazó la Fake API por Web Services en ASP.NET Core con cuatro bounded contexts, persistencia relacional con Entity Framework Core y once grupos de endpoints bajo /api/v1.
+
+Documentación y localización. La API se documenta con OpenAPI y Scalar, y sus mensajes están disponibles en español e inglés, lo que facilita el consumo desde la Web Application.
+
+La publicación del backend en Microsoft Azure con MySQL y del frontend en Firebase Hosting, con configuración por variables de entorno y sin secretos en el repositorio, dejó el producto accesible públicamente.
+
+El uso de GitFlow, Pull Requests y Conventional Commits mantuvo un historial ordenado y trazable, y la documentación del código del frontend facilita su mantenimiento.
+
+Las entrevistas y la evaluación heurística aportaron evidencia sobre la usabilidad del botón de pánico y del centro de control
+
 **Recomendaciones**
 
 Se recomienda priorizar una experiencia de uso sencilla y rápida, especialmente en funcionalidades destinadas a situaciones de emergencia, evitando procesos complejos que puedan dificultar su utilización por parte del conductor.
@@ -911,6 +1695,10 @@ Comunicación en tiempo real. Las alertas y la posición de las unidades hoy se 
 Reemplazar la Fake API por los Web Services reales y documentarlos con OpenAPI, ya que json-server no valida datos ni ofrece seguridad.
 
 Autenticación real. Hoy el ingreso se valida solo con el código de empleado; conviene usar tokens y control de permisos por rol (conductor y empresa).
+
+Autenticación y permisos reales. Los endpoints hoy no exigen credenciales. Conviene implementar tokens y control de permisos por rol (conductor y empresa), como contemplan TS07 y TS13 del Product Backlog.
+
+Comunicación en tiempo real. Las alertas y las posiciones se consultan por solicitud. Para que la central reaccione a tiempo se necesita un mecanismo como WebSockets o actualización periódica.
 
 ---
 
