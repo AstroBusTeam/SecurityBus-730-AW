@@ -3756,7 +3756,7 @@ Para ello se llevan a cabo entrevistas de validación con representantes de los 
 
 #### 5.3.1. Diseño de Entrevistas
 
-**Segmento 1, Empresas y organizaciones operadoras**
+**Segmento 1: Empresas y organizaciones operadoras**
 Este segmento evalúa el contexto operativo de la empresa, la comprensión de la propuesta de valor y la utilidad del centro de control, la gestión de flota y las alertas.
 
 **Contexto y necesidades**
@@ -3916,6 +3916,29 @@ Evalúa: Barreras de adopción y confianza.
 
 #### 5.3.2. Registro de Entrevistas
 
+**Entrevista 1: Conductor de transporte público**
+
+- Nombre: Diego Ruiz
+- Edad: 25
+- Residencia: SJL
+- Ocupación: Conductor de transporte público
+- Experiencia: 5 años como conductor
+- Fecha: 10/11/26
+- Inicio: 0:00
+- Duración: 9:26
+
+**Link:** <br> 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBgJA3ovdu1T5DeOfHjErP-AecmnN3ZitwgjoBoHZFRusg?e=CZxiWO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBgJA3ovdu1T5DeOfHjErP-AecmnN3ZitwgjoBoHZFRusg?e=CZxiWO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen:** <br>
+Durante la entrevista, el participante manifestó que ha experimentado situaciones de inseguridad durante sus recorridos, incluyendo dos asaltos y amenazas relacionadas con el cobro de cupos. Destacó que una de sus principales dificultades es solicitar ayuda durante un incidente, debido a que utilizar la radio o realizar llamadas puede resultar complicado y ponerlo en una situación de mayor riesgo. Por ello, valoró especialmente la implementación de un botón de pánico que permita enviar alertas de manera rápida y discreta, compartiendo su ubicación en tiempo real con la central.
+
+Respecto a la landing page de SecurityBus, comprendió correctamente que la plataforma busca proteger a los conductores y las unidades mediante alertas de emergencia y seguimiento de ubicación. Mostró interés en la propuesta, aunque manifestó preocupación por la privacidad de sus datos y la posibilidad de que la empresa utilice el seguimiento GPS para vigilarlo durante toda su jornada laboral. En cuanto a la aplicación, logró identificar las principales funcionalidades, iniciar el servicio y reconocer el estado de conexión del GPS. Sin embargo, tuvo algunas dudas respecto al recuadro del código QR y solicitó una confirmación más explícita de que la central está visualizando su ubicación.
+
+Entre las principales oportunidades de mejora, recomendó aumentar el tamaño del botón de pánico para facilitar su utilización en situaciones de emergencia, ampliar el tiempo disponible para cancelar una alerta de 5 a 10 segundos e incorporar notificaciones sonoras para los avisos de exceso de velocidad. También sugirió mostrar las unidades cercanas en el mapa de operaciones para facilitar la asistencia entre conductores. Asimismo, consideró que las letras pequeñas dificultan la lectura y que los botones deberían ser más grandes, especialmente durante los recorridos nocturnos. Finalmente, confirmó que utilizaría SecurityBus si su empresa lo implementara, destacando que su principal motivación sería contar con un mecanismo rápido y discreto para solicitar ayuda ante situaciones de peligro.
+
+**Evidencia:** <br>
+![Entrevista 1](docs/assets/Cap5/sprint03/interviews/interview1.png)
 
 
 #### 5.3.3. Evaluaciones según heurísticas
@@ -3927,8 +3950,12 @@ El video About-the-Product es el principal material de difusión del proyecto. S
 
 En él se expone la propuesta de valor y el modelo de negocio, se describen las principales funcionalidades (verificación del conductor, botón de pánico, monitoreo de la flota y registro de alertas), se muestra la aplicación en funcionamiento y se incluyen testimonios de los segmentos objetivo, que evidencian la utilidad y la aceptación de la solución. El material se publicó en Microsoft Stream y en YouTube, y se integró en la Landing Page del proyecto para facilitar su acceso.
 
-• About the product, Microsoft Stream: []()
-• About the product, YouTube: []()
+![Captura video about the product]()
+
+- About the product, Microsoft Stream: []() 
+
+
+- About the product, YouTube: []()
 
 ## Conclusiones
 
@@ -4060,6 +4087,4 @@ Se presenta el desglose tecnico de las historias seleccionadas para esta iteraci
 <center>Captura o Evidencia del Diseño de Interfaces - Figma</center><br>
 
 ![Diseño UX/UI](docs/assets/Cap5/figmaWireframesMockups.png)
-
-
 
