@@ -1680,6 +1680,33 @@ Entre las principales oportunidades de mejora, esperaba recibir una notificació
 **Evidencia:** <br>
 ![Entrevista 2](docs/assets/Cap5/sprint03/interviews/interview2.png)
 
+**Entrevista 3: Empresas y organizaciones operadoras**
+
+- Nombre: Janet Ramos
+- Edad: 52
+- Residencia: Villa el salvador
+- Ocupación: Gestor de flotas de vehiculos
+- Experiencia: 3 años como gestor
+- Fecha: 10/11/26
+- Inicio: 0:02
+- Duración: 7:19
+
+**Link:** <br> 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBGnejGYUzOSK_z5d7F2aTGARuQDp7JrUQD93eyCDR99xk?e=HE750q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBGnejGYUzOSK_z5d7F2aTGARuQDp7JrUQD93eyCDR99xk?e=HE750q)
+
+**Resumen:** <br>
+
+Durante la entrevista, el participante manifestó que se desempeña como responsable de la gestión de flotas de vehículos, teniendo bajo su supervisión 10 unidades distribuidas en 3 rutas de Lima Metropolitana. Explicó que actualmente la comunicación con los conductores se realiza principalmente mediante llamadas telefónicas y WhatsApp, especialmente cuando ocurre algún accidente o situación de emergencia. Señaló que, durante el último incidente registrado, transcurrieron aproximadamente entre 10 y 15 minutos desde que ocurrió el accidente hasta que la empresa recibió la comunicación, evidenciando la importancia de contar con mecanismos que permitan reducir los tiempos de respuesta y mejorar la coordinación ante situaciones de riesgo.
+
+Respecto a la landing page de SecurityBus, comprendió que la plataforma ofrece una solución orientada a la gestión y supervisión del transporte. Mostró especial interés en la sección de estadísticas, debido a que permite recopilar y visualizar información obtenida durante los recorridos. Consideró que la información presentada es clara y que el proceso para seleccionar un plan y solicitar acceso resulta comprensible. Sin embargo, sugirió incorporar un video demostrativo que permita conocer mejor el funcionamiento de la aplicación antes de contratar el servicio. En cuanto al panel de gestión, destacó que encontró las funcionalidades que esperaba, especialmente la visualización de las unidades y la identificación de los conductores responsables. Asimismo, consideró sencillo reconocer las unidades que requieren atención mediante las señales del centro de control. También manifestó que los formularios de registro de conductores y vehículos son claros, y que pudo comprobar correctamente las asignaciones realizadas.
+
+En relación con la gestión de emergencias, identificó la sección de alertas como el espacio donde recibiría las notificaciones generadas por los conductores mediante el botón de pánico. Explicó que, ante una situación de riesgo, su primera acción sería revisar la causa del incidente para determinar una solución o comunicar lo sucedido a las autoridades correspondientes. Consideró que la información proporcionada sobre ubicación, referencias y estado de las alertas es suficiente para actuar de manera rápida y segura. Además, expresó confianza en el mecanismo de notificaciones y en el simulacro de envío a destinatarios activos, destacando su aparente seguridad y eficacia. Respecto al historial de turnos y la sección de impacto en números, señaló que los datos más relevantes para tomar decisiones serían la ubicación de las unidades y los eventos registrados durante sus recorridos, indicando que la mayoría de la información presentada resulta fácil de comprender.
+
+Finalmente, el participante manifestó una valoración positiva de SecurityBus y señaló que no realizaría modificaciones importantes a la aplicación, debido a que considera que sus funcionalidades están bien planteadas. Expresó su disposición a contratar inicialmente el plan Profesional para evaluar su funcionamiento dentro de la empresa y, dependiendo de los resultados obtenidos, considerar posteriormente una ampliación al plan Empresarial. Asimismo, confirmó que utilizaría SecurityBus si estuviera disponible actualmente, destacando la organización de sus funcionalidades y la percepción de profesionalismo que transmite la plataforma. Su principal motivación sería contar con una herramienta que facilite la supervisión de las unidades, centralice la información operativa y permita gestionar las emergencias de manera más eficiente.
+
+**Evidencia:** <br>
+![Entrevista 2](docs/assets/Cap5/sprint03/interviews/ER2.png)
+
 #### 5.3.3. Evaluaciones según heurísticas
 
 
