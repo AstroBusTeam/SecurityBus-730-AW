@@ -136,7 +136,8 @@ Carrera de Ingeniería de Software<br><br><br>
 * **URL del Frontend Desplegado:** [https://securitybus-730-aw-front-7bf31.firebaseapp.com/](https://securitybus-730-aw-front-7bf31.firebaseapp.com/)
 * **URL del Backend Desplegado(Scalar):** [https://securitybus-apg-api-hha7gwepbjhqg3b6.westus3-01.azurewebsites.net/scalar/](https://securitybus-apg-api-hha7gwepbjhqg3b6.westus3-01.azurewebsites.net/scalar/)
 * **URL del Fake API Desplegado:** [https://astro-bus-team-fake-api-aw-730.vercel.app/](https://astro-bus-team-fake-api-aw-730.vercel.app/)
-* **Video About The Team:** []()
+* **Video About The Team:** [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FSecurityBus%20%2D%20About%20the%20team%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3925f258%2D669f%2D4a4b%2Da06b%2D78eeaef6db65](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2FSecurityBus%20%2D%20About%20the%20team%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3925f258%2D669f%2D4a4b%2Da06b%2D78eeaef6db65)
+* **Video About The Product:** [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577)
 
 ## Project Report Collaboration Insights
 
@@ -3188,7 +3189,7 @@ El Sprint Backlog es el plan de trabajo de la iteración: recoge las historias s
  
 En esta iteración, las historias seleccionadas corresponden a Technical Stories (TS) que trasladan al backend real los servicios que en el Sprint 2 solo estaban simulados por la Fake API, junto con los servicios adicionales de consulta de historial y de actualización de conductores. Dado que dichos servicios no pueden funcionar sin una base de datos, una documentación y un entorno de ejecución, el equipo registró además tareas de soporte técnico: persistencia, documentación de la API, integración del frontend, documentación del código y despliegue. Estas tareas no se derivan de una historia del Product Backlog, por lo que figuran sin identificador de historia. La tabla detalla, para cada tarea, su descripción, estimación, responsable y estado.
 
-Tablero del Sprint 3: 
+Tablero del Sprint 3: [https://trello.com/invite/b/6af3aa6210bbb1771aa16425/ATTIe323ac84aa52ddf51ec4610c3435f428EAB6D261/sprint-3-astrobusteam](https://trello.com/invite/b/6af3aa6210bbb1771aa16425/ATTIe323ac84aa52ddf51ec4610c3435f428EAB6D261/sprint-3-astrobusteam)
 
 | User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -3312,49 +3313,49 @@ La evidencia de ejecución muestra el producto en funcionamiento. Mientras que l
  
 A continuación se presentan las pantallas de la aplicación en ejecución sobre el backend.
 
-**Verificación del conductor**
+**Verificación del conductor** <br>
 
 ![verificacion-conductor](docs/assets/Cap5/sprint03/verificacion-conductor.png)
 
-**Dashboard**
+**Dashboard** <br>
 
 ![verificacion-conductor](docs/assets/Cap5/sprint03/dashboard.png)
 
-**Mapa**
+**Mapa** <br>
 
 ![mapa](docs/assets/Cap5/sprint03/map.png)
 
-**Botón de pánico**
+**Botón de pánico** <br>
 
 ![boton-panico](docs/assets/Cap5/sprint03/boton-panico.png)
 
-**Registro de alertas**
+**Registro de alertas** <br>
 
 ![registro-alertas](docs/assets/Cap5/sprint03/alertas.png)
 
-**Gestión de flotas**
+**Gestión de flotas** <br>
 
 ![gestion-flotas](docs/assets/Cap5/sprint03/gestion-flotas.png)
 
-**Impacto en numeros**
+**Impacto en numeros** <br>
 
 ![impacto-numeros](docs/assets/Cap5/sprint03/impact-numbers.png)
 
-**Historial de turnos**
+**Historial de turnos** <br>
 
 ![historial-turnos](docs/assets/Cap5/sprint03/historial-turnos.png)
 
-**Asignacion de unidades**
+**Asignacion de unidades** <br>
 
 ![asignacion-unidades](docs/assets/Cap5/sprint03/asignacion-unidades.png)
 
-**Notificaciones**
+**Notificaciones** <br>
 
 ![notificaciones](docs/assets/Cap5/sprint03/notificaciones.png)
 
 Para ilustrar la navegación completa se preparó un video de ejecución:
 
-- Video de ejecución del Sprint 3: 
+- Video de ejecución del Sprint 3: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577)
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -3578,25 +3579,25 @@ La respuesta (`201 Created`) devuelve el turno registrado, con su identificador 
  
 Si el código no existe, el conductor no está activo, no tiene una asignación vigente o su vehículo no existe, el servicio responde con un `ProblemDetails` y los códigos `404` o `403` según el caso.
 
-<center> Vista General de los Endpoints Documentados </center>
+<center> Vista General de los Endpoints Documentados </center> <br>
 
-![endpoints1](docs/assets/Cap5/sprint03/endpoints1.png)
+![endpoints1](docs/assets/Cap5/sprint03/endpoints1.png) <br>
 
-![endpoints2](docs/assets/Cap5/sprint03/endpoints2.png)
+![endpoints2](docs/assets/Cap5/sprint03/endpoints2.png) <br>
 
-<center> Detalle de Parámetros y Esquemas en Endpoint POST </center>
+<center> Detalle de Parámetros y Esquemas en Endpoint POST </center> <br>
 
-![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros1.png)
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros1.png) <br>
 
-![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros2.png)
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros2.png) <br>
 
-![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros3.png)
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros3.png) <br>
 
-<center> Prueba de Ejecución (Try it out) e Interacción con el API </center>
+<center> Prueba de Ejecución (Try it out) e Interacción con el API </center> <br>
 
-![try-it-out1](docs/assets/Cap5/sprint03/try-it-out1.png)
-
-![try-it-out2](docs/assets/Cap5/sprint03/try-it-out2.png)
+![try-it-out1](docs/assets/Cap5/sprint03/try-it-out1.png) <br>
+ 
+![try-it-out2](docs/assets/Cap5/sprint03/try-it-out2.png) <br>
 
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -3656,42 +3657,42 @@ La Landing Page se aloja en el repositorio `SecurityBus-landing-page-aw`. En la 
 
 Las siguientes capturas permiten verificar que los componentes se encuentran activos y correctamente configurados.
 
-<center> Grupo de recursos `securitybus-rg` en Azure </center>
+<center> Grupo de recursos `securitybus-rg` en Azure </center> <br>
 
-![grupo recursos](docs/assets/Cap5/sprint03/grupo-recursos.png)
+![grupo recursos](docs/assets/Cap5/sprint03/grupo-recursos.png) <br>
 
-<center> Web App `securitybus-apg-api` </center>
+<center> Web App `securitybus-apg-api` </center> <br>
 
-![web app](docs/assets/Cap5/sprint03/web-app-api.png)
+![web app](docs/assets/Cap5/sprint03/web-app-api.png) <br>
 
-<center> Variables de entorno de la Web App </center>
+<center> Variables de entorno de la Web App </center> <br>
 
-![variable entorno](docs/assets/Cap5/sprint03/variables-entorno.png)
+![variable entorno](docs/assets/Cap5/sprint03/variables-entorno.png) <br>
 
-<center> Servidor MySQL `securitybus-apg-db` </center>
+<center> Servidor MySQL `securitybus-apg-db` </center> <br>
 
-![servidor mysql](docs/assets/Cap5/sprint03/bd.png)
+![servidor mysql](docs/assets/Cap5/sprint03/bd.png) <br>
 
 
-<center> Servidor MySQL `securitybus-apg-db` </center>
+<center> Servidor MySQL `securitybus-apg-db` </center> <br>
 
-![web app](docs/assets/Cap5/sprint03/bd.png)
+![web app](docs/assets/Cap5/sprint03/bd.png) <br> 
 
-<center> Documentación Scalar en producción </center>
+<center> Documentación Scalar en producción </center> <br>
 
-![scalar](docs/assets/Cap5/sprint03/documentacion-scalar.png)
+![scalar](docs/assets/Cap5/sprint03/documentacion-scalar.png) <br>
 
-<center> Frontend publicado en Firebase Hosting </center>
+<center> Frontend publicado en Firebase Hosting </center> <br>
 
-![firebase](docs/assets/Cap5/sprint03/firebase-hosting.png)
+![firebase](docs/assets/Cap5/sprint03/firebase-hosting.png) <br>
 
-<center> Aplicación web consumiendo el backend desplegado </center>
+<center> Aplicación web consumiendo el backend desplegado </center> <br>
 
-![firebase](docs/assets/Cap5/sprint03/app-web.png)
+![firebase](docs/assets/Cap5/sprint03/app-web.png) <br>
 
-<center> Landing Page publicada </center>
+<center> Landing Page publicada </center> <br>
 
-![firebase](docs/assets/Cap5/sprint03/landing-page-publicada.png)
+![firebase](docs/assets/Cap5/sprint03/landing-page-publicada.png) <br>
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -3720,25 +3721,25 @@ Repositorio del backend: https://github.com/AstroBusTeam/AstroBusTeam-BackEnd
  
 Repositorio del frontend: https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd
 
-<center> Evidencia 1: Gráfico de contribuciones por integrante del equipo </center>
+<center> Evidencia 1: Gráfico de contribuciones por integrante del equipo </center> <br>
 
-![Evidencia 1](docs/assets/Cap5/sprint03/evidence1.png)
+![Evidencia 1](docs/assets/Cap5/sprint03/evidence1.png) <br>
 
-<center> Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse </center>
+<center> Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse </center> <br>
 
-![Evidencia 2](docs/assets/Cap5/sprint03/evidence2.png)
+![Evidencia 2](docs/assets/Cap5/sprint03/evidence2.png) <br>
 
-<center> Evidencia 3: Gestión colaborativa mediante Pull Requests y merges </center>
+<center> Evidencia 3: Gestión colaborativa mediante Pull Requests y merges </center> <br>
 
-![Evidencia 3](docs/assets/Cap5/sprint03/evidence3.png)
+![Evidencia 3](docs/assets/Cap5/sprint03/evidence3.png) <br>
 
-<center> Evidencia 4: Organización de ramas bajo estrategia GitFlow </center>
+<center> Evidencia 4: Organización de ramas bajo estrategia GitFlow </center> <br>
 
-![Evidencia 4](docs/assets/Cap5/sprint03/evidence4.png)
+![Evidencia 4](docs/assets/Cap5/sprint03/evidence4.png) <br>
 
-<center> Evidencia 5: Gráfico de contribuciones del frontend </center>
+<center> Evidencia 5: Gráfico de contribuciones del frontend </center> <br>
 
-![Evidencia 5](docs/assets/Cap5/sprint03/evidence5.png)
+![Evidencia 5](docs/assets/Cap5/sprint03/evidence5.png) <br>
 
 Actividades colaborativas más relevantes:
 
@@ -3940,7 +3941,33 @@ Entre las principales oportunidades de mejora, recomendó aumentar el tamaño de
 **Evidencia:** <br>
 ![Entrevista 1](docs/assets/Cap5/sprint03/interviews/interview1.png)
 
-**Entrevista 2: Empresas y organizaciones operadoras**
+---
+
+**Entrevista 2: Conductor de transporte público**
+
+- Nombre: Renzo Balderon
+- Edad: 26
+- Residencia: Callao
+- Ocupación: Conductor de transporte público
+- Experiencia: 2 años como conductor
+- Fecha: 10/11/26
+- Inicio: 0:00
+- Duración: 10:16
+
+**Link:** <br> 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCj6j-ubQbzT7XjdWLrK-OmAVDQT7tj_BEH74RqBMo8gao?e=0HgbVX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCj6j-ubQbzT7XjdWLrK-OmAVDQT7tj_BEH74RqBMo8gao?e=0HgbVX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen:** <br>
+Durante la entrevista, el conductor con aproximadamente dos años de experiencia que trabaja en turnos de 6:00 a 11:00 a. m. y de 3:00 a 7:00 p. m., manifestó que él y otros compañeros de la empresa han enfrentado amenazas durante sus recorridos, principalmente en los tramos previos a llegar a la zona de destino en San Martín. Explicó que actualmente se comunican mediante un grupo de mensajería entre conductores, cobradores y gerentes, pero que este medio no funciona de forma eficaz, ya que la respuesta de la empresa no es inmediata y es necesario insistir para obtener atención. Mencionó que los buses cuentan con cámaras orientadas al ingreso y salida de pasajeros, por lo que valoró la existencia de un botón de alerta que permita pedir ayuda sin tener que comunicarse ni llamar desde un celular.
+
+Respecto a la landing page de SecurityBus, comprendió que la plataforma sirve para registrar pasajeros y movimientos, y para avisar ante emergencias, incluyendo situaciones como puertas que no están completamente cerradas. La consideró útil y necesaria, sobre todo en horas pico, cuando la alta demanda de pasajeros dificulta estar pendiente de todo. Mostró confianza en el monitoreo desde la central y sugirió que el sistema también permita visualizar lo que ocurre dentro del bus. En cuanto a la aplicación, indicó que el ingreso con código, el registro de datos, el inicio de sesión y la selección de la ruta le resultaron claros y sencillos. Saber que la app envía su ubicación a la central le generó tranquilidad. También consideró que el indicador de velocidad es necesario, porque en ciertas zonas existen límites y excederlos termina perjudicando a los conductores.
+
+Entre las principales oportunidades de mejora, esperaba recibir una notificación que confirme el envío de la alerta, ya sea en la aplicación o hacia un número o contacto registrado, y una atención rápida, con presencia de la policía o personal de auxilio. Ante una activación accidental del botón de pánico, propuso un sistema que pregunte si el conductor se encuentra bien, de modo que, si no responde, se interprete como una emergencia real y, si responde, la alerta se cancele de forma automática. Sobre el mapa de operaciones, consideró que falta información sobre incidentes con otros vehículos y el estado del tráfico en hora pico. Para el uso nocturno, recomendó revisar el contraste y el tamaño de los elementos, con tonos más claros durante la noche. Finalmente, confirmó que utilizaría SecurityBus, ya que, además de monitorear a los pasajeros, permite identificar a los conductores y anunciar inconvenientes que puedan ocurrir en la ruta.
+
+**Evidencia:** <br>
+![Entrevista 2](docs/assets/Cap5/sprint03/interviews/interview2.png)
+
+**Entrevista 3: Empresas y organizaciones operadoras**
 
 - Nombre: Janet Ramos
 - Edad: 52
@@ -3954,6 +3981,19 @@ Entre las principales oportunidades de mejora, recomendó aumentar el tamaño de
 **Link:** <br> 
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBGnejGYUzOSK_z5d7F2aTGARuQDp7JrUQD93eyCDR99xk?e=HE750q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBGnejGYUzOSK_z5d7F2aTGARuQDp7JrUQD93eyCDR99xk?e=HE750q)
 
+**Resumen:** <br>
+
+Durante la entrevista, el participante manifestó que se desempeña como responsable de la gestión de flotas de vehículos, teniendo bajo su supervisión 10 unidades distribuidas en 3 rutas de Lima Metropolitana. Explicó que actualmente la comunicación con los conductores se realiza principalmente mediante llamadas telefónicas y WhatsApp, especialmente cuando ocurre algún accidente o situación de emergencia. Señaló que, durante el último incidente registrado, transcurrieron aproximadamente entre 10 y 15 minutos desde que ocurrió el accidente hasta que la empresa recibió la comunicación, evidenciando la importancia de contar con mecanismos que permitan reducir los tiempos de respuesta y mejorar la coordinación ante situaciones de riesgo.
+
+Respecto a la landing page de SecurityBus, comprendió que la plataforma ofrece una solución orientada a la gestión y supervisión del transporte. Mostró especial interés en la sección de estadísticas, debido a que permite recopilar y visualizar información obtenida durante los recorridos. Consideró que la información presentada es clara y que el proceso para seleccionar un plan y solicitar acceso resulta comprensible. Sin embargo, sugirió incorporar un video demostrativo que permita conocer mejor el funcionamiento de la aplicación antes de contratar el servicio. En cuanto al panel de gestión, destacó que encontró las funcionalidades que esperaba, especialmente la visualización de las unidades y la identificación de los conductores responsables. Asimismo, consideró sencillo reconocer las unidades que requieren atención mediante las señales del centro de control. También manifestó que los formularios de registro de conductores y vehículos son claros, y que pudo comprobar correctamente las asignaciones realizadas.
+
+En relación con la gestión de emergencias, identificó la sección de alertas como el espacio donde recibiría las notificaciones generadas por los conductores mediante el botón de pánico. Explicó que, ante una situación de riesgo, su primera acción sería revisar la causa del incidente para determinar una solución o comunicar lo sucedido a las autoridades correspondientes. Consideró que la información proporcionada sobre ubicación, referencias y estado de las alertas es suficiente para actuar de manera rápida y segura. Además, expresó confianza en el mecanismo de notificaciones y en el simulacro de envío a destinatarios activos, destacando su aparente seguridad y eficacia. Respecto al historial de turnos y la sección de impacto en números, señaló que los datos más relevantes para tomar decisiones serían la ubicación de las unidades y los eventos registrados durante sus recorridos, indicando que la mayoría de la información presentada resulta fácil de comprender.
+
+Finalmente, el participante manifestó una valoración positiva de SecurityBus y señaló que no realizaría modificaciones importantes a la aplicación, debido a que considera que sus funcionalidades están bien planteadas. Expresó su disposición a contratar inicialmente el plan Profesional para evaluar su funcionamiento dentro de la empresa y, dependiendo de los resultados obtenidos, considerar posteriormente una ampliación al plan Empresarial. Asimismo, confirmó que utilizaría SecurityBus si estuviera disponible actualmente, destacando la organización de sus funcionalidades y la percepción de profesionalismo que transmite la plataforma. Su principal motivación sería contar con una herramienta que facilite la supervisión de las unidades, centralice la información operativa y permita gestionar las emergencias de manera más eficiente.
+
+**Evidencia:** <br>
+![Entrevista 2](docs/assets/Cap5/sprint03/interviews/ER2.png)
+
 #### 5.3.3. Evaluaciones según heurísticas
 
 
@@ -3963,12 +4003,12 @@ El video About-the-Product es el principal material de difusión del proyecto. S
 
 En él se expone la propuesta de valor y el modelo de negocio, se describen las principales funcionalidades (verificación del conductor, botón de pánico, monitoreo de la flota y registro de alertas), se muestra la aplicación en funcionamiento y se incluyen testimonios de los segmentos objetivo, que evidencian la utilidad y la aceptación de la solución. El material se publicó en Microsoft Stream y en YouTube, y se integró en la Landing Page del proyecto para facilitar su acceso.
 
-![Captura video about the product]()
+![Captura video about the product](docs/assets/Cap5/sprint03/about-the-product.png)
 
-- About the product, Microsoft Stream: []() 
+- About the product, Microsoft Stream: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577) 
 
 
-- About the product, YouTube: []()
+- About the product, YouTube: [https://www.youtube.com/watch?v=Nsoj39fO-LI](https://www.youtube.com/watch?v=Nsoj39fO-LI)
 
 ## Conclusiones
 
