@@ -1654,6 +1654,31 @@ Entre las principales oportunidades de mejora, recomendó aumentar el tamaño de
 **Evidencia:** <br>
 ![Entrevista 1](docs/assets/Cap5/sprint03/interviews/interview1.png)
 
+---
+
+**Entrevista 2: Conductor de transporte público**
+
+- Nombre: Renzo Balderon
+- Edad: 26
+- Residencia: Callao
+- Ocupación: Conductor de transporte público
+- Experiencia: 2 años como conductor
+- Fecha: 10/11/26
+- Inicio: 0:00
+- Duración: 10:16
+
+**Link:** <br> 
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCj6j-ubQbzT7XjdWLrK-OmAVDQT7tj_BEH74RqBMo8gao?e=0HgbVX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c054_upc_edu_pe/IQCj6j-ubQbzT7XjdWLrK-OmAVDQT7tj_BEH74RqBMo8gao?e=0HgbVX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen:** <br>
+Durante la entrevista, el conductor con aproximadamente dos años de experiencia que trabaja en turnos de 6:00 a 11:00 a. m. y de 3:00 a 7:00 p. m., manifestó que él y otros compañeros de la empresa han enfrentado amenazas durante sus recorridos, principalmente en los tramos previos a llegar a la zona de destino en San Martín. Explicó que actualmente se comunican mediante un grupo de mensajería entre conductores, cobradores y gerentes, pero que este medio no funciona de forma eficaz, ya que la respuesta de la empresa no es inmediata y es necesario insistir para obtener atención. Mencionó que los buses cuentan con cámaras orientadas al ingreso y salida de pasajeros, por lo que valoró la existencia de un botón de alerta que permita pedir ayuda sin tener que comunicarse ni llamar desde un celular.
+
+Respecto a la landing page de SecurityBus, comprendió que la plataforma sirve para registrar pasajeros y movimientos, y para avisar ante emergencias, incluyendo situaciones como puertas que no están completamente cerradas. La consideró útil y necesaria, sobre todo en horas pico, cuando la alta demanda de pasajeros dificulta estar pendiente de todo. Mostró confianza en el monitoreo desde la central y sugirió que el sistema también permita visualizar lo que ocurre dentro del bus. En cuanto a la aplicación, indicó que el ingreso con código, el registro de datos, el inicio de sesión y la selección de la ruta le resultaron claros y sencillos. Saber que la app envía su ubicación a la central le generó tranquilidad. También consideró que el indicador de velocidad es necesario, porque en ciertas zonas existen límites y excederlos termina perjudicando a los conductores.
+
+Entre las principales oportunidades de mejora, esperaba recibir una notificación que confirme el envío de la alerta, ya sea en la aplicación o hacia un número o contacto registrado, y una atención rápida, con presencia de la policía o personal de auxilio. Ante una activación accidental del botón de pánico, propuso un sistema que pregunte si el conductor se encuentra bien, de modo que, si no responde, se interprete como una emergencia real y, si responde, la alerta se cancele de forma automática. Sobre el mapa de operaciones, consideró que falta información sobre incidentes con otros vehículos y el estado del tráfico en hora pico. Para el uso nocturno, recomendó revisar el contraste y el tamaño de los elementos, con tonos más claros durante la noche. Finalmente, confirmó que utilizaría SecurityBus, ya que, además de monitorear a los pasajeros, permite identificar a los conductores y anunciar inconvenientes que puedan ocurrir en la ruta.
+
+**Evidencia:** <br>
+![Entrevista 2](docs/assets/Cap5/sprint03/interviews/interview2.png)
 
 #### 5.3.3. Evaluaciones según heurísticas
 
