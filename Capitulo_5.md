@@ -902,7 +902,7 @@ El Sprint Backlog es el plan de trabajo de la iteración: recoge las historias s
  
 En esta iteración, las historias seleccionadas corresponden a Technical Stories (TS) que trasladan al backend real los servicios que en el Sprint 2 solo estaban simulados por la Fake API, junto con los servicios adicionales de consulta de historial y de actualización de conductores. Dado que dichos servicios no pueden funcionar sin una base de datos, una documentación y un entorno de ejecución, el equipo registró además tareas de soporte técnico: persistencia, documentación de la API, integración del frontend, documentación del código y despliegue. Estas tareas no se derivan de una historia del Product Backlog, por lo que figuran sin identificador de historia. La tabla detalla, para cada tarea, su descripción, estimación, responsable y estado.
 
-Tablero del Sprint 3: 
+Tablero del Sprint 3: [https://trello.com/invite/b/6af3aa6210bbb1771aa16425/ATTIe323ac84aa52ddf51ec4610c3435f428EAB6D261/sprint-3-astrobusteam](https://trello.com/invite/b/6af3aa6210bbb1771aa16425/ATTIe323ac84aa52ddf51ec4610c3435f428EAB6D261/sprint-3-astrobusteam)
 
 | User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation | Assigned To | Status |
 |---|---|---|---|---|---|---|---|
@@ -1026,49 +1026,49 @@ La evidencia de ejecución muestra el producto en funcionamiento. Mientras que l
  
 A continuación se presentan las pantallas de la aplicación en ejecución sobre el backend.
 
-**Verificación del conductor**
+**Verificación del conductor** <br>
 
 ![verificacion-conductor](docs/assets/Cap5/sprint03/verificacion-conductor.png)
 
-**Dashboard**
+**Dashboard** <br>
 
 ![verificacion-conductor](docs/assets/Cap5/sprint03/dashboard.png)
 
-**Mapa**
+**Mapa** <br>
 
 ![mapa](docs/assets/Cap5/sprint03/map.png)
 
-**Botón de pánico**
+**Botón de pánico** <br>
 
 ![boton-panico](docs/assets/Cap5/sprint03/boton-panico.png)
 
-**Registro de alertas**
+**Registro de alertas** <br>
 
 ![registro-alertas](docs/assets/Cap5/sprint03/alertas.png)
 
-**Gestión de flotas**
+**Gestión de flotas** <br>
 
 ![gestion-flotas](docs/assets/Cap5/sprint03/gestion-flotas.png)
 
-**Impacto en numeros**
+**Impacto en numeros** <br>
 
 ![impacto-numeros](docs/assets/Cap5/sprint03/impact-numbers.png)
 
-**Historial de turnos**
+**Historial de turnos** <br>
 
 ![historial-turnos](docs/assets/Cap5/sprint03/historial-turnos.png)
 
-**Asignacion de unidades**
+**Asignacion de unidades** <br>
 
 ![asignacion-unidades](docs/assets/Cap5/sprint03/asignacion-unidades.png)
 
-**Notificaciones**
+**Notificaciones** <br>
 
 ![notificaciones](docs/assets/Cap5/sprint03/notificaciones.png)
 
 Para ilustrar la navegación completa se preparó un video de ejecución:
 
-- Video de ejecución del Sprint 3: 
+- Video de ejecución del Sprint 3: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577)
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1292,25 +1292,25 @@ La respuesta (`201 Created`) devuelve el turno registrado, con su identificador 
  
 Si el código no existe, el conductor no está activo, no tiene una asignación vigente o su vehículo no existe, el servicio responde con un `ProblemDetails` y los códigos `404` o `403` según el caso.
 
-<center> Vista General de los Endpoints Documentados </center>
+<center> Vista General de los Endpoints Documentados </center> <br>
 
-![endpoints1](docs/assets/Cap5/sprint03/endpoints1.png)
+![endpoints1](docs/assets/Cap5/sprint03/endpoints1.png) <br>
 
-![endpoints2](docs/assets/Cap5/sprint03/endpoints2.png)
+![endpoints2](docs/assets/Cap5/sprint03/endpoints2.png) <br>
 
-<center> Detalle de Parámetros y Esquemas en Endpoint POST </center>
+<center> Detalle de Parámetros y Esquemas en Endpoint POST </center> <br>
 
-![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros1.png)
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros1.png) <br>
 
-![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros2.png)
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros2.png) <br>
 
-![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros3.png)
+![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros3.png) <br>
 
-<center> Prueba de Ejecución (Try it out) e Interacción con el API </center>
+<center> Prueba de Ejecución (Try it out) e Interacción con el API </center> <br>
 
-![try-it-out1](docs/assets/Cap5/sprint03/try-it-out1.png)
-
-![try-it-out2](docs/assets/Cap5/sprint03/try-it-out2.png)
+![try-it-out1](docs/assets/Cap5/sprint03/try-it-out1.png) <br>
+ 
+![try-it-out2](docs/assets/Cap5/sprint03/try-it-out2.png) <br>
 
 
 ##### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -1370,42 +1370,42 @@ La Landing Page se aloja en el repositorio `SecurityBus-landing-page-aw`. En la 
 
 Las siguientes capturas permiten verificar que los componentes se encuentran activos y correctamente configurados.
 
-<center> Grupo de recursos `securitybus-rg` en Azure </center>
+<center> Grupo de recursos `securitybus-rg` en Azure </center> <br>
 
-![grupo recursos](docs/assets/Cap5/sprint03/grupo-recursos.png)
+![grupo recursos](docs/assets/Cap5/sprint03/grupo-recursos.png) <br>
 
-<center> Web App `securitybus-apg-api` </center>
+<center> Web App `securitybus-apg-api` </center> <br>
 
-![web app](docs/assets/Cap5/sprint03/web-app-api.png)
+![web app](docs/assets/Cap5/sprint03/web-app-api.png) <br>
 
-<center> Variables de entorno de la Web App </center>
+<center> Variables de entorno de la Web App </center> <br>
 
-![variable entorno](docs/assets/Cap5/sprint03/variables-entorno.png)
+![variable entorno](docs/assets/Cap5/sprint03/variables-entorno.png) <br>
 
-<center> Servidor MySQL `securitybus-apg-db` </center>
+<center> Servidor MySQL `securitybus-apg-db` </center> <br>
 
-![servidor mysql](docs/assets/Cap5/sprint03/bd.png)
+![servidor mysql](docs/assets/Cap5/sprint03/bd.png) <br>
 
 
-<center> Servidor MySQL `securitybus-apg-db` </center>
+<center> Servidor MySQL `securitybus-apg-db` </center> <br>
 
-![web app](docs/assets/Cap5/sprint03/bd.png)
+![web app](docs/assets/Cap5/sprint03/bd.png) <br> 
 
-<center> Documentación Scalar en producción </center>
+<center> Documentación Scalar en producción </center> <br>
 
-![scalar](docs/assets/Cap5/sprint03/documentacion-scalar.png)
+![scalar](docs/assets/Cap5/sprint03/documentacion-scalar.png) <br>
 
-<center> Frontend publicado en Firebase Hosting </center>
+<center> Frontend publicado en Firebase Hosting </center> <br>
 
-![firebase](docs/assets/Cap5/sprint03/firebase-hosting.png)
+![firebase](docs/assets/Cap5/sprint03/firebase-hosting.png) <br>
 
-<center> Aplicación web consumiendo el backend desplegado </center>
+<center> Aplicación web consumiendo el backend desplegado </center> <br>
 
-![firebase](docs/assets/Cap5/sprint03/app-web.png)
+![firebase](docs/assets/Cap5/sprint03/app-web.png) <br>
 
-<center> Landing Page publicada </center>
+<center> Landing Page publicada </center> <br>
 
-![firebase](docs/assets/Cap5/sprint03/landing-page-publicada.png)
+![firebase](docs/assets/Cap5/sprint03/landing-page-publicada.png) <br>
 
 ##### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -1434,25 +1434,25 @@ Repositorio del backend: https://github.com/AstroBusTeam/AstroBusTeam-BackEnd
  
 Repositorio del frontend: https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd
 
-<center> Evidencia 1: Gráfico de contribuciones por integrante del equipo </center>
+<center> Evidencia 1: Gráfico de contribuciones por integrante del equipo </center> <br>
 
-![Evidencia 1](docs/assets/Cap5/sprint03/evidence1.png)
+![Evidencia 1](docs/assets/Cap5/sprint03/evidence1.png) <br>
 
-<center> Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse </center>
+<center> Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse </center> <br>
 
-![Evidencia 2](docs/assets/Cap5/sprint03/evidence2.png)
+![Evidencia 2](docs/assets/Cap5/sprint03/evidence2.png) <br>
 
-<center> Evidencia 3: Gestión colaborativa mediante Pull Requests y merges </center>
+<center> Evidencia 3: Gestión colaborativa mediante Pull Requests y merges </center> <br>
 
-![Evidencia 3](docs/assets/Cap5/sprint03/evidence3.png)
+![Evidencia 3](docs/assets/Cap5/sprint03/evidence3.png) <br>
 
-<center> Evidencia 4: Organización de ramas bajo estrategia GitFlow </center>
+<center> Evidencia 4: Organización de ramas bajo estrategia GitFlow </center> <br>
 
-![Evidencia 4](docs/assets/Cap5/sprint03/evidence4.png)
+![Evidencia 4](docs/assets/Cap5/sprint03/evidence4.png) <br>
 
-<center> Evidencia 5: Gráfico de contribuciones del frontend </center>
+<center> Evidencia 5: Gráfico de contribuciones del frontend </center> <br>
 
-![Evidencia 5](docs/assets/Cap5/sprint03/evidence5.png)
+![Evidencia 5](docs/assets/Cap5/sprint03/evidence5.png) <br>
 
 Actividades colaborativas más relevantes:
 
@@ -1716,12 +1716,12 @@ El video About-the-Product es el principal material de difusión del proyecto. S
 
 En él se expone la propuesta de valor y el modelo de negocio, se describen las principales funcionalidades (verificación del conductor, botón de pánico, monitoreo de la flota y registro de alertas), se muestra la aplicación en funcionamiento y se incluyen testimonios de los segmentos objetivo, que evidencian la utilidad y la aceptación de la solución. El material se publicó en Microsoft Stream y en YouTube, y se integró en la Landing Page del proyecto para facilitar su acceso.
 
-![Captura video about the product]()
+![Captura video about the product](docs/assets/Cap5/sprint03/about-the-product.png)
 
-- About the product, Microsoft Stream: []() 
+- About the product, Microsoft Stream: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577) 
 
 
-- About the product, YouTube: []()
+- About the product, YouTube: [https://www.youtube.com/watch?v=Nsoj39fO-LI](https://www.youtube.com/watch?v=Nsoj39fO-LI)
 
 ## Conclusiones
 
