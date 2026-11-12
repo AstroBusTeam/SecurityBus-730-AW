@@ -3996,7 +3996,27 @@ Entre las principales oportunidades de mejora, recomendó incorporar informació
 
 **Entrevista 2: Empresas y organizaciones operadoras**
 
+- Nombre: Luisana Falla
+- Edad: 30
+- Residencia: Surco
+- Ocupación: Dueño de una empresa de transporte público
+- Experiencia: 10 años dueño de empresa
+- Fecha: 12/11/26
+- Inicio: 0:00
+- Duración: 3:03
 
+**Link:** <br> 
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCDI1WlTJuUTq_Mo8X43es9AYwRfayQ-WNW0mrSjkBWj5U?e=XSGcIx
+
+**Resumen:** <br>
+Durante la entrevista, el participante manifestó que es dueño de una empresa de transporte público y que actualmente cuenta con GPS en casi todas sus unidades; sin embargo, indicó que esta herramienta solo le permite conocer la ubicación de los vehículos, por lo que, cuando una unidad se detiene, no puede distinguir si se trata de tráfico, una avería o un asalto. En esos casos debe llamar al conductor, quien muchas veces no contesta por encontrarse manejando, lo que evidencia la necesidad de conocer en tiempo real lo que ocurre durante los recorridos.
+
+Respecto a la aplicación, consideró que el centro de control le permitiría visualizar el estado de cada unidad y las alertas activas, aunque advirtió que la interfaz debe mantenerse simple, ya que el personal de su central no está familiarizado con la tecnología. Valoró especialmente el botón de pánico, debido a que, por la extorsión y el cobro de cupos, sus conductores no pueden avisar a la empresa hasta que los delincuentes se retiran; destacó que el envío silencioso de la alerta es su característica más importante. En cuanto al detalle de la alerta, consideró que la ubicación, la placa y los datos del conductor son la información principal para actuar.
+
+Entre las principales oportunidades de mejora, recomendó incorporar la dirección del incidente en texto, para facilitar la comunicación con la policía, e indicar el tipo de emergencia (asalto o accidente), para saber a quién llamar primero. También manifestó su preocupación por las falsas alarmas y por la forma de cancelar una alerta activada por error. Señaló que su decisión de implementar la plataforma dependería del precio por unidad, de que no sea necesario instalar equipos costosos en cada vehículo —idealmente que funcione con el celular del conductor— y de una capacitación rápida, dado que muchos conductores son mayores y no se adaptan fácilmente a las aplicaciones. Finalmente, consideró que SecurityBus le brindaría tranquilidad al enterarse de inmediato de cualquier incidente, ayudaría a reducir la rotación de conductores causada por el miedo a ciertas rutas y le permitiría utilizar el historial de alertas para reforzar la seguridad en las rutas y horarios más críticos.
+
+**Evidencia:** <br>
+![Entrevista 2](docs/assets/Cap5/sprint03/interviews/validacionian.png)
 
 **Entrevista 3: Empresas y organizaciones operadoras**
 
