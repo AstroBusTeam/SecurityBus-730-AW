@@ -1068,6 +1068,8 @@ A continuación se presentan las pantallas de la aplicación en ejecución sobre
 
 Para ilustrar la navegación completa se preparó un video de ejecución:
 
+![video-ejecucion-sprint3](docs/assets/Cap5/sprint03/video-ejecucion-sprint3.png)
+
 - Video de ejecución del Sprint 3: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577)
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -1292,13 +1294,13 @@ La respuesta (`201 Created`) devuelve el turno registrado, con su identificador 
  
 Si el código no existe, el conductor no está activo, no tiene una asignación vigente o su vehículo no existe, el servicio responde con un `ProblemDetails` y los códigos `404` o `403` según el caso.
 
-<center> Vista General de los Endpoints Documentados </center> <br>
+**<center> Vista General de los Endpoints Documentados </center>** <br>
 
 ![endpoints1](docs/assets/Cap5/sprint03/endpoints1.png) <br>
 
 ![endpoints2](docs/assets/Cap5/sprint03/endpoints2.png) <br>
 
-<center> Detalle de Parámetros y Esquemas en Endpoint POST </center> <br>
+**<center> Detalle de Parámetros y Esquemas en Endpoint POST </center>** <br>
 
 ![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros1.png) <br>
 
@@ -1306,7 +1308,7 @@ Si el código no existe, el conductor no está activo, no tiene una asignación 
 
 ![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros3.png) <br>
 
-<center> Prueba de Ejecución (Try it out) e Interacción con el API </center> <br>
+**<center> Prueba de Ejecución (Try it out) e Interacción con el API </center>** <br>
 
 ![try-it-out1](docs/assets/Cap5/sprint03/try-it-out1.png) <br>
  
@@ -1416,9 +1418,9 @@ Las siguientes capturas permiten verificar que los componentes se encuentran act
 
 <center> Prueba en Scalar de producción: operación sobre drivers y su reflejo en la base de datos </center> <br>
 
-![prueba-scalar](docs/assets/Cap5/sprint03/) <br>
+![prueba-scalar](docs/assets/Cap5/sprint03/prueba-scalar.png) <br>
 
-![reflejo-bd](docs/assets/Cap5/sprint03/) <br>
+![reflejo-bd](docs/assets/Cap5/sprint03/reflejo-bd.png) <br>
 
 <center> Frontend publicado en Firebase Hosting </center> <br>
 

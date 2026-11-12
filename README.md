@@ -11,7 +11,7 @@ Carrera de Ingeniería de Software<br><br><br>
 **NRC** 
 <br><br>8074<br>
 
-**Informe del Trabajo Parcial**
+**Informe del Avance 02**
 
 **Docente**
 <br><br>Sánchez Ponce, Alex Humberto <br>
@@ -130,7 +130,7 @@ Carrera de Ingeniería de Software<br><br><br>
 - **URL del Repositorio de la Landing Page:** [https://github.com/AstroBusTeam/SecurityBus-landing-page-aw](https://github.com/AstroBusTeam/SecurityBus-landing-page-aw)
 - **Video Exposición AV1:** [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823_upc_edu_pe%2FDocuments%2FSecurity%20Bus%2FVideoExposicion%2Emp4)
 - **Video Exposición TB1:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCvxQWq90fWRIhlgpWOinmpAcg8GUGx2Qat4fDj3RE3LS4?e=58NPnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCvxQWq90fWRIhlgpWOinmpAcg8GUGx2Qat4fDj3RE3LS4?e=58NPnd&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* **Video Exposición AV2:** []()
+* **Video Exposición AV2:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBa_Czfy7qkQ53j7oazM1cMAdvBC3ZvkI8jVkgVrsX4rvY?e=O73nZy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQBa_Czfy7qkQ53j7oazM1cMAdvBC3ZvkI8jVkgVrsX4rvY?e=O73nZy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * **URL del Repositorio del Frontend:** [https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd](https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd)
 * **URL del Repositorio del Backend:** [https://github.com/AstroBusTeam/AstroBusTeam-BackEnd](https://github.com/AstroBusTeam/AstroBusTeam-BackEnd)
 * **URL del Frontend Desplegado:** [https://securitybus-730-aw-front-7bf31.firebaseapp.com/](https://securitybus-730-aw-front-7bf31.firebaseapp.com/)
@@ -3359,6 +3359,8 @@ A continuación se presentan las pantallas de la aplicación en ejecución sobre
 
 Para ilustrar la navegación completa se preparó un video de ejecución:
 
+![video-ejecucion-sprint3](docs/assets/Cap5/sprint03/video-ejecucion-sprint3.png)
+
 - Video de ejecución del Sprint 3: [https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577](https://upcedupe-my.sharepoint.com/personal/u202418823_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202418823%5Fupc%5Fedu%5Fpe%2FDocuments%2FSecurity%20Bus%2Fabout%20the%20product%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E17c5282c%2D68d4%2D477a%2Dac44%2De475636d3577)
 
 ##### 5.2.3.6. Services Documentation Evidence for Sprint Review
@@ -3583,13 +3585,13 @@ La respuesta (`201 Created`) devuelve el turno registrado, con su identificador 
  
 Si el código no existe, el conductor no está activo, no tiene una asignación vigente o su vehículo no existe, el servicio responde con un `ProblemDetails` y los códigos `404` o `403` según el caso.
 
-<center> Vista General de los Endpoints Documentados </center> <br>
+**<center> Vista General de los Endpoints Documentados </center>** <br>
 
 ![endpoints1](docs/assets/Cap5/sprint03/endpoints1.png) <br>
 
 ![endpoints2](docs/assets/Cap5/sprint03/endpoints2.png) <br>
 
-<center> Detalle de Parámetros y Esquemas en Endpoint POST </center> <br>
+**<center> Detalle de Parámetros y Esquemas en Endpoint POST </center>** <br>
 
 ![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros1.png) <br>
 
@@ -3597,7 +3599,7 @@ Si el código no existe, el conductor no está activo, no tiene una asignación 
 
 ![detalle-parametros-esquemas-endpoint](docs/assets/Cap5/sprint03/parametros3.png) <br>
 
-<center> Prueba de Ejecución (Try it out) e Interacción con el API </center> <br>
+**<center> Prueba de Ejecución (Try it out) e Interacción con el API </center>** <br>
 
 ![try-it-out1](docs/assets/Cap5/sprint03/try-it-out1.png) <br>
  
@@ -3617,7 +3619,7 @@ La solución se distribuye en cuatro componentes alojados en plataformas distint
 | Landing Page | GitHub Pages | Sitio estático de presentación del producto | https://github.com/AstroBusTeam/SecurityBus-landing-page-aw |
 | Web Application (Frontend) | Firebase Hosting | Aplicación Vue 3 compilada con Vite y publicada como sitio estático | https://securitybus-730-aw-front-7bf31.web.app |
 | Web Services (Backend) | Microsoft Azure – Web App Linux (.NET 10) | API REST en ASP.NET Core con documentación Scalar | https://securitybus-apg-api-hha7gwepbjhqg3b6.westus3-01.azurewebsites.net/scalar/ |
-| Base de datos | Azure Database for MySQL – servidor flexible | Base de datos relacional del backend | No público |
+| Base de datos | Azure Database for MySQL – servidor flexible | Base de datos relacional del backend, con acceso restringido mediante reglas de firewall y SSL | Acceso restringido (securitybus-apg-db.mysql.database.azure.com) |
  
 Dado que el frontend y el backend se publican en dominios distintos, el navegador aplica la política de mismo origen, por lo que fue necesario habilitar explícitamente las peticiones entre ambos mediante CORS. Del mismo modo, la cadena de conexión a la base de datos se inyecta mediante variables de entorno para no exponer credenciales en el código fuente.
  
@@ -3631,7 +3633,7 @@ El backend se ejecuta en una Web App Linux de Azure y se comunica con un servido
  
 **Paso 2: Creación del grupo de recursos.** Se creó el grupo `securitybus-rg`, que agrupa todos los recursos del backend y permite administrarlos o eliminarlos conjuntamente.
  
-**Paso 3: Creación del servidor MySQL.** Dentro del grupo de recursos se creó un servidor MySQL de tipo flexible llamado `securitybus-apg-db` en la región Chile Central, con su usuario administrador y su base de datos para el esquema de la aplicación. Se habilitó el acceso desde los servicios de Azure mediante la regla de red «Permitir el acceso público desde cualquier servicio de Azure», de modo que la Web App pueda conectarse al servidor.
+**Paso 3: Creación del servidor MySQL.** Dentro del grupo de recursos se creó un servidor MySQL de tipo flexible llamado `securitybus-apg-db` en la región Chile Central, con su usuario administrador y su base de datos para el esquema de la aplicación. Se habilitó el acceso desde los servicios de Azure mediante la regla de red «Permitir el acceso público desde cualquier servicio de Azure», de modo que la Web App pueda conectarse al servidor. Para permitir la consulta directa de los datos desde MySQL Workbench durante el desarrollo, se agregó además una regla de firewall por cada integrante, con su dirección IP pública, desde la sección Networking del servidor.
  
 **Paso 4: Creación de la Web App.** Se creó la aplicación web `securitybus-apg-api` con sistema operativo Linux, pila de ejecución .NET 10 y región West US 3.
  
@@ -3656,6 +3658,18 @@ El backend se ejecuta en una Web App Linux de Azure y se comunica con un servido
 *B.3. Landing Page en GitHub Pages*
  
 La Landing Page se aloja en el repositorio `SecurityBus-landing-page-aw`. En la configuración del repositorio (*Settings → Pages*) se seleccionó como fuente la rama principal y la carpeta raíz, con lo que GitHub Pages publica automáticamente el HTML, CSS y JavaScript cada vez que se integra un cambio en esa rama.
+
+*B.4. Conexión a la base de datos y configuración del equipo*
+
+Con el fin de verificar los datos almacenados por la aplicación desplegada, se configuró el acceso al servidor MySQL de Azure desde MySQL Workbench.
+
+Paso 1: Autorización de acceso. En la sección Networking del servidor securitybus-apg-db se agregó una regla de firewall con la IP pública de cada integrante.
+
+Paso 2: Creación de la conexión. En MySQL Workbench se creó la conexión «Azure SecurityBus» con el host del servidor, el puerto 3306, el usuario administrador, el esquema securitybus y SSL en modo Require.
+
+Paso 3: Verificación. Se ejecutó la consulta SELECT * FROM drivers; y se comprobó que los registros guardados corresponden a los que devuelve GET /api/v1/drivers en la documentación Scalar de producción.
+
+Paso 4: Configuración local del equipo. Cada integrante definió su cadena de conexión en el archivo appsettings.Development.json, excluido del repositorio mediante .gitignore, de modo que ninguna credencial se almacena en el control de versiones. Con esta configuración, el backend ejecutado desde Rider utiliza el mismo esquema que la aplicación desplegada.
  
 **C. Evidencias gráficas de despliegue**
 
@@ -3677,14 +3691,27 @@ Las siguientes capturas permiten verificar que los componentes se encuentran act
 
 ![servidor mysql](docs/assets/Cap5/sprint03/bd.png) <br>
 
-
-<center> Servidor MySQL `securitybus-apg-db` </center> <br>
-
-![web app](docs/assets/Cap5/sprint03/bd.png) <br> 
-
 <center> Documentación Scalar en producción </center> <br>
 
 ![scalar](docs/assets/Cap5/sprint03/documentacion-scalar.png) <br>
+
+<center> Reglas de firewall del servidor MySQL </center> <br>
+
+![reglas-firewall](docs/assets/Cap5/sprint03/reglas-firewall.png) <br>
+
+<center> Conexión Azure SecurityBus configurada en MySQL Workbench </center> <br>
+
+![conexion-azure](docs/assets/Cap5/sprint03/conexion-azure.png) <br>
+
+<center> Esquema securitybus y tabla drivers consultados desde MySQL Workbench </center> <br>
+
+![esquema-securitybus](docs/assets/Cap5/sprint03/esquema-securitybus.png) <br>
+
+<center> Prueba en Scalar de producción: operación sobre drivers y su reflejo en la base de datos </center> <br>
+
+![prueba-scalar](docs/assets/Cap5/sprint03/prueba-scalar.png) <br>
+
+![reflejo-bd](docs/assets/Cap5/sprint03/reflejo-bd.png) <br>
 
 <center> Frontend publicado en Firebase Hosting </center> <br>
 
@@ -3693,6 +3720,10 @@ Las siguientes capturas permiten verificar que los componentes se encuentran act
 <center> Aplicación web consumiendo el backend desplegado </center> <br>
 
 ![firebase](docs/assets/Cap5/sprint03/app-web.png) <br>
+
+<center> Configuración de GitHub Pages de la Landing Page (Settings > Pages) </center> <br>
+
+![conf-github-pages](docs/assets/Cap5/sprint03/conf-github-pages.png) <br>
 
 <center> Landing Page publicada </center> <br>
 
