@@ -1487,11 +1487,11 @@ Repositorio del frontend: https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd
 
 Actividades colaborativas más relevantes:
 
-• Diseño de los contextos Iam, Fleet, Operations y Alerts bajo Domain-Driven Design.
-• Persistencia con Entity Framework Core, claves foráneas, auditoría y Unit of Work.
-• Documentación de los endpoints con OpenAPI y Scalar en español e inglés.
-• Localización de los mensajes de error de la API.
-• Adaptación de la Web Application para consumir los Web Services.
+* Diseño de los contextos Iam, Fleet, Operations y Alerts bajo Domain-Driven Design.
+* Persistencia con Entity Framework Core, claves foráneas, auditoría y Unit of Work.
+* Documentación de los endpoints con OpenAPI y Scalar en español e inglés.
+* Localización de los mensajes de error de la API.
+* Adaptación de la Web Application para consumir los Web Services.
 
 ### 5.3. Validation Interviews
 

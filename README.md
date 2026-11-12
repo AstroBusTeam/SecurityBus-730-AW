@@ -108,7 +108,7 @@ Carrera de Ingeniería de Software<br><br><br>
       </tr>
        <tr>
         <td>V3.0</td>
-        <td>7/11/2026</td>
+        <td>07/11/2026</td>
         <td>
           Alvarado Millan, Boris<br>
           Justo Yauricasa, Alexander Paolo<br>
@@ -3798,11 +3798,11 @@ Repositorio del frontend: https://github.com/AstroBusTeam/AstroBusTeam-FrontEnd
 
 Actividades colaborativas más relevantes:
 
-• Diseño de los contextos Iam, Fleet, Operations y Alerts bajo Domain-Driven Design.
-• Persistencia con Entity Framework Core, claves foráneas, auditoría y Unit of Work.
-• Documentación de los endpoints con OpenAPI y Scalar en español e inglés.
-• Localización de los mensajes de error de la API.
-• Adaptación de la Web Application para consumir los Web Services.
+* Diseño de los contextos Iam, Fleet, Operations y Alerts bajo Domain-Driven Design.
+* Persistencia con Entity Framework Core, claves foráneas, auditoría y Unit of Work.
+* Documentación de los endpoints con OpenAPI y Scalar en español e inglés.
+* Localización de los mensajes de error de la API.
+* Adaptación de la Web Application para consumir los Web Services.
 
 ### 5.3. Validation Interviews
 
