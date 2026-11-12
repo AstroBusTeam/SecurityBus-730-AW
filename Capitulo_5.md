@@ -1340,7 +1340,7 @@ El backend se ejecuta en una Web App Linux de Azure y se comunica con un servido
  
 **Paso 2: Creación del grupo de recursos.** Se creó el grupo `securitybus-rg`, que agrupa todos los recursos del backend y permite administrarlos o eliminarlos conjuntamente.
  
-**Paso 3: Creación del servidor MySQL.** Dentro del grupo de recursos se creó un servidor MySQL de tipo flexible llamado `securitybus-apg-db` en la región Chile Central, con su usuario administrador y su base de datos para el esquema de la aplicación. Se habilitó el acceso desde los servicios de Azure mediante la regla de red «Permitir el acceso público desde cualquier servicio de Azure», de modo que la Web App pueda conectarse al servidor.
+**Paso 3: Creación del servidor MySQL.** Dentro del grupo de recursos se creó un servidor MySQL de tipo flexible llamado `securitybus-apg-db` en la región Chile Central, con su usuario administrador y su base de datos para el esquema de la aplicación. Se habilitó el acceso desde los servicios de Azure mediante la regla de red «Permitir el acceso público desde cualquier servicio de Azure», de modo que la Web App pueda conectarse al servidor. Para permitir la consulta directa de los datos desde MySQL Workbench durante el desarrollo, se agregó además una regla de firewall por cada integrante, con su dirección IP pública, desde la sección Networking del servidor.
  
 **Paso 4: Creación de la Web App.** Se creó la aplicación web `securitybus-apg-api` con sistema operativo Linux, pila de ejecución .NET 10 y región West US 3.
  
@@ -1365,6 +1365,18 @@ El backend se ejecuta en una Web App Linux de Azure y se comunica con un servido
 *B.3. Landing Page en GitHub Pages*
  
 La Landing Page se aloja en el repositorio `SecurityBus-landing-page-aw`. En la configuración del repositorio (*Settings → Pages*) se seleccionó como fuente la rama principal y la carpeta raíz, con lo que GitHub Pages publica automáticamente el HTML, CSS y JavaScript cada vez que se integra un cambio en esa rama.
+
+*B.4. Conexión a la base de datos y configuración del equipo*
+
+Con el fin de verificar los datos almacenados por la aplicación desplegada, se configuró el acceso al servidor MySQL de Azure desde MySQL Workbench.
+
+Paso 1: Autorización de acceso. En la sección Networking del servidor securitybus-apg-db se agregó una regla de firewall con la IP pública de cada integrante.
+
+Paso 2: Creación de la conexión. En MySQL Workbench se creó la conexión «Azure SecurityBus» con el host del servidor, el puerto 3306, el usuario administrador, el esquema securitybus y SSL en modo Require.
+
+Paso 3: Verificación. Se ejecutó la consulta SELECT * FROM drivers; y se comprobó que los registros guardados corresponden a los que devuelve GET /api/v1/drivers en la documentación Scalar de producción.
+
+Paso 4: Configuración local del equipo. Cada integrante definió su cadena de conexión en el archivo appsettings.Development.json, excluido del repositorio mediante .gitignore, de modo que ninguna credencial se almacena en el control de versiones. Con esta configuración, el backend ejecutado desde Rider utiliza el mismo esquema que la aplicación desplegada.
  
 **C. Evidencias gráficas de despliegue**
 
@@ -1386,14 +1398,27 @@ Las siguientes capturas permiten verificar que los componentes se encuentran act
 
 ![servidor mysql](docs/assets/Cap5/sprint03/bd.png) <br>
 
-
-<center> Servidor MySQL `securitybus-apg-db` </center> <br>
-
-![web app](docs/assets/Cap5/sprint03/bd.png) <br> 
-
 <center> Documentación Scalar en producción </center> <br>
 
 ![scalar](docs/assets/Cap5/sprint03/documentacion-scalar.png) <br>
+
+<center> Reglas de firewall del servidor MySQL </center> <br>
+
+![reglas-firewall](docs/assets/Cap5/sprint03/reglas-firewall.png) <br>
+
+<center> Conexión Azure SecurityBus configurada en MySQL Workbench </center> <br>
+
+![conexion-azure](docs/assets/Cap5/sprint03/conexion-azure.png) <br>
+
+<center> Esquema securitybus y tabla drivers consultados desde MySQL Workbench </center> <br>
+
+![esquema-securitybus](docs/assets/Cap5/sprint03/esquema-securitybus.png) <br>
+
+<center> Prueba en Scalar de producción: operación sobre drivers y su reflejo en la base de datos </center> <br>
+
+![prueba-scalar](docs/assets/Cap5/sprint03/) <br>
+
+![reflejo-bd](docs/assets/Cap5/sprint03/) <br>
 
 <center> Frontend publicado en Firebase Hosting </center> <br>
 
@@ -1402,6 +1427,10 @@ Las siguientes capturas permiten verificar que los componentes se encuentran act
 <center> Aplicación web consumiendo el backend desplegado </center> <br>
 
 ![firebase](docs/assets/Cap5/sprint03/app-web.png) <br>
+
+<center> Configuración de GitHub Pages de la Landing Page (Settings > Pages) </center> <br>
+
+![conf-github-pages](docs/assets/Cap5/sprint03/conf-github-pages.png) <br>
 
 <center> Landing Page publicada </center> <br>
 
