@@ -3941,7 +3941,7 @@ Respecto a la landing page de SecurityBus, comprendió que la solución permite 
 Entre las principales oportunidades de mejora, recomendó incorporar información más detallada en las alertas, como la hora exacta del incidente y los datos de contacto del conductor. Asimismo, consideró importante garantizar que las notificaciones lleguen correctamente a todos los responsables registrados. Respecto al historial de turnos y las métricas, destacó su utilidad para evaluar el desempeño de las operaciones, aunque sugirió mejorar la explicación de algunos indicadores. Finalmente, manifestó su disposición para contratar SecurityBus, mostrando preferencia por el plan Profesional debido al equilibrio entre funcionalidades y costos. También propuso incorporar reportes automáticos, notificaciones personalizadas y opciones para exportar información, ya que considera que la plataforma facilitaría la supervisión de su flota y mejoraría la respuesta ante emergencias.
 
 **Evidencia:** <br>
-
+![Entrevista 1](docs/assets/Cap5/sprint03/interviews/validacionkiara.png)
 
 **Entrevista 2: Empresas y organizaciones operadoras**
 
@@ -4049,6 +4049,7 @@ Respecto a la landing page de SecurityBus, comprendió que la plataforma busca m
 Entre las principales oportunidades de mejora, destacó la importancia de mantener el botón de pánico visible y fácil de presionar durante una emergencia. También recomendó incorporar una confirmación después del envío de una alerta y una opción para cancelar los avisos enviados accidentalmente. Consideró que el mapa de operaciones resulta útil para visualizar la ubicación del vehículo y las alertas, mientras que la información de velocidad debe presentarse de manera sencilla para evitar distracciones. Finalmente, manifestó que utilizaría SecurityBus durante sus recorridos, siempre que la aplicación garantice la privacidad de su información y permita solicitar asistencia de manera rápida y confiable.
 
 **Evidencia:** <br>
+![Entrevista 3](docs/assets/Cap5/sprint03/interviews/validacionkevin.png)
 
 #### 5.3.3. Evaluaciones según heurísticas
 
