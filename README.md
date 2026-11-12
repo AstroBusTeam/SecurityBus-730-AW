@@ -4034,7 +4034,7 @@ Entre las principales oportunidades de mejora, esperaba recibir una notificació
 - Residencia: Lima Metropolitana
 - Ocupación: Conductor de transporte público
 - Experiencia: 5 años como conductor
-- Fecha: 10/11/26
+- Fecha: 10/11/26 
 - Inicio: 0:00
 - Duración: 7:26
 
