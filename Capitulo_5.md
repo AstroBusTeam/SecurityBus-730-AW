@@ -1326,7 +1326,7 @@ La solución se distribuye en cuatro componentes alojados en plataformas distint
 | Landing Page | GitHub Pages | Sitio estático de presentación del producto | https://github.com/AstroBusTeam/SecurityBus-landing-page-aw |
 | Web Application (Frontend) | Firebase Hosting | Aplicación Vue 3 compilada con Vite y publicada como sitio estático | https://securitybus-730-aw-front-7bf31.web.app |
 | Web Services (Backend) | Microsoft Azure – Web App Linux (.NET 10) | API REST en ASP.NET Core con documentación Scalar | https://securitybus-apg-api-hha7gwepbjhqg3b6.westus3-01.azurewebsites.net/scalar/ |
-| Base de datos | Azure Database for MySQL – servidor flexible | Base de datos relacional del backend | No público |
+| Base de datos | Azure Database for MySQL – servidor flexible | Base de datos relacional del backend, con acceso restringido mediante reglas de firewall y SSL | Acceso restringido (securitybus-apg-db.mysql.database.azure.com) |
  
 Dado que el frontend y el backend se publican en dominios distintos, el navegador aplica la política de mismo origen, por lo que fue necesario habilitar explícitamente las peticiones entre ambos mediante CORS. Del mismo modo, la cadena de conexión a la base de datos se inyecta mediante variables de entorno para no exponer credenciales en el código fuente.
  
