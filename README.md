@@ -117,7 +117,7 @@ Carrera de Ingeniería de Software<br><br><br>
           Nawrocki Loureiro, Ian Andre
         </td>
         <td style="text-align: left;">
-        En la entrega AV2 (Sprint 3) se desarrolló e implementó el backend de servicios (RESTful API) en C# / ASP.NET Core y Entity Framework Core con arquitectura DDD, conectando la base de datos relacional y documentando los endpoints con OpenAPI / Swagger. Se integró la Web App frontend en Vue.js con el backend desplegado, se registraron las entrevistas de validación con evaluaciones heurísticas de UX, y se publicaron las primeras versiones de los videos About-the-Product y About-the-Team.
+        En la entrega AV2 (Sprint 3) se desarrolló e implementó el backend de servicios (RESTful API) en C# / ASP.NET Core y Entity Framework Core con arquitectura DDD, conectando la base de datos relacional y documentando los endpoints con OpenAPI / Scalar. Se integró la Web App frontend en Vue.js con el backend desplegado, se registraron las entrevistas de validación con evaluaciones heurísticas de UX, y se publicaron las primeras versiones de los videos About-the-Product y About-the-Team.
         </td>
       </tr>
     </tbody>
@@ -306,6 +306,8 @@ Carrera de Ingeniería de Software<br><br><br>
         El desarrollo de las actividades permitió fortalecer el liderazgo compartido dentro del equipo, especialmente mediante la coordinación de los trabajos de análisis de usuarios y diseño UX/UI. La participación en la elaboración de los diferentes artefactos de diseño y en la configuración del entorno de desarrollo facilitó la toma de decisiones conjunta y permitió mantener una organización adecuada para avanzar con los objetivos establecidos.
         <br>TB1:<br>
         Durante el desarrollo de la primera entrega (TB1), el equipo demostró una eficiente gestión del liderazgo distribuido. Cada miembro asumió el control de tareas específicas como el desarrollo del front-end, la integración de la Fake API, el despliegue de la aplicación y la administración de repositorios, lo que facilitó la toma colaborativa de decisiones técnicas y garantizó el cumplimiento de los objetivos programados para el Sprint 2 dentro de un marco estructurado de trabajo.
+        <br>AV2:<br>
+        Durante el Sprint 3, el equipo consolidó un modelo de liderazgo compartido mediante la distribución de responsabilidades por bounded contexts, permitiendo que cada integrante asumiera la dirección técnica de módulos específicos del backend desarrollado en C# con ASP.NET Core y arquitectura DDD. La coordinación entre los responsables de Shared, Fleet, IAM, Operations y Alerts facilitó la integración de los diferentes componentes, el establecimiento de criterios comunes y la resolución conjunta de aspectos técnicos. Asimismo, el uso de GitFlow, ramas independientes y Pull Requests permitió mantener un proceso organizado de revisión e integración del código. Esta colaboración hizo posible conectar el frontend desarrollado en Vue.js con los servicios REST desplegados, documentados mediante OpenAPI y Scalar, consolidando una solución integrada y funcional.
         </td>
       </tr>
       <tr>
@@ -345,6 +347,8 @@ Carrera de Ingeniería de Software<br><br><br>
         El equipo logró mantener una dinámica de trabajo organizada, basada en la coordinación constante y en la distribución de responsabilidades. La planificación de las actividades de diseño, documentación y configuración permitió dar seguimiento a las tareas asignadas y cumplir con los entregables establecidos, manteniendo una participación activa y colaborativa durante el desarrollo del proyecto.
         <br>TB1:<br>
         La adopción del modelo GitFlow y la centralización de repositorios en GitHub, junto con el uso de herramientas de integración continua y documentación estandarizada, permitieron articular una dinámica operativa sumamente ordenada en la TB1. Como resultado, la asignación de responsabilidades y la planificación se realizaron de forma equitativa y fluida, lo que hizo posible alcanzar en su totalidad las metas fijadas para el Sprint 2 dentro de los plazos establecidos.
+        <br>AV2:<br> 
+        Durante el Sprint 3, el equipo fortaleció su entorno colaborativo mediante una planificación orientada a la implementación del backend, la integración de los servicios y la validación de la aplicación web. La distribución de actividades y responsabilidades permitió organizar el trabajo entre los integrantes, establecer objetivos comunes y realizar avances paralelos sobre los diferentes bounded contexts. Asimismo, el seguimiento de las actividades mediante el Sprint Backlog y la gestión de los repositorios en GitHub favorecieron la coordinación, la transparencia y el cumplimiento de los compromisos establecidos. Como resultado, se logró implementar y desplegar el backend conectado a una base de datos relacional, integrar la aplicación frontend con los servicios reales, documentar los endpoints y realizar entrevistas de validación mediante evaluaciones heurísticas de UX, alcanzando los principales objetivos establecidos para la entrega AV2.
         </td>
       </tr>
     </tbody>
