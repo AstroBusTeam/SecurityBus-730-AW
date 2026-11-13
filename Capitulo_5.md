@@ -1683,7 +1683,7 @@ Evalúa: Barreras de adopción y confianza.
 - Duración: 8:19
 
 **Link:** <br> 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBZw6dHrB32S7PLACsHUi4MAcKLLLJnrr5v8J-XwGl7F1Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPKXoG
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBZw6dHrB32S7PLACsHUi4MAcKLLLJnrr5v8J-XwGl7F1Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPKXoG](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQBZw6dHrB32S7PLACsHUi4MAcKLLLJnrr5v8J-XwGl7F1Y?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPKXoG)
 
 **Resumen:** <br>
 Durante la entrevista, el participante indicó que desempeña funciones relacionadas con la administración y supervisión de las operaciones de una empresa de transporte público que cuenta actualmente con 12 unidades distribuidas en 4 rutas dentro de Lima Metropolitana. Comentó que la empresa suele enterarse de los incidentes mediante llamadas telefónicas y mensajes de WhatsApp enviados por los conductores. Sin embargo, señaló que durante una emergencia pueden presentarse demoras de aproximadamente 15 minutos debido a la falta de información precisa sobre la ubicación de las unidades. Actualmente utilizan herramientas como llamadas, mensajería y GPS para supervisar los recorridos, pero consideran que sería conveniente contar con una plataforma que centralice esta información.
@@ -1707,7 +1707,7 @@ Entre las principales oportunidades de mejora, recomendó incorporar informació
 - Duración: 3:03
 
 **Link:** <br> 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCDI1WlTJuUTq_Mo8X43es9AYwRfayQ-WNW0mrSjkBWj5U?e=XSGcIx
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCDI1WlTJuUTq_Mo8X43es9AYwRfayQ-WNW0mrSjkBWj5U?e=XSGcIx](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCDI1WlTJuUTq_Mo8X43es9AYwRfayQ-WNW0mrSjkBWj5U?e=XSGcIx)
 
 **Resumen:** <br>
 Durante la entrevista, el participante manifestó que es dueño de una empresa de transporte público y que actualmente cuenta con GPS en casi todas sus unidades; sin embargo, indicó que esta herramienta solo le permite conocer la ubicación de los vehículos, por lo que, cuando una unidad se detiene, no puede distinguir si se trata de tráfico, una avería o un asalto. En esos casos debe llamar al conductor, quien muchas veces no contesta por encontrarse manejando, lo que evidencia la necesidad de conocer en tiempo real lo que ocurre durante los recorridos.
@@ -1811,7 +1811,7 @@ Entre las principales oportunidades de mejora, esperaba recibir una notificació
 - Duración: 7:26
 
 **Link:** <br> 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQC6dKFbFhO4SquibxScvd-mAfnunYmKTgrJkdy3XBoyKk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DH2Mo3
+[https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQC6dKFbFhO4SquibxScvd-mAfnunYmKTgrJkdy3XBoyKk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DH2Mo3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241b676_upc_edu_pe/IQC6dKFbFhO4SquibxScvd-mAfnunYmKTgrJkdy3XBoyKk0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DH2Mo3)
 
 **Resumen:** <br>
 Durante la entrevista, el participante manifestó que cuenta con cinco años de experiencia trabajando como conductor de transporte público, realizando recorridos urbanos en diferentes horarios, incluyendo turnos nocturnos. Comentó que ha presenciado situaciones de inseguridad, como robos, amenazas y extorsiones hacia conductores. Asimismo, señaló que cuando ocurre una emergencia intenta comunicarse con la empresa mediante llamadas telefónicas, aunque no siempre obtiene una respuesta inmediata. Por ello, consideró importante contar con un mecanismo de comunicación directa y un botón de emergencia que permita solicitar ayuda rápidamente.
