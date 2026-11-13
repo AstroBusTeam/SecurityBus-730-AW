@@ -902,6 +902,10 @@ El Sprint Backlog es el plan de trabajo de la iteración: recoge las historias s
  
 En esta iteración, las historias seleccionadas corresponden a Technical Stories (TS) que trasladan al backend real los servicios que en el Sprint 2 solo estaban simulados por la Fake API, junto con los servicios adicionales de consulta de historial y de actualización de conductores. Dado que dichos servicios no pueden funcionar sin una base de datos, una documentación y un entorno de ejecución, el equipo registró además tareas de soporte técnico: persistencia, documentación de la API, integración del frontend, documentación del código y despliegue. Estas tareas no se derivan de una historia del Product Backlog, por lo que figuran sin identificador de historia. La tabla detalla, para cada tarea, su descripción, estimación, responsable y estado.
 
+![tablero-sprint3](docs/assets/Cap5/sprint03/trello.png)
+
+<br>
+
 Tablero del Sprint 3: [https://trello.com/invite/b/6af3aa6210bbb1771aa16425/ATTIe323ac84aa52ddf51ec4610c3435f428EAB6D261/sprint-3-astrobusteam](https://trello.com/invite/b/6af3aa6210bbb1771aa16425/ATTIe323ac84aa52ddf51ec4610c3435f428EAB6D261/sprint-3-astrobusteam)
 
 | User Story Id | User Story Title | Work Item / Task Id | Work Item / Task Title | Description | Estimation | Assigned To | Status |
