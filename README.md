@@ -4128,6 +4128,196 @@ Entre las principales oportunidades de mejora, destacó la importancia de manten
 
 #### 5.3.3. Evaluaciones según heurísticas
 
+##### UX Heuristics & Principles Evaluation
+
+*Usability – Inclusive Design – Information Architecture*
+
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Aplicaciones Web
+
+**SECCIÓN:** 8074
+
+**PROFESORES:** Todos
+
+**AUDITOR:** AstroBus
+
+**CLIENTE(S):** Alvarado Millan, Boris / Justo Yauricasa, Alexander Paolo / Martinez Ramos, Bryan Felix / Pillaca Gonzales, Andy Saúl / Nawrocki Loureiro, Ian Andre
+
+###### SITE o APP A EVALUAR
+
+- SecurityBus
+
+###### TAREAS A EVALUAR
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Verificación del conductor con código de empleado
+
+2. Inicio de un servicio (turno)
+
+3. Envío de una alerta con el botón de pánico
+
+4. Cancelación de una alerta enviada
+
+5. Consulta del mapa y de la velocidad durante el servicio
+
+6. Finalización de un servicio
+
+7. Registro y edición de un conductor
+
+8. Confirmación, reenvío y eliminación de alertas en el registro de alertas
+
+9. Consulta del historial de turnos
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Asignación automática de unidades
+
+2. Configuración de canales de notificación avanzados
+
+3. Exportación de reportes
+
+4. Gestión de rutas
+
+###### ESCALA DE SEVERIDAD
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+###### TABLA RESUMEN
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | El botón de pánico es pequeño y está en la barra superior, junto a otros elementos | 4 | Usabilidad: Eficiencia y flexibilidad de uso |
+| 2 | Solo hay 5 segundos para cancelar una alerta y el envío no pide confirmación | 3 | Usabilidad: Libertad y control del usuario / Prevención de errores |
+| 3 | Las alertas de exceso de velocidad son solo visuales, sin aviso sonoro | 3 | Usabilidad: Visibilidad del estado del sistema |
+| 4 | El menú de administración se muestra completo al conductor, sin diferenciar roles | 3 | Information Architecture: Is it usable? / Diseño minimalista |
+| 5 | Cancelar una alerta la elimina y se pierde su registro | 2 | Usabilidad: Prevención de errores |
+| 6 | El recuadro del código QR parece interactivo pero no realiza ninguna acción | 2 | Usabilidad: Visibilidad del estado del sistema / Consistencia |
+| 7 | Hay textos fijos en español que no cambian con el selector de idioma | 2 | Usabilidad: Consistencia y estándares |
+| 8 | Los formularios solo validan con el atributo nativo `required`, sin mensajes por campo | 2 | Usabilidad: Ayuda a reconocer y corregir errores |
+| 9 | Las acciones del registro de alertas son botones de solo ícono que dependen de un tooltip | 1 | Usabilidad: Reconocer antes que recordar |
+
+###### DESCRIPCIÓN DE PROBLEMAS
+
+**PROBLEMA #1: El botón de pánico es pequeño y está en la barra superior**
+
+**Severidad:** 4
+
+**Heurística violada:** Usabilidad – Eficiencia y flexibilidad de uso
+
+**Problema:** el botón de pánico es la función más crítica del producto, pero se muestra con tamaño `small` dentro de la barra superior, junto al selector de idioma, el nombre del conductor y el estado. En una emergencia el conductor debe activarlo con rapidez y sin precisión, y un botón pequeño dificulta acertar, sobre todo con el bus en movimiento.
+
+![Captura del problema #1](docs/assets/Cap5/sprint03/Heuristics/image1.png)
+
+**Recomendación:** aumentar el tamaño del botón, darle un color y una posición fija y destacada, separada del resto de controles, y mantenerlo visible en todas las pantallas.
+
+**PROBLEMA #2: Solo hay 5 segundos para cancelar y el envío no pide confirmación**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Libertad y control del usuario / Prevención de errores
+
+**Problema:** al pulsar el botón, la alerta se envía de inmediato y el conductor dispone de solo 5 segundos para cancelarla (`CANCEL_SECONDS = 5`). Pasado ese tiempo el botón de cancelar queda deshabilitado con el texto «no se puede cancelar». Si el conductor activa la alerta por accidente, o tarda en reaccionar, ya no puede deshacerla y la central recibe una falsa alarma.
+
+![Captura del problema #2](docs/assets/Cap5/sprint03/Heuristics/image2.png)
+
+**Recomendación:** ampliar el tiempo de cancelación (por ejemplo, a 10 segundos) o permitir que la central cierre la alerta como falsa alarma. También se puede evaluar un gesto de activación más deliberado, como mantener pulsado el botón, sin retrasar el envío en una emergencia real.
+
+**PROBLEMA #3: Las alertas de exceso de velocidad son solo visuales**
+
+**Severidad:** 3
+
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema:** en el mapa del servicio, el exceso de velocidad solo se indica cambiando el color del valor (`sb-danger`) cuando se supera el límite de 60 km/h. El código no incluye ningún aviso sonoro. Un conductor que mira la vía no verá un cambio de color en la pantalla.
+
+![Captura del problema #3](docs/assets/Cap5/sprint03/Heuristics/image3.png)
+
+**Recomendación:** añadir una notificación sonora al superar el umbral de advertencia y al exceder el límite, además del cambio de color, con la opción de silenciarla durante un tiempo corto.
+
+**PROBLEMA #4: El menú de administración se muestra completo al conductor**
+
+**Severidad:** 3
+
+**Heurística violada:** Information Architecture – Is it usable? / Diseño minimalista
+
+**Problema:** el menú lateral muestra siete opciones de administración (centro de control, conductores, vehículos, asignaciones, notificaciones, historial e impacto) a cualquier usuario con sesión. El guardián de rutas solo comprueba que exista una sesión activa, no el rol. Un conductor en servicio ve y puede abrir pantallas de gestión que no le corresponden, lo que distrae y permite modificar datos.
+
+![Captura del problema #4](docs/assets/Cap5/sprint03/Heuristics/image4.png)
+
+**Recomendación:** separar la vista del conductor (dashboard, mapa, botón de pánico) de la del administrador, y mostrar el menú de administración solo al rol correspondiente, con la restricción también en las rutas.
+
+**PROBLEMA #5: Cancelar una alerta la elimina**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Prevención de errores
+
+**Problema:** al cancelar durante la cuenta regresiva, la aplicación ejecuta `deleteAlert`, por lo que la alerta desaparece del registro. La central pierde la trazabilidad de que hubo una activación y de que fue cancelada.
+
+![Captura del problema #5](docs/assets/Cap5/sprint03/Heuristics/image5.png)
+
+![Captura del problema #5](docs/assets/Cap5/sprint03/Heuristics/image6.png)
+
+![Captura del problema #5](docs/assets/Cap5/sprint03/Heuristics/image5.png)
+
+**Recomendación:** marcar la alerta con un estado «cancelada por el conductor» en lugar de eliminarla.
+
+**PROBLEMA #6: El recuadro del código QR parece interactivo**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema / Consistencia
+
+**Problema:** la pantalla de verificación muestra un recuadro con el ícono de un QR y el texto «código requerido», pero es solo decorativo; el acceso se hace escribiendo el código de empleado. El usuario puede intentar tocarlo o escanear algo sin resultado.
+
+![Captura del problema #6](docs/assets/Cap5/sprint03/Heuristics/image7.png)
+
+**Recomendación:** quitar el recuadro, o convertirlo en una función real de escaneo, o aclarar con un texto que el código se escribe en el campo inferior.
+
+**PROBLEMA #7: Hay textos fijos en español que no cambian con el selector de idioma**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Consistencia y estándares
+
+**Problema:** la aplicación ofrece un selector de idioma y traduce la mayoría de sus pantallas, pero algunas vistas tienen textos escritos directamente en español. En el detalle de la alerta aparecen «CONFIRMAR ALERTA», «REENVIAR», «CERRAR VISTA» y los pasos «Alerta enviada», «Alerta recibida» y «Confirmada». En el registro de alertas ocurre lo mismo con el diálogo de eliminación («Eliminar», «Cancelar») y con los tooltips («Reenviar», «Confirmar», «Ver detalle»). Al cambiar a inglés, estas pantallas quedan mezcladas en dos idiomas.
+
+![Captura del problema #7](docs/assets/Cap5/sprint03/Heuristics/image8.png)
+
+**Recomendación:** mover todos esos textos a los archivos de traducción (`vue-i18n`), como ya se hace en el resto de la aplicación, y revisar que no queden textos fijos en otras vistas, por ejemplo la descripción de la unidad en el mapa y el título de la página «no encontrada».
+
+**PROBLEMA #8: Los formularios solo validan con el atributo nativo `required`**
+
+**Severidad:** 2
+
+**Heurística violada:** Usabilidad – Ayuda a reconocer y corregir errores
+
+**Problema:** el formulario de registro de conductores marca los campos con `required` y no incluye ninguna otra validación visible. No hay mensajes junto a cada campo ni se resaltan los campos inválidos; en el mejor caso el usuario ve el mensaje genérico del navegador. Tampoco se comprueba el formato: el DNI solo se limita a 8 caracteres, sin verificar que sean números, y el código de empleado no se contrasta con el formato `SF-00000` que sugiere el texto de ejemplo. El usuario puede guardar datos incorrectos o no saber qué debe corregir.
+
+![Captura del problema #8](docs/assets/Cap5/sprint03/Heuristics/image9.png)
+
+**Recomendación:** validar cada campo y mostrar un mensaje claro debajo de él, marcando el campo en rojo (estado inválido de PrimeVue). Definir los formatos esperados (DNI de 8 dígitos, código `SF-00000`, licencia vigente) y mostrar junto al campo los errores que devuelva el backend (400 y 409).
+
+**PROBLEMA #9: Las acciones del registro de alertas son botones de solo ícono**
+
+**Severidad:** 1
+
+**Heurística violada:** Usabilidad – Reconocer antes que recordar
+
+**Problema:** en cada fila del registro de alertas, las acciones (reenviar, confirmar, ver detalle y eliminar) son botones redondos con un ícono y sin texto. Su significado depende de un tooltip que solo aparece al pasar el puntero, por lo que no se ve en pantallas táctiles. Además, los íconos de reenviar (actualizar) y confirmar (check) no son del todo evidentes, y las cuatro acciones están juntas, lo que facilita pulsar una por error. La eliminación sí pide confirmación, lo que reduce el riesgo.
+
+![Captura del problema #9](docs/assets/Cap5/sprint03/Heuristics/image10.png)
+
+**Recomendación:** añadir etiquetas visibles a las acciones principales (por ejemplo, «Ver detalle» y «Confirmar»), agrupar las secundarias en un menú con texto y separar visualmente la acción de eliminar.
 
 ### 5.4. Video About-the-Product
 
