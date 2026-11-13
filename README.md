@@ -3733,9 +3733,13 @@ Las siguientes capturas permiten verificar que los componentes se encuentran act
 
 <center> Prueba en Scalar de producción: operación sobre drivers y su reflejo en la base de datos </center> <br>
 
-![prueba-scalar](docs/assets/Cap5/sprint03/prueba-scalar.png) <br>
+![prueba-scalar1](docs/assets/Cap5/sprint03/prueba-scalar1.png) <br>
+
+![prueba-scalar2](docs/assets/Cap5/sprint03/prueba-scalar2.png) <br>
 
 ![reflejo-bd](docs/assets/Cap5/sprint03/reflejo-bd.png) <br>
+
+![reflejo-frontend](docs/assets/Cap5/sprint03/reflejo-frontend.png) <br>
 
 <center> Frontend publicado en Firebase Hosting </center> <br>
 
